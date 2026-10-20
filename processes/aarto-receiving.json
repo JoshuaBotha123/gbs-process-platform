@@ -1,0 +1,3351 @@
+{
+ "id": "aarto-receiving",
+ "shortTitle": "AARTO Receiving",
+ "title": "AARTO — Organisational Receiving Process Flow",
+ "subtitle": "Administrative Adjudication of Road Traffic Offences Act 46 of 1998 (as amended by Act 4 of 2019) and the AARTO Regulations, 2026 · As at 19 October 2026",
+ "category": "Regulatory compliance",
+ "version": "v1.1",
+ "revisionDate": "19 October 2026",
+ "sourceDocument": {
+  "name": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+  "pdf": "docs/AARTO_Receiving_Process_Flow_GBS_v1.1.pdf",
+  "pageCount": 40
+ },
+ "overview": {
+  "summary": "This flow tells an organisation that owns, operates or allows people to drive vehicles what to do, by when, and who hands off to whom, from the moment an AARTO document arrives until the matter closes and lessons feed back into controls. It is built to comply with the law in force today in the proclaimed municipalities, and to be ready for the points demerit system without redesign.",
+  "notes": [
+   {
+    "heading": "Legal status",
+    "text": "Proclamation 322 of 2026 (Government Gazette 54917, 29 June 2026) brought sections 17, 18, 19, 19A, 19B, 20, 23 and 29 to 35 of the AARTO Act into operation on 1 July 2026 in the 60 municipalities listed in its Annexure A. Proclamation 323 of 2026 (GG 54918) brought the AARTO Amendment Act 4 of 2019, except section 2(g), into operation in 62 municipalities, adding Johannesburg and Tshwane, where the Act has run since 2008. The AARTO Regulations, 2026 (GG 54922, 30 June 2026, \"Regs\") give the Act practical effect. The points demerit system (sections 24 to 28) was excluded; the RTIA says the Minister will set its date, and no date has been gazetted. Everywhere else, including the whole Western Cape, the Criminal Procedure Act process continues. Phase 3 (about 151 further municipalities) has not been proclaimed. On 4 August 2026 the RTIA told Parliament it expects Phase 3 in March 2027 (an earlier RTIA annual performance plan had pointed to October–December 2026). Until a proclamation is gazetted, only the 62 municipalities in Annexure A to Proclamation 323 of 2026 follow AARTO. Re-check before adoption and at each 6.6 review."
+   },
+   {
+    "heading": "Live litigation",
+    "text": "SALGA's urgent application was struck from the roll for lack of urgency on 30 June 2026; its challenge to the funding model may still be heard in the ordinary course. OUTA withdrew its urgent application after the RTIA disclosed that Appeals Tribunal members had been appointed, but continues a review of the 2026 Regulations. Phase 2 remains in force unless a court orders otherwise. The Constitutional Court upheld the Act and the Amendment Act in Organisation Undoing Tax Abuse v Minister of Transport and Others [2023] ZACC 24 (CCT 19/22, 13 July 2023). Status sources checked for v1.1 (15–19 October 2026): acts.co.za commencement notes; rtia.co.za; Bowmans (6 July 2026); SAnews (1 July 2026); JoburgETC (5 August 2026); TopAuto (17 September 2026); Moonstone (6 August 2026)."
+   },
+   {
+    "heading": "Labels used throughout",
+    "text": "",
+    "points": [
+     "ACT = the Act, in force now in the proclaimed municipalities.",
+     "REG = the AARTO Regulations, 2026. References marked \"verify\" could not be read from a text copy of the Gazette and must be checked against the official GPW version.",
+     "NC = enacted but not commenced (the demerit system and rehabilitation). Build readiness; do not treat as a current legal duty.",
+     "BP = best practice or internal control; not a statutory deadline. Adopt as policy so it becomes binding internally."
+    ]
+   },
+   {
+    "heading": "Design principle",
+    "text": "Every AARTO window is short, and a missed nomination window cannot be reopened. The flow therefore runs internal deadlines well inside the statutory ones and counts from actual receipt, not deemed service. Deciding the election by day 14 and lodging by day 21 leaves at least 11 days to correct a rejected or incomplete submission before day 32."
+   },
+   {
+    "heading": "Six interpretation points that shape the flow",
+    "text": "",
+    "points": [
+     "Counting days and the date of service. The Act does not say business or calendar days. Under the Interpretation Act 33 of 1957 s.4, \"days\" are calendar days, excluding the first day and including the last, unless the last day is a Sunday or public holiday. \"Date of service\" is the date the infringer received the document (Act s.1). A posted or electronically served document is deemed served on the tenth day after posting or electronic service, unless evidence to the contrary is adduced (s.30(2)). Because an issuing authority may prove earlier actual receipt, count from the earliest known receipt and treat the deemed date as a backstop only.",
+     "Which regime applies. The place of the infringement decides. Infringements in the Annexure A municipalities, Johannesburg and Tshwane follow AARTO; everywhere else, section 341 and 56 notices and summonses under the Criminal Procedure Act continue, and notices issued before commencement are finalised under that Act (s.35(1)). This flow covers AARTO only, but the register must record the issuing authority and municipality for every notice so both streams are managed.",
+     "The court election has gone; offences still go to court. The Amendment Act repealed the option to be tried in court at infringement-notice and courtesy-letter stages (s.17(1)(f)(iv) and s.19(2)(b)(iii)). The challenge route is now representation, then appeal or review to the Appeals Tribunal (s.29B), then the Magistrates' Court (s.29I). Separately, where the same facts give rise to an offence and an infringement, the person is dealt with under the Criminal Procedure Act (s.23); offences are recorded on AARTO 32 or notified on AARTO 33 or 33a (Regs reg 2(4)–(7)). Sections 19A(b) and 20(2)(e) still mention court: treat these as drafting residue.",
+     "The nomination window. A driver can be nominated only within 32 days of service of the infringement notice, by providing, in the prescribed manner and to the satisfaction of the issuing authority, the driver's name, acceptable identification and residential and postal address (s.17(1)(f)(v), s.17(4)). A courtesy letter offers only representations or payment (s.19(2)(b)). \"I was not the driver\" is a nomination, not a representation. Missing the window makes the organisation the infringer of record.",
+     "The organisation's capacity. An operator under the National Road Traffic Act is served on AARTO 03a (infringements) or 33a (offences); a juristic person that is not an operator is served on AARTO 03 or 33 (Regs reg 2(6)–(7)). Column 9 of Schedule 3 shows whether a charge lies against the driver, the operator or the owner. Operator-liability charges (such as vehicle fitness or loading) stay with the operator, and nominating a driver may not move them: check the charge code before electing. For leased or rented vehicles, the title holder may nominate the organisation as person in control, which starts a new 32-day clock against the organisation; confirm the practice with each lessor.",
+     "Demerit points status. Proclamation 322 excluded sections 24 to 28, and Chapter IV applies only to infringements committed after it commences (s.35(2)). However, the SAFLII consolidation records sections 24 to 28 as commenced in Tshwane (1 July 2008) and Johannesburg (1 November 2008). No points have been recorded in practice and the RTIA says the Minister will determine commencement. The Legal Adviser should confirm there is no risk of points being recorded on Johannesburg or Tshwane infringements under the 2026 Schedule 3. Until then, record the Schedule 3 point value of every infringement so exposure is known on day one."
+    ]
+   },
+   {
+    "heading": "Roles used",
+    "text": "AARTO Compliance Officer (ACO); Proxy (PRX, registered on eNaTIS for the juristic person); Fleet Manager (FM); HR Manager (HR); Payroll or Finance (FIN); Legal Adviser (LA); Line Manager (LM); Driver (DRV, including contractors and TES workers allowed to drive); Senior Sign-off (SSO, e.g. CFO or COO); Board or Risk / Audit Committee (BOARD)."
+   }
+  ],
+  "source": {
+   "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+   "section": "§01 Purpose, status and reading notes",
+   "page": 2
+  }
+ },
+ "roles": [
+  {
+   "code": "ACO",
+   "name": "AARTO Compliance Officer"
+  },
+  {
+   "code": "PRX",
+   "name": "Proxy"
+  },
+  {
+   "code": "FM",
+   "name": "Fleet Manager"
+  },
+  {
+   "code": "HR",
+   "name": "HR Manager"
+  },
+  {
+   "code": "FIN",
+   "name": "Payroll or Finance"
+  },
+  {
+   "code": "LA",
+   "name": "Legal Adviser"
+  },
+  {
+   "code": "LM",
+   "name": "Line Manager"
+  },
+  {
+   "code": "DRV",
+   "name": "Driver"
+  },
+  {
+   "code": "SSO",
+   "name": "Senior Sign-off"
+  },
+  {
+   "code": "BOARD",
+   "name": "Board or Risk / Audit Committee"
+  }
+ ],
+ "stages": [
+  {
+   "id": "s1",
+   "group": "Phase 0 — Readiness (standing obligations)",
+   "title": "Phase 0 — Readiness (standing obligations)",
+   "kind": "phase",
+   "intro": [
+    "Phase 0 has no case trigger. It must be complete before the first notice arrives, because the organisation's liability for a notice depends on facts fixed before the infringement: whether it knew who was driving, and whether its service particulars were live (Act s.17(5), s.30)."
+   ],
+   "notes": [
+    {
+     "heading": "Driver side of Phase 0",
+     "text": "Drivers owe nothing under the Act yet, but their later position depends on this phase. If the organisation did not ascertain their particulars before letting them drive, it carries the penalty and fees itself (s.17(5)), whoever was at the wheel."
+    },
+    {
+     "heading": "Watch",
+     "text": "A nomination is only as good as the allocation record behind it. If a pool vehicle's sign-out sheet is blank for the day in question, no later effort will produce a lawful nomination within 32 days."
+    }
+   ],
+   "steps": [
+    {
+     "id": "0.1",
+     "label": "0.1",
+     "title": "Adopt the policy and procedure",
+     "trigger": "",
+     "action": "Board-approved AARTO policy covering: roles; receipt channels; driver particulars; nomination protocol; who decides the election; cost allocation and lawful recovery; HR consequences; POPIA lawful basis and s.18 notice to drivers; demerit readiness. Cover everyone allowed to drive or control a vehicle: employees, contractors, TES workers, pool-car users, and employees using their own vehicles on business.",
+     "points": [
+      "Board-approved AARTO policy covering:",
+      "roles",
+      "receipt channels",
+      "driver particulars",
+      "nomination protocol",
+      "who decides the election",
+      "cost allocation and lawful recovery",
+      "HR consequences",
+      "POPIA lawful basis and s.18 notice to drivers",
+      "demerit readiness. Cover everyone allowed to drive or control a vehicle: employees, contractors, TES workers, pool-car users, and employees using their own vehicles on business."
+     ],
+     "owner": "BOARD, LA",
+     "deadline": "Now; review on each proclamation",
+     "form": "Approved policy (existing GBS templates)",
+     "authority": "ACT s.17(5); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 8
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.2",
+     "label": "0.2",
+     "title": "Appoint the AARTO Compliance Officer",
+     "trigger": "",
+     "action": "Name an ACO and an alternate with authority to lodge forms and instruct payment within set limits. Create an independent sign-off route where the ACO, a proxy or an executive was the driver.",
+     "points": [
+      "Name an ACO and an alternate with authority to lodge forms and instruct payment within set limits.",
+      "Create an independent sign-off route where the ACO, a proxy or an executive was the driver."
+     ],
+     "owner": "BOARD",
+     "deadline": "Now",
+     "form": "G01 appointment letter",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 8
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.3",
+     "label": "0.3",
+     "title": "Register and verify proxies",
+     "trigger": "",
+     "action": "Every juristic person that owns vehicles must have one proxy and one representative registered on eNaTIS for each branch; the portal links company notices to the business registration number and proxy ID. Appoint in writing with duties and liability terms; replace immediately when a proxy leaves.",
+     "points": [
+      "Every juristic person that owns vehicles must have one proxy and one representative registered on eNaTIS for each branch; the portal links company notices to the business registration number and proxy ID.",
+      "Appoint in writing with duties and liability terms; replace immediately when a proxy leaves."
+     ],
+     "owner": "FM, HR",
+     "deadline": "Now; on every change",
+     "form": "G09 proxy appointment; List of Company Proxies",
+     "authority": "NRTR 2000 reg 336; BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 8
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.4",
+     "label": "0.4",
+     "title": "Keep service particulars live and monitored",
+     "trigger": "",
+     "action": "Keep postal, email and cellphone details of the organisation and each proxy current on eNaTIS. Route them to a monitored shared mailbox and set forwarding for proxy phones. Valid service to registered particulars counts even if nobody reads it.",
+     "points": [
+      "Keep postal, email and cellphone details of the organisation and each proxy current on eNaTIS.",
+      "Route them to a monitored shared mailbox and set forwarding for proxy phones.",
+      "Valid service to registered particulars counts even if nobody reads it."
+     ],
+     "owner": "FM, IT",
+     "deadline": "Now; on any change (verify NRTR reg 32A period)",
+     "form": "eNaTIS confirmation; mailbox rules",
+     "authority": "ACT s.30(1)–(2)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 8
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.5",
+     "label": "0.5",
+     "title": "Driver particulars before driving",
+     "trigger": "",
+     "action": "Before anyone drives or controls a vehicle, ascertain full names, identity document, residential, postal, business and email addresses; keep ID and licence copies, licence code, PrDP category and expiry.",
+     "points": [
+      "Before anyone drives or controls a vehicle, ascertain full names, identity document, residential, postal, business and email addresses; keep ID and licence copies, licence code, PrDP category and expiry."
+     ],
+     "owner": "HR, FM",
+     "deadline": "Before first authorisation; verify 6-monthly (BP)",
+     "form": "G02 declaration; Employee Drivers Register",
+     "authority": "ACT s.17(5), s.17(1)(f)(v)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 9
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.6",
+     "label": "0.6",
+     "title": "Vehicle-to-driver allocation records",
+     "trigger": "",
+     "action": "Logbooks, pool-car sign-out, telematics driver ID, fuel cards and hire agreements must answer \"who drove vehicle X at time Y\". Camera, operator and unattended-vehicle notices may arrive up to 60 days after the event. A notice may be re-served up to 180 days after the infringement (s.18(1)(b)), and a lessor's nomination starts a new clock. Keep allocation records for at least 12 months after the event, and in all cases until any linked AARTO matter is closed under Phase 5.",
+     "points": [
+      "Logbooks, pool-car sign-out, telematics driver ID, fuel cards and hire agreements must answer \"who drove vehicle X at time Y\".",
+      "Camera, operator and unattended-vehicle notices may arrive up to 60 days after the event.",
+      "A notice may be re-served up to 180 days after the infringement (s.18(1)(b)), and a lessor's nomination starts a new clock.",
+      "Keep allocation records for at least 12 months after the event, and in all cases until any linked AARTO matter is closed under Phase 5."
+     ],
+     "owner": "FM",
+     "deadline": "Now; continuous",
+     "form": "G03 trip log; Company Vehicle Register",
+     "authority": "ACT s.17(5), s.18(1)(b), s.31(2); REG reg 2(2)–(3)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 9
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.7",
+     "label": "0.7",
+     "title": "Contracts and consents",
+     "trigger": "",
+     "action": "Employment and driver agreements: duty to report notices the same day; cooperate with nomination; deal with notices re-issued in own name; notice that demerit checks will be requested (each check requires a signed AARTO 27 under s.33(2); refusal is handled under D3); deduction consent limited to specific debts. Contractor and TES agreements carry equivalent duties. Give drivers a POPIA s.18 notice that allocation and telematics data will be used to identify drivers and disclosed to issuing authorities for nomination, and record the lawful basis (s.11(1)(c) legal obligation; s.11(1)(f) legitimate interest).",
+     "points": [
+      "Employment and driver agreements:",
+      "duty to report notices the same day",
+      "cooperate with nomination",
+      "deal with notices re-issued in own name",
+      "notice that demerit checks will be requested (each check requires a signed AARTO 27 under s.33(2)",
+      "refusal is handled under D3)",
+      "deduction consent limited to specific debts. Contractor and TES agreements carry equivalent duties. Give drivers a POPIA s.18 notice that allocation and telematics data will be used to identify drivers and disclosed to issuing authorities for nomination, and record the lawful basis (s.11(1)(c) legal obligation",
+      "s.11(1)(f) legitimate interest)."
+     ],
+     "owner": "HR, LA",
+     "deadline": "Now; on hire",
+     "form": "Contract clauses; AARTO 27; G10",
+     "authority": "ACT s.33(2); BCEA s.34; POPIA s.11(1)(c), (f), s.18",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 9
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.8",
+     "label": "0.8",
+     "title": "Map jurisdiction",
+     "trigger": "",
+     "action": "Map depots, routes and client sites against Annexure A of Proclamation 322 plus Johannesburg and Tshwane; tag each vehicle and driver by exposure to the AARTO or criminal regime. Do not treat Phase 3 areas as AARTO areas until a proclamation is gazetted; re-map when it is.",
+     "points": [
+      "Map depots, routes and client sites against Annexure A of Proclamation 322 plus Johannesburg and Tshwane; tag each vehicle and driver by exposure to the AARTO or criminal regime.",
+      "Do not treat Phase 3 areas as AARTO areas until a proclamation is gazetted; re-map when it is."
+     ],
+     "owner": "FM, ACO",
+     "deadline": "Now; on each proclamation",
+     "form": "G18 jurisdiction map",
+     "authority": "Proc 322 and 323 of 2026; ACT s.36(2)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 9
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.9",
+     "label": "0.9",
+     "title": "Tracker and records system",
+     "trigger": "",
+     "action": "Central notice register with automatic deadline calculation, restricted access, audit trail and a POPIA retention schedule.",
+     "points": [
+      "Central notice register with automatic deadline calculation, restricted access, audit trail and a POPIA retention schedule."
+     ],
+     "owner": "ACO, IT",
+     "deadline": "Now",
+     "form": "Infringement Notice Tracker",
+     "authority": "POPIA s.14, s.19; BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 9
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.10",
+     "label": "0.10",
+     "title": "Commissioner of oaths access",
+     "trigger": "",
+     "action": "AARTO 08 representations must be a sworn statement or affirmation (s.18(2)). The prescribed AARTO 07 form may also require an oath (verify against GG 54922). Line up a commissioner of oaths at each site (SAPS, bank, attorney or an internal appointee) so no time is lost.",
+     "points": [
+      "AARTO 08 representations must be a sworn statement or affirmation (s.18(2)).",
+      "The prescribed AARTO 07 form may also require an oath (verify against GG 54922).",
+      "Line up a commissioner of oaths at each site (SAPS, bank, attorney or an internal appointee) so no time is lost."
+     ],
+     "owner": "ACO",
+     "deadline": "Now",
+     "form": "Contact list",
+     "authority": "ACT s.18(2) (AARTO 08); REG Schedule 1, AARTO 07 (verify oath section)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 10
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.11",
+     "label": "0.11",
+     "title": "Legacy sweep",
+     "trigger": "",
+     "action": "Query the business registration number and every proxy ID on the AARTO portal and eNaTIS for outstanding notices and enforcement orders, including Johannesburg and Tshwane history. AARTO penalties do not prescribe.",
+     "points": [
+      "Query the business registration number and every proxy ID on the AARTO portal and eNaTIS for outstanding notices and enforcement orders, including Johannesburg and Tshwane history.",
+      "AARTO penalties do not prescribe."
+     ],
+     "owner": "ACO, FIN",
+     "deadline": "Now; then monthly",
+     "form": "G15 sweep report",
+     "authority": "ACT s.31(2), s.20(5)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 10
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.12",
+     "label": "0.12",
+     "title": "Train and raise awareness",
+     "trigger": "",
+     "action": "Train the ACO, proxies, fleet, HR, line managers and drivers, including the same-day forwarding rule and scam awareness: fake AARTO payment websites were reported in September 2026. Pay only through official channels.",
+     "points": [
+      "Train the ACO, proxies, fleet, HR, line managers and drivers, including the same-day forwarding rule and scam awareness: fake AARTO payment websites were reported in September 2026.",
+      "Pay only through official channels."
+     ],
+     "owner": "HR / L&D",
+     "deadline": "Before first notice; annually",
+     "form": "Attendance records",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 10
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+    "section": "§03 Phase 0 — Readiness (standing obligations)",
+    "page": 8,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s2",
+   "group": "Phase 1 — Receipt and intake",
+   "title": "Phase 1 — Receipt and intake",
+   "kind": "phase",
+   "intro": [
+    "The clock starts when a document reaches the organisation or its proxy by any service method, not when the ACO first reads it. Day 0 is the day of receipt; the deemed date of service is calculated alongside it."
+   ],
+   "notes": [
+    {
+     "heading": "Driver obligations at this stage",
+     "text": "Report any notice received personally the same day. Forward electronic notices received on a proxy phone. Do not pay or ignore a notice addressed to the organisation without telling the ACO."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "Proxy → ACO (same day). Driver → ACO (same day). ACO → LA (offences). ACO → Fleet (allocation data)."
+    },
+    {
+     "heading": "Watch",
+     "text": "Electronic service to a proxy's cellphone is valid service on the organisation. If the proxy is on leave or has left, the notice still counts; this is why steps 0.3 and 0.4 matter."
+    }
+   ],
+   "steps": [
+    {
+     "id": "1.1",
+     "label": "1.1",
+     "title": "Recognise and forward",
+     "trigger": "Any AARTO document arrives: post, email, SMS or WhatsApp to the organisation or proxy; handed to a driver at the roadside; or placed on a vehicle (AARTO 31).",
+     "action": "Forward the complete document, all pages and images, to the ACO. A driver who received a roadside notice (AARTO 01 or 02) reports it the same way.",
+     "points": [
+      "Forward the complete document, all pages and images, to the ACO.",
+      "A driver who received a roadside notice (AARTO 01 or 02) reports it the same way."
+     ],
+     "owner": "Any recipient; PRX; DRV",
+     "deadline": "Same day (BP)",
+     "form": "G04 intake record",
+     "authority": "ACT s.30; BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Receipt and intake",
+      "subsection": null,
+      "page": 11
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.2",
+     "label": "1.2",
+     "title": "Log and reference",
+     "trigger": "ACO receives the document.",
+     "action": "Record: notice number; form; issuing authority; municipality; date, time and place of infringement; charge code(s); penalty, discount and Schedule 3 point value; (discount: 50% if paid within 32 days of service, REG Ch. 4, verify; courtesy-letter and enforcement-order fees per Schedule 2, verify amounts); vehicle; service method; actual receipt date; deemed service date.",
+     "points": [
+      "Record: notice number; form; issuing authority; municipality; date, time and place of infringement; charge code(s); penalty, discount and Schedule 3 point value; (discount:",
+      "50% if paid within 32 days of service, REG Ch. 4, verify",
+      "courtesy-letter and enforcement-order fees per Schedule 2, verify amounts)",
+      "vehicle",
+      "service method",
+      "actual receipt date",
+      "deemed service date."
+     ],
+     "owner": "ACO",
+     "deadline": "Day 0",
+     "form": "Tracker row",
+     "authority": "REG reg 2(9); ACT s.30(2)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Receipt and intake",
+      "subsection": null,
+      "page": 11
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.3",
+     "label": "1.3",
+     "title": "Identify the stage",
+     "trigger": "Logged.",
+     "action": "Infringement notice (AARTO 01, 02, 03, 03a, 03b) → Phase 2. Courtesy letter (12) → 4.6. Enforcement order (13) → 4.7. Outcome notices (07a/b, 09a–c, 10Aa–d, 15, 36) → Phase 4. Summons notice (33, 33a) or AARTO 32 → 1.5.",
+     "points": [
+      "Infringement notice (AARTO 01, 02, 03, 03a, 03b) → Phase 2.",
+      "Courtesy letter (12) → 4.6.",
+      "Enforcement order (13) → 4.7.",
+      "Outcome notices (07a/b, 09a–c, 10Aa–d, 15, 36) → Phase 4.",
+      "Summons notice (33, 33a) or AARTO 32 → 1.5."
+     ],
+     "owner": "ACO",
+     "deadline": "Day 0",
+     "form": "Tracker status",
+     "authority": "REG Schedule 1",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Receipt and intake",
+      "subsection": null,
+      "page": 11
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.4",
+     "label": "1.4",
+     "title": "Validity screen",
+     "trigger": "Infringement notice or later document.",
+     "action": "Check: vehicle registered to the organisation on NaTIS at the time (if not, AARTO 08a, verify title and direction); camera notice carries the required image data; AARTO 03, 03a or 03b served within 60 days of the infringement; municipality proclaimed; not a duplicate. Record defects for Phase 2. A suspected defect never stops the clock.",
+     "points": [
+      "Check: vehicle registered to the organisation on NaTIS at the time (if not, AARTO 08a, verify title and direction); camera notice carries the required image data; AARTO 03, 03a or 03b served within 60 days of the infringement; municipality proclaimed; not a duplicate.",
+      "Record defects for Phase 2.",
+      "A suspected defect never stops the clock."
+     ],
+     "owner": "ACO",
+     "deadline": "Day 0–2",
+     "form": "Screening checklist",
+     "authority": "REG reg 2(2)–(3), 3(2)–(6), 36",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Receipt and intake",
+      "subsection": null,
+      "page": 12
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.5",
+     "label": "1.5",
+     "title": "Offence screen",
+     "trigger": "AARTO 32, 33 or 33a received, or the facts disclose an offence arising from the same facts.",
+     "action": "Escalate to LA the same day. This is a criminal matter under the Criminal Procedure Act (summons, court date, possible conviction), not an administrative election. Identify the driver for the summons.",
+     "points": [
+      "Escalate to LA the same day.",
+      "This is a criminal matter under the Criminal Procedure Act (summons, court date, possible conviction), not an administrative election.",
+      "Identify the driver for the summons."
+     ],
+     "owner": "ACO, LA",
+     "deadline": "Same day",
+     "form": "Escalation note",
+     "authority": "ACT s.23; REG reg 2(4)–(7)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Receipt and intake",
+      "subsection": null,
+      "page": 12
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.6",
+     "label": "1.6",
+     "title": "Diarise all clocks",
+     "trigger": "File opened.",
+     "action": "Calendar: driver identified by day 3; assessment by day 7; election decided by day 14; lodgement backstop day 21; statutory day 32 from service. Calculate day 32 from both the actual and deemed dates and diarise the earlier.",
+     "points": [
+      "Calendar: driver identified by day 3; assessment by day 7; election decided by day 14; lodgement backstop day 21; statutory day 32 from service.",
+      "Calculate day 32 from both the actual and deemed dates and diarise the earlier."
+     ],
+     "owner": "ACO",
+     "deadline": "Day 0",
+     "form": "Tracker",
+     "authority": "ACT s.17(1)(f); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Receipt and intake",
+      "subsection": null,
+      "page": 12
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.7",
+     "label": "1.7",
+     "title": "Portal cross-check",
+     "trigger": "Every new notice.",
+     "action": "Check the AARTO portal and eNaTIS for other notices on the same vehicle or registration number, and for any enforcement order already blocking licensing.",
+     "points": [
+      "Check the AARTO portal and eNaTIS for other notices on the same vehicle or registration number, and for any enforcement order already blocking licensing."
+     ],
+     "owner": "ACO",
+     "deadline": "Day 0–2",
+     "form": "Portal extract",
+     "authority": "ACT s.20(5)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Receipt and intake",
+      "subsection": null,
+      "page": 12
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+    "section": "§04 Phase 1 — Receipt and intake",
+    "page": 11,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s3",
+   "group": "Phase 2 — Driver identification and assessment",
+   "title": "Phase 2 — Driver identification and assessment",
+   "kind": "phase",
+   "intro": [
+    "By internal day 7 the organisation must know who was driving, who carries liability for the charge, and whether there are grounds to challenge it. Everything in Phases 3 and 4 depends on the evidence gathered here."
+   ],
+   "notes": [
+    {
+     "heading": "Driver obligations at this stage",
+     "text": "Give an accurate account of who was driving. Confirm current particulars. Do not give false information: the organisation's sworn nomination relies on it."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "FM → ACO (allocation data). HR → ACO (particulars). ACO → LA (merits and liability). ACO → HR (referral)."
+    },
+    {
+     "heading": "Watch",
+     "text": "Decide the election on evidence, not on who \"should\" pay. Cost allocation and discipline are separate questions for Phase 5."
+    }
+   ],
+   "steps": [
+    {
+     "id": "2.1",
+     "label": "2.1",
+     "title": "Identify the driver",
+     "trigger": "Infringement notice logged.",
+     "action": "Match date, time and place to allocation records, telematics, fuel cards and trip authorisations. Record the source relied on.",
+     "points": [
+      "Match date, time and place to allocation records, telematics, fuel cards and trip authorisations.",
+      "Record the source relied on."
+     ],
+     "owner": "FM, ACO",
+     "deadline": "Day 1–3 (BP)",
+     "form": "G05 identification record",
+     "authority": "ACT s.17(1)(f)(v), s.17(5)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Driver identification and assessment",
+      "subsection": null,
+      "page": 13
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.2",
+     "label": "2.2",
+     "title": "Confirm particulars",
+     "trigger": "Driver identified.",
+     "action": "Confirm the register holds what a nomination needs: full names, acceptable identification, residential and postal address. Attach ID or licence copy. Missing particulars expose the organisation under s.17(5).",
+     "points": [
+      "Confirm the register holds what a nomination needs: full names, acceptable identification, residential and postal address.",
+      "Attach ID or licence copy.",
+      "Missing particulars expose the organisation under s.17(5)."
+     ],
+     "owner": "HR, ACO",
+     "deadline": "Day 3",
+     "form": "Register extract",
+     "authority": "ACT s.1 \"acceptable identification\", s.17(1)(f)(v)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Driver identification and assessment",
+      "subsection": null,
+      "page": 13
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.3",
+     "label": "2.3",
+     "title": "Notify the driver",
+     "trigger": "Driver identified.",
+     "action": "Tell the driver in writing, give a copy of the notice, and invite their account within 2 working days. A refusal to confirm does not prevent nomination where records prove who was driving.",
+     "points": [
+      "Tell the driver in writing, give a copy of the notice, and invite their account within 2 working days.",
+      "A refusal to confirm does not prevent nomination where records prove who was driving."
+     ],
+     "owner": "ACO, LM",
+     "deadline": "Day 3–5",
+     "form": "G06 acknowledgement",
+     "authority": "BP; Code of Good Practice: Dismissal, 2025",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Driver identification and assessment",
+      "subsection": null,
+      "page": 13
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.4",
+     "label": "2.4",
+     "title": "Liability capacity",
+     "trigger": "Charge code known.",
+     "action": "Check Schedule 3 column 9: driver, operator or owner liability. For operator charges, focus on fleet controls rather than nomination.",
+     "points": [
+      "Check Schedule 3 column 9: driver, operator or owner liability.",
+      "For operator charges, focus on fleet controls rather than nomination."
+     ],
+     "owner": "ACO, LA",
+     "deadline": "Day 3–5",
+     "form": "G07 part A",
+     "authority": "REG reg 2(6)–(7), Schedule 3",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Driver identification and assessment",
+      "subsection": null,
+      "page": 13
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.5",
+     "label": "2.5",
+     "title": "Grounds to challenge",
+     "trigger": "Driver's account or a defect from 1.4.",
+     "action": "Assess reasonable grounds for a representation: vehicle identity, camera evidence requirements, signage, procedure, emergency. Request the two traffic-signal images where relevant. LA decides for charges above a policy threshold. A representation must be a sworn statement showing reasonable grounds.",
+     "points": [
+      "Assess reasonable grounds for a representation: vehicle identity, camera evidence requirements, signage, procedure, emergency.",
+      "Request the two traffic-signal images where relevant.",
+      "LA decides for charges above a policy threshold.",
+      "A representation must be a sworn statement showing reasonable grounds."
+     ],
+     "owner": "LA, ACO",
+     "deadline": "Day 5–7",
+     "form": "G07 part B",
+     "authority": "ACT s.18(2); REG reg 3(2)–(4)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Driver identification and assessment",
+      "subsection": null,
+      "page": 13
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.6",
+     "label": "2.6",
+     "title": "Special cases",
+     "trigger": "Vehicle stolen, sold, hired, leased, driven by a contractor, or driver unknown.",
+     "action": "Stolen: SAPS case number. Sold: proof of change of ownership (AARTO 08a or representation). Hired or leased: nominate the hirer under the agreement. Contractor: nominate the individual driver. Unknown: escalate to SSO; the organisation will carry the matter.",
+     "points": [
+      "Stolen: SAPS case number.",
+      "Sold: proof of change of ownership (AARTO 08a or representation).",
+      "Hired or leased: nominate the hirer under the agreement.",
+      "Contractor: nominate the individual driver.",
+      "Unknown: escalate to SSO; the organisation will carry the matter."
+     ],
+     "owner": "ACO, LA",
+     "deadline": "Day 5–7",
+     "form": "G07 part C",
+     "authority": "ACT s.17(1)(f)(v), s.17(4); REG reg 3(5)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Driver identification and assessment",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.7",
+     "label": "2.7",
+     "title": "Conflict check",
+     "trigger": "Driver is the ACO, a proxy, SSO or an executive.",
+     "action": "Move sign-off to the alternate or the independent route.",
+     "points": [
+      "Move sign-off to the alternate or the independent route."
+     ],
+     "owner": "ACO, SSO",
+     "deadline": "Day 1–3",
+     "form": "Escalation record",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Driver identification and assessment",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.8",
+     "label": "2.8",
+     "title": "HR referral",
+     "trigger": "Serious infringement or repeat pattern.",
+     "action": "Refer to HR for assessment under the disciplinary code. Keep that process separate from the AARTO election.",
+     "points": [
+      "Refer to HR for assessment under the disciplinary code.",
+      "Keep that process separate from the AARTO election."
+     ],
+     "owner": "HR",
+     "deadline": "Day 7",
+     "form": "G11 referral",
+     "authority": "Code of Good Practice: Dismissal, 2025; BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Driver identification and assessment",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+    "section": "§05 Phase 2 — Driver identification and assessment",
+    "page": 13,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s4",
+   "group": "Phase 3 — Election",
+   "title": "Phase 3 — Election",
+   "kind": "phase",
+   "intro": [
+    "One option must be exercised, in the prescribed manner, within 32 days of service (s.17(1)(f)). Decide by internal day 14 and lodge by day 21. Once payment or an instalment arrangement is chosen, the matter is concluded and other options are ignored (s.19A(a)), so never lodge a payment and a representation together."
+   ],
+   "notes": [
+    {
+     "heading": "Driver obligations at this stage",
+     "text": "Cooperate with the nomination and sign any statement asked of them truthfully. Do not pay a notice addressed to the organisation personally without telling the ACO."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "ACO → commissioner of oaths. ACO or PRX → issuing authority (nomination); ACO → Authority (representations, instalments). FIN → official payment channel."
+    },
+    {
+     "heading": "Watch",
+     "text": "Missing day 32 does more than add a fee. It removes the nomination option for good and leaves the organisation as the infringer of record."
+    }
+   ],
+   "steps": [
+    {
+     "id": "3.1",
+     "label": "3.1",
+     "title": "Decide the election",
+     "trigger": "Phase 2 complete.",
+     "action": "Choose: nominate; pay at discount; instalments; representation; or AARTO 08a suspect notice. Record reasons. SSO signs off where organisation funds are used.",
+     "points": [
+      "Choose: nominate; pay at discount; instalments; representation; or AARTO 08a suspect notice.",
+      "Record reasons.",
+      "SSO signs off where organisation funds are used."
+     ],
+     "owner": "ACO, SSO, LA",
+     "deadline": "Internal day 14",
+     "form": "G08 election record",
+     "authority": "ACT s.17(1)(f), s.19A",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Election",
+      "subsection": null,
+      "page": 15
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.2a",
+     "label": "3.2a",
+     "title": "Nominate",
+     "trigger": "Driver identified; particulars complete.",
+     "action": "Complete AARTO 07; owner or proxy signs and, where the prescribed form requires it, affirms before a commissioner of oaths (verify); attach the driver's ID or licence copy; submit by a prescribed channel; keep proof. Tell the driver a new notice will be issued in their name with its own 32 days.",
+     "points": [
+      "Complete AARTO 07; owner or proxy signs and, where the prescribed form requires it, affirms before a commissioner of oaths (verify); attach the driver's ID or licence copy; submit by a prescribed channel; keep proof.",
+      "Tell the driver a new notice will be issued in their name with its own 32 days."
+     ],
+     "owner": "ACO, PRX",
+     "deadline": "Lodge by day 21; statutory day 32",
+     "form": "AARTO 07; G12 proof",
+     "authority": "ACT s.17(1)(f)(v), s.17(4)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Election",
+      "subsection": null,
+      "page": 15
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.2b",
+     "label": "3.2b",
+     "title": "Pay at discount",
+     "trigger": "Organisation liable, or policy elects to pay.",
+     "action": "Pay the discounted penalty (50%, verify) through an official channel only; keep the AARTO 20 receipt. Payment concludes the matter and, once Chapter IV commences, incurs points.",
+     "points": [
+      "Pay the discounted penalty (50%, verify) through an official channel only; keep the AARTO 20 receipt.",
+      "Payment concludes the matter and, once Chapter IV commences, incurs points."
+     ],
+     "owner": "FIN, ACO",
+     "deadline": "Statutory day 32",
+     "form": "AARTO 20",
+     "authority": "ACT s.17(1)(d), (f)(i)–(ii), s.19A; s.24(2) (NC)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Election",
+      "subsection": null,
+      "page": 15
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.2c",
+     "label": "3.2c",
+     "title": "Instalments",
+     "trigger": "Large penalty or several notices.",
+     "action": "Apply on AARTO 04; confirmation on AARTO 06; diarise every instalment. The published form states that the discount is forfeited.",
+     "points": [
+      "Apply on AARTO 04; confirmation on AARTO 06; diarise every instalment.",
+      "The published form states that the discount is forfeited."
+     ],
+     "owner": "FIN",
+     "deadline": "Statutory day 32",
+     "form": "AARTO 04, 06",
+     "authority": "ACT s.17(1)(f)(iii), s.19B(2)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Election",
+      "subsection": null,
+      "page": 15
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.2d",
+     "label": "3.2d",
+     "title": "Representation",
+     "trigger": "Reasonable grounds exist.",
+     "action": "Sworn statement or affirmation on AARTO 08 with supporting evidence; lodge with the Authority; keep proof. Late representations are invalid.",
+     "points": [
+      "Sworn statement or affirmation on AARTO 08 with supporting evidence; lodge with the Authority; keep proof.",
+      "Late representations are invalid."
+     ],
+     "owner": "LA, ACO",
+     "deadline": "Lodge by day 21; statutory day 32",
+     "form": "AARTO 08; G12",
+     "authority": "ACT s.18(1)–(3)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Election",
+      "subsection": null,
+      "page": 15
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.2e",
+     "label": "3.2e",
+     "title": "Suspect notice",
+     "trigger": "Vehicle not licensed to the organisation on NaTIS.",
+     "action": "Submit AARTO 08a to the Authority so the notice can be marked suspect. Confirm the form's title (\"Notification, Suspect or False Prosecution\" in the published index) and who completes it against GG 54922 before relying on this step (verify).",
+     "points": [
+      "Submit AARTO 08a to the Authority so the notice can be marked suspect.",
+      "Confirm the form's title (\"Notification, Suspect or False Prosecution\" in the published index) and who completes it against GG 54922 before relying on this step (verify)."
+     ],
+     "owner": "ACO",
+     "deadline": "Statutory day 32 (BP)",
+     "form": "AARTO 08a",
+     "authority": "REG reg 3(5)–(6), 36",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Election",
+      "subsection": null,
+      "page": 16
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.3",
+     "label": "3.3",
+     "title": "Confirm lodgement",
+     "trigger": "Any submission.",
+     "action": "Check acknowledgement or portal status within 5 days and chase. An incomplete application may be cancelled (AARTO 36); correct and resubmit inside the window.",
+     "points": [
+      "Check acknowledgement or portal status within 5 days and chase.",
+      "An incomplete application may be cancelled (AARTO 36); correct and resubmit inside the window."
+     ],
+     "owner": "ACO",
+     "deadline": "Submission + 5 days",
+     "form": "G12 log",
+     "authority": "REG reg 5(5) (analogous); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Election",
+      "subsection": null,
+      "page": 16
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+    "section": "§06 Phase 3 — Election",
+    "page": 15,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s5",
+   "group": "Phase 4 — Outcomes and escalation",
+   "title": "Phase 4 — Outcomes and escalation",
+   "kind": "phase",
+   "intro": [
+    "Each outcome arrives as a served document with its own clock. Every document goes back through Phase 1 logging before it is acted on."
+   ],
+   "notes": [
+    {
+     "heading": "Driver obligations at this stage",
+     "text": "Handle any notice re-issued in the driver's own name within 32 days and report the outcome to the ACO."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "ACO → LA (Tribunal, revocation). FIN → registering authority or DLTC (enforcement order payment). LA → Tribunal and Magistrates' Court."
+    },
+    {
+     "heading": "Watch",
+     "text": "A rejection notice opens two clocks at once: 32 days to pay and 30 days to appeal. Calendar the shorter one."
+    }
+   ],
+   "steps": [
+    {
+     "id": "4.1",
+     "label": "4.1",
+     "title": "Nomination successful",
+     "trigger": "AARTO 07a.",
+     "action": "Confirm the notice against the organisation is cancelled; move the matter to the driver's personal tracker; remind the driver of their own 32 days.",
+     "points": [
+      "Confirm the notice against the organisation is cancelled; move the matter to the driver's personal tracker; remind the driver of their own 32 days."
+     ],
+     "owner": "ACO",
+     "deadline": "On receipt",
+     "form": "Tracker; G06",
+     "authority": "ACT s.17(4)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Outcomes and escalation",
+      "subsection": null,
+      "page": 17
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.2",
+     "label": "4.2",
+     "title": "Nomination unsuccessful or cancelled",
+     "trigger": "AARTO 07b or AARTO 36.",
+     "action": "If still inside 32 days of the original service, correct and resubmit. If outside, the organisation is liable: pay or make representations at courtesy-letter stage. Record the root cause.",
+     "points": [
+      "If still inside 32 days of the original service, correct and resubmit.",
+      "If outside, the organisation is liable: pay or make representations at courtesy-letter stage.",
+      "Record the root cause."
+     ],
+     "owner": "ACO, LA",
+     "deadline": "Immediately",
+     "form": "Tracker",
+     "authority": "ACT s.17(1)(f), s.19(2)(b)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Outcomes and escalation",
+      "subsection": null,
+      "page": 17
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.3",
+     "label": "4.3",
+     "title": "Representation allowed",
+     "trigger": "AARTO 09a.",
+     "action": "Record cancellation. If the representation succeeded because procedure was not followed, watch for re-service within 40 days of finalisation, never later than 180 days after the infringement.",
+     "points": [
+      "Record cancellation.",
+      "If the representation succeeded because procedure was not followed, watch for re-service within 40 days of finalisation, never later than 180 days after the infringement."
+     ],
+     "owner": "ACO",
+     "deadline": "Watch to day 180",
+     "form": "Tracker",
+     "authority": "ACT s.18(1)(b), s.18(6)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Outcomes and escalation",
+      "subsection": null,
+      "page": 17
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.4",
+     "label": "4.4",
+     "title": "Representation rejected",
+     "trigger": "AARTO 09b or 09c.",
+     "action": "Either pay the penalty, representation fee and any courtesy-letter fee, or arrange instalments, within 32 days of service of the notification; or appeal or apply for review to the Tribunal on AARTO 10A within 30 days of receiving reasons, with the fee. The Tribunal clock is shorter: decide by day 20. Late lodgement with the Tribunal needs condonation on good cause (s.29B(3), AARTO 34 (verify use)). Lodging channel: per the RTIA-hosted Appeals Tribunal Rules (LA to confirm).",
+     "points": [
+      "Either pay the penalty, representation fee and any courtesy-letter fee, or arrange instalments, within 32 days of service of the notification; or appeal or apply for review to the Tribunal on AARTO 10A within 30 days of receiving reasons, with the fee.",
+      "The Tribunal clock is shorter: decide by day 20.",
+      "Late lodgement with the Tribunal needs condonation on good cause (s.29B(3), AARTO 34 (verify use)).",
+      "Lodging channel: per the RTIA-hosted Appeals Tribunal Rules (LA to confirm)."
+     ],
+     "owner": "LA, SSO",
+     "deadline": "Tribunal 30 days; payment 32 days",
+     "form": "AARTO 10A; AARTO 34 if late; payment",
+     "authority": "ACT s.18(7), s.29B(2)–(3)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Outcomes and escalation",
+      "subsection": null,
+      "page": 17
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.5",
+     "label": "4.5",
+     "title": "Tribunal process",
+     "trigger": "AARTO 10Aa, 10Ab, 10Ac or 10Ad.",
+     "action": "Correct an incomplete appeal (10Aa); attend the hearing (10Ac). On the outcome (10Ad), decide on review or appeal to the Magistrates' Court within 30 days. Late filing in the Magistrates' Court is subject to that court's rules; LA to advise.",
+     "points": [
+      "Correct an incomplete appeal (10Aa); attend the hearing (10Ac).",
+      "On the outcome (10Ad), decide on review or appeal to the Magistrates' Court within 30 days.",
+      "Late filing in the Magistrates' Court is subject to that court's rules; LA to advise."
+     ],
+     "owner": "LA",
+     "deadline": "30 days after Tribunal decision",
+     "form": "Appeal file",
+     "authority": "ACT s.29H, s.29I",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Outcomes and escalation",
+      "subsection": null,
+      "page": 17
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.6",
+     "label": "4.6",
+     "title": "Courtesy letter",
+     "trigger": "AARTO 12.",
+     "action": "Within 32 days: pay the penalty (no discount) plus the courtesy-letter fee, or make representations. Nomination is no longer available. Open a root-cause review.",
+     "points": [
+      "Within 32 days: pay the penalty (no discount) plus the courtesy-letter fee, or make representations.",
+      "Nomination is no longer available.",
+      "Open a root-cause review."
+     ],
+     "owner": "ACO, FIN",
+     "deadline": "Statutory 32 days; internal day 14",
+     "form": "Payment or AARTO 08",
+     "authority": "ACT s.19",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Outcomes and escalation",
+      "subsection": null,
+      "page": 18
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.7",
+     "label": "4.7",
+     "title": "Enforcement order",
+     "trigger": "AARTO 13.",
+     "action": "Treat as a priority incident. Until complied with or revoked, no driving licence, PrDP, permit or licence disc may be issued to the infringer or for any vehicle registered in its name; for the organisation, that is the whole fleet. Pay all penalties and fees within 32 days (also possible at a registering authority or DLTC), or apply for revocation on AARTO 14 with proof: payment, a prior instalment arrangement, a prior representation, nomination or appeal, or other substantiated proof. Outcome on AARTO 15.",
+     "points": [
+      "Treat as a priority incident.",
+      "Until complied with or revoked, no driving licence, PrDP, permit or licence disc may be issued to the infringer or for any vehicle registered in its name; for the organisation, that is the whole fleet.",
+      "Pay all penalties and fees within 32 days (also possible at a registering authority or DLTC), or apply for revocation on AARTO 14 with proof: payment, a prior instalment arrangement, a prior representation, nomination or appeal, or other substantiated proof.",
+      "Outcome on AARTO 15."
+     ],
+     "owner": "ACO, FIN, LA",
+     "deadline": "Immediately; statutory 32 days",
+     "form": "AARTO 14, 15; proof of payment",
+     "authority": "ACT s.20(1)–(10); REG reg 5",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Outcomes and escalation",
+      "subsection": null,
+      "page": 18
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.8",
+     "label": "4.8",
+     "title": "Payment failures",
+     "trigger": "AARTO 16 or 17.",
+     "action": "Insufficient or dishonoured payment: pay the full amount plus the notice fee within 32 days. Missed instalment: pay the arrears within 7 days.",
+     "points": [
+      "Insufficient or dishonoured payment: pay the full amount plus the notice fee within 32 days.",
+      "Missed instalment: pay the arrears within 7 days."
+     ],
+     "owner": "FIN",
+     "deadline": "7 or 32 days",
+     "form": "Payment",
+     "authority": "ACT s.19B",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Outcomes and escalation",
+      "subsection": null,
+      "page": 18
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.9",
+     "label": "4.9",
+     "title": "Refund",
+     "trigger": "Overpayment, or cancellation after payment.",
+     "action": "Apply on AARTO 25; outcome on AARTO 25a.",
+     "points": [
+      "Apply on AARTO 25; outcome on AARTO 25a."
+     ],
+     "owner": "FIN",
+     "deadline": "BP: within 30 days",
+     "form": "AARTO 25",
+     "authority": "REG Chapter 6 (verify)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Outcomes and escalation",
+      "subsection": null,
+      "page": 18
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.10",
+     "label": "4.10",
+     "title": "Demerit notices (NC)",
+     "trigger": "AARTO 18.",
+     "action": "Once Chapter IV commences, record the points against the driver, operator or juristic person and feed the driver track.",
+     "points": [
+      "Once Chapter IV commences, record the points against the driver, operator or juristic person and feed the driver track."
+     ],
+     "owner": "ACO",
+     "deadline": "On receipt",
+     "form": "Registers",
+     "authority": "ACT s.17(3), s.20(1)(b)–(d) (NC)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Outcomes and escalation",
+      "subsection": null,
+      "page": 17
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+    "section": "§07 Phase 4 — Outcomes and escalation",
+    "page": 17,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s6",
+   "group": "Phase 5 — Close and records",
+   "title": "Phase 5 — Close and records",
+   "kind": "phase",
+   "intro": [
+    "A matter is closed only when the notice is cancelled, transferred to the driver, or paid with proof, no fees are outstanding, and the portal shows it as clear."
+   ],
+   "notes": [
+    {
+     "heading": "Watch",
+     "text": "\"Paid\" is not closed until the portal shows it. Payments through unofficial websites may never reach the Authority."
+    }
+   ],
+   "steps": [
+    {
+     "id": "5.1",
+     "label": "5.1",
+     "title": "Close",
+     "trigger": "Cancellation, AARTO 07a, or payment receipt.",
+     "action": "Confirm no fees are outstanding and the portal status is clear; record the closure date.",
+     "points": [
+      "Confirm no fees are outstanding and the portal status is clear; record the closure date."
+     ],
+     "owner": "ACO",
+     "deadline": "On outcome",
+     "form": "Tracker",
+     "authority": "ACT s.17(3), s.20(4)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Close and records",
+      "subsection": null,
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.2",
+     "label": "5.2",
+     "title": "Update registers",
+     "trigger": "Matter closed.",
+     "action": "Update the tracker, the driver's infringement history, the vehicle register and the monthly registration-number check.",
+     "points": [
+      "Update the tracker, the driver's infringement history, the vehicle register and the monthly registration-number check."
+     ],
+     "owner": "ACO, FM, HR",
+     "deadline": "Within 5 days (BP)",
+     "form": "Registers",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Close and records",
+      "subsection": null,
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.3",
+     "label": "5.3",
+     "title": "HR outcome",
+     "trigger": "HR referral open.",
+     "action": "Apply the disciplinary code with a fair procedure. Distinguish negligence, repeat infringement, dishonesty (false denial), unauthorised use and failure to report. Apply consistently.",
+     "points": [
+      "Apply the disciplinary code with a fair procedure.",
+      "Distinguish negligence, repeat infringement, dishonesty (false denial), unauthorised use and failure to report.",
+      "Apply consistently."
+     ],
+     "owner": "HR, LM",
+     "deadline": "Per code",
+     "form": "Disciplinary record",
+     "authority": "Code of Good Practice: Dismissal, 2025",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Close and records",
+      "subsection": null,
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.4",
+     "label": "5.4",
+     "title": "Cost recovery",
+     "trigger": "Organisation paid a penalty caused by a driver.",
+     "action": "Deduct only with the employee's written consent for that specific debt, or as law permits. For loss or damage: fair procedure, a chance to respond, no more than the actual loss, and total deductions no more than 25% of remuneration.",
+     "points": [
+      "Deduct only with the employee's written consent for that specific debt, or as law permits.",
+      "For loss or damage: fair procedure, a chance to respond, no more than the actual loss, and total deductions no more than 25% of remuneration."
+     ],
+     "owner": "FIN, HR",
+     "deadline": "Per agreement",
+     "form": "G10 consent",
+     "authority": "BCEA s.34",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Close and records",
+      "subsection": null,
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.5",
+     "label": "5.5",
+     "title": "Records retention",
+     "trigger": "Matter closed.",
+     "action": "Keep proof of payment or cancellation while enforcement risk remains, because penalties do not prescribe. Minimise personal information and record reasons for longer retention.",
+     "points": [
+      "Keep proof of payment or cancellation while enforcement risk remains, because penalties do not prescribe.",
+      "Minimise personal information and record reasons for longer retention."
+     ],
+     "owner": "ACO, Records",
+     "deadline": "On closure",
+     "form": "Retention entry",
+     "authority": "ACT s.31(2); POPIA s.14",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Close and records",
+      "subsection": null,
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.6",
+     "label": "5.6",
+     "title": "Monthly reconciliation",
+     "trigger": "Monthly cycle.",
+     "action": "Query the registration number and all proxy IDs; confirm no new enforcement orders; reconcile the tracker to the portal.",
+     "points": [
+      "Query the registration number and all proxy IDs; confirm no new enforcement orders; reconcile the tracker to the portal."
+     ],
+     "owner": "ACO",
+     "deadline": "Monthly",
+     "form": "G13 reconciliation",
+     "authority": "ACT s.20(5); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Close and records",
+      "subsection": null,
+      "page": 20
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+    "section": "§08 Phase 5 — Close and records",
+    "page": 20,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s7",
+   "group": "Phase 6 — Governance and learning",
+   "title": "Phase 6 — Governance and learning",
+   "kind": "phase",
+   "intro": [
+    "Phase 6 turns individual notices into control improvements and board oversight. None of it has a statutory deadline, so it must be fixed in policy or it will be skipped."
+   ],
+   "notes": [],
+   "steps": [
+    {
+     "id": "6.1",
+     "label": "6.1",
+     "title": "Exposure dashboard",
+     "trigger": "Monthly cycle.",
+     "action": "Notices by stage and jurisdiction; timeliness against days 14, 21 and 32; nomination success rate; courtesy letters and enforcement orders; costs; repeat drivers and vehicles; recorded point values.",
+     "points": [
+      "Notices by stage and jurisdiction; timeliness against days 14, 21 and 32; nomination success rate; courtesy letters and enforcement orders; costs; repeat drivers and vehicles; recorded point values."
+     ],
+     "owner": "ACO",
+     "deadline": "Monthly",
+     "form": "G14 dashboard",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 22
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.2",
+     "label": "6.2",
+     "title": "Board reporting",
+     "trigger": "Quarterly cycle.",
+     "action": "Aggregate report: exposure trends, any enforcement order incidents, litigation and regulatory changes, policy changes.",
+     "points": [
+      "Aggregate report: exposure trends, any enforcement order incidents, litigation and regulatory changes, policy changes."
+     ],
+     "owner": "ACO, SSO",
+     "deadline": "Quarterly",
+     "form": "G14",
+     "authority": "King V Report on Corporate Governance (2025), risk governance; BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 22
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.3",
+     "label": "6.3",
+     "title": "Root cause and coaching",
+     "trigger": "Every courtesy letter or enforcement order; repeat drivers.",
+     "action": "Treat each as a control failure and identify which Phase 0 or Phase 1 control failed. Coach repeat drivers.",
+     "points": [
+      "Treat each as a control failure and identify which Phase 0 or Phase 1 control failed.",
+      "Coach repeat drivers."
+     ],
+     "owner": "ACO, HR",
+     "deadline": "Within 30 days (BP)",
+     "form": "G16 root-cause memo",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 22
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.4",
+     "label": "6.4",
+     "title": "Policy and register refresh",
+     "trigger": "Annually, or on any legal change.",
+     "action": "Update the policy, registers, proxy list and contact particulars; re-communicate.",
+     "points": [
+      "Update the policy, registers, proxy list and contact particulars; re-communicate."
+     ],
+     "owner": "LA, ACO",
+     "deadline": "At least annually",
+     "form": "Revised policy",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 22
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.5",
+     "label": "6.5",
+     "title": "Training refresh",
+     "trigger": "Annually and after significant incidents.",
+     "action": "Refresh training for the ACO, proxies, fleet, HR, managers and drivers.",
+     "points": [
+      "Refresh training for the ACO, proxies, fleet, HR, managers and drivers."
+     ],
+     "owner": "HR / L&D",
+     "deadline": "At least annually",
+     "form": "Attendance records",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 22
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.6",
+     "label": "6.6",
+     "title": "Legislative watch",
+     "trigger": "Ongoing.",
+     "action": "Track: Phase 3 proclamation (not gazetted as at 19 October 2026; RTIA expects March 2027); Chapter IV commencement; section 2(g) of the Amendment Act; amendments to the 2026 Regulations; SALGA and OUTA litigation; status of the \"Appeals Tribunal Rules\" document hosted on rtia.co.za and the lodging channel (LA to confirm). Run a gap analysis at each step.",
+     "points": [
+      "Track: Phase 3 proclamation (not gazetted as at 19 October 2026; RTIA expects March 2027); Chapter IV commencement; section 2(g) of the Amendment Act; amendments to the 2026 Regulations; SALGA and OUTA litigation; status of the \"Appeals Tribunal Rules\" document hosted on rtia.co.za and the lodging channel (LA to confirm).",
+      "Run a gap analysis at each step."
+     ],
+     "owner": "LA",
+     "deadline": "Ongoing",
+     "form": "Change log",
+     "authority": "ACT s.36",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 23
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.7",
+     "label": "6.7",
+     "title": "Demerit readiness plan (NC)",
+     "trigger": "Before Chapter IV commences.",
+     "action": "Model point exposure from values recorded at 1.2; collect AARTO 27 consents; agree incapacity and redeployment protocols; identify licence-critical roles.",
+     "points": [
+      "Model point exposure from values recorded at 1.2; collect AARTO 27 consents; agree incapacity and redeployment protocols; identify licence-critical roles."
+     ],
+     "owner": "HR, ACO, LA",
+     "deadline": "Before commencement",
+     "form": "G17 plan",
+     "authority": "ACT ss.24–28 (NC)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 23
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+    "section": "§09 Phase 6 — Governance and learning",
+    "page": 22,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s8",
+   "group": "Parallel track — driver, licence and demerit readiness",
+   "title": "Parallel track — driver, licence and demerit readiness",
+   "kind": "parallel",
+   "intro": [
+    "This track follows the person rather than the notice. Its events are triggered by what happens to a driver's licence and personal notices. Items marked NC are readiness steps until Chapter IV commences."
+   ],
+   "notes": [],
+   "steps": [
+    {
+     "id": "D1",
+     "label": "D1",
+     "title": "Licence validity",
+     "trigger": "Monthly cycle.",
+     "action": "Check licence and PrDP expiry and categories. No one drives on an expired or wrong licence.",
+     "points": [
+      "Check licence and PrDP expiry and categories.",
+      "No one drives on an expired or wrong licence."
+     ],
+     "owner": "",
+     "deadline": "Monthly",
+     "form": "Driver register",
+     "authority": "National Road Traffic Act",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — driver, licence and demerit readiness",
+      "subsection": null,
+      "page": 24
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "D2",
+     "label": "D2",
+     "title": "Personal notice after nomination",
+     "trigger": "AARTO 07a issued.",
+     "action": "Track the driver's own notice to closure: an unpaid personal notice leads to an enforcement order that blocks the driver's licence and PrDP renewal, which becomes an operational risk.",
+     "points": [
+      "Track the driver's own notice to closure: an unpaid personal notice leads to an enforcement order that blocks the driver's licence and PrDP renewal, which becomes an operational risk."
+     ],
+     "owner": "",
+     "deadline": "Driver's 32 days",
+     "form": "Tracker",
+     "authority": "ACT s.17(4), s.20(5)(a)–(b)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — driver, licence and demerit readiness",
+      "subsection": null,
+      "page": 24
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "D3",
+     "label": "D3",
+     "title": "Demerit status access",
+     "trigger": "Check needed; contract notice given.",
+     "action": "Each check requires a signed AARTO 27 for that check or consent period (s.33(2)); a contract clause is notice only, not the prescribed permission. Statement on AARTO 28. If the driver refuses, do not check; consequences only where lawful. Limit use to the stated purpose.",
+     "points": [
+      "Each check requires a signed AARTO 27 for that check or consent period (s.33(2)); a contract clause is notice only, not the prescribed permission.",
+      "Statement on AARTO 28.",
+      "If the driver refuses, do not check; consequences only where lawful.",
+      "Limit use to the stated purpose."
+     ],
+     "owner": "",
+     "deadline": "As agreed",
+     "form": "AARTO 27, 28",
+     "authority": "ACT s.33(2); POPIA",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — driver, licence and demerit readiness",
+      "subsection": null,
+      "page": 24
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "D4",
+     "label": "D4",
+     "title": "Point exposure (NC)",
+     "trigger": "Points recorded.",
+     "action": "Rank drivers by recorded points. The threshold is set by regulation under s.29(d); 15 points (6 for learners) is reported; confirm in Regs Chapter 5.",
+     "points": [
+      "Rank drivers by recorded points.",
+      "The threshold is set by regulation under s.29(d); 15 points (6 for learners) is reported; confirm in Regs Chapter 5."
+     ],
+     "owner": "",
+     "deadline": "Monthly once live",
+     "form": "G17",
+     "authority": "ACT s.29(d) (NC)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — driver, licence and demerit readiness",
+      "subsection": null,
+      "page": 24
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "D5",
+     "label": "D5",
+     "title": "Disqualification (NC)",
+     "trigger": "Points exceed the threshold.",
+     "action": "Disqualification follows within 32 days; its length is the excess points × 3 months. Stop driving duties immediately; ensure documents are handed in within 32 days (proof on AARTO 23a); redeploy or start an incapacity process.",
+     "points": [
+      "Disqualification follows within 32 days; its length is the excess points × 3 months.",
+      "Stop driving duties immediately; ensure documents are handed in within 32 days (proof on AARTO 23a); redeploy or start an incapacity process."
+     ],
+     "owner": "",
+     "deadline": "Within 32 days",
+     "form": "AARTO 21, 23a",
+     "authority": "ACT s.25(1)–(3), s.26 (NC)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — driver, licence and demerit readiness",
+      "subsection": null,
+      "page": 24
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "D6",
+     "label": "D6",
+     "title": "Driving while disqualified (NC)",
+     "trigger": "Any instance.",
+     "action": "Never permit it. It is an offence and adds a further one-year suspension for every instance.",
+     "points": [
+      "Never permit it.",
+      "It is an offence and adds a further one-year suspension for every instance."
+     ],
+     "owner": "",
+     "deadline": "Immediate",
+     "form": "—",
+     "authority": "ACT s.25(4) (NC)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — driver, licence and demerit readiness",
+      "subsection": null,
+      "page": 24
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "D7",
+     "label": "D7",
+     "title": "Third disqualification (NC)",
+     "trigger": "Third disqualification.",
+     "action": "Licence, PrDP or operator card is cancelled and must be handed in immediately. Rehabilitation depends on the uncommenced section 2(g) of the Amendment Act.",
+     "points": [
+      "Licence, PrDP or operator card is cancelled and must be handed in immediately.",
+      "Rehabilitation depends on the uncommenced section 2(g) of the Amendment Act."
+     ],
+     "owner": "",
+     "deadline": "Immediate",
+     "form": "AARTO 11A (NC)",
+     "authority": "ACT s.27 (NC)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — driver, licence and demerit readiness",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "D8",
+     "label": "D8",
+     "title": "Operator and juristic points (NC)",
+     "trigger": "Points against the organisation.",
+     "action": "Operator and driver points are recorded separately. A juristic person can itself be disqualified, requiring licence discs to be handed in: in effect, grounding vehicles.",
+     "points": [
+      "Operator and driver points are recorded separately.",
+      "A juristic person can itself be disqualified, requiring licence discs to be handed in: in effect, grounding vehicles."
+     ],
+     "owner": "",
+     "deadline": "Within 32 days",
+     "form": "—",
+     "authority": "ACT s.24(3)(b), s.25 (NC)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — driver, licence and demerit readiness",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "D9",
+     "label": "D9",
+     "title": "Return of documents (NC)",
+     "trigger": "Disqualification period ends.",
+     "action": "Driver applies for return of documents on AARTO 23.",
+     "points": [
+      "Driver applies for return of documents on AARTO 23."
+     ],
+     "owner": "",
+     "deadline": "On expiry",
+     "form": "AARTO 23",
+     "authority": "ACT s.25(5) (NC)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — driver, licence and demerit readiness",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "D10",
+     "label": "D10",
+     "title": "Point reduction (NC)",
+     "trigger": "Every 3 months.",
+     "action": "One point is removed for every 3 months, unless a court finds deliberate delay. Update the exposure model.",
+     "points": [
+      "One point is removed for every 3 months, unless a court finds deliberate delay.",
+      "Update the exposure model."
+     ],
+     "owner": "",
+     "deadline": "Quarterly",
+     "form": "—",
+     "authority": "ACT s.28 (NC)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — driver, licence and demerit readiness",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "D11",
+     "label": "D11",
+     "title": "Incapacity, not automatic dismissal",
+     "trigger": "Licence lost or suspended.",
+     "action": "Loss of a licence is not automatic grounds for dismissal. Follow an incapacity process, consider alternatives, and apply the contract's no-work-no-pay terms only where lawful.",
+     "points": [
+      "Loss of a licence is not automatic grounds for dismissal.",
+      "Follow an incapacity process, consider alternatives, and apply the contract's no-work-no-pay terms only where lawful."
+     ],
+     "owner": "",
+     "deadline": "Per process",
+     "form": "HR file",
+     "authority": "Code of Good Practice: Dismissal, 2025",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — driver, licence and demerit readiness",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "AARTO_Receiving_Process_Flow_GBS_v1.1.docx",
+    "section": "§10 Parallel track — driver, licence and demerit readiness",
+    "page": 24,
+    "subsection": null
+   },
+   "applicability": "event"
+  }
+ ],
+ "referenceTables": [
+  {
+   "title": "Master flow at a glance",
+   "section": "§02 Master flow at a glance",
+   "page": 5,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Every channel feeds one intake. Phase 3 is the decision point; its outcome either confirms the matter (steps 4.1, 4.3) or escalates it (4.2, 4.4–4.8), and both close in Phase 5. The driver and demerit track is not a phase: it follows the person rather than the notice and runs until the matter closes.",
+    "Read each phase column top to bottom to see who acts and who hands off; read each lane left to right to see one party's whole job. The ACO lane is the spine: every other lane connects to it, and the driver track runs underneath from receipt until the person's own matters are closed."
+   ]
+  },
+  {
+   "title": "Driver obligations and conduct",
+   "section": "§11 Driver obligations and conduct",
+   "page": 26,
+   "kind": "obligations",
+   "columns": [
+    "Obligation",
+    "When",
+    "Consequence if not met",
+    "Authority"
+   ],
+   "rows": [
+    [
+     "Report every AARTO document received, whether at the roadside, at home or electronically",
+     "Same day",
+     "The organisation may miss day 32; misconduct under policy",
+     "Policy; BP"
+    ],
+    [
+     "Keep particulars current: addresses, email, cellphone, licence details",
+     "Within 7 days of any change (policy)",
+     "The organisation is exposed under s.17(5); nomination may fail",
+     "ACT s.17(5); policy"
+    ],
+    [
+     "Give an accurate account of who was driving",
+     "When asked",
+     "Dishonesty misconduct; the organisation's sworn nomination is compromised",
+     "Policy; Justices of the Peace and Commissioners of Oaths Act 16 of 1963 s.9 (for sworn statements)"
+    ],
+    [
+     "Deal with any notice re-issued in own name after nomination",
+     "Within 32 days of service",
+     "Courtesy letter, enforcement order, and licence renewal blocked",
+     "ACT s.17(4), s.19, s.20(5)"
+    ],
+    [
+     "Hold a valid licence and PrDP; disclose any suspension, expiry or disqualification",
+     "Immediately",
+     "Cannot drive; incapacity process; offence to drive while disqualified (NC)",
+     "National Road Traffic Act; ACT s.25(4)"
+    ],
+    [
+     "Hand in the licence or PrDP when disqualified (NC)",
+     "Within 32 days; immediately on cancellation",
+     "Offence; further suspension",
+     "ACT s.25(3)–(4), s.27(1) (NC)"
+    ],
+    [
+     "Sign AARTO 27 for a demerit-status check if willing (the contract gives notice; the form is the permission)",
+     "As agreed",
+     "The employer cannot lawfully check status without it",
+     "ACT s.33(2)"
+    ],
+    [
+     "Repay only under a lawful written agreement",
+     "Per agreement",
+     "Unlawful deductions are recoverable by the employee",
+     "BCEA s.34"
+    ]
+   ],
+   "intro": [
+    "A driver keeps the organisation, and themselves, out of escalation by reporting quickly, keeping their particulars current and telling the truth about who was driving. The organisation should explain these duties at induction and in the policy, without using them to shift liability unlawfully."
+   ]
+  },
+  {
+   "title": "Driver obligations and conduct",
+   "section": "§11 Driver obligations and conduct",
+   "page": 26,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Rights the organisation must not obstruct. Making representations and appealing on a notice issued in the driver's own name; access to the Tribunal and the Magistrates' Court; refusing consent to status checks (with contractual consequences only where lawful); no deductions outside BCEA s.34; a fair procedure before discipline; POPIA rights of access and correction."
+   ]
+  },
+  {
+   "title": "Hand-offs and interfaces register",
+   "section": "§12 Hand-offs and interfaces register",
+   "page": 28,
+   "kind": "interfaces",
+   "columns": [
+    "Party or system",
+    "Trigger",
+    "What is handed over",
+    "When",
+    "Step",
+    "Authority"
+   ],
+   "rows": [
+    [
+     "Road Traffic Infringement Authority (RTIA)",
+     "Representation, instalments (within 32 days); revocation, refund (as prescribed)",
+     "Prescribed forms and proof",
+     "Within 32 days (representation, instalments); as prescribed (revocation, refund)",
+     "3.2c, 3.2d, 4.7, 4.9",
+     "ACT s.17(1)(f)(iii), s.18(1), s.20(9); REG Chapter 6 (verify)"
+    ],
+    [
+     "Issuing authority (metro police, province, RTMC)",
+     "Nomination; camera evidence request",
+     "AARTO 07; request for images",
+     "Within 32 days of service",
+     "2.5, 3.2a",
+     "ACT s.17(1)(f)(v), s.17(4); REG reg 3(3)(b)"
+    ],
+    [
+     "AARTO portal and eNaTIS",
+     "Queries; change of particulars",
+     "Registration-number and proxy-ID queries; updated particulars",
+     "Weekly or monthly; on change",
+     "0.4, 1.7, 5.6",
+     "ACT s.30; National Road Traffic Act"
+    ],
+    [
+     "Registering authority or DLTC",
+     "Enforcement order payment; licensing",
+     "Payment; proof of payment",
+     "On enforcement order",
+     "4.7",
+     "ACT s.20(6)–(8)"
+    ],
+    [
+     "Commissioner of oaths",
+     "Nomination; representation",
+     "Sworn statements",
+     "Before lodging",
+     "3.2a, 3.2d",
+     "ACT s.18(2) (AARTO 08); REG Schedule 1, AARTO 07 (verify oath section)"
+    ],
+    [
+     "Appeals Tribunal",
+     "Rejected representation",
+     "AARTO 10A, fee, record",
+     "Within 30 days of reasons",
+     "4.4–4.5",
+     "ACT s.29B"
+    ],
+    [
+     "Magistrates' Court",
+     "Tribunal decision challenged",
+     "Review or appeal",
+     "Within 30 days",
+     "4.5",
+     "ACT s.29I"
+    ],
+    [
+     "SAPS, prosecutor, criminal court",
+     "Offence from the same facts; stolen vehicle",
+     "Driver identification for summons; case number",
+     "Same day",
+     "1.5, 2.6",
+     "ACT s.23; Criminal Procedure Act"
+    ],
+    [
+     "Lessor, rental company or title holder",
+     "Leased or hired vehicle",
+     "Hire agreement; driver particulars",
+     "On notice",
+     "2.6",
+     "ACT s.17(1)(f)(v)"
+    ],
+    [
+     "Telematics or fleet provider",
+     "Driver identification",
+     "Trip data and driver-ID logs",
+     "Day 1–3",
+     "2.1",
+     "POPIA s.21 operator agreement; s.18 notice to drivers"
+    ],
+    [
+     "HR",
+     "Particulars; referral; incapacity",
+     "Need-to-know extract",
+     "Day 3–7; on event",
+     "2.2, 2.8, D5",
+     "LRA; POPIA"
+    ],
+    [
+     "Payroll or Finance",
+     "Payment; recovery",
+     "Payment instruction; deduction consent",
+     "Per election",
+     "3.2b–c, 5.4",
+     "BCEA s.34"
+    ],
+    [
+     "Legal Adviser",
+     "Offence, merits, Tribunal, revocation",
+     "Privileged instructions",
+     "As triggered",
+     "1.5, 2.5, 4.4–4.7",
+     "Legal privilege"
+    ],
+    [
+     "Insurer or broker",
+     "Serious incident; repeat drivers",
+     "Risk data where the policy requires",
+     "Per policy",
+     "6.1",
+     "Policy terms"
+    ],
+    [
+     "Board or Risk / Audit Committee",
+     "Quarterly cycle",
+     "Aggregate report",
+     "Quarterly",
+     "6.2",
+     "Governance"
+    ]
+   ],
+   "intro": [
+    "Every hand-off carries a deadline or privacy risk: send the minimum, keep proof of what was sent, to whom and when, and record it against the notice."
+   ]
+  },
+  {
+   "title": "Hand-offs and interfaces register",
+   "section": "§12 Hand-offs and interfaces register",
+   "page": 28,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Adjacent regimes to check at intake. Criminal Procedure Act notices and summonses outside the proclaimed areas, and for all offences. National Road Traffic Act (licensing, PrDPs, operator cards, the s.73 owner presumption). National Land Transport Act operating licences for passenger transport. Occupational health and safety duties where driving is part of the work."
+   ]
+  },
+  {
+   "title": "Statutory AARTO forms (Schedule 1, GG 54922)",
+   "section": "§13 Forms register",
+   "page": 30,
+   "kind": "forms",
+   "columns": [
+    "Form",
+    "Name",
+    "Direction",
+    "Used at",
+    "GBS library"
+   ],
+   "rows": [
+    [
+     "01, 02, 03, 03a, 03b",
+     "Infringement notices (roadside, electronic, camera, operator, unattended vehicle)",
+     "Received",
+     "1.1–1.4",
+     "—"
+    ],
+    [
+     "31",
+     "Notice placed on an unattended vehicle",
+     "Received",
+     "1.1",
+     "—"
+    ],
+    [
+     "04",
+     "Notification to pay in instalments",
+     "Lodged",
+     "3.2c",
+     "Yes (update \"Agency\")"
+    ],
+    [
+     "06",
+     "Confirmation of instalment arrangement",
+     "Received",
+     "3.2c",
+     "—"
+    ],
+    [
+     "07",
+     "Nomination of driver or person in control",
+     "Lodged",
+     "3.2a",
+     "Yes (fix s.17(1)(f)(v) citation)"
+    ],
+    [
+     "07a, 07b",
+     "Nomination successful or unsuccessful",
+     "Received",
+     "4.1–4.2",
+     "—"
+    ],
+    [
+     "08",
+     "Representation",
+     "Lodged",
+     "3.2d",
+     "Yes"
+    ],
+    [
+     "08a",
+     "Notification of suspect or false prosecution (verify title and direction against GG 54922)",
+     "Lodged",
+     "1.4, 3.2e",
+     "No — add"
+    ],
+    [
+     "09a, 09b, 09c",
+     "Representation outcome",
+     "Received",
+     "4.3–4.4",
+     "—"
+    ],
+    [
+     "10A",
+     "Application for appeal or review to the Tribunal",
+     "Lodged",
+     "4.4",
+     "Yes"
+    ],
+    [
+     "10Aa–10Ad",
+     "Tribunal notices (incomplete, rejected, hearing, outcome)",
+     "Received",
+     "4.5",
+     "—"
+    ],
+    [
+     "11A",
+     "Rehabilitation programme application (NC)",
+     "Lodged",
+     "D7",
+     "Yes (label NC)"
+    ],
+    [
+     "12",
+     "Courtesy letter",
+     "Received",
+     "4.6",
+     "—"
+    ],
+    [
+     "13",
+     "Enforcement order",
+     "Received",
+     "4.7",
+     "—"
+    ],
+    [
+     "14, 15",
+     "Revocation of enforcement order and result",
+     "Lodged / received",
+     "4.7",
+     "Yes (14)"
+    ],
+    [
+     "16, 17",
+     "Dishonoured instalment; partial payment",
+     "Received",
+     "4.8",
+     "—"
+    ],
+    [
+     "18",
+     "Notification of demerit points recorded (NC)",
+     "Received",
+     "4.10",
+     "—"
+    ],
+    [
+     "20",
+     "Receipt of payment",
+     "Received",
+     "3.2b, 5.1",
+     "—"
+    ],
+    [
+     "21, 22",
+     "Suspension or cancellation, and revocation (NC)",
+     "Received",
+     "D5",
+     "—"
+    ],
+    [
+     "23, 23a",
+     "Return of documents; proof of surrender (NC)",
+     "Lodged / received",
+     "D5, D9",
+     "Yes (23)"
+    ],
+    [
+     "25, 25a",
+     "Refund application and result",
+     "Lodged / received",
+     "4.9",
+     "Yes (25)"
+    ],
+    [
+     "27, 28",
+     "Permission to access demerit status; status statement",
+     "Lodged / received",
+     "D3",
+     "Yes (27)"
+    ],
+    [
+     "32, 33, 33a",
+     "Offence record; notice of summons (camera; operator)",
+     "Received",
+     "1.5",
+     "—"
+    ],
+    [
+     "34",
+     "Application for condonation",
+     "Lodged",
+     "4.4",
+     "Yes (verify use against GG 54922)"
+    ],
+    [
+     "36",
+     "Notification of cancelled application",
+     "Received",
+     "3.3, 4.2",
+     "—"
+    ],
+    [
+     "10 (\"Election\")",
+     "Notice of election to be tried in court",
+     "Obsolete",
+     "—",
+     "Withdraw"
+    ],
+    [
+     "27A",
+     "Permission to access demerit points history",
+     "Not in Schedule 1 index",
+     "—",
+     "Verify before use"
+    ]
+   ],
+   "intro": [
+    "Numbering follows the Schedule 1 index for the 2026 Regulations as published by the Road Freight Association; confirm against the official Gazette before finalising templates. \"GBS library\" shows whether a template already exists in the project."
+   ]
+  },
+  {
+   "title": "Internal GBS forms",
+   "section": "§13 Forms register",
+   "page": 30,
+   "kind": "forms",
+   "columns": [
+    "Form",
+    "Name",
+    "Used at",
+    "Existing GBS template or register"
+   ],
+   "rows": [
+    [
+     "G01",
+     "ACO and alternate appointment",
+     "0.2",
+     "—"
+    ],
+    [
+     "G02",
+     "Driver particulars declaration (s.17(5))",
+     "0.5, 2.2",
+     "Employee Drivers Register; Driver Info Required note"
+    ],
+    [
+     "G03",
+     "Vehicle allocation and trip log",
+     "0.6, 2.1",
+     "Company Vehicle Register (partly)"
+    ],
+    [
+     "G04",
+     "Notice intake record",
+     "1.1–1.7",
+     "Infringement Notice Tracker"
+    ],
+    [
+     "G05",
+     "Driver identification record",
+     "2.1",
+     "Tracker column \"Driver identified\" (partly)"
+    ],
+    [
+     "G06",
+     "Driver notification and acknowledgement",
+     "2.3, 4.1",
+     "—"
+    ],
+    [
+     "G07",
+     "Assessment memo (A liability; B grounds; C special cases)",
+     "2.4–2.6",
+     "—"
+    ],
+    [
+     "G08",
+     "Election decision and sign-off",
+     "3.1",
+     "Tracker column \"Election made\" (partly)"
+    ],
+    [
+     "G09",
+     "Proxy appointment letter",
+     "0.3",
+     "Proxy Contract Clause; List of Company Proxies"
+    ],
+    [
+     "G10",
+     "Deduction consent or acknowledgement of debt",
+     "0.7, 5.4",
+     "Policy templates (clause only)"
+    ],
+    [
+     "G11",
+     "HR referral",
+     "2.8",
+     "—"
+    ],
+    [
+     "G12",
+     "Submission and proof log",
+     "3.2–3.3",
+     "Tracker column \"Date election submitted\" (partly)"
+    ],
+    [
+     "G13",
+     "Monthly registration-number and proxy reconciliation",
+     "5.6",
+     "Tracker column \"BRN check\""
+    ],
+    [
+     "G14",
+     "Exposure dashboard and board report",
+     "6.1–6.2",
+     "—"
+    ],
+    [
+     "G15",
+     "Legacy sweep report",
+     "0.11",
+     "—"
+    ],
+    [
+     "G16",
+     "Root-cause memo (courtesy letter or enforcement order)",
+     "6.3",
+     "—"
+    ],
+    [
+     "G17",
+     "Demerit readiness and disqualification response plan (NC)",
+     "6.7, D4–D5",
+     "—"
+    ],
+    [
+     "G18",
+     "Jurisdiction map",
+     "0.8",
+     "Compliance Tool municipality filter (partly)"
+    ]
+   ]
+  },
+  {
+   "title": "Notice calendar (calendar days)",
+   "section": "§14 Timeline calendar and liability register",
+   "page": 33,
+   "kind": "timeline",
+   "columns": [
+    "When",
+    "Event",
+    "Type",
+    "Authority"
+   ],
+   "rows": [
+    [
+     "Infringement + 60",
+     "Latest service of camera, unattended-vehicle, operator and juristic-person notices",
+     "Statutory",
+     "REG reg 2(2)–(3), (5)–(7)"
+    ],
+    [
+     "Posting or e-service + 10",
+     "Deemed date of service, unless earlier actual receipt is shown",
+     "Statutory",
+     "ACT s.30(2)"
+    ],
+    [
+     "Receipt, day 0",
+     "Log, classify, validity and offence screens, diarise clocks",
+     "BP",
+     "—"
+    ],
+    [
+     "Day 3",
+     "Driver identified; particulars confirmed",
+     "BP",
+     "—"
+    ],
+    [
+     "Day 7",
+     "Assessment complete: liability and grounds",
+     "BP",
+     "—"
+    ],
+    [
+     "Day 14",
+     "Election decided and signed off",
+     "BP",
+     "—"
+    ],
+    [
+     "Day 21",
+     "Lodgement backstop",
+     "BP",
+     "—"
+    ],
+    [
+     "Service + 32",
+     "Last day to pay at discount, arrange instalments, nominate, or make representations",
+     "Statutory",
+     "ACT s.17(1)(f), s.18(3)"
+    ],
+    [
+     "Courtesy letter service + 32",
+     "Pay penalty and fee, or make representations",
+     "Statutory",
+     "ACT s.19(2)(b)"
+    ],
+    [
+     "Rejection notice service + 32",
+     "Pay penalty and fees, or arrange instalments",
+     "Statutory",
+     "ACT s.18(7)(b)"
+    ],
+    [
+     "Receipt of reasons + 30",
+     "Appeal or review to the Tribunal",
+     "Statutory",
+     "ACT s.29B(2)"
+    ],
+    [
+     "Tribunal decision + 30",
+     "Review or appeal to the Magistrates' Court",
+     "Statutory",
+     "ACT s.29I(2)"
+    ],
+    [
+     "Finalisation + 40 (max infringement + 180)",
+     "Re-service possible after a procedurally successful representation",
+     "Statutory",
+     "ACT s.18(1)(b)"
+    ],
+    [
+     "Courtesy letter or notification + at least 32",
+     "Enforcement order may be issued",
+     "Statutory",
+     "ACT s.20(2)(b)"
+    ],
+    [
+     "Enforcement order service + 32",
+     "Pay all penalties and fees; licensing block continues until compliance or revocation",
+     "Statutory",
+     "ACT s.20(3), (5)"
+    ],
+    [
+     "Instalment default notice + 7",
+     "Pay arrears or re-arrange",
+     "Statutory",
+     "ACT s.19B(2)"
+    ],
+    [
+     "Dishonoured payment notice + 32",
+     "Pay full amount and fee",
+     "Statutory",
+     "ACT s.19B(1)"
+    ],
+    [
+     "Courtesy letter or enforcement order + 30",
+     "Root-cause review",
+     "BP",
+     "—"
+    ],
+    [
+     "Monthly",
+     "Registration-number and proxy reconciliation; dashboard",
+     "BP",
+     "—"
+    ],
+    [
+     "Excess points + 32 (NC)",
+     "Disqualification takes effect; documents handed in within 32 days",
+     "Statutory once commenced",
+     "ACT s.25(1), (3)"
+    ]
+   ],
+   "intro": [
+    "Using internal deadlines as policy, a routine notice has one hard statutory date (day 32 from service) and three internal milestones before it. Every later document restarts its own clock."
+   ]
+  },
+  {
+   "title": "Liability and offences register",
+   "section": "§14 Timeline calendar and liability register",
+   "page": 33,
+   "kind": "liability",
+   "columns": [
+    "Exposure",
+    "Who is exposed",
+    "Consequence",
+    "Authority"
+   ],
+   "rows": [
+    [
+     "Letting someone drive without ascertaining their particulars",
+     "Owner or operator",
+     "Liable for the penalty and fees",
+     "ACT s.17(5)"
+    ],
+    [
+     "Missing the 32-day infringement-notice window",
+     "Infringer (the organisation, if no nomination)",
+     "Discount lost; courtesy-letter fee; nomination lost",
+     "ACT s.17(1)(f), s.19"
+    ],
+    [
+     "Ignoring a courtesy letter or rejection notice",
+     "Infringer",
+     "Enforcement order and fee; licensing block on every vehicle registered to it",
+     "ACT s.20"
+    ],
+    [
+     "Offence arising from the same facts as an infringement",
+     "Driver or operator",
+     "Criminal prosecution; possible conviction",
+     "ACT s.23; Criminal Procedure Act"
+    ],
+    [
+     "False sworn statement on AARTO 07 or 08",
+     "Deponent",
+     "Offence carrying perjury penalties",
+     "Justices of the Peace and Commissioners of Oaths Act s.9"
+    ],
+    [
+     "Driving or operating while disqualified (NC)",
+     "Driver, operator or juristic person",
+     "Fine or up to 1 year; further 1-year suspension per instance",
+     "ACT s.25(4)"
+    ],
+    [
+     "Failing to hand in documents on a third disqualification (NC)",
+     "Person disqualified",
+     "Fine or up to 1 year",
+     "ACT s.27(1)(b)"
+    ],
+    [
+     "Unlawful deduction from an employee's pay",
+     "Employer",
+     "Repayment; labour dispute",
+     "BCEA s.34"
+    ]
+   ]
+  },
+  {
+   "title": "Timeline calendar and liability register",
+   "section": "§14 Timeline calendar and liability register",
+   "page": 33,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Penalties and fees under the Act do not prescribe and may be collected at any time (s.31(2)), subject to the re-service limits in s.18(1)(b)."
+   ]
+  },
+  {
+   "title": "Corrections to GBS materials",
+   "section": "§15 Corrections to existing GBS materials and drafting issues",
+   "page": 36,
+   "kind": "corrections",
+   "columns": [
+    "#",
+    "Current statement",
+    "Where",
+    "Correction"
+   ],
+   "rows": [
+    [
+     "1",
+     "Election to be tried in court presented as a current option",
+     "Current Status §2.1 and §4; Compliance Tool; AARTO 10 \"Election\" template",
+     "Repealed at infringement-notice and courtesy-letter stages from 1 July 2026 in the 62 municipalities (s.17(1)(f)(iv), s.19(2)(b)(iii)). The challenge route is representation, then the Tribunal (AARTO 10A), then the Magistrates' Court. Withdraw the AARTO 10 \"Election\" template."
+    ],
+    [
+     "2",
+     "Section references: service \"s 29\"; representations \"s 23\"; courtesy letter \"s 18\"; enforcement order \"s 19\"; records \"s 34\"",
+     "Compliance Tool",
+     "Service is s.30; representations s.18; courtesy letter s.19; enforcement order s.20; the record-keeping duty is s.17(5) (s.34 is the power to make regulations)."
+    ],
+    [
+     "3",
+     "\"section 17(1)(v)\"",
+     "AARTO 07 template, Part A",
+     "s.17(1)(f)(v)."
+    ],
+    [
+     "4",
+     "Service by personal service, post and electronic means under regulations 31, 32 and 33",
+     "Training Manual §6",
+     "That numbering follows the withdrawn draft regulations. GG 54922 reg 2(8) refers service to reg 35(4). Update after checking Chapters 8 and 9 of the official Gazette."
+    ],
+    [
+     "5",
+     "\"Sep 2026 (planned): Phase 2 extension to further municipalities (144 additional)\"",
+     "Training Manual §3",
+     "No such proclamation. Phase 3 (about 151 municipalities) had not been gazetted as at 19 October 2026; on 4 August 2026 the RTIA told Parliament it expects Phase 3 in March 2027. Only the 62 municipalities in Annexure A to Proclamation 323 of 2026 follow AARTO."
+    ],
+    [
+     "6",
+     "Demerit threshold, suspension rules and rehabilitation stated as operative",
+     "Training Manual §10; Current Status §5",
+     "Not commenced. The threshold is set by regulation under s.29(d), and rehabilitation depends on section 2(g) of the Amendment Act, which has not commenced. Describe as expected design and label NC."
+    ],
+    [
+     "7",
+     "\"Sections 24–28 have not commenced in any municipality, including Johannesburg and Tshwane\"",
+     "Current Status §2.2",
+     "The SAFLII consolidation records 2008 commencement of ss.24–28 in both metros, although points are not recorded in practice. LA to confirm (interpretation point 6)."
+    ],
+    [
+     "8",
+     "AARTO 27A (permission to access demerit points history)",
+     "Relevant Forms list; forms library; Training Manual §7",
+     "Not in the Schedule 1 index for GG 54922, which lists AARTO 27 and 28. Verify before issuing."
+    ],
+    [
+     "9",
+     "AARTO 10 described as \"Appeal or review\"",
+     "Relevant Forms list; Training Manual §7",
+     "The Schedule 1 index numbers the Tribunal application AARTO 10A. Align the numbering."
+    ],
+    [
+     "10",
+     "\"Road Traffic Infringement Agency\" and \"the Agency\"",
+     "Training Manual §2; Compliance Tool; AARTO 04 template",
+     "In the proclaimed areas the Act now says \"Authority\" (s.22 of Act 4 of 2019). The acronym RTIA is unchanged."
+    ],
+    [
+     "11",
+     "Enforcement order consequences framed only around the individual's licence",
+     "Training Manual §9; Compliance Tool",
+     "Add the fleet-wide effect: s.20(5)(c) blocks licence discs for every vehicle registered in the infringer's name."
+    ],
+    [
+     "12",
+     "32-day deadline computed from \"date of service (actual/presumed)\" only",
+     "Infringement Notice Tracker",
+     "Add an actual-receipt date and internal day 14 and day 21 columns; compute the statutory deadline from the earlier of the actual and deemed dates."
+    ]
+   ],
+   "intro": [
+    "Comparing the Current Status note, Delegate Training Manual, Compliance Paper, Compliance Tool, forms library and policy templates against the consolidated Act turned up points that should be fixed before client use. This flow already reflects them."
+   ]
+  },
+  {
+   "title": "Revision history — v1.1 (19 October 2026)",
+   "section": "§15 Corrections to existing GBS materials and drafting issues",
+   "page": 36,
+   "kind": "corrections",
+   "columns": [
+    "#",
+    "Finding (severity)",
+    "Where",
+    "Change made"
+   ],
+   "rows": [
+    [
+     "1",
+     "Phase 3 timing out of date (Major)",
+     "01 Legal status; 0.8; 6.6; Corrections #5; Sources",
+     "Phase 3 stated as not proclaimed; RTIA expects March 2027 (4 Aug 2026 briefing); only the 62 Proc. 323 municipalities follow AARTO; 0.8 says not to treat Phase 3 areas as AARTO areas until gazetted."
+    ],
+    [
+     "2",
+     "Allocation-record retention too short (Major)",
+     "0.6",
+     "100-day minimum replaced: keep at least 12 months and until any linked matter closes; cites s.18(1)(b) 180-day re-service and lessor nomination; s.31(2) added."
+    ],
+    [
+     "3",
+     "SALGA interdict \"dismissed\" (Minor)",
+     "01 Live litigation",
+     "Now: struck from the roll for lack of urgency on 30 June 2026; merits may still be heard."
+    ],
+    [
+     "4",
+     "Proxy citation placeholder (Minor)",
+     "0.3",
+     "Authority NRTR 2000 reg 336; one proxy and one representative per branch."
+    ],
+    [
+     "5",
+     "King Code edition (Minor)",
+     "6.2",
+     "King V Report on Corporate Governance (2025)."
+    ],
+    [
+     "6",
+     "Unresolved \"verify\" placeholders (Minor)",
+     "0.4; Sources",
+     "\"General knowledge\" caveat removed for confirmed Acts; remaining items listed in Sources and below; 0.4 now points to NRTR reg 32A (verify)."
+    ],
+    [
+     "7",
+     "Oath authority for AARTO 07 (Minor)",
+     "0.10; 3.2a; Hand-offs (commissioner of oaths)",
+     "s.18(2) cited for AARTO 08 only; AARTO 07 oath referred to the prescribed form (verify)."
+    ],
+    [
+     "8",
+     "Condonation placement (Minor)",
+     "4.4; 4.5",
+     "s.29B(3) condonation and AARTO 34 moved to 4.4; 4.5 now says Magistrates' Court late filing follows that court's rules (LA to advise)."
+    ],
+    [
+     "9",
+     "RTIA hand-off row inconsistent (Minor)",
+     "Hand-offs register; Phase 3 hand-offs",
+     "Nomination removed from RTIA row; windows split (32 days vs as prescribed); nomination goes to the issuing authority."
+    ],
+    [
+     "10",
+     "AARTO 34 register vs step (Minor)",
+     "Forms register",
+     "Used at 4.4; marked verify use."
+    ],
+    [
+     "11",
+     "Phase 4a/4b not in tables (Minor)",
+     "02 narrative; master-flow diagram",
+     "Narrative and regenerated diagram refer to steps 4.1, 4.3 and 4.2, 4.4–4.8."
+    ],
+    [
+     "12",
+     "AARTO 08a title and direction (Minor)",
+     "Forms register; 1.4; 3.2e",
+     "Title per published index; verify title and direction against GG 54922."
+    ],
+    [
+     "13",
+     "Discount and fees not stated (Improvement)",
+     "1.2; 3.2b",
+     "50% discount within 32 days stated (verify); fees per Schedule 2 (verify amounts)."
+    ],
+    [
+     "14",
+     "Blanket demerit-check consent (Improvement)",
+     "0.7; D3; Driver obligations table; diagram",
+     "Contract gives notice; each check needs a signed AARTO 27 (s.33(2)); refusal handled under D3."
+    ],
+    [
+     "15",
+     "POPIA notice for telematics (Improvement)",
+     "0.1; 0.7; Hand-offs (telematics)",
+     "POPIA s.18 notice and s.11(1)(c)/(f) lawful basis added."
+    ],
+    [
+     "16",
+     "Tribunal rules now hosted by RTIA (Improvement)",
+     "4.4; 6.6; Drafting issue 8",
+     "RTIA-hosted \"Appeals Tribunal Rules\" noted; LA to confirm status and lodging channel."
+    ],
+    [
+     "17",
+     "Constitutionality not mentioned (Improvement)",
+     "01 Live litigation",
+     "OUTA v Minister of Transport [2023] ZACC 24 added."
+    ],
+    [
+     "18",
+     "Status date (Improvement)",
+     "Cover; subtitle; 01",
+     "Re-dated 19 October 2026, v1.1; status sources checked listed in 01."
+    ],
+    [
+     "C1",
+     "Consistency with GBS library",
+     "2.3; 2.8; 5.3; D11",
+     "\"LRA Schedule 8\" replaced by Code of Good Practice: Dismissal, 2025 (GN 3470, in force 4 September 2025)."
+    ],
+    [
+     "O1",
+     "Open: AARTO Regulations 2026 text",
+     "4.9 (REG Ch. 6); 1.2 (discount, fees); 3.2c; D4",
+     "Official GPW text of GG 54922 not yet obtained; Schedule 2 fee amounts conflict in commentary (R60 vs R100). Verify."
+    ],
+    [
+     "O2",
+     "Open: form details",
+     "0.10; 3.2a (AARTO 07 oath); 3.2e (08a); 4.4 (34); 4.7 (14 grounds)",
+     "Verify against GG 54922 Schedule 1."
+    ],
+    [
+     "O3",
+     "Open: NRTR reg 32A period; s.36(2); s.27(1)(b)",
+     "0.4; 0.8; Liability register",
+     "Not verified in the review; LA to confirm."
+    ],
+    [
+     "O4",
+     "Open: Phase 3 date; Tribunal rules; demerits in metros",
+     "01; 6.6; 4.4; interpretation point 6",
+     "RTIA timing from secondary sources only; rules document not readable; LA to confirm 2008 metro commencement position."
+    ]
+   ],
+   "intro": [
+    "Sections 19A(b) and 20(2)(e) still refer to electing to be tried in court, although that election was repealed at both notice stages.",
+    "Section 20(4) refers to \"subsection (3)(a)\", which the 2019 amendment omitted.",
+    "Section 17(1)(f)(i) and (ii) now overlap: once \"major\" and \"minor\" infringements were replaced by \"infringement\", both give the discounted-payment option.",
+    "Section 17(5) joins the required particulars with \"or\" and ends with a garbled clause (\"an infringer, such person is liable\"). Read it conjunctively as a matter of policy.",
+    "Section 18(7) (32 days to pay) and s.29B(2) (30 days from receipt of reasons to appeal) run from different triggers with different lengths, which is a trap for infringers.",
+    "Section 31(2) removes prescription, so penalties can be collected indefinitely, but no retention period is set for infringers' proof of payment.",
+    "Section 25(1) says a person is disqualified \"within 32 days\" after excess points are incurred, leaving unclear whether disqualification starts on or by day 32.",
+    "The Tribunal exists, but public information on how to lodge an appeal remains limited. The Regulations should be supported by published Tribunal rules and lodging channels. The RTIA now hosts an \"Appeals Tribunal Rules\" document (rtia.co.za); LA to confirm its status and the lodging channel.",
+    "v1.1 implements every finding of the independent verification and validation review dated 15 October 2026 (Critical 0, Major 2, Minor 10, Improvement 6), approved by the document owner. Items still marked \"verify\" are listed as open at the end of the table."
+   ]
+  },
+  {
+   "title": "Corrections to existing GBS materials and drafting issues",
+   "section": "§15 Corrections to existing GBS materials and drafting issues",
+   "page": 36,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Administrative Adjudication of Road Traffic Offences Act 46 of 1998, SAFLII consolidation updated to 1 July 2026 (project file).",
+    "Proclamation 322 of 2026, GG 54917, 29 June 2026 (project file); Proclamation 323 of 2026, GG 54918.",
+    "AARTO Regulations, 2026, GG 54922, 30 June 2026. Regulations 2 to 5 were read from text; other chapters in the available copies were scanned images, so references marked \"verify\" must be checked against the official GPW text. Schedule 1 form numbering taken from the Road Freight Association AARTO360 index (https://aarto360.co.za/forms).",
+    "Bowmans, \"South Africa: AARTO Phase 2 – Key provisions now operative in 62 municipalities\", 6 July 2026; Moneyweb, \"Outa withdraws urgent application to suspend Aarto rollout\", 5 August 2026; OUTA newsroom, 31 July 2026; IOL, 30 June 2026 (SALGA); Gittins Attorneys, 20 July 2026 (threshold; RTIA statement on commencement); JoburgETC, \"RTIA says OUTA withdrew challenge…\", 5 August 2026 (RTIA briefing to Parliament: Phase 3 expected March 2027); TopAuto, 17 September 2026 (RTIA 2026/27 annual performance plan timing); SAnews, \"Implementation of AARTO continues\", 1 July 2026, and TimesLIVE, 30 June 2026 (SALGA application struck from the roll); BusinessTech, 1 July 2026 (50% discount).",
+    "GBS project materials: Current Status, Delegate Training Manual, Phase 2 Compliance Paper, Compliance Tool, forms library, registers and Proxy Contract Clause.",
+    "BCEA s.34, Interpretation Act 33 of 1957 s.4, POPIA ss.11, 14, 18, 19 and 21, the Justices of the Peace and Commissioners of Oaths Act 16 of 1963 s.9 and National Road Traffic Regulations, 2000 reg 336 were checked against consolidated texts in the October 2026 review. Remaining Criminal Procedure Act, National Road Traffic Act and LRA references, NRTR reg 32A (change of particulars), REG Chapter 6 and AARTO 34 are still to be verified against the official texts.",
+    "This flow is a working document for legal review, not legal advice."
+   ]
+  }
+ ],
+ "forms": [
+  {
+   "code": "01, 02, 03, 03a, 03b",
+   "name": "Infringement notices (roadside, electronic, camera, operator, unattended vehicle)",
+   "usedAt": "Received"
+  },
+  {
+   "code": "31",
+   "name": "Notice placed on an unattended vehicle",
+   "usedAt": "Received"
+  },
+  {
+   "code": "04",
+   "name": "Notification to pay in instalments",
+   "usedAt": "Lodged"
+  },
+  {
+   "code": "06",
+   "name": "Confirmation of instalment arrangement",
+   "usedAt": "Received"
+  },
+  {
+   "code": "07",
+   "name": "Nomination of driver or person in control",
+   "usedAt": "Lodged"
+  },
+  {
+   "code": "07a, 07b",
+   "name": "Nomination successful or unsuccessful",
+   "usedAt": "Received"
+  },
+  {
+   "code": "08",
+   "name": "Representation",
+   "usedAt": "Lodged"
+  },
+  {
+   "code": "08a",
+   "name": "Notification of suspect or false prosecution (verify title and direction against GG 54922)",
+   "usedAt": "Lodged"
+  },
+  {
+   "code": "09a, 09b, 09c",
+   "name": "Representation outcome",
+   "usedAt": "Received"
+  },
+  {
+   "code": "10A",
+   "name": "Application for appeal or review to the Tribunal",
+   "usedAt": "Lodged"
+  },
+  {
+   "code": "10Aa–10Ad",
+   "name": "Tribunal notices (incomplete, rejected, hearing, outcome)",
+   "usedAt": "Received"
+  },
+  {
+   "code": "11A",
+   "name": "Rehabilitation programme application (NC)",
+   "usedAt": "Lodged"
+  },
+  {
+   "code": "12",
+   "name": "Courtesy letter",
+   "usedAt": "Received"
+  },
+  {
+   "code": "13",
+   "name": "Enforcement order",
+   "usedAt": "Received"
+  },
+  {
+   "code": "14, 15",
+   "name": "Revocation of enforcement order and result",
+   "usedAt": "Lodged / received"
+  },
+  {
+   "code": "16, 17",
+   "name": "Dishonoured instalment; partial payment",
+   "usedAt": "Received"
+  },
+  {
+   "code": "18",
+   "name": "Notification of demerit points recorded (NC)",
+   "usedAt": "Received"
+  },
+  {
+   "code": "20",
+   "name": "Receipt of payment",
+   "usedAt": "Received"
+  },
+  {
+   "code": "21, 22",
+   "name": "Suspension or cancellation, and revocation (NC)",
+   "usedAt": "Received"
+  },
+  {
+   "code": "23, 23a",
+   "name": "Return of documents; proof of surrender (NC)",
+   "usedAt": "Lodged / received"
+  },
+  {
+   "code": "25, 25a",
+   "name": "Refund application and result",
+   "usedAt": "Lodged / received"
+  },
+  {
+   "code": "27, 28",
+   "name": "Permission to access demerit status; status statement",
+   "usedAt": "Lodged / received"
+  },
+  {
+   "code": "32, 33, 33a",
+   "name": "Offence record; notice of summons (camera; operator)",
+   "usedAt": "Received"
+  },
+  {
+   "code": "34",
+   "name": "Application for condonation",
+   "usedAt": "Lodged"
+  },
+  {
+   "code": "36",
+   "name": "Notification of cancelled application",
+   "usedAt": "Received"
+  },
+  {
+   "code": "10 (\"Election\")",
+   "name": "Notice of election to be tried in court",
+   "usedAt": "Obsolete"
+  },
+  {
+   "code": "27A",
+   "name": "Permission to access demerit points history",
+   "usedAt": "Not in Schedule 1 index"
+  },
+  {
+   "code": "G01",
+   "name": "ACO and alternate appointment",
+   "usedAt": "0.2"
+  },
+  {
+   "code": "G02",
+   "name": "Driver particulars declaration (s.17(5))",
+   "usedAt": "0.5, 2.2"
+  },
+  {
+   "code": "G03",
+   "name": "Vehicle allocation and trip log",
+   "usedAt": "0.6, 2.1"
+  },
+  {
+   "code": "G04",
+   "name": "Notice intake record",
+   "usedAt": "1.1–1.7"
+  },
+  {
+   "code": "G05",
+   "name": "Driver identification record",
+   "usedAt": "2.1"
+  },
+  {
+   "code": "G06",
+   "name": "Driver notification and acknowledgement",
+   "usedAt": "2.3, 4.1"
+  },
+  {
+   "code": "G07",
+   "name": "Assessment memo (A liability; B grounds; C special cases)",
+   "usedAt": "2.4–2.6"
+  },
+  {
+   "code": "G08",
+   "name": "Election decision and sign-off",
+   "usedAt": "3.1"
+  },
+  {
+   "code": "G09",
+   "name": "Proxy appointment letter",
+   "usedAt": "0.3"
+  },
+  {
+   "code": "G10",
+   "name": "Deduction consent or acknowledgement of debt",
+   "usedAt": "0.7, 5.4"
+  },
+  {
+   "code": "G11",
+   "name": "HR referral",
+   "usedAt": "2.8"
+  },
+  {
+   "code": "G12",
+   "name": "Submission and proof log",
+   "usedAt": "3.2–3.3"
+  },
+  {
+   "code": "G13",
+   "name": "Monthly registration-number and proxy reconciliation",
+   "usedAt": "5.6"
+  },
+  {
+   "code": "G14",
+   "name": "Exposure dashboard and board report",
+   "usedAt": "6.1–6.2"
+  },
+  {
+   "code": "G15",
+   "name": "Legacy sweep report",
+   "usedAt": "0.11"
+  },
+  {
+   "code": "G16",
+   "name": "Root-cause memo (courtesy letter or enforcement order)",
+   "usedAt": "6.3"
+  },
+  {
+   "code": "G17",
+   "name": "Demerit readiness and disqualification response plan (NC)",
+   "usedAt": "6.7, D4–D5"
+  },
+  {
+   "code": "G18",
+   "name": "Jurisdiction map",
+   "usedAt": "0.8"
+  }
+ ],
+ "processMaps": [
+  {
+   "file": "aarto-receiving-src_image1.png",
+   "width": 2280,
+   "height": 2120,
+   "path": "maps/aarto-receiving-src_image1.png"
+  },
+  {
+   "file": "aarto-receiving-src_image2.png",
+   "width": 2280,
+   "height": 2200,
+   "path": "maps/aarto-receiving-src_image2.png"
+  }
+ ],
+ "sections": [
+  {
+   "number": "01",
+   "title": "Purpose, status and reading notes",
+   "page": 2
+  },
+  {
+   "number": "02",
+   "title": "Master flow at a glance",
+   "page": 5
+  },
+  {
+   "number": "03",
+   "title": "Phase 0 — Readiness (standing obligations)",
+   "page": 8
+  },
+  {
+   "number": "04",
+   "title": "Phase 1 — Receipt and intake",
+   "page": 11
+  },
+  {
+   "number": "05",
+   "title": "Phase 2 — Driver identification and assessment",
+   "page": 13
+  },
+  {
+   "number": "06",
+   "title": "Phase 3 — Election",
+   "page": 15
+  },
+  {
+   "number": "07",
+   "title": "Phase 4 — Outcomes and escalation",
+   "page": 17
+  },
+  {
+   "number": "08",
+   "title": "Phase 5 — Close and records",
+   "page": 20
+  },
+  {
+   "number": "09",
+   "title": "Phase 6 — Governance and learning",
+   "page": 22
+  },
+  {
+   "number": "10",
+   "title": "Parallel track — driver, licence and demerit readiness",
+   "page": 24
+  },
+  {
+   "number": "11",
+   "title": "Driver obligations and conduct",
+   "page": 26
+  },
+  {
+   "number": "12",
+   "title": "Hand-offs and interfaces register",
+   "page": 28
+  },
+  {
+   "number": "13",
+   "title": "Forms register",
+   "page": 30
+  },
+  {
+   "number": "14",
+   "title": "Timeline calendar and liability register",
+   "page": 33
+  },
+  {
+   "number": "15",
+   "title": "Corrections to existing GBS materials and drafting issues",
+   "page": 36
+  }
+ ],
+ "clarifications": []
+}

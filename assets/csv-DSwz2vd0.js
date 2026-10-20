@@ -1,0 +1,3 @@
+import{o as r,q as a}from"./index-C2Iwpgpl.js";import"./react-CzkdZBcD.js";import"./exporters-DB8U52p0.js";const c="\uFEFF";function m(e){let t=e==null?"":String(e);return/^[=+@\t\r]/.test(t)&&(t=`'${t}`),/[",\r\n]/.test(t)||/^\s|\s$/.test(t)?`"${t.replace(/"/g,'""')}"`:t}function p(e){return c+e.map(t=>t.map(m).join(",")).join(`\r
+`)+`\r
+`}function d(e,t){const o=["Process","Process version","Execution","Reference","Client / organisation","Subject",...r.map(n=>n.header)],i=a(e,t).map(n=>[e.title,e.version,t.name,t.reference,t.client,t.subject,...r.map(s=>n[s.key])]);return p([o,...i])}export{c as BOM,m as csvField,d as executionToCsv,p as toCsv};

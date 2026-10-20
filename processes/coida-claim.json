@@ -1,0 +1,3464 @@
+{
+ "id": "coida-claim",
+ "shortTitle": "COIDA Claim",
+ "title": "COIDA — Organisational Injury and Disease Claim Process Flow",
+ "subtitle": "Compensation for Occupational Injuries and Diseases Act 130 of 1993, as amended by Act 10 of 2022, and the 2026 Regulations · As at 19 October 2026",
+ "category": "Health & safety",
+ "version": "v1.1",
+ "revisionDate": "19 October 2026",
+ "sourceDocument": {
+  "name": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+  "pdf": "docs/COIDA_Claim_Process_Flow_GBS_v1.1.pdf",
+  "pageCount": 46
+ },
+ "overview": {
+  "summary": "This flow tells an employer what to do, by when, and who hands off to whom, from the moment an employee is injured or an occupational disease is diagnosed until the claim closes and lessons feed back into controls. It covers reporting, temporary disablement pay, rehabilitation and return to work, incapacity, and the new inspection and penalty regime.",
+  "notes": [
+   {
+    "heading": "Legal status",
+    "text": "COIDA as amended by the COID Amendment Act 10 of 2022 is the binding law. Proclamation Notice 306 of 2026 (GG 53990, 23 January 2026) brought most of the Amendment Act into operation on 23 January 2026; sections 3 to 6 (governance of the Fund) on 1 February 2026; and the provisions listed in paragraph (c), which are the administrative-penalty provisions, on 1 April 2026. Section 1(g) (the new “earnings” definition) and part of section 1(h) (exclusions from “employee”) are not yet in operation. Four sets of regulations were published in GG 54273 of 6 March 2026 and took effect on publication: Prescription (R.7205), Chapter XA Inspection, Compliance and Enforcement, Rehabilitation, Reintegration and Return-to-Work (“RRR Regs”), and Registration of Third Parties. Section numbers below are those of the principal Act as amended, not of the Amendment Act."
+   },
+   {
+    "heading": "Labels used throughout",
+    "text": "",
+    "points": [
+     "Act = COIDA as amended; binding now.",
+     "Reg = the 2026 Regulations or other subordinate law (including OHS Act regulations); binding now.",
+     "Code = Code of Good Practice: Dismissal, 2025 (GN 3470, GG 53294, in effect 4 September 2025). Not a statute, but anyone applying the LRA must take it into account.",
+     "BP = best practice or internal control; not a statutory deadline. Adopt as policy so it becomes binding internally."
+    ]
+   },
+   {
+    "heading": "Design principle",
+    "text": "Internal targets are set inside every statutory limit, and the clock starts on the day any supervisor or manager learns of the accident or disease, not the day the COIDA Administrator hears of it. Where it is unclear whether a matter is reportable, the flow reports it and lets the Commissioner decide liability."
+   },
+   {
+    "heading": "Five interpretation points that shape the flow",
+    "text": "",
+    "points": [
+     "Counting days. COIDA does not say business or calendar days. Under the Interpretation Act 33 of 1957 s.4, “days” are calendar days, excluding the first day and including the last, unless the last day is a Sunday or public holiday. Diarise in calendar days. Section 39(1) runs from the employer “having received notice” of the accident “or having learned thereof in some other manner”; knowledge of a supervisor is very likely to be treated as the employer’s knowledge.",
+     "Twelve months or three years. Substituted s.44 now says the right to benefits lapses if the accident is not brought to the Commissioner’s attention within three years. Notice to the employer no longer stops the clock; only notice to the Commissioner does. But s.43, of which only the heading was amended, still requires a claim to be lodged within 12 months. The Prescription Regulations (reg 2(3)) say claims reported under ss.38, 39, 43, 44 and 65 prescribe three years after the accident, diagnosis or treatment under s.73(3). Plan to the 12-month window; never tell an employee a claim is out of time. That is the Commissioner’s decision.",
+     "Which penalty regime applies. The administrative penalties in ss.39(6), 39(8), 40(4), 47(3)(c), 64, 81(3), 83(6) and 87 replace criminal offences (s.99), but paragraph (c) of the Proclamation only brought them into force on 1 April 2026, and its cross-references are ambiguous. For failures on or after 1 April 2026, assume the new penalties apply. The 10% penalties do not say whether the base is the earnings of all employees or of the injured employee only; take legal advice before paying one.",
+     "Accident or disease. “Accident” now means an incident or occurrence arising out of and in the course of the employee’s employment and resulting in personal injury, illness, occupational disease or death, and “occupational disease” expressly includes post-traumatic stress disorder. Accidents must be reported within 7 days (s.39(1)); diseases within 14 days (s.68(2)), “irrespective of whether” the employer thinks the disease was contracted in its employ. Where a condition follows a traumatic incident, or the category is unclear, report as an accident within 7 days and flag the disease.",
+     "Who is the employer. A temporary employment service (TES) is the employer of the workers it places (s.1 “employer” (c)). A sub-contractor’s unregistered employees are deemed the contractor’s (s.89). Employers insured with a licensee (for example Rand Mutual or FEM) report to the licensee; employers individually liable carry the claim themselves (s.84). Domestic employees are covered (codifying Mahlangu v Minister of Labour, CC, 2020). Accidents or diseases from 27 April 1994 to 22 January 2026 must be reported by 23 January 2029 (Amendment Act s.63; Prescription Regs reg 2). Confirm the employer and insurer at intake, because it decides who reports and to whom."
+    ]
+   },
+   {
+    "heading": "Roles used",
+    "text": "COIDA Administrator (CA); Line Manager or Supervisor (LM); Health and Safety Officer or Representative (HSE); Employee Health and Wellness Representative (EHW, appointed under RRR Regs reg 3); HR Manager (HR); Payroll (PAY); Legal Adviser (LA); Senior Sign-off (SSO); Board, Risk or Social and Ethics Committee (BOARD). External: Compensation Fund or Commissioner (CF); licensee (LIC); Fund Rehabilitation Case Manager (CM); treating medical practitioner (MP); COIDA inspector (INSP)."
+   }
+  ],
+  "source": {
+   "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+   "section": "§01 Purpose, status and reading notes",
+   "page": 2
+  }
+ },
+ "roles": [
+  {
+   "code": "CA",
+   "name": "COIDA Administrator"
+  },
+  {
+   "code": "LM",
+   "name": "Line Manager or Supervisor"
+  },
+  {
+   "code": "HSE",
+   "name": "Health and Safety Officer or Representative"
+  },
+  {
+   "code": "EHW",
+   "name": "Employee Health and Wellness Representative"
+  },
+  {
+   "code": "HR",
+   "name": "HR Manager"
+  },
+  {
+   "code": "PAY",
+   "name": "Payroll"
+  },
+  {
+   "code": "LA",
+   "name": "Legal Adviser"
+  },
+  {
+   "code": "SSO",
+   "name": "Senior Sign-off"
+  },
+  {
+   "code": "BOARD",
+   "name": "Board, Risk or Social and Ethics Committee"
+  },
+  {
+   "code": "CF",
+   "name": "External: Compensation Fund or Commissioner"
+  },
+  {
+   "code": "CM",
+   "name": "Fund Rehabilitation Case Manager"
+  },
+  {
+   "code": "INSP",
+   "name": "COIDA inspector"
+  }
+ ],
+ "stages": [
+  {
+   "id": "s1",
+   "group": "Phase 0 — Readiness (standing obligations)",
+   "title": "Phase 0 — Readiness (standing obligations)",
+   "kind": "phase",
+   "intro": [
+    "Phase 0 has no case trigger: it must be in place before the first accident, because if an employer is unregistered, or has not paid its assessment, when an accident happens, the Commissioner may impose a penalty equal to the full compensation payable for that accident (s.87(2)(a)), subject to waiver or instalments (s.87(2)(b)). Every later deadline assumes these controls exist."
+   ],
+   "notes": [
+    {
+     "heading": "Employee side of Phase 0",
+     "text": "Nothing is owed by an employee yet, but their later duties depend on this phase: an employee who has not been told how to report cannot be expected to report well. Inspectors may themselves advise employees of their rights and obligations (Ch XA Regs reg 2(2))."
+    },
+    {
+     "heading": "Watch",
+     "text": "A lapsed LOGS or an unpaid assessment is discovered at the worst moment, after a serious accident. Check registration status monthly and before every large contract."
+    }
+   ],
+   "steps": [
+    {
+     "id": "0.1",
+     "label": "0.1",
+     "title": "Register and confirm the insurer",
+     "trigger": "",
+     "action": "Register with the Compensation Fund, or confirm cover with a licensee or individually-liable status. Register domestic employees in private households. Record the registration number on every form. Obtain and diarise the Letter of Good Standing (LOGS).",
+     "points": [
+      "Register with the Compensation Fund, or confirm cover with a licensee or individually-liable status.",
+      "Register domestic employees in private households.",
+      "Record the registration number on every form.",
+      "Obtain and diarise the Letter of Good Standing (LOGS)."
+     ],
+     "owner": "BOARD, CA",
+     "deadline": "Before employing; LOGS renewed annually",
+     "form": "Registration certificate; LOGS",
+     "authority": "Act s.80, s.84; Ch XA Regs reg 1 (LOGS)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 8
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.2",
+     "label": "0.2",
+     "title": "Returns and assessments",
+     "trigger": "",
+     "action": "Submit the annual return of earnings and pay the assessment within 30 days of the notice of assessment. From 1 March 2026 the maximum earnings per employee used for assessment is R668 000 a year (GN 3910, GG 54577). Monitor interest and penalties.",
+     "points": [
+      "Submit the annual return of earnings and pay the assessment within 30 days of the notice of assessment.",
+      "From 1 March 2026 the maximum earnings per employee used for assessment is R668 000 a year (GN 3910, GG 54577).",
+      "Monitor interest and penalties."
+     ],
+     "owner": "CA, PAY",
+     "deadline": "ROE season as announced by the Fund; pay within 30 days of notice",
+     "form": "ROE; proof of payment",
+     "authority": "Act s.82, s.83, s.86, s.87",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 8
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.3",
+     "label": "0.3",
+     "title": "Earnings register",
+     "trigger": "",
+     "action": "Keep a register of earnings and prescribed particulars for all employees, manual or electronic, and produce it on demand to an inspector. Retain for at least 5 years after the last entry (previously 4).",
+     "points": [
+      "Keep a register of earnings and prescribed particulars for all employees, manual or electronic, and produce it on demand to an inspector.",
+      "Retain for at least 5 years after the last entry (previously 4)."
+     ],
+     "owner": "PAY",
+     "deadline": "Continuous; 5 years",
+     "form": "Earnings register",
+     "authority": "Act s.81(1)–(3)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 8
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.4",
+     "label": "0.4",
+     "title": "Contractors, sub-contractors and TES",
+     "trigger": "",
+     "action": "Verify registration and LOGS of every contractor and TES before site access and at renewal. Contracts must require same-day notice of any accident to the TES or contractor employer and co-operation with its report.",
+     "points": [
+      "Verify registration and LOGS of every contractor and TES before site access and at renewal.",
+      "Contracts must require same-day notice of any accident to the TES or contractor employer and co-operation with its report."
+     ],
+     "owner": "Procurement, CA",
+     "deadline": "Before site access; annually",
+     "form": "F28 verification record",
+     "authority": "Act s.89; s.1 “employer” (c)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 8
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.5",
+     "label": "0.5",
+     "title": "Appoint the EHW representative",
+     "trigger": "",
+     "action": "Designate or appoint an EHW representative with the necessary knowledge, skills and competencies as liaison with the Fund or licensee on RRR matters, plus an alternate.",
+     "points": [
+      "Designate or appoint an EHW representative with the necessary knowledge, skills and competencies as liaison with the Fund or licensee on RRR matters, plus an alternate."
+     ],
+     "owner": "HR, SSO",
+     "deadline": "Now",
+     "form": "F15 appointment letter",
+     "authority": "RRR Regs reg 3, reg 4(1)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 8
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.6",
+     "label": "0.6",
+     "title": "RRR and IOD policy",
+     "trigger": "",
+     "action": "Include RRR provisions in HR policies covering: return-to-work procedures; reasonable accommodation and assistive devices; an employee health and wellness plan; re-skilling for alternative work. Make them freely accessible and communicate them in writing. Adopt an IOD standard operating procedure with reporting lines and deadlines from this flow.",
+     "points": [
+      "Include RRR provisions in HR policies covering:",
+      "return-to-work procedures",
+      "reasonable accommodation and assistive devices",
+      "an employee health and wellness plan",
+      "re-skilling for alternative work. Make them freely accessible and communicate them in writing. Adopt an IOD standard operating procedure with reporting lines and deadlines from this flow."
+     ],
+     "owner": "HR, LA, BOARD",
+     "deadline": "Now; review annually",
+     "form": "Approved policy; communication log",
+     "authority": "RRR Regs reg 11(1); reg 10(1)(h)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 9
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.7",
+     "label": "0.7",
+     "title": "Communicate reporting duties",
+     "trigger": "",
+     "action": "Tell every employee, including TES workers and trainees, how and to whom to report an accident or suspected disease, that reporting costs them nothing and that no deduction may be made from pay.",
+     "points": [
+      "Tell every employee, including TES workers and trainees, how and to whom to report an accident or suspected disease, that reporting costs them nothing and that no deduction may be made from pay."
+     ],
+     "owner": "HR, HSE",
+     "deadline": "Induction; annually",
+     "form": "Acknowledgement records",
+     "authority": "Act s.38(1), s.68(1), s.64; BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 9
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.8",
+     "label": "0.8",
+     "title": "Online reporting and third parties",
+     "trigger": "",
+     "action": "Register for the Fund’s electronic reporting system. If a third party submits claims, invoices or returns for the employer, confirm it is registered with the Fund; the employer remains accountable for what it submits.",
+     "points": [
+      "Register for the Fund’s electronic reporting system.",
+      "If a third party submits claims, invoices or returns for the employer, confirm it is registered with the Fund; the employer remains accountable for what it submits."
+     ],
+     "owner": "CA",
+     "deadline": "Now; existing third parties had to register by 23 July 2026",
+     "form": "System access; third-party register",
+     "authority": "Act s.73(4)–(5); Third-Party Regs reg 3, 6(4)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 9
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.9",
+     "label": "0.9",
+     "title": "First aid, conveyance and providers",
+     "trigger": "",
+     "action": "First-aid cover and equipment; a transport plan to the nearest suitable facility; a list of nearby practitioners and hospitals that treat COIDA cases. IOD accounts must not be billed to the employee’s medical scheme.",
+     "points": [
+      "First-aid cover and equipment; a transport plan to the nearest suitable facility; a list of nearby practitioners and hospitals that treat COIDA cases.",
+      "IOD accounts must not be billed to the employee’s medical scheme."
+     ],
+     "owner": "HSE",
+     "deadline": "Now",
+     "form": "Emergency and transport plan",
+     "authority": "OHS Act s.8; GSR reg 3; Act s.72(1); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 9
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.10",
+     "label": "0.10",
+     "title": "Records system",
+     "trigger": "",
+     "action": "A secure, readily accessible data system for health and rehabilitation information, with an access matrix and a retention schedule. Plan for transfer of records of employees under rehabilitation if the business closes.",
+     "points": [
+      "A secure, readily accessible data system for health and rehabilitation information, with an access matrix and a retention schedule.",
+      "Plan for transfer of records of employees under rehabilitation if the business closes."
+     ],
+     "owner": "CA, IT",
+     "deadline": "Now",
+     "form": "Access matrix; retention schedule",
+     "authority": "RRR Regs reg 10(1)(c)–(e); POPIA s.14, s.19, s.26–27",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 9
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.11",
+     "label": "0.11",
+     "title": "Inspection readiness",
+     "trigger": "",
+     "action": "Standing pack of registration, LOGS, ROEs, earnings register, accident reports and RRR files; a named person to attend site visits; a check of the inspector’s certificate on arrival.",
+     "points": [
+      "Standing pack of registration, LOGS, ROEs, earnings register, accident reports and RRR files; a named person to attend site visits; a check of the inspector’s certificate on arrival."
+     ],
+     "owner": "CA, LA",
+     "deadline": "Now; refresh quarterly",
+     "form": "F26 inspection pack",
+     "authority": "Act s.93A(3), s.93C–93E; Ch XA Regs",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 9
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.12",
+     "label": "0.12",
+     "title": "Train",
+     "trigger": "",
+     "action": "Managers: same-day notification and first-aid duties. CA and EHW: forms, deadlines, RRR Regs. Payroll: TTD calculation. Co-workers: disability-inclusion awareness.",
+     "points": [
+      "Managers: same-day notification and first-aid duties.",
+      "CA and EHW: forms, deadlines, RRR Regs.",
+      "Payroll: TTD calculation.",
+      "Co-workers: disability-inclusion awareness."
+     ],
+     "owner": "HR / L&D",
+     "deadline": "At least annually",
+     "form": "Attendance records",
+     "authority": "RRR Regs reg 4(1), reg 10(1)(k); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 9
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+    "section": "§03 Phase 0 — Readiness (standing obligations)",
+    "page": 8,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s2",
+   "group": "Phase 1 — Accident and immediate response",
+   "title": "Phase 1 — Accident and immediate response",
+   "kind": "phase",
+   "intro": [
+    "The 7-day clock starts on the day the employer receives notice of the accident or learns of it in some other way. Day 0 is the day any supervisor or manager first knows; day 1 is the next calendar day."
+   ],
+   "notes": [
+    {
+     "heading": "Employee obligations at this stage",
+     "text": "Report the accident to the employer as soon as possible (s.38(1)). For a disease, give written notice to the employer, or the last employer, as soon as possible after it begins; the employee may also notify the Commissioner (s.68(1)). Furnish the information and documents prescribed or requested (s.41(1))."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "LM → CA (same day). LM → hospital or doctor (conveyance). HSE → DEL provincial director (immediate notice for serious cases; W.Cl.2 within 7 days). HSE → H&S committee (Annexure 1). CA → TES or contractor where the injured person is not on the organisation’s payroll. PAY → CA (earnings)."
+    },
+    {
+     "heading": "Watch",
+     "text": "Do not delay reporting while waiting for medical reports or for the employee to return; the W.Cl.2 directions say so expressly. Reporting is not an admission of liability: the Commissioner decides."
+    }
+   ],
+   "steps": [
+    {
+     "id": "1.1",
+     "label": "1.1",
+     "title": "Make safe and give first aid",
+     "trigger": "Accident or exposure at work, including in employer transport between the designated pick-up and drop-off points, or during work-related training.",
+     "action": "Stop the task, isolate hazards, give first aid and arrange medical care. Do not insist the employee finishes the shift.",
+     "points": [
+      "Stop the task, isolate hazards, give first aid and arrange medical care.",
+      "Do not insist the employee finishes the shift."
+     ],
+     "owner": "LM, HSE",
+     "deadline": "Immediately",
+     "form": "F01 incident report",
+     "authority": "OHS Act s.8; GSR reg 3; Act s.22(5)–(6), s.25(bA)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Accident and immediate response",
+      "subsection": null,
+      "page": 11
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.2",
+     "label": "1.2",
+     "title": "Provide conveyance",
+     "trigger": "Employee needs transport to a doctor or hospital.",
+     "action": "Provide or arrange conveyance; keep records of cost.",
+     "points": [
+      "Provide or arrange conveyance; keep records of cost."
+     ],
+     "owner": "LM",
+     "deadline": "Immediately",
+     "form": "Conveyance record",
+     "authority": "Act s.72(1)–(3): penalty equal to the full cost",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Accident and immediate response",
+      "subsection": null,
+      "page": 11
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.3",
+     "label": "1.3",
+     "title": "Receive notice and forward",
+     "trigger": "Employee, a co-worker, relative or doctor reports the accident orally or in writing, or a manager learns of it otherwise.",
+     "action": "Forward to the CA the same day without judging work-relatedness. Record the date and time the employer first knew.",
+     "points": [
+      "Forward to the CA the same day without judging work-relatedness.",
+      "Record the date and time the employer first knew."
+     ],
+     "owner": "LM",
+     "deadline": "Same day (BP)",
+     "form": "F01",
+     "authority": "Act s.38(1), s.39(1)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Accident and immediate response",
+      "subsection": null,
+      "page": 11
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.4",
+     "label": "1.4",
+     "title": "OHS reportable incident",
+     "trigger": "Any s.24 incident: a person dies, becomes unconscious, loses a limb or part of a limb, is injured or becomes ill so that they are likely to die, suffer a permanent physical defect or be unable to work for at least 14 days; a major incident; or a dangerous occurrence under s.24(1)(c) (for example uncontrolled release of a pressurised substance or machinery running out of control), even without injury. Applies to non-employees too (GAR reg 8).",
+     "action": "Where the incident involves death, unconsciousness, loss of a limb or part of a limb, injury or illness likely to cause death or a permanent physical defect, a major incident, or a s.24(1)(c) dangerous occurrence, notify the DEL provincial director immediately by telephone or e-mail (GAR reg 8). Within 7 days, report the s.24 incident to the provincial director on W.Cl.2 (W.Cl.1 for a disease) (GAR reg 8). Within 7 days, record and investigate the incident on Annexure 1, keep it for at least 3 years and table it at the next H&S committee meeting (GAR reg 9). Where a person died, lost a limb or part of a limb, or is likely to die, do not disturb the site without an inspector’s consent, except to rescue persons or remove the injured or dead (s.24(2)). Annexure 1 is an internal record; it is not sent to DEL.",
+     "points": [
+      "Where the incident involves death, unconsciousness, loss of a limb or part of a limb, injury or illness likely to cause death or a permanent physical defect, a major incident, or a s.24(1)(c) dangerous occurrence, notify the DEL provincial director immediately by telephone or e-mail (GAR reg 8).",
+      "Within 7 days, report the s.24 incident to the provincial director on W.Cl.2 (W.Cl.1 for a disease) (GAR reg 8).",
+      "Within 7 days, record and investigate the incident on Annexure 1, keep it for at least 3 years and table it at the next H&S committee meeting (GAR reg 9).",
+      "Where a person died, lost a limb or part of a limb, or is likely to die, do not disturb the site without an inspector’s consent, except to rescue persons or remove the injured or dead (s.24(2)).",
+      "Annexure 1 is an internal record; it is not sent to DEL."
+     ],
+     "owner": "HSE",
+     "deadline": "Immediately (telephone or e-mail, serious cases); W.Cl.2 to provincial director and Annexure 1 recorded within 7 days",
+     "form": "F05 OHS notice (W.Cl.2 / W.Cl.1) and Annexure 1 record",
+     "authority": "OHS Act s.24(1)–(2); GAR 2003 (GN R.929) regs 8–9",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Accident and immediate response",
+      "subsection": null,
+      "page": 11
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.5",
+     "label": "1.5",
+     "title": "Log and open the file",
+     "trigger": "Notice reaches the CA.",
+     "action": "Open the IOD file and register entry; flag accident or disease; confirm the employer (own employee, TES, contractor) and insurer (Fund, licensee, individually liable).",
+     "points": [
+      "Open the IOD file and register entry; flag accident or disease; confirm the employer (own employee, TES, contractor) and insurer (Fund, licensee, individually liable)."
+     ],
+     "owner": "CA",
+     "deadline": "Day 0",
+     "form": "F02 IOD register",
+     "authority": "Act s.39(1), s.68(2), s.84, s.89",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Accident and immediate response",
+      "subsection": null,
+      "page": 11
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.6",
+     "label": "1.6",
+     "title": "Preserve the facts",
+     "trigger": "File opened.",
+     "action": "Witness statements, photographs, CCTV, roster and time records, equipment or substance involved. Keep originals; they answer the Commissioner’s inquiry and any s.56 claim.",
+     "points": [
+      "Witness statements, photographs, CCTV, roster and time records, equipment or substance involved.",
+      "Keep originals; they answer the Commissioner’s inquiry and any s.56 claim."
+     ],
+     "owner": "HSE, LM",
+     "deadline": "Day 0–2 (BP)",
+     "form": "F03 witness and scene record",
+     "authority": "Act s.40(1)–(2); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Accident and immediate response",
+      "subsection": null,
+      "page": 11
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.7",
+     "label": "1.7",
+     "title": "Earnings snapshot",
+     "trigger": "File opened.",
+     "action": "Record monthly earnings at the date of the accident or diagnosis under the definition currently in force; the new s.1(g) definition linked to the Income Tax Act has not commenced.",
+     "points": [
+      "Record monthly earnings at the date of the accident or diagnosis under the definition currently in force; the new s.1(g) definition linked to the Income Tax Act has not commenced."
+     ],
+     "owner": "PAY",
+     "deadline": "Day 0–3 (BP)",
+     "form": "Earnings statement",
+     "authority": "Act s.1 “earnings”; Schedule 4",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Accident and immediate response",
+      "subsection": null,
+      "page": 11
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.8",
+     "label": "1.8",
+     "title": "Diarise all clocks",
+     "trigger": "File opened.",
+     "action": "Calendar: day 7 (W.Cl.2); day 14 (W.Cl.1); first medical report; monthly progress reports; the three-month TTD window; 12 months (s.43); 3 years (s.44); 2 years of medical costs (s.73).",
+     "points": [
+      "Calendar: day 7 (W.Cl.2); day 14 (W.Cl.1); first medical report; monthly progress reports; the three-month TTD window; 12 months (s.43); 3 years (s.44); 2 years of medical costs (s.73)."
+     ],
+     "owner": "CA",
+     "deadline": "Day 0",
+     "form": "F04 deadline tracker",
+     "authority": "Act s.39, s.43, s.44, s.47, s.68, s.73",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Accident and immediate response",
+      "subsection": null,
+      "page": 11
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+    "section": "§04 Phase 1 — Accident and immediate response",
+    "page": 11,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s3",
+   "group": "Phase 2 — Report to the Commissioner and build the claim",
+   "title": "Phase 2 — Report to the Commissioner and build the claim",
+   "kind": "phase",
+   "intro": [
+    "By day 7 for an accident, and day 14 for a disease, the Commissioner (or licensee) must have the employer’s report. Report even where work-relatedness is doubtful: the Commissioner inquires and determines liability (s.40(1))."
+   ],
+   "notes": [
+    {
+     "heading": "Employee obligations at this stage",
+     "text": "Complete and sign W.Cl.3 or W.Cl.14; furnish documents (s.41(1)); attend any medical examination required (s.42). If the employee obtains a medical report at their own cost and the Commissioner accepts it, the Commissioner must reimburse it in full (s.41(3))."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "CA → Fund or licensee (reports). CA → treating practitioner (claim details). MP → Fund (first medical report). PAY → CA (earnings). CA → TES or contractor employer."
+    },
+    {
+     "heading": "Watch",
+     "text": "Failure to report within 7 days “in the prescribed manner” allows the Commissioner to impose a penalty equal to the full compensation payable plus interest from the date of the accident (s.39(8)), separately from the 10% penalty in s.39(6). For a serious injury this is the most expensive failure in the flow. A late report is still better than none: submit it with a short explanation."
+    }
+   ],
+   "steps": [
+    {
+     "id": "2.1",
+     "label": "2.1",
+     "title": "Classify",
+     "trigger": "File opened.",
+     "action": "Accident (incident or occurrence arising out of and in the course of employment and causing injury, illness, disease or death) or disease (Schedule 3, or proven to arise out of and in the course of employment, including PTSD). If in doubt, report as both. Do not adjudicate.",
+     "points": [
+      "Accident (incident or occurrence arising out of and in the course of employment and causing injury, illness, disease or death) or disease (Schedule 3, or proven to arise out of and in the course of employment, including PTSD).",
+      "If in doubt, report as both.",
+      "Do not adjudicate."
+     ],
+     "owner": "CA; LA if doubtful",
+     "deadline": "Day 1",
+     "form": "F02 note",
+     "authority": "Act s.1 “accident”, “occupational disease”; s.65, s.66",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Report to the Commissioner and build the claim",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.2",
+     "label": "2.2",
+     "title": "Employer’s report of an accident",
+     "trigger": "Accident.",
+     "action": "Complete and submit W.Cl.2 (electronically where registered); give the treating practitioner the claim details; give the employee a copy; keep proof of submission.",
+     "points": [
+      "Complete and submit W.Cl.2 (electronically where registered); give the treating practitioner the claim details; give the employee a copy; keep proof of submission."
+     ],
+     "owner": "CA",
+     "deadline": "Within 7 days (s.39(1)); BP 2 working days",
+     "form": "F06 W.Cl.2",
+     "authority": "Act s.39(1), (6), (8); Prescription Regs reg 3(2)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Report to the Commissioner and build the claim",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.3",
+     "label": "2.3",
+     "title": "Employer’s report of a disease",
+     "trigger": "Employer receives notice or learns of a diagnosed disease, including notice from the treating practitioner under OHS Act s.25 (W.Cl.22).",
+     "action": "Submit W.Cl.1 whether or not the employer believes the disease was contracted in its employ or a previous employer’s. The disease is deemed to begin on the date of first diagnosis.",
+     "points": [
+      "Submit W.Cl.1 whether or not the employer believes the disease was contracted in its employ or a previous employer’s.",
+      "The disease is deemed to begin on the date of first diagnosis."
+     ],
+     "owner": "CA",
+     "deadline": "Within 14 days (s.68(2)); BP 5 working days",
+     "form": "F07 W.Cl.1",
+     "authority": "Act s.68(2), s.65(5); Prescription Regs reg 3(2); OHS Act s.25",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Report to the Commissioner and build the claim",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.4",
+     "label": "2.4",
+     "title": "Employee notice and claim",
+     "trigger": "Every case.",
+     "action": "Help the employee (or dependants) complete W.Cl.3 for an accident or W.Cl.14 for a disease. Submission of the duly completed form is deemed to be both notice and a claim.",
+     "points": [
+      "Help the employee (or dependants) complete W.Cl.3 for an accident or W.Cl.14 for a disease.",
+      "Submission of the duly completed form is deemed to be both notice and a claim."
+     ],
+     "owner": "CA, EHW",
+     "deadline": "With 2.2 or 2.3",
+     "form": "F08 W.Cl.3 / W.Cl.14",
+     "authority": "Act s.38, s.43, s.68(1); Prescription Regs reg 3(1)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Report to the Commissioner and build the claim",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.5",
+     "label": "2.5",
+     "title": "First medical report",
+     "trigger": "Employee first examined or disease diagnosed.",
+     "action": "Ensure the treating practitioner completes the first medical report (W.Cl.4 accident; W.Cl.22 disease) and that it reaches the Fund. The practitioner must give the employee a copy on request.",
+     "points": [
+      "Ensure the treating practitioner completes the first medical report (W.Cl.4 accident; W.Cl.22 disease) and that it reaches the Fund.",
+      "The practitioner must give the employee a copy on request."
+     ],
+     "owner": "CA, MP",
+     "deadline": "MP within 14 days of first examination or diagnosis; BP forward within 2 days of receipt",
+     "form": "F09",
+     "authority": "Act s.74(1), (5)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Report to the Commissioner and build the claim",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.6",
+     "label": "2.6",
+     "title": "Supporting particulars",
+     "trigger": "With the report, or on the Commissioner’s request.",
+     "action": "Earnings, identity, banking details and, for disease, exposure history. Answer any Commissioner request fully and on time; the employer may ask the Commissioner for information needed to comply.",
+     "points": [
+      "Earnings, identity, banking details and, for disease, exposure history.",
+      "Answer any Commissioner request fully and on time; the employer may ask the Commissioner for information needed to comply."
+     ],
+     "owner": "CA, PAY",
+     "deadline": "With report; by the date requested",
+     "form": "F10 claim pack checklist",
+     "authority": "Act s.40(1)–(4) (penalty s.40(4)); s.41(1)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Report to the Commissioner and build the claim",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.7",
+     "label": "2.7",
+     "title": "Fatal accident",
+     "trigger": "Employee dies.",
+     "action": "Report as an accident within 7 days; notify SAPS and DEL; support dependants with their claim and the funeral benefit; provide the Fund with dependants’ details known to HR.",
+     "points": [
+      "Report as an accident within 7 days; notify SAPS and DEL; support dependants with their claim and the funeral benefit; provide the Fund with dependants’ details known to HR."
+     ],
+     "owner": "CA, HR, HSE",
+     "deadline": "7 days; dependants’ claim as soon as possible",
+     "form": "F11 fatal claim pack",
+     "authority": "Act s.39(1), s.54; Schedule 4 items 6–10; OHS Act s.24",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Report to the Commissioner and build the claim",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.8",
+     "label": "2.8",
+     "title": "Record the claim number",
+     "trigger": "Fund acknowledges.",
+     "action": "Quote the claim number on every document and account. If no acknowledgement arrives, follow up.",
+     "points": [
+      "Quote the claim number on every document and account.",
+      "If no acknowledgement arrives, follow up."
+     ],
+     "owner": "CA",
+     "deadline": "BP follow-up after 14 days",
+     "form": "F02",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Report to the Commissioner and build the claim",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.9",
+     "label": "2.9",
+     "title": "Medical accounts",
+     "trigger": "Treatment begins.",
+     "action": "Accounts go to the Fund or licensee under the claim number, not to the employee or the medical scheme.",
+     "points": [
+      "Accounts go to the Fund or licensee under the claim number, not to the employee or the medical scheme."
+     ],
+     "owner": "CA",
+     "deadline": "Ongoing",
+     "form": "Account log",
+     "authority": "Act s.73; BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Report to the Commissioner and build the claim",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+    "section": "§05 Phase 2 — Report to the Commissioner and build the claim",
+    "page": 14,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s4",
+   "group": "Phase 3 — Liability, temporary disablement and medical care",
+   "title": "Phase 3 — Liability, temporary disablement and medical care",
+   "kind": "phase",
+   "intro": [
+    "While the Commissioner decides liability, the employer carries the first three months of temporary total disablement (TTD) pay, and the employee’s treatment must not stall."
+   ],
+   "notes": [
+    {
+     "heading": "Employee obligations at this stage",
+     "text": "Submit to medical examination and, if required, examination for rehabilitation (s.42(1), (1A)); follow treatment; provide medical certificates for absence."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "CA ↔ Fund (inquiry and decision). PAY → employee (TTD). CA → LA (objection or variation). MP → Fund (progress reports)."
+    },
+    {
+     "heading": "Watch",
+     "text": "Failing to pay the first three months of TTD attracts a penalty equal to double the full three months’ compensation plus interest (s.47(3)(c)). Where the disablement lasts more than 3 days, pay while liability is pending, and reclaim when the TTD period ends. If liability is rejected, the Fund will not reimburse what was paid: follow the rejected branch at 3.6, and never recover the advance by deduction without the employee’s written consent (BCEA s.34)."
+    }
+   ],
+   "steps": [
+    {
+     "id": "3.1",
+     "label": "3.1",
+     "title": "Commissioner inquiry",
+     "trigger": "Commissioner inquires or asks for particulars.",
+     "action": "Respond fully and on time; log every request and answer.",
+     "points": [
+      "Respond fully and on time; log every request and answer."
+     ],
+     "owner": "CA, LA",
+     "deadline": "By the date requested",
+     "form": "Response pack",
+     "authority": "Act s.40(1)–(4); s.93D",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Liability, temporary disablement and medical care",
+      "subsection": null,
+      "page": 16
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.2",
+     "label": "3.2",
+     "title": "Pay TTD",
+     "trigger": "Employee booked off work because of the accident or disease.",
+     "action": "TTD is payable only where the disablement lasts more than 3 days (s.22(2)); it is then paid from the date of the accident. Pay 75% of monthly earnings (Schedule 4 item 1) for up to the first 3 months. Apply the Schedule 4 minimum and maximum in the latest final notice. Notice 7349 (GG 54458) is a notice of intention; adopt its figures (max R41 750; min R5 848) only once confirmed in a final notice, and adjust retrospectively if required. Where policy pays full salary, record the COIDA portion separately.",
+     "points": [
+      "TTD is payable only where the disablement lasts more than 3 days (s.22(2)); it is then paid from the date of the accident.",
+      "Pay 75% of monthly earnings (Schedule 4 item 1) for up to the first 3 months.",
+      "Apply the Schedule 4 minimum and maximum in the latest final notice.",
+      "Notice 7349 (GG 54458) is a notice of intention; adopt its figures (max R41 750; min R5 848) only once confirmed in a final notice, and adjust retrospectively if required.",
+      "Where policy pays full salary, record the COIDA portion separately."
+     ],
+     "owner": "PAY, CA",
+     "deadline": "Each pay run while booked off, up to 3 months",
+     "form": "F12 TTD schedule",
+     "authority": "Act s.22(2), s.47(3)(a), (c); Schedule 4 item 1",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Liability, temporary disablement and medical care",
+      "subsection": null,
+      "page": 16
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.3",
+     "label": "3.3",
+     "title": "No deductions",
+     "trigger": "Always.",
+     "action": "Never deduct COIDA costs, assessments or any amount the employer must pay under the Act from pay, or recover them from the employee. IOD absence for which compensation is payable may not be debited to sick leave (BCEA s.24). Sick leave may lawfully apply only to periods for which no compensation is payable (absences of 3 days or less, or claims the Commissioner rejects). GBS policy (BP): grant special IOD leave for these periods so the employee is not worse off; do not debit IOD absence to annual leave.",
+     "points": [
+      "Never deduct COIDA costs, assessments or any amount the employer must pay under the Act from pay, or recover them from the employee.",
+      "IOD absence for which compensation is payable may not be debited to sick leave (BCEA s.24).",
+      "Sick leave may lawfully apply only to periods for which no compensation is payable (absences of 3 days or less, or claims the Commissioner rejects).",
+      "GBS policy (BP): grant special IOD leave for these periods so the employee is not worse off; do not debit IOD absence to annual leave."
+     ],
+     "owner": "PAY, HR",
+     "deadline": "Continuous",
+     "form": "Payroll check",
+     "authority": "Act s.64 (penalty and repayment); BCEA s.24; BP (special IOD leave)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Liability, temporary disablement and medical care",
+      "subsection": null,
+      "page": 16
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.4",
+     "label": "3.4",
+     "title": "Progress medical reports",
+     "trigger": "Treatment continues.",
+     "action": "Obtain progress reports (W.Cl.5 accident; W.Cl.26 disease); after each, review restrictions and possible light duties.",
+     "points": [
+      "Obtain progress reports (W.Cl.5 accident; W.Cl.26 disease); after each, review restrictions and possible light duties."
+     ],
+     "owner": "CA, EHW",
+     "deadline": "Monthly (BP)",
+     "form": "F13",
+     "authority": "Act s.74; BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Liability, temporary disablement and medical care",
+      "subsection": null,
+      "page": 16
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.5",
+     "label": "3.5",
+     "title": "Medical or rehabilitation examination",
+     "trigger": "Commissioner or employer requires an examination.",
+     "action": "Arrange and notify the employee; the party requiring the examination pays the reasonable expenses.",
+     "points": [
+      "Arrange and notify the employee; the party requiring the examination pays the reasonable expenses."
+     ],
+     "owner": "CA",
+     "deadline": "As required",
+     "form": "Referral letter (T6)",
+     "authority": "Act s.42(1), (1A), (2)–(3)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Liability, temporary disablement and medical care",
+      "subsection": null,
+      "page": 16
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.6",
+     "label": "3.6",
+     "title": "Liability decision",
+     "trigger": "Commissioner or licensee accepts or rejects liability.",
+     "action": "Accepted: move to Phase 4. Rejected: LA review; consider asking the Commissioner to vary the decision or lodging an objection; tell the employee of their own right to object. TTD already paid is not reimbursable by the Fund. Decide (HR, LA) whether to object; reclassify the absence under BCEA s.24 (sick leave, or special IOD leave under GBS policy); do not recover any advance by deduction without written consent (BCEA s.34).",
+     "points": [
+      "Accepted: move to Phase 4. Rejected:",
+      "LA review",
+      "consider asking the Commissioner to vary the decision or lodging an objection",
+      "tell the employee of their own right to object. TTD already paid is not reimbursable by the Fund. Decide (HR, LA) whether to object",
+      "reclassify the absence under BCEA s.24 (sick leave, or special IOD leave under GBS policy)",
+      "do not recover any advance by deduction without written consent (BCEA s.34)."
+     ],
+     "owner": "CA, LA, HR, PAY",
+     "deadline": "Objection within 12 months of the decision; up to 6 more months on good cause",
+     "form": "F25 objection pack",
+     "authority": "Act s.90, s.91(1), (8); BCEA s.24, s.34",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Liability, temporary disablement and medical care",
+      "subsection": null,
+      "page": 16
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.7",
+     "label": "3.7",
+     "title": "Reimbursement",
+     "trigger": "TTD period ends (resumption/W.Cl.6, final medical report, or 3 months, whichever is first) and liability accepted.",
+     "action": "Claim repayment from the Fund or licensee of the TTD actually paid for that period; reconcile to payroll. If liability is rejected, follow the rejected branch at 3.6.",
+     "points": [
+      "Claim repayment from the Fund or licensee of the TTD actually paid for that period; reconcile to payroll.",
+      "If liability is rejected, follow the rejected branch at 3.6."
+     ],
+     "owner": "PAY, CA",
+     "deadline": "When the TTD period ends (BP within 30 days)",
+     "form": "F12",
+     "authority": "Act s.47(3)(b)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Liability, temporary disablement and medical care",
+      "subsection": null,
+      "page": 16
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.8",
+     "label": "3.8",
+     "title": "Medical-cost horizon",
+     "trigger": "Treatment approaching 2 years.",
+     "action": "Track the s.73 period; the practitioner may apply to reopen a finalised claim for further medical costs.",
+     "points": [
+      "Track the s.73 period; the practitioner may apply to reopen a finalised claim for further medical costs."
+     ],
+     "owner": "CA",
+     "deadline": "Review at month 21 (BP)",
+     "form": "F04",
+     "authority": "Act s.73(1), (3)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Liability, temporary disablement and medical care",
+      "subsection": null,
+      "page": 16
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+    "section": "§06 Phase 3 — Liability, temporary disablement and medical care",
+    "page": 16,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s5",
+   "group": "Phase 4 — Rehabilitation, reintegration and return to work",
+   "title": "Phase 4 — Rehabilitation, reintegration and return to work",
+   "kind": "phase",
+   "intro": [
+    "Rehabilitation is now a statutory benefit (s.70A). Enrolment in an RRR programme requires accepted liability and a temporary or permanent disablement (RRR Regs reg 6). Workplace accommodation does not wait for enrolment."
+   ],
+   "notes": [
+    {
+     "heading": "Employee obligations at this stage",
+     "text": "Participate actively in the RRR programme (reg 13(a)); return to pre-injury duties where functionally and medically reasonable (reg 13(b)); accept an offer of reasonable accommodation that forms part of an agreed return-to-work plan (reg 13(c)); undergo assessments and co-operate in the IRP (reg 14(1)); comply with the IRP (reg 14(7))."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "EHW ↔ Case Manager. EHW → HR and LM (accommodation). MP → Fund (reports). CA → Fund (W.Cl.6 and written resumption notice)."
+    },
+    {
+     "heading": "Watch",
+     "text": "The Commissioner may adjust compensation if the employee resumes work or the disablement changes under a rehabilitation plan (reg 19(4)), but resumption alone does not disentitle the employee (reg 19(3)). Do not tell an employee that returning to work ends their claim."
+    }
+   ],
+   "steps": [
+    {
+     "id": "4.1",
+     "label": "4.1",
+     "title": "Referral",
+     "trigger": "Disablement likely to be temporary total or permanent.",
+     "action": "EHW or healthcare provider recommends referral; the provider requests enrolment electronically; the Fund, licensee or individually liable employer decides.",
+     "points": [
+      "EHW or healthcare provider recommends referral; the provider requests enrolment electronically; the Fund, licensee or individually liable employer decides."
+     ],
+     "owner": "EHW, MP",
+     "deadline": "BP within 5 days of liability acceptance",
+     "form": "F16 referral",
+     "authority": "RRR Regs reg 5(3)–(4), reg 6",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Rehabilitation, reintegration and return to work",
+      "subsection": null,
+      "page": 19
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.2",
+     "label": "4.2",
+     "title": "Consent and information",
+     "trigger": "Any request for, or release of, medical or rehabilitation information.",
+     "action": "Consent is not a precondition for statutory reports to the Fund or licensee (POPIA s.27(1)(b), s.32): send the minimum necessary. Obtain the employee’s written consent before releasing medical or rehabilitation information to line managers and other internal parties, and wherever the RRR Regulations require it; share on a need-to-know basis; store in the secure system; keep the case file confidential.",
+     "points": [
+      "Consent is not a precondition for statutory reports to the Fund or licensee (POPIA s.27(1)(b), s.32):",
+      "send the minimum necessary. Obtain the employee’s written consent before releasing medical or rehabilitation information to line managers and other internal parties, and wherever the RRR Regulations require it",
+      "share on a need-to-know basis",
+      "store in the secure system",
+      "keep the case file confidential."
+     ],
+     "owner": "EHW",
+     "deadline": "Before any non-statutory release",
+     "form": "F14 consent",
+     "authority": "RRR Regs reg 4(1)(a), (f), reg 7; POPIA s.26–27(1)(b), s.32",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Rehabilitation, reintegration and return to work",
+      "subsection": null,
+      "page": 32
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.3",
+     "label": "4.3",
+     "title": "Case Manager access",
+     "trigger": "Fund or licensee appoints a Case Manager.",
+     "action": "Facilitate access and assistance: site visits, job descriptions, meetings with line managers.",
+     "points": [
+      "Facilitate access and assistance: site visits, job descriptions, meetings with line managers."
+     ],
+     "owner": "EHW, LM",
+     "deadline": "On or before the planned request",
+     "form": "Access log",
+     "authority": "RRR Regs reg 9, reg 10(1)(a)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Rehabilitation, reintegration and return to work",
+      "subsection": null,
+      "page": 19
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.4",
+     "label": "4.4",
+     "title": "Individual rehabilitation plan",
+     "trigger": "Assessments completed.",
+     "action": "Employee undergoes functional assessment; employer contributes the workplace elements; the Fund or licensee approves the IRP; the employee must comply with it.",
+     "points": [
+      "Employee undergoes functional assessment; employer contributes the workplace elements; the Fund or licensee approves the IRP; the employee must comply with it."
+     ],
+     "owner": "EHW, CM, HR",
+     "deadline": "Per Case Manager timeline",
+     "form": "F17 IRP",
+     "authority": "RRR Regs reg 14(1)–(8)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Rehabilitation, reintegration and return to work",
+      "subsection": null,
+      "page": 19
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.5",
+     "label": "4.5",
+     "title": "Reasonable accommodation and transitional work",
+     "trigger": "IRP or practitioner’s restrictions.",
+     "action": "Adjust environment, duties, hours, tools and assistive devices; offer a work trial, transitional work or alternative placement; train. Record every option considered and why it was accepted or rejected.",
+     "points": [
+      "Adjust environment, duties, hours, tools and assistive devices; offer a work trial, transitional work or alternative placement; train.",
+      "Record every option considered and why it was accepted or rejected."
+     ],
+     "owner": "HR, LM, EHW",
+     "deadline": "Before the return date",
+     "form": "F18 accommodation assessment",
+     "authority": "RRR Regs reg 1 “reasonable accommodation”, reg 10(1)(f), (i); EEA s.6; EEA Code of Good Practice on the Employment of Persons with Disabilities (2015)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Rehabilitation, reintegration and return to work",
+      "subsection": null,
+      "page": 19
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.6",
+     "label": "4.6",
+     "title": "Pre-authorisation",
+     "trigger": "Non-emergency rehabilitation service proposed.",
+     "action": "Confirm pre-authorisation before the service is rendered; unauthorised services may not be paid.",
+     "points": [
+      "Confirm pre-authorisation before the service is rendered; unauthorised services may not be paid."
+     ],
+     "owner": "EHW",
+     "deadline": "Before the service",
+     "form": "Authorisation reference",
+     "authority": "RRR Regs reg 18",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Rehabilitation, reintegration and return to work",
+      "subsection": null,
+      "page": 19
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.7",
+     "label": "4.7",
+     "title": "Vocational rehabilitation cost",
+     "trigger": "Employee has returned to work.",
+     "action": "Budget for non-clinical vocational rehabilitation and accommodation costs, which fall on the employer.",
+     "points": [
+      "Budget for non-clinical vocational rehabilitation and accommodation costs, which fall on the employer."
+     ],
+     "owner": "HR, SSO",
+     "deadline": "Per IRP",
+     "form": "Budget approval",
+     "authority": "RRR Regs reg 19(2)(c)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Rehabilitation, reintegration and return to work",
+      "subsection": null,
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.8",
+     "label": "4.8",
+     "title": "Communicate and consult",
+     "trigger": "Throughout.",
+     "action": "Tell the employee about the return-to-work process and alternative placements; raise co-worker awareness; consult stakeholders on obstacles; track cases through HR and H&S structures.",
+     "points": [
+      "Tell the employee about the return-to-work process and alternative placements; raise co-worker awareness; consult stakeholders on obstacles; track cases through HR and H&S structures."
+     ],
+     "owner": "EHW, HR",
+     "deadline": "As soon as reasonably practicable; ongoing",
+     "form": "Communication log",
+     "authority": "RRR Regs reg 10(1)(h), (j)–(l)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Rehabilitation, reintegration and return to work",
+      "subsection": null,
+      "page": 19
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.9",
+     "label": "4.9",
+     "title": "Resumption or inability to retain",
+     "trigger": "Employee resumes work, including light duties, or cannot be retained after reasonable efforts.",
+     "action": "Submit W.Cl.6 and notify the Fund or licensee in writing (preferably electronically) of the resumption, or of the inability to retain the employee. TTD ends when the employee is declared medically fit to resume.",
+     "points": [
+      "Submit W.Cl.6 and notify the Fund or licensee in writing (preferably electronically) of the resumption, or of the inability to retain the employee.",
+      "TTD ends when the employee is declared medically fit to resume."
+     ],
+     "owner": "CA, EHW",
+     "deadline": "BP within 3 working days of resumption",
+     "form": "F19 W.Cl.6",
+     "authority": "RRR Regs reg 10(1)(o); Act s.48(1)(a)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Rehabilitation, reintegration and return to work",
+      "subsection": null,
+      "page": 19
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.10",
+     "label": "4.10",
+     "title": "Maximum medical improvement",
+     "trigger": "Practitioner certifies MMI.",
+     "action": "Obtain the final medical report; the Fund assesses permanent disablement; a monthly pension runs from the MMI certification date. Benefits are not forfeited during rehabilitation.",
+     "points": [
+      "Obtain the final medical report; the Fund assesses permanent disablement; a monthly pension runs from the MMI certification date.",
+      "Benefits are not forfeited during rehabilitation."
+     ],
+     "owner": "CA",
+     "deadline": "On certification",
+     "form": "F13 (final)",
+     "authority": "Act s.49, s.49A; RRR Regs reg 19(3)–(4), reg 20",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Rehabilitation, reintegration and return to work",
+      "subsection": null,
+      "page": 19
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+    "section": "§07 Phase 4 — Rehabilitation, reintegration and return to work",
+    "page": 19,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s6",
+   "group": "Phase 5 — Outcome, incapacity and closure",
+   "title": "Phase 5 — Outcome, incapacity and closure",
+   "kind": "phase",
+   "intro": [
+    "A permanent disablement award does not make a dismissal fair. Before any dismissal or reduction of pay linked to the injury or disease, the Regulations require notice to the Fund or licensee; after a dismissal, a written report with reasons."
+   ],
+   "notes": [
+    {
+     "heading": "Employee obligations at this stage",
+     "text": "Object within 12 months if aggrieved by a decision (s.91(1)); co-operate with any review of a pension (s.49(5))."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "HR → Fund or licensee (notice of intention). HR → Chief Inspector and Fund (dismissal report). LA → CCMA or Labour Court. CA → Fund (records on closure)."
+    },
+    {
+     "heading": "Watch",
+     "text": "Reg 10(1)(m) does not ban dismissal. It bars dismissal, pay reduction or less favourable terms because of the injury or disease “without adhering to labour legislation”. The evidence that the process was fair is the file built in Phase 4."
+    }
+   ],
+   "steps": [
+    {
+     "id": "5.1",
+     "label": "5.1",
+     "title": "Record the award",
+     "trigger": "Fund decides permanent disablement.",
+     "action": "Record the percentage and benefit type (lump sum up to 30%; monthly pension above 30%); tell the employee of the right to object within 12 months.",
+     "points": [
+      "Record the percentage and benefit type (lump sum up to 30%; monthly pension above 30%); tell the employee of the right to object within 12 months."
+     ],
+     "owner": "CA",
+     "deadline": "On receipt",
+     "form": "Award record",
+     "authority": "Act s.49; Schedule 4 items 2–5; s.91",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Outcome, incapacity and closure",
+      "subsection": null,
+      "page": 22
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.2",
+     "label": "5.2",
+     "title": "Capacity review",
+     "trigger": "MMI reached with residual limitations.",
+     "action": "Consider retention with accommodation, alternative role, re-skilling or reduced duties; document the analysis.",
+     "points": [
+      "Consider retention with accommodation, alternative role, re-skilling or reduced duties; document the analysis."
+     ],
+     "owner": "HR, EHW, LM",
+     "deadline": "BP within 30 days of MMI",
+     "form": "F18",
+     "authority": "RRR Regs reg 10(1)(f), (i), reg 11; Code Part F; EEA Code of Good Practice on the Employment of Persons with Disabilities (2015)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Outcome, incapacity and closure",
+      "subsection": null,
+      "page": 22
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.3",
+     "label": "5.3",
+     "title": "Incapacity process",
+     "trigger": "Retention not possible on current evidence.",
+     "action": "Consult with the employee and their representative; share the medical evidence; explore every alternative; hold a hearing only if dismissal seems unavoidable; give a reasoned written outcome. Apply the more onerous duty owed where incapacity is work-related.",
+     "points": [
+      "Consult with the employee and their representative; share the medical evidence; explore every alternative; hold a hearing only if dismissal seems unavoidable; give a reasoned written outcome.",
+      "Apply the more onerous duty owed where incapacity is work-related."
+     ],
+     "owner": "HR, LA",
+     "deadline": "Reasonable time to prepare (BP 10 working days’ hearing notice)",
+     "form": "F20, F21",
+     "authority": "LRA s.188, s.187(1)(f); Code Part F; EEA s.6; EEA Code of Good Practice on the Employment of Persons with Disabilities (2015)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Outcome, incapacity and closure",
+      "subsection": null,
+      "page": 22
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.4",
+     "label": "5.4",
+     "title": "Notice of intention",
+     "trigger": "Dismissal, or reduction of remuneration, contemplated.",
+     "action": "Notify the Fund or licensee in writing of the intention before implementing it.",
+     "points": [
+      "Notify the Fund or licensee in writing of the intention before implementing it."
+     ],
+     "owner": "HR, CA",
+     "deadline": "Before the decision takes effect",
+     "form": "F22 notice of intention",
+     "authority": "RRR Regs reg 10(1)(m)–(n)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Outcome, incapacity and closure",
+      "subsection": null,
+      "page": 22
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.5",
+     "label": "5.5",
+     "title": "Post-dismissal report",
+     "trigger": "Employee dismissed.",
+     "action": "Report the dismissal in writing to the Chief Inspector and the Fund or licensee, stating the reasons. Tell the employee that COIDA benefits continue.",
+     "points": [
+      "Report the dismissal in writing to the Chief Inspector and the Fund or licensee, stating the reasons.",
+      "Tell the employee that COIDA benefits continue."
+     ],
+     "owner": "HR, CA",
+     "deadline": "Promptly (BP within 5 days)",
+     "form": "F23 dismissal report",
+     "authority": "RRR Regs reg 10(1)(m)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Outcome, incapacity and closure",
+      "subsection": null,
+      "page": 22
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.6",
+     "label": "5.6",
+     "title": "Records on closure of business",
+     "trigger": "Business closes or winds up.",
+     "action": "Transfer medical records of employees under rehabilitation to the Fund or licensee.",
+     "points": [
+      "Transfer medical records of employees under rehabilitation to the Fund or licensee."
+     ],
+     "owner": "CA, LA",
+     "deadline": "Before winding up",
+     "form": "Transfer log",
+     "authority": "RRR Regs reg 10(1)(e)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Outcome, incapacity and closure",
+      "subsection": null,
+      "page": 22
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.7",
+     "label": "5.7",
+     "title": "Financial reconciliation",
+     "trigger": "Claim finalised.",
+     "action": "Reconcile TTD refunds (including TTD periods that ended before 3 months), any unreimbursed TTD on rejected claims, conveyance and medical accounts; resolve over- or under-payments.",
+     "points": [
+      "Reconcile TTD refunds (including TTD periods that ended before 3 months), any unreimbursed TTD on rejected claims, conveyance and medical accounts; resolve over- or under-payments."
+     ],
+     "owner": "PAY, CA",
+     "deadline": "BP within 30 days",
+     "form": "F12",
+     "authority": "Act s.47(3)(b), s.72(2)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Outcome, incapacity and closure",
+      "subsection": null,
+      "page": 22
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.8",
+     "label": "5.8",
+     "title": "Increased-compensation exposure",
+     "trigger": "Accident possibly due to negligence of the employer or a person in charge.",
+     "action": "Brief LA; preserve evidence; notify liability insurers. Civil claims against the employer are otherwise barred.",
+     "points": [
+      "Brief LA; preserve evidence; notify liability insurers.",
+      "Civil claims against the employer are otherwise barred."
+     ],
+     "owner": "LA",
+     "deadline": "When the risk appears",
+     "form": "Privileged memo",
+     "authority": "Act s.56, s.35",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Outcome, incapacity and closure",
+      "subsection": null,
+      "page": 22
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.9",
+     "label": "5.9",
+     "title": "Retention",
+     "trigger": "Case closed.",
+     "action": "Earnings register 5 years after the last entry; RRR reports at least 30 years; OHS incident records (Annexure 1): at least 3 years (GAR reg 9); claim file per retention schedule (BP: at least until the 3-year s.44 period and any objection window have run), then destroy or de-identify.",
+     "points": [
+      "Earnings register 5 years after the last entry; RRR reports at least 30 years; OHS incident records (Annexure 1): at least 3 years (GAR reg 9); claim file per retention schedule (BP: at least until the 3-year s.44 period and any objection window have run), then destroy or de-identify."
+     ],
+     "owner": "CA",
+     "deadline": "On closure",
+     "form": "F24 retention register",
+     "authority": "Act s.81(2); RRR Regs reg 10(1)(d); GAR reg 9; POPIA s.14",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Outcome, incapacity and closure",
+      "subsection": null,
+      "page": 23
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.10",
+     "label": "5.10",
+     "title": "Close the file",
+     "trigger": "All steps complete.",
+     "action": "Closing entry; watch for reopening of medical costs and review of pensions.",
+     "points": [
+      "Closing entry; watch for reopening of medical costs and review of pensions."
+     ],
+     "owner": "CA",
+     "deadline": "On closure",
+     "form": "F02 closing entry",
+     "authority": "Act s.49(5), s.73(3), s.90",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Outcome, incapacity and closure",
+      "subsection": null,
+      "page": 22
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+    "section": "§08 Phase 5 — Outcome, incapacity and closure",
+    "page": 22,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s7",
+   "group": "Phase 6 — Governance and learning",
+   "title": "Phase 6 — Governance and learning",
+   "kind": "phase",
+   "intro": [
+    "Phase 6 turns individual claims into prevention and board oversight. Most of it has no statutory deadline, so it must be fixed in policy or it will be skipped."
+   ],
+   "notes": [
+    {
+     "heading": "Hand-offs",
+     "text": "CA → Risk or Social and Ethics Committee. HSE → H&S committee. CA → Fund (annual RRR data, rebate report)."
+    }
+   ],
+   "steps": [
+    {
+     "id": "6.1",
+     "label": "6.1",
+     "title": "Root cause and corrective action",
+     "trigger": "Incident closed at scene.",
+     "action": "Investigate root causes; table at the H&S committee; implement and track corrective actions.",
+     "points": [
+      "Investigate root causes; table at the H&S committee; implement and track corrective actions."
+     ],
+     "owner": "HSE, LM",
+     "deadline": "BP within 30 days",
+     "form": "F29 root-cause memo",
+     "authority": "OHS Act s.8, s.19–20; GAR reg 9",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.2",
+     "label": "6.2",
+     "title": "Governance reporting",
+     "trigger": "Quarterly cycle.",
+     "action": "Volumes; reports within 7 and 14 days; TTD paid and reclaimed; penalties and interest; open RRR cases; dismissals notified; inspections and compliance orders; objections.",
+     "points": [
+      "Volumes; reports within 7 and 14 days; TTD paid and reclaimed; penalties and interest; open RRR cases; dismissals notified; inspections and compliance orders; objections."
+     ],
+     "owner": "CA, Company Secretary",
+     "deadline": "Quarterly",
+     "form": "F30 trend report",
+     "authority": "RRR Regs reg 10(1)(h); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.3",
+     "label": "6.3",
+     "title": "Annual RRR data",
+     "trigger": "Annual cycle.",
+     "action": "Submit reporting data on enrolled RRR cases to the Fund or licensee in the prescribed manner.",
+     "points": [
+      "Submit reporting data on enrolled RRR cases to the Fund or licensee in the prescribed manner."
+     ],
+     "owner": "CA, EHW",
+     "deadline": "Annually",
+     "form": "F27",
+     "authority": "RRR Regs reg 10(1)(b)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.4",
+     "label": "6.4",
+     "title": "Rebate application",
+     "trigger": "Organisation participates in rehabilitation.",
+     "action": "Prepare a report for rebate consideration; the Commissioner may assess participating employers at a lower rate.",
+     "points": [
+      "Prepare a report for rebate consideration; the Commissioner may assess participating employers at a lower rate."
+     ],
+     "owner": "CA",
+     "deadline": "Annually (optional)",
+     "form": "F27",
+     "authority": "Act s.85(3); RRR Regs reg 12",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.5",
+     "label": "6.5",
+     "title": "ROE and LOGS cycle",
+     "trigger": "Annual cycle.",
+     "action": "Submit the ROE, pay the assessment, renew LOGS; reconcile with the earnings register.",
+     "points": [
+      "Submit the ROE, pay the assessment, renew LOGS; reconcile with the earnings register."
+     ],
+     "owner": "CA, PAY",
+     "deadline": "Annually",
+     "form": "ROE; LOGS",
+     "authority": "Act s.82, s.83, s.86",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.6",
+     "label": "6.6",
+     "title": "Policy and training refresh",
+     "trigger": "Annually, or on any change in law.",
+     "action": "Update the IOD SOP and RRR policy provisions; re-communicate in writing; retrain.",
+     "points": [
+      "Update the IOD SOP and RRR policy provisions; re-communicate in writing; retrain."
+     ],
+     "owner": "HR, LA",
+     "deadline": "At least annually",
+     "form": "Revised policy",
+     "authority": "RRR Regs reg 11(1); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.7",
+     "label": "6.7",
+     "title": "Legislative watch",
+     "trigger": "Ongoing.",
+     "action": "Track: final Schedule 4 notice (until it is gazetted, Notice 7349 is a notice of intention only); commencement of s.1(g) and s.1(h); prescribed manner for RRR data and objections; Schedule 3 amendments; the annual maximum-earnings notice; updated forms.",
+     "points": [
+      "Track: final Schedule 4 notice (until it is gazetted, Notice 7349 is a notice of intention only); commencement of s.1(g) and s.1(h); prescribed manner for RRR data and objections; Schedule 3 amendments; the annual maximum-earnings notice; updated forms."
+     ],
+     "owner": "LA",
+     "deadline": "Ongoing",
+     "form": "Change log",
+     "authority": "Proclamation 306 of 2026; Act s.57, s.69, s.97",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+    "section": "§09 Phase 6 — Governance and learning",
+    "page": 25,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s8",
+   "group": "Parallel track — inspection, penalties, objections and disputes",
+   "title": "Parallel track — inspection, penalties, objections and disputes",
+   "kind": "parallel",
+   "intro": [
+    "This track opens on day 0 and runs until records are destroyed. Its events are triggered by the inspectorate, the Commissioner or the employee, not by the claim timeline."
+   ],
+   "notes": [],
+   "steps": [
+    {
+     "id": "P1",
+     "label": "P1",
+     "title": "Investigation of a complaint",
+     "trigger": "Complaint to the Commissioner investigated under s.93B(1)(c).",
+     "action": "Acknowledge; prepare a detailed report or written representations; nominate an attendee for any site visit; ask for the outcome; note the right to object to the inspector’s findings.",
+     "points": [
+      "Acknowledge; prepare a detailed report or written representations; nominate an attendee for any site visit; ask for the outcome; note the right to object to the inspector’s findings."
+     ],
+     "owner": "",
+     "deadline": "14 days’ notice to make representations; Commissioner may extend by 14 days on good cause",
+     "form": "F26",
+     "authority": "Act s.93B(1)(c); Ch XA Regs (investigation and notice period)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — inspection, penalties, objections and disputes",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P2",
+     "label": "P2",
+     "title": "Compliance inspection",
+     "trigger": "Notice of intended inspection, or an unannounced visit in exceptional circumstances.",
+     "action": "Check the inspector’s certificate; attend or assign an official; get receipts for anything removed; items must be returned within a month.",
+     "points": [
+      "Check the inspector’s certificate; attend or assign an official; get receipts for anything removed; items must be returned within a month."
+     ],
+     "owner": "",
+     "deadline": "Normally 14 days’ notice",
+     "form": "F26",
+     "authority": "Act s.93A(3), s.93D(3); Ch XA Regs",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — inspection, penalties, objections and disputes",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P3",
+     "label": "P3",
+     "title": "Entry to premises",
+     "trigger": "Inspector seeks entry to a home or other place.",
+     "action": "Entry only with the owner’s or occupier’s consent or written Labour Court authorisation; involve LA before refusing.",
+     "points": [
+      "Entry only with the owner’s or occupier’s consent or written Labour Court authorisation; involve LA before refusing."
+     ],
+     "owner": "",
+     "deadline": "On arrival",
+     "form": "—",
+     "authority": "Act s.93C",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — inspection, penalties, objections and disputes",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P4",
+     "label": "P4",
+     "title": "Questioning",
+     "trigger": "Inspector questions employees or managers.",
+     "action": "Answer truthfully; brief staff that answers cannot be used in criminal proceedings except for perjury or a false statement.",
+     "points": [
+      "Answer truthfully; brief staff that answers cannot be used in criminal proceedings except for perjury or a false statement."
+     ],
+     "owner": "",
+     "deadline": "On the day",
+     "form": "Interview log",
+     "authority": "Act s.93D(1), s.93E",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — inspection, penalties, objections and disputes",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P5",
+     "label": "P5",
+     "title": "Compliance order",
+     "trigger": "Inspector has reasonable grounds to believe non-compliance.",
+     "action": "Check the order sets out the workplace, provision, conduct, steps and period (s.93F(2)); comply within the period stated; keep evidence of compliance.",
+     "points": [
+      "Check the order sets out the workplace, provision, conduct, steps and period (s.93F(2)); comply within the period stated; keep evidence of compliance."
+     ],
+     "owner": "",
+     "deadline": "Period stated in the order",
+     "form": "Compliance tracker",
+     "authority": "Act s.93F",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — inspection, penalties, objections and disputes",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P6",
+     "label": "P6",
+     "title": "Order of court",
+     "trigger": "Order not complied with.",
+     "action": "Commissioner may apply to the Labour Court to make the order an order of court; LA responds.",
+     "points": [
+      "Commissioner may apply to the Labour Court to make the order an order of court; LA responds."
+     ],
+     "owner": "",
+     "deadline": "Labour Court rules",
+     "form": "Litigation file",
+     "authority": "Act s.93G",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — inspection, penalties, objections and disputes",
+      "subsection": null,
+      "page": 28
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P7",
+     "label": "P7",
+     "title": "Administrative penalty",
+     "trigger": "Commissioner imposes a penalty.",
+     "action": "Check the legal basis and calculation. For a s.87(2) penalty, apply for waiver or instalments on the s.87(2)(b) grounds; for other penalties, make representations, seek variation (s.90) or object (s.91).",
+     "points": [
+      "Check the legal basis and calculation.",
+      "For a s.87(2) penalty, apply for waiver or instalments on the s.87(2)(b) grounds; for other penalties, make representations, seek variation (s.90) or object (s.91)."
+     ],
+     "owner": "",
+     "deadline": "Objection within 12 months",
+     "form": "F25",
+     "authority": "Act s.39(6), (8), s.40(4), s.47(3)(c), s.64, s.72(3), s.81(3), s.83(6), s.87, s.99",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — inspection, penalties, objections and disputes",
+      "subsection": null,
+      "page": 28
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P8",
+     "label": "P8",
+     "title": "Objection hearing",
+     "trigger": "Employee or employer objects to a Commissioner’s decision.",
+     "action": "Provide records; attend; costs are limited to magistrates’ court tariffs.",
+     "points": [
+      "Provide records; attend; costs are limited to magistrates’ court tariffs."
+     ],
+     "owner": "",
+     "deadline": "Per hearing notice",
+     "form": "Hearing bundle",
+     "authority": "Act s.91(1)–(4), s.46(7)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — inspection, penalties, objections and disputes",
+      "subsection": null,
+      "page": 28
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P9",
+     "label": "P9",
+     "title": "Increased compensation",
+     "trigger": "Employee applies alleging employer negligence.",
+     "action": "LA manages; evidence from F03 and F29. Diarise the s.56(3) lodging period in F04 and check whether the application is in time.",
+     "points": [
+      "LA manages; evidence from F03 and F29.",
+      "Diarise the s.56(3) lodging period in F04 and check whether the application is in time."
+     ],
+     "owner": "",
+     "deadline": "Employee lodges within 24 months of the accident or onset of the disease; Commissioner may extend by up to 12 months (s.56(3))",
+     "form": "Litigation file",
+     "authority": "Act s.56, s.56(3)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — inspection, penalties, objections and disputes",
+      "subsection": null,
+      "page": 28
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P10",
+     "label": "P10",
+     "title": "Civil claim threatened",
+     "trigger": "Employee sues the employer for damages for the injury.",
+     "action": "LA to plead the statutory bar; the remedy lies under the Act.",
+     "points": [
+      "LA to plead the statutory bar; the remedy lies under the Act."
+     ],
+     "owner": "",
+     "deadline": "On service",
+     "form": "LA memo",
+     "authority": "Act s.35",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — inspection, penalties, objections and disputes",
+      "subsection": null,
+      "page": 28
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P11",
+     "label": "P11",
+     "title": "Labour dispute",
+     "trigger": "Dismissal, unfair labour practice or discrimination dispute.",
+     "action": "Respond with the F18–F23 record.",
+     "points": [
+      "Respond with the F18–F23 record."
+     ],
+     "owner": "",
+     "deadline": "Employee refers within 30 days (dismissal) or 90 days (ULP); EEA referral within 6 months",
+     "form": "Litigation file",
+     "authority": "LRA s.186(2), s.187(1)(f), s.188, s.191; EEA s.6, s.10",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — inspection, penalties, objections and disputes",
+      "subsection": null,
+      "page": 28
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P12",
+     "label": "P12",
+     "title": "Third-party representative",
+     "trigger": "A third party transacts with the Fund for the employer.",
+     "action": "Confirm registration; the employer stays accountable; the third party must notify a change of mandate and any irregularities.",
+     "points": [
+      "Confirm registration; the employer stays accountable; the third party must notify a change of mandate and any irregularities."
+     ],
+     "owner": "",
+     "deadline": "7 days (mandate change); 30 days (irregularities)",
+     "form": "Third-party register",
+     "authority": "Third-Party Regs reg 3(13), 5(2)(c), 6(4)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — inspection, penalties, objections and disputes",
+      "subsection": null,
+      "page": 29
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "COIDA_Claim_Process_Flow_GBS_v1.1.docx",
+    "section": "§10 Parallel track — inspection, penalties, objections and disputes",
+    "page": 27,
+    "subsection": null
+   },
+   "applicability": "event"
+  }
+ ],
+ "referenceTables": [
+  {
+   "title": "Master flow at a glance",
+   "section": "§02 Master flow at a glance",
+   "page": 5,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Every accident or disease enters through one intake; Phase 3 branches on the liability decision, and both branches close in Phase 5. The compliance track is not a phase: inspections, penalties and disputes can arise at any point from day 0, and records duties outlive the claim.",
+    "Read each phase column top to bottom to see who acts and who hands off; read each lane left to right to see one party’s whole job. The COIDA Administrator lane is the spine: every other lane connects to it, and the compliance lane runs underneath from day 0 until records are destroyed."
+   ]
+  },
+  {
+   "title": "Employee obligations and conduct",
+   "section": "§11 Employee obligations and conduct",
+   "page": 30,
+   "kind": "obligations",
+   "columns": [
+    "Obligation",
+    "When",
+    "Consequence if not met",
+    "Authority"
+   ],
+   "rows": [
+    [
+     "Give notice of the accident to the employer",
+     "As soon as possible after the accident",
+     "Weaker evidence; slower claim",
+     "Act s.38(1)"
+    ],
+    [
+     "Give written notice of an occupational disease",
+     "As soon as possible after it begins",
+     "As above",
+     "Act s.68(1)"
+    ],
+    [
+     "Lodge the claim (W.Cl.3 or W.Cl.14)",
+     "Within 12 months (s.43); in any event within 3 years of the accident",
+     "Right to benefits lapses if not brought to the Commissioner’s attention within 3 years",
+     "Act s.43, s.44; Prescription Regs"
+    ],
+    [
+     "Furnish prescribed information and documents",
+     "When reporting, or on request",
+     "Claim delayed",
+     "Act s.41(1)"
+    ],
+    [
+     "Submit to medical examination, and to examination for rehabilitation if required",
+     "On request",
+     "Commissioner may act on the refusal (s.42; see Section 15, open verification points)",
+     "Act s.42(1), (1A); s.90"
+    ],
+    [
+     "Participate actively in the RRR programme",
+     "Once enrolled",
+     "Benefits may be adjusted; weighs in any incapacity process",
+     "RRR Regs reg 13(a), reg 19(4)"
+    ],
+    [
+     "Return to pre-injury duties where functionally and medically reasonable",
+     "When declared fit",
+     "TTD ends",
+     "RRR Regs reg 13(b); Act s.48(1)(a)"
+    ],
+    [
+     "Accept reasonable accommodation that is part of an agreed return-to-work plan",
+     "Return-to-work stage",
+     "Weighs in any incapacity decision",
+     "RRR Regs reg 13(c)"
+    ],
+    [
+     "Comply with the IRP",
+     "During rehabilitation",
+     "Benefits may be adjusted",
+     "RRR Regs reg 14(7)"
+    ],
+    [
+     "Answer an inspector truthfully",
+     "Inspection",
+     "—",
+     "Act s.93E(1)"
+    ],
+    [
+     "Object to a decision in the prescribed manner",
+     "Within 12 months of the decision (plus up to 6 months on good cause)",
+     "Decision stands",
+     "Act s.91(1), (8)"
+    ]
+   ],
+   "intro": [
+    "The employee keeps their benefits by reporting promptly, supplying information and taking part in rehabilitation. The organisation should explain these duties at induction and in the claim pack, without using them to discourage claims."
+   ]
+  },
+  {
+   "title": "Employee obligations and conduct",
+   "section": "§11 Employee obligations and conduct",
+   "page": 30,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Rights the organisation must not obstruct. Reporting directly to the Commissioner; freedom from deductions to fund COIDA costs (s.64); a copy of any medical report (s.74(5)); reimbursement of an accepted self-funded medical report (s.41(3)); continued benefits during rehabilitation (RRR Regs reg 20); consent before release of health information (reg 7(2)); representation in any incapacity process; objection and variation (s.90–91); referral of disputes to the CCMA."
+   ]
+  },
+  {
+   "title": "Hand-offs and interfaces register",
+   "section": "§12 Hand-offs and interfaces register",
+   "page": 32,
+   "kind": "interfaces",
+   "columns": [
+    "Party or system",
+    "Trigger",
+    "What is handed over",
+    "When",
+    "Step",
+    "Authority"
+   ],
+   "rows": [
+    [
+     "Treating practitioner or hospital",
+     "Accident or diagnosis",
+     "Employer and claim details; injured person",
+     "Day 0",
+     "1.2, 2.5",
+     "Act s.72, s.74"
+    ],
+    [
+     "Compensation Fund (Commissioner)",
+     "Every accident or disease",
+     "W.Cl.2 or W.Cl.1; W.Cl.3 or W.Cl.14; supporting documents",
+     "Day 7 or day 14",
+     "2.2–2.6",
+     "Act s.39, s.68"
+    ],
+    [
+     "Licensee (e.g. Rand Mutual, FEM)",
+     "Employer insured with a licensee",
+     "Same reports as to the Fund",
+     "Day 7 or day 14",
+     "2.2–2.3",
+     "Act s.30, s.84; Amendment Act s.63(2)"
+    ],
+    [
+     "DEL provincial director (OHS)",
+     "s.24 incident (including non-employees, major incidents and dangerous occurrences)",
+     "Immediate telephone or e-mail notice (death, unconsciousness, loss of limb, major incident); W.Cl.2 (W.Cl.1 for a disease). Annexure 1 stays on site as the internal record.",
+     "Immediately; within 7 days",
+     "1.4",
+     "OHS Act s.24; GAR reg 8"
+    ],
+    [
+     "TES or host client",
+     "Injured person is a TES worker",
+     "Incident facts and witnesses",
+     "Same day",
+     "1.3",
+     "Act s.1 “employer” (c)"
+    ],
+    [
+     "Contractor or sub-contractor",
+     "Accident on the organisation’s premises",
+     "Notice; registration check",
+     "Same day",
+     "0.4, 1.3",
+     "Act s.89"
+    ],
+    [
+     "Payroll",
+     "Booking off; earnings needed",
+     "Earnings statement; TTD schedule",
+     "Day 0–3; monthly",
+     "1.7, 3.2",
+     "Act s.47(3)"
+    ],
+    [
+     "EHW representative",
+     "Liability accepted",
+     "Case file",
+     "On acceptance",
+     "4.1",
+     "RRR Regs reg 3–4"
+    ],
+    [
+     "Fund Case Manager",
+     "Enrolment in RRR programme",
+     "Access; job information; workplace input to the IRP",
+     "On request",
+     "4.3–4.4",
+     "RRR Regs reg 9, 10(1)(a)"
+    ],
+    [
+     "Rehabilitation providers",
+     "IRP services",
+     "Pre-authorisation confirmation",
+     "Before the service",
+     "4.6",
+     "RRR Regs reg 16, 18"
+    ],
+    [
+     "Third-party claims administrator",
+     "Outsourced submissions",
+     "Mandate; unaltered documents",
+     "Before use",
+     "0.8",
+     "Act s.73(4); Third-Party Regs"
+    ],
+    [
+     "COIDA inspector",
+     "Investigation or inspection",
+     "Particulars and records requested",
+     "14 days’ notice, or on the day",
+     "P1–P5",
+     "Act s.93B–93F"
+    ],
+    [
+     "Chief Inspector",
+     "Dismissal of an injured or diseased employee",
+     "Written report with reasons",
+     "After dismissal",
+     "5.5",
+     "RRR Regs reg 10(1)(m)"
+    ],
+    [
+     "Legal Adviser",
+     "Objection, penalty, s.56, dismissal, inspection",
+     "Privileged instructions",
+     "As triggered",
+     "3.6, 5.3, P1–P11",
+     "Privilege"
+    ],
+    [
+     "H&S committee, H&S representatives, trade union",
+     "Incidents; RRR cases; records inspection",
+     "Incident reports; aggregate RRR data",
+     "Monthly or quarterly",
+     "6.1, 6.2",
+     "OHS Act s.19–20; Act s.81(4); RRR Regs reg 10(1)(h)"
+    ],
+    [
+     "SAPS",
+     "Fatal accident or suspected crime",
+     "Report",
+     "Immediately",
+     "2.7",
+     "General law"
+    ],
+    [
+     "CCMA or Labour Court",
+     "Employee refers a dispute",
+     "Response and evidence",
+     "Per LRA",
+     "P11",
+     "LRA s.191"
+    ],
+    [
+     "Board / Risk or Social and Ethics Committee",
+     "Quarterly",
+     "Trend report",
+     "Quarterly",
+     "6.2",
+     "Governance"
+    ],
+    [
+     "Medical scheme",
+     "IOD account billed in error",
+     "Request to reverse and re-bill the Fund",
+     "On discovery",
+     "2.9",
+     "BP"
+    ]
+   ],
+   "intro": [
+    "Every hand-off of health information is a POPIA risk: send the minimum and log what was sent, to whom and when. Consent is not a precondition for statutory reports to the Fund or licensee (POPIA s.27(1)(b), s.32); it is required before releasing medical or rehabilitation information to line managers and other internal parties, and wherever the RRR Regulations require it."
+   ]
+  },
+  {
+   "title": "Hand-offs and interfaces register",
+   "section": "§12 Hand-offs and interfaces register",
+   "page": 32,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Adjacent regimes to check at triage. Mine Health and Safety Act 29 of 1996 (own incident reporting on mines); Occupational Diseases in Mines and Works Act 78 of 1973 (separate compensation for certain mining lung diseases); Road Accident Fund Act (the RAF is not a third party from which the Fund may recover, s.36(5)); POPIA (health information); Employment Equity Act (disability discrimination and reasonable accommodation)."
+   ]
+  },
+  {
+   "title": "Forms register",
+   "section": "§13 Forms register",
+   "page": 34,
+   "kind": "forms",
+   "columns": [
+    "Form",
+    "Name",
+    "Used at",
+    "Existing template",
+    "Statutory form?"
+   ],
+   "rows": [
+    [
+     "F01",
+     "Internal incident / IOD report",
+     "1.1, 1.3",
+     "T1",
+     "No"
+    ],
+    [
+     "F02",
+     "IOD register and case file index (with closing entry)",
+     "1.5, 2.8, 5.10",
+     "T17 (partly)",
+     "No"
+    ],
+    [
+     "F03",
+     "Witness statements and scene record",
+     "1.6",
+     "—",
+     "No"
+    ],
+    [
+     "F04",
+     "Deadline tracker",
+     "1.8, 3.8",
+     "—",
+     "No"
+    ],
+    [
+     "F05",
+     "OHS s.24 notice to the provincial director (W.Cl.2 / W.Cl.1) and internal Annexure 1 incident record (kept 3 years)",
+     "1.4",
+     "—",
+     "Yes (OHS Act s.24; GAR regs 8–9)"
+    ],
+    [
+     "F06",
+     "W.Cl.2 Employer’s report of an accident",
+     "2.2",
+     "T2 checklist",
+     "Yes (s.39; Prescription Regs reg 3(2))"
+    ],
+    [
+     "F07",
+     "W.Cl.1 Employer’s report of an occupational disease",
+     "2.3",
+     "T2 checklist",
+     "Yes (s.68(2))"
+    ],
+    [
+     "F08",
+     "W.Cl.3 / W.Cl.14 Notice and claim (employee)",
+     "2.4",
+     "T2 checklist",
+     "Yes (Prescription Regs reg 3(1))"
+    ],
+    [
+     "F09",
+     "W.Cl.4 / W.Cl.22 First medical report",
+     "2.5",
+     "T2 checklist",
+     "Yes (completed by MP)"
+    ],
+    [
+     "F10",
+     "Claim pack checklist (earnings, ID, banking, exposure history)",
+     "2.6",
+     "T2 (partly)",
+     "No"
+    ],
+    [
+     "F11",
+     "Fatal claim pack (dependants, funeral benefit)",
+     "2.7",
+     "—",
+     "Yes (prescribed forms)"
+    ],
+    [
+     "F12",
+     "TTD payment schedule and reimbursement claim",
+     "3.2, 3.7, 5.7",
+     "—",
+     "No"
+    ],
+    [
+     "F13",
+     "W.Cl.5 / W.Cl.26 Progress and final medical reports",
+     "3.4, 4.10",
+     "T2 checklist",
+     "Yes (completed by MP)"
+    ],
+    [
+     "F14",
+     "Health-information consent",
+     "4.2",
+     "—",
+     "No"
+    ],
+    [
+     "F15",
+     "EHW representative appointment letter",
+     "0.5",
+     "T3; EHW Appointment Letter 1.0",
+     "No"
+    ],
+    [
+     "F16",
+     "RRR referral recommendation",
+     "4.1",
+     "—",
+     "No (electronic request by provider)"
+    ],
+    [
+     "F17",
+     "Individual rehabilitation plan (IRP)",
+     "4.4",
+     "T7; IRP 1.0",
+     "Approved by Fund or licensee (reg 14(2))"
+    ],
+    [
+     "F18",
+     "Accommodation assessment and alternative-role checklist",
+     "4.5, 5.2",
+     "T8, T9",
+     "No"
+    ],
+    [
+     "F19",
+     "W.Cl.6 Resumption report and written resumption notice",
+     "4.9",
+     "T16",
+     "Yes (W.Cl.6)"
+    ],
+    [
+     "F20",
+     "Incapacity consultation notice and minutes",
+     "5.3",
+     "T4, T10, T11; Consultation Notice 1.0; Minutes 1.0",
+     "No"
+    ],
+    [
+     "F21",
+     "Incapacity hearing notice and outcome letters",
+     "5.3",
+     "T12–T14; Hearing Notice 1.0; Outcome Retention 1.0; Dismissal Letter 1.0",
+     "No"
+    ],
+    [
+     "F22",
+     "Notice of intention to dismiss or reduce remuneration (to Fund or licensee)",
+     "5.4",
+     "—",
+     "No (reg 10(1)(n))"
+    ],
+    [
+     "F23",
+     "Dismissal report to Chief Inspector and Fund",
+     "5.5",
+     "T15; RRR Dismissal Notification 1.0",
+     "No (reg 10(1)(m))"
+    ],
+    [
+     "F24",
+     "Record retention register",
+     "5.9",
+     "T17",
+     "No"
+    ],
+    [
+     "F25",
+     "Objection pack",
+     "3.6, P7",
+     "—",
+     "Prescribed manner (s.91(1))"
+    ],
+    [
+     "F26",
+     "Inspection response pack and compliance-order tracker",
+     "0.11, P1–P5",
+     "—",
+     "No"
+    ],
+    [
+     "F27",
+     "Annual RRR data return and s.85 rebate report",
+     "6.3, 6.4",
+     "T18 (combined)",
+     "Manner to be prescribed"
+    ],
+    [
+     "F28",
+     "Contractor and TES registration verification",
+     "0.4",
+     "—",
+     "No"
+    ],
+    [
+     "F29",
+     "Root-cause and corrective-action memo",
+     "6.1",
+     "—",
+     "No"
+    ],
+    [
+     "F30",
+     "Governance trend report",
+     "6.2",
+     "—",
+     "No"
+    ]
+   ],
+   "intro": [
+    "Thirty forms support the flow. Statutory COIDA forms are prescribed by the Commissioner; the GBS Baseline 2.0 template (T-number) or stand-alone template is shown where one already exists, so the gaps are the forms still to draft."
+   ]
+  },
+  {
+   "title": "Forms register",
+   "section": "§13 Forms register",
+   "page": 34,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Confirm current form numbers and versions on the Fund’s electronic system before use; several printed forms still carry pre-amendment wording."
+   ]
+  },
+  {
+   "title": "Case calendar (calendar days from first managerial knowledge)",
+   "section": "§14 Timeline calendar and penalties register",
+   "page": 37,
+   "kind": "timeline",
+   "columns": [
+    "When",
+    "Event",
+    "Owner",
+    "Authority",
+    "Type"
+   ],
+   "rows": [
+    [
+     "Day 0",
+     "First aid, conveyance, log, scene preserved, clocks diarised",
+     "LM, HSE, CA",
+     "Act s.72; OHS Act s.8",
+     "Statutory / BP"
+    ],
+    [
+     "Immediately",
+     "Telephone or e-mail notice to the DEL provincial director (death, unconsciousness, loss of limb, major incident)",
+     "HSE",
+     "OHS Act s.24; GAR reg 8",
+     "Statutory"
+    ],
+    [
+     "Same day",
+     "Manager forwards notice to CA",
+     "LM",
+     "—",
+     "BP"
+    ],
+    [
+     "By day 7",
+     "W.Cl.2 to Commissioner or licensee",
+     "CA",
+     "Act s.39(1)",
+     "Statutory"
+    ],
+    [
+     "By day 7",
+     "W.Cl.2 to the provincial director (GAR reg 8) and Annexure 1 recorded and investigated (GAR reg 9)",
+     "HSE",
+     "OHS Act s.24; GAR regs 8–9",
+     "Statutory"
+    ],
+    [
+     "By day 14",
+     "W.Cl.1 for an occupational disease",
+     "CA",
+     "Act s.68(2)",
+     "Statutory"
+    ],
+    [
+     "Within 14 days of first examination",
+     "First medical report by practitioner",
+     "MP",
+     "Act s.74(1)",
+     "Statutory"
+    ],
+    [
+     "Monthly",
+     "Progress medical reports; review of restrictions",
+     "CA, EHW",
+     "Act s.74",
+     "BP"
+    ],
+    [
+     "Months 1–3",
+     "Employer pays TTD where disablement exceeds 3 days; reclaims when the TTD period ends (resumption, final report or 3 months)",
+     "PAY",
+     "Act s.22(2), s.47(3)",
+     "Statutory"
+    ],
+    [
+     "On resumption",
+     "W.Cl.6 and written notice of resumption",
+     "CA",
+     "RRR Regs reg 10(1)(o)",
+     "Statutory"
+    ],
+    [
+     "At MMI",
+     "Final report; pension from MMI certification",
+     "CA, MP",
+     "Act s.49A",
+     "Statutory"
+    ],
+    [
+     "12 months from accident",
+     "Claim-lodging period in s.43",
+     "Employee, CA",
+     "Act s.43",
+     "Statutory"
+    ],
+    [
+     "12 months from a decision",
+     "Objection (plus up to 6 months on good cause)",
+     "LA",
+     "Act s.91(1), (8)",
+     "Statutory"
+    ],
+    [
+     "2 years",
+     "Medical costs horizon (extendable; reopening possible)",
+     "CA",
+     "Act s.73(1), (3)",
+     "Statutory"
+    ],
+    [
+     "3 years from accident or diagnosis",
+     "Right to benefits lapses if not brought to the Commissioner’s attention",
+     "CA",
+     "Act s.44; Prescription Regs reg 2(3)",
+     "Statutory"
+    ],
+    [
+     "Before dismissal or pay cut",
+     "Notice of intention to Fund or licensee",
+     "HR",
+     "RRR Regs reg 10(1)(n)",
+     "Statutory"
+    ],
+    [
+     "After dismissal",
+     "Written report to Chief Inspector and Fund",
+     "HR",
+     "RRR Regs reg 10(1)(m)",
+     "Statutory"
+    ],
+    [
+     "Within 30 days of notice",
+     "Pay assessment",
+     "CA",
+     "Act s.86(1)",
+     "Statutory"
+    ],
+    [
+     "Annually",
+     "ROE; LOGS; RRR data return; rebate report",
+     "CA",
+     "Act s.82, s.85; RRR Regs reg 10(1)(b), 12",
+     "Statutory / optional"
+    ],
+    [
+     "By 23 January 2029",
+     "Domestic employees: report accidents or diseases from 27 April 1994 to 22 January 2026",
+     "Employer, employee",
+     "Amendment Act s.63; Prescription Regs reg 2(2), (4)",
+     "Statutory"
+    ],
+    [
+     "3 years after the incident",
+     "Annexure 1 incident record may be destroyed",
+     "HSE",
+     "GAR reg 9",
+     "Statutory"
+    ],
+    [
+     "5 years after last entry",
+     "Earnings register may be destroyed",
+     "PAY",
+     "Act s.81(2)",
+     "Statutory"
+    ],
+    [
+     "30 years",
+     "RRR reports retained",
+     "CA",
+     "RRR Regs reg 10(1)(d)",
+     "Statutory"
+    ]
+   ],
+   "intro": [
+    "A routine accident has two hard statutory dates in the first fortnight, then a three-month TTD window, and a claim-exposure period of three years."
+   ]
+  },
+  {
+   "title": "Penalties register (administrative, imposed by the Commissioner)",
+   "section": "§14 Timeline calendar and penalties register",
+   "page": 37,
+   "kind": "liability",
+   "columns": [
+    "Failure",
+    "Penalty",
+    "Authority",
+    "In force"
+   ],
+   "rows": [
+    [
+     "Failure to report an accident within 7 days (s.39(1))",
+     "10% of actual or estimated annual earnings of that year",
+     "s.39(6)",
+     "1 April 2026"
+    ],
+    [
+     "Failure to report an accident in the prescribed manner within 7 days",
+     "Full amount of compensation payable plus interest from the accident date",
+     "s.39(8)",
+     "1 April 2026"
+    ],
+    [
+     "Failure to comply with the s.40 inquiry duties",
+     "10% plus interest on actual earnings declared",
+     "s.40(4)",
+     "1 April 2026"
+    ],
+    [
+     "Failure to pay the first 3 months of TTD",
+     "Double the full 3 months’ compensation plus interest",
+     "s.47(3)(c)",
+     "1 April 2026"
+    ],
+    [
+     "Deducting COIDA costs from pay",
+     "Penalty, plus direction to repay the employee",
+     "s.64",
+     "1 April 2026"
+    ],
+    [
+     "Failure to provide conveyance",
+     "Full cost of conveyance",
+     "s.72(3)",
+     "23 January 2026"
+    ],
+    [
+     "Failure to keep the earnings register",
+     "Offence and penalty up to 10% of actual or estimated annual assessments",
+     "s.81(3)",
+     "1 April 2026"
+    ],
+    [
+     "Failure to submit a return (Commissioner estimates)",
+     "10% of the amount assessed",
+     "s.83(6)(b)",
+     "23 January 2026 (on the published list; see drafting issue 1)"
+    ],
+    [
+     "Failure to pay an assessment",
+     "10% of actual or estimated earnings, or of the outstanding amount; plus interest",
+     "s.87(1), s.86(2)",
+     "1 April 2026"
+    ],
+    [
+     "Accident while unregistered",
+     "The full compensation payable for that accident (imposed at the Commissioner’s discretion; waiver or instalments under s.87(2)(b))",
+     "s.87(2)(a)–(b)",
+     "1 April 2026"
+    ],
+    [
+     "Refusing or failing to pay any amount due",
+     "10% of actual or estimated earnings",
+     "s.87(3)",
+     "23 January 2026 on the published list, unless covered by “54(1) and (2)” (1 April 2026); see drafting issue 1"
+    ]
+   ]
+  },
+  {
+   "title": "Timeline calendar and penalties register",
+   "section": "§14 Timeline calendar and penalties register",
+   "page": 37,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "The OHS Act offences (for example, failure to report under s.24) remain criminal. Penalties may be followed by a compliance order and a Labour Court order (s.93F–93G)."
+   ]
+  },
+  {
+   "title": "Corrections to GBS materials",
+   "section": "§15 Corrections to existing GBS materials and drafting issues",
+   "page": 41,
+   "kind": "corrections",
+   "columns": [
+    "#",
+    "Current statement",
+    "Where",
+    "Correction"
+   ],
+   "rows": [
+    [
+     "1",
+     "Employer’s report of an occupational disease (W.Cl.1) due “within 7 days”",
+     "Baseline 2.0 (Policy 4.1, 5.2, 6; Incapacity Phase 1; Template 2; 15-step map step 4); Toolkit 11; Q&A 2.0 (PTSD answers)",
+     "s.68(2) allows 14 days. The Integrated Policy has this right. Keep 7 days only as a BP target and label it."
+    ],
+    [
+     "2",
+     "Incapacity documents cite “Schedule 8, Items 10–11” of the LRA",
+     "Incapacity Hearing Notice, Outcome Retention and Dismissal Letter 1.0; RRR Dismissal Notification; IRP 1.0",
+     "Schedule 8 was repealed on 4 September 2025. Cite the Code of Good Practice: Dismissal, 2025 (GN 3470, GG 53294), Part F. Baseline 2.0’s reference to “Section 2.15” of the Code should be checked against the gazetted numbering."
+    ],
+    [
+     "3",
+     "Hearing notice of “minimum 10 working days as required by the Code”",
+     "Incapacity Hearing Notice 1.0; Baseline Template 12",
+     "We found no fixed number of days in the Code; it requires reasonable time to prepare. Present 10 working days as BP."
+    ],
+    [
+     "4",
+     "“Compliance notice … normally 14 days, extendable once”; “employers have 14 days to comply”; “the Inspector may apply to the Labour Court”",
+     "Baseline 2.0 Policy 9; Toolkit 11; 2026 Guide and slides",
+     "The Act uses “compliance order”; the compliance period is the one stated in the order (s.93F(2)(c), (4)). The 14 days in the Chapter XA Regulations is notice to make representations or of a planned inspection, extendable by 14 days. Only the Commissioner applies to the Labour Court (s.93G)."
+    ],
+    [
+     "5",
+     "Fund and Chief Inspector notified only after dismissal",
+     "Baseline 2.0 Policy 4.1, 6 (step 12), Template 15; RRR Dismissal Notification",
+     "Reg 10(1)(n) also requires notice to the Fund or licensee of the intention to dismiss or reduce remuneration. Add F22. Reg 10(1)(o) separately requires written notice of resumption or inability to retain."
+    ],
+    [
+     "6",
+     "“Employer Penalties (Section 82)”",
+     "Integrated Policy 14.1",
+     "Penalties sit in ss.39(6), 39(8), 40(4), 47(3)(c), 64, 72(3), 81(3), 83(6) and 87, read with s.99."
+    ],
+    [
+     "7",
+     "“Potential criminal liability for cost-shifting violations”",
+     "2026 Guide and slides",
+     "s.64 as substituted imposes an administrative penalty and a direction to repay; it is no longer an offence."
+    ],
+    [
+     "8",
+     "Late reporting penalty: “full compensation amount plus interest, plus 10% of declared earnings”",
+     "2026 Guide and slides",
+     "These are separate powers: s.39(6) (10% of annual earnings), s.39(8) (full compensation plus interest). The “10% plus interest on declared earnings” is s.40(4), for failing the inquiry duties. The base of the 10% is unclear."
+    ],
+    [
+     "9",
+     "Claim window “extended from 12 months to 3 years”",
+     "2026 Guide and slides",
+     "s.44 (lapse) is now 3 years, but s.43 (lodging) still says 12 months. Advise employees to lodge within 12 months; the Prescription Regulations may cure late claims."
+    ],
+    [
+     "10",
+     "All COIDA forms retained “30 years”",
+     "Baseline 2.0 Template 2 checklists",
+     "30 years applies to RRR reports (reg 10(1)(d)). The earnings register is 5 years (s.81(2)). Longer retention of claim files is a policy choice that must be justified under POPIA s.14."
+    ],
+    [
+     "11",
+     "One “Annual RRTW report to Compensation Fund (Section 85)”",
+     "Baseline 2.0 Template 18; Toolkit 11",
+     "Two different items: mandatory annual reporting data on enrolled cases (reg 10(1)(b)) and an optional s.85 rebate report (reg 12(2))."
+    ],
+    [
+     "12",
+     "OHS Annexure 1 submitted “immediately”; internal target 24 hours",
+     "SOP 4.1 step 3 and table 5",
+     "Annexure 1 is not sent to the Department. Immediate telephone or e-mail notice to the provincial director is required for death, unconsciousness, loss of a limb or a major incident (GAR reg 8). The s.24 report goes to the provincial director on W.Cl.2 (W.Cl.1 for a disease) within 7 days (GAR reg 8). Annexure 1 is the internal incident record, completed and investigated within 7 days and kept at least 3 years (GAR reg 9). Keep the 24-hour internal target as BP."
+    ],
+    [
+     "13",
+     "Records kept “typically several years”",
+     "SOP 6.2",
+     "Earnings register at least 5 years after the last entry (s.81(2), increased from 4)."
+    ],
+    [
+     "14",
+     "Forms “W.Cl.14/305” and “W.Cl.1(E)”",
+     "COIDA Checklist; GBS Flow Chart",
+     "The Prescription Regulations (reg 3) name W.Cl.1, W.Cl.2, W.Cl.3 and W.Cl.14. Confirm current numbering on the Fund’s system."
+    ]
+   ],
+   "intro": [
+    "Comparing the Baseline 1.0 and 2.0 packs, Toolkit 5.0 and 11, the Integrated Policy, the SOP, the Checklist and Flow Chart, the Q&A, the 2026 Compliance Guide and slides, and the stand-alone templates against the Act and the 2026 Regulations turned up points that should be fixed before client use. This flow already reflects them."
+   ]
+  },
+  {
+   "title": "Revision history — v1.1 (19 October 2026)",
+   "section": "§15 Corrections to existing GBS materials and drafting issues",
+   "page": 41,
+   "kind": "corrections",
+   "columns": [
+    "#",
+    "Finding (severity)",
+    "Where",
+    "Change made"
+   ],
+   "rows": [
+    [
+     "1",
+     "Annexure 1 mis-described as the report to DEL (Major)",
+     "1.4; Phase 1 hand-offs; interfaces; F05; timeline; corrections #12",
+     "Reg 8 W.Cl.2/W.Cl.1 to provincial director within 7 days plus immediate notice for serious cases; Annexure 1 is the internal reg 9 record kept 3 years; corrections #12 rewritten; “(verify)” removed."
+    ],
+    [
+     "2",
+     "Incomplete s.24 triggers; scene preservation optional (Major)",
+     "1.4 trigger and action; interfaces",
+     "Full s.24(1)(a)–(c) triggers incl. non-employees, major incidents and dangerous occurrences; s.24(2) site preservation made mandatory."
+    ],
+    [
+     "3",
+     "3-day rule, BCEA s.24 and rejected-liability branch missing (Major)",
+     "3.2, 3.3, 3.6, 3.7; Phase 3 Watch; timeline",
+     "s.22(2) 3-day rule added; leave rule re-cited to BCEA s.24 with exception and BP special IOD leave; rejected branch added (no reimbursement, reclassify, no deduction without consent, BCEA s.34)."
+    ],
+    [
+     "4",
+     "“Accident” definition missing work-connection qualifier (Minor)",
+     "Section 01 point 4; 2.1",
+     "“Arising out of and in the course of employment” restored."
+    ],
+    [
+     "5",
+     "s.87(2)(a) penalty stated as “up to” (Minor)",
+     "Phase 0 intro; penalties register",
+     "Penalty is the full compensation payable, at the Commissioner’s discretion, subject to s.87(2)(b) waiver or instalments."
+    ],
+    [
+     "6",
+     "Waiver grounds applied to all penalties (Minor)",
+     "P7",
+     "Waiver/instalments limited to s.87(2); other penalties: representations, variation (s.90) or objection (s.91)."
+    ],
+    [
+     "7",
+     "TTD reimbursement only after 3 months (Minor)",
+     "3.7, 5.7; timeline",
+     "Trigger is end of the TTD period (resumption, final report or 3 months, whichever is first)."
+    ],
+    [
+     "8",
+     "Payroll pointed at proposed Notice 7349 figures (Minor)",
+     "3.2; 6.7; drafting issue on Notice 7349",
+     "Apply latest final Schedule 4 notice; Notice 7349 figures only once confirmed, adjusted retrospectively."
+    ],
+    [
+     "9",
+     "“(verify)” flags left in body (Minor)",
+     "1.4; timeline; 6.1; penalties register; employee obligations",
+     "GAR regs 8–9 flags resolved; commencement and s.42 points moved to Section 15 open verification list."
+    ],
+    [
+     "10",
+     "Annexure 1 3-year retention omitted (Minor)",
+     "5.9; timeline",
+     "Annexure 1 at least 3 years (GAR reg 9) added to 5.9 and as a timeline row."
+    ],
+    [
+     "11",
+     "Domestic employees “now covered” (Minor)",
+     "Section 01 point 5; timeline",
+     "Covered since Mahlangu (2020); accidents/diseases 27 April 1994–22 January 2026 reported by 23 January 2029."
+    ],
+    [
+     "12",
+     "No s.56 time limit (Minor)",
+     "P9",
+     "Resolved: 24 months from accident or onset, extendable by up to 12 months (s.56(3), principal Act). Amendment check listed as open."
+    ],
+    [
+     "13",
+     "Consent read as precondition for statutory reporting (Improvement)",
+     "4.2; interfaces intro",
+     "Statutory reports need no consent (POPIA s.27(1)(b), s.32); consent for internal release and where RRR Regs require it."
+    ],
+    [
+     "14",
+     "OHS Act s.25 practitioner notice missing (Improvement)",
+     "2.3",
+     "s.25 / W.Cl.22 added as a trigger source and authority."
+    ],
+    [
+     "15",
+     "EEA Disability Code not cited (Improvement)",
+     "4.5, 5.2, 5.3",
+     "EEA Code of Good Practice on the Employment of Persons with Disabilities (2015) added."
+    ],
+    [
+     "O1",
+     "Open: final Schedule 4 notice (Q6)",
+     "3.2; 6.7",
+     "No final notice found on 19 October 2026; Notice 7349 treated as pending."
+    ],
+    [
+     "O2",
+     "Open: RRR and Chapter XA / Third-Party Regs paragraph numbering (Q5)",
+     "Phases 0, 4–6; registers",
+     "Primary GG 54273 text not retrieved; references unchanged pending check."
+    ],
+    [
+     "O3",
+     "Open: s.42 refusal consequence; s.83(6)(b) and s.87(3) commencement; s.56(3) unchanged by Amendment Act",
+     "Section 15",
+     "Listed under drafting issues as open verification points."
+    ],
+    [
+     "O4",
+     "Open: author questions on licensee model, MHSA/ODMWA branch, full-salary split, RRR participation scope, penalty base (Q1–4, Q7)",
+     "—",
+     "Need GBS/client decisions; no text change."
+    ],
+    [
+     "D",
+     "Diagrams reviewed",
+     "Section 02",
+     "Master flow and swimlane contain no statement made wrong by the findings; not regenerated."
+    ],
+    [
+     "X1",
+     "Cross-document consistency with OHSA v1.1 (Minor)",
+     "Step 1.4",
+     "Immediate-notice trigger widened to include injury or illness likely to cause death or a permanent physical defect, and s.24(1)(c) dangerous occurrences (GAR reg 8(1)(b)), matching the OHSA flow Tier 1 and Tier 3."
+    ]
+   ],
+   "intro": [
+    "Paragraph (c) of Proclamation 306 of 2026 lists “19(a) and (b), 20(c), 28(c), 36(1), 50(3), 52, 54(1) and (2)” without saying whether these are sections of the Amendment Act or of COIDA. Section 28 of the Amendment Act has no paragraph (c) of its own, and section 52 amends s.85 (rebates) rather than a penalty provision; s.51 (s.83 penalties) may have been intended.",
+    "The 10% penalties in ss.39(6), 40(4), 81(3) and 87 do not identify the earnings or assessment base (all employees, or the injured employee only).",
+    "s.81(3) still says an employer “shall be guilty of an offence and be liable to a penalty”, although s.99 was substituted to move to administrative penalties.",
+    "s.99 refers to penalties “specified in” ss.68 and 82, but neither section was amended to specify one. Check the consolidated text.",
+    "s.43 (12 months to lodge) was not aligned with substituted s.44 (3-year lapse).",
+    "“Financial year” in s.1 now runs from 1 April to 31 March, but the maximum-earnings notice (GN 3910) still runs the assessment year from 1 March to 28 February.",
+    "s.1(g) (the Income Tax Act definition of “earnings”) has not commenced, so payroll must keep calculating compensation on the old definition.",
+    "The RRR Regulations number two regulations as 4 and their table of contents omits regulation 10. The Chapter XA Regulations refer to a “regulation 5 above” that does not exist, to “sub-regulations (a) and (b)”, and contain a paragraph numbered 3.4 under regulation 4.",
+    "RRR Regs reg 10(1)(m) requires dismissals to be reported to “the Chief Inspector”, a term COIDA does not define; no form, address or time limit is prescribed.",
+    "Third-Party Regs reg 3(3) gives the Commissioner 60 working days to decide, but reg 3(8) deems an application rejected after 60 days. The annual registration window (1 March to 30 June) does not match the six-month deadline in s.73(4)(b), which ended on 23 July 2026.",
+    "Notice 7349 (Schedule 4) is framed as a notice of intention with 60 days for comment, yet states that it applies from 1 April 2026. A final notice should be confirmed. Until then, apply the Schedule 4 minimum and maximum in the latest final notice; adopt the Notice 7349 figures (max R41 750; min R5 848) only once confirmed, and adjust retrospectively if required.",
+    "The Fund’s printed forms (for example W.Cl.2 directions) still warn that late reporting is an “offence” and refer to the Director-General and mutual associations.",
+    "Open verification points (moved here from the body in v1.1): the consequence of refusing a s.42 examination; the commencement of s.83(6)(b) and s.87(3) (23 January 2026 on the published list, subject to issue 1); RRR Regs paragraph references (reg 10(1)(d), (m), (n) and others) against GG 54273; whether a final Schedule 4 notice has been gazetted; and whether the Amendment Act changed the s.56(3) lodging period (24 months, extendable by 12)."
+   ]
+  },
+  {
+   "title": "Corrections to existing GBS materials and drafting issues",
+   "section": "§15 Corrections to existing GBS materials and drafting issues",
+   "page": 41,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Compensation for Occupational Injuries and Diseases Amendment Act 10 of 2022 (GG 48431, 17 April 2023) (project file).",
+    "Regulations in GG 54273 of 6 March 2026: Prescription; Chapter XA Inspection, Compliance and Enforcement; Rehabilitation, Reintegration and Return-to-Work; Registration of Third Parties (project files).",
+    "Notice 7349, GG 54458 of 2 April 2026, amendment of Schedule 4 (project file); Tariffs of Assessment, GN 1282, GG 43959 of 3 December 2020 (project file); W.Cl. forms (project files).",
+    "Proclamation Notice 306 of 2026, GG 53990 of 23 January 2026, as summarised by ENS (Mondaq, 3 February 2026) and Bishop Fraser Attorneys (5 February 2026).",
+    "GN 3910, GG 54577 (maximum earnings R668 000 from 1 March 2026), as reported by SA Accounting Academy; Code of Good Practice: Dismissal, 2025, GN 3470, GG 53294, as reported by Acts Online, CDH and DLA Piper.",
+    "GBS Baseline 1.0 and 2.0, Toolkits 5.0 and 11, Integrated Policy, SOP, Checklist, Flow Chart, Q&A 2.0, 2026 Compliance Guide and slides, and templates (project files).",
+    "The principal Act (ss.35, 38, 43, 47, 49, 54, 56, 65–68, 72–74, 80, 82, 84, 90), OHS Act and General Administrative Regulations, LRA, EEA, POPIA and the Interpretation Act are cited from general knowledge; verify wording against consolidated texts.",
+    "OHS Act 85 of 1993 s.24–25 and General Administrative Regulations, 2003 (GN R.929) regs 8–9, as summarised by Labour Guide, “Reporting of Work Related Incidents” (labourguide.co.za) and NIOH, “Employer’s responsibility around incident reporting” (2020).",
+    "BCEA 75 of 1997 s.24 and s.34; COIDA s.22(2), as summarised by Labour Guide, “The use of sick leave for occupational injuries and diseases” and “Payments for Injuries on Duty”; COIDA s.56(3) (principal Act text, UCT legislation archive).",
+    "EEA Code of Good Practice on the Employment of Persons with Disabilities (2015); Mahlangu v Minister of Labour (CC, 19 November 2020); independent V&V review of this flow, 15 October 2026.",
+    "This flow is a working document for legal review, not legal advice."
+   ]
+  }
+ ],
+ "forms": [
+  {
+   "code": "F01",
+   "name": "Internal incident / IOD report",
+   "usedAt": "1.1, 1.3"
+  },
+  {
+   "code": "F02",
+   "name": "IOD register and case file index (with closing entry)",
+   "usedAt": "1.5, 2.8, 5.10"
+  },
+  {
+   "code": "F03",
+   "name": "Witness statements and scene record",
+   "usedAt": "1.6"
+  },
+  {
+   "code": "F04",
+   "name": "Deadline tracker",
+   "usedAt": "1.8, 3.8"
+  },
+  {
+   "code": "F05",
+   "name": "OHS s.24 notice to the provincial director (W.Cl.2 / W.Cl.1) and internal Annexure 1 incident record (kept 3 years)",
+   "usedAt": "1.4"
+  },
+  {
+   "code": "F06",
+   "name": "W.Cl.2 Employer’s report of an accident",
+   "usedAt": "2.2"
+  },
+  {
+   "code": "F07",
+   "name": "W.Cl.1 Employer’s report of an occupational disease",
+   "usedAt": "2.3"
+  },
+  {
+   "code": "F08",
+   "name": "W.Cl.3 / W.Cl.14 Notice and claim (employee)",
+   "usedAt": "2.4"
+  },
+  {
+   "code": "F09",
+   "name": "W.Cl.4 / W.Cl.22 First medical report",
+   "usedAt": "2.5"
+  },
+  {
+   "code": "F10",
+   "name": "Claim pack checklist (earnings, ID, banking, exposure history)",
+   "usedAt": "2.6"
+  },
+  {
+   "code": "F11",
+   "name": "Fatal claim pack (dependants, funeral benefit)",
+   "usedAt": "2.7"
+  },
+  {
+   "code": "F12",
+   "name": "TTD payment schedule and reimbursement claim",
+   "usedAt": "3.2, 3.7, 5.7"
+  },
+  {
+   "code": "F13",
+   "name": "W.Cl.5 / W.Cl.26 Progress and final medical reports",
+   "usedAt": "3.4, 4.10"
+  },
+  {
+   "code": "F14",
+   "name": "Health-information consent",
+   "usedAt": "4.2"
+  },
+  {
+   "code": "F15",
+   "name": "EHW representative appointment letter",
+   "usedAt": "0.5"
+  },
+  {
+   "code": "F16",
+   "name": "RRR referral recommendation",
+   "usedAt": "4.1"
+  },
+  {
+   "code": "F17",
+   "name": "Individual rehabilitation plan (IRP)",
+   "usedAt": "4.4"
+  },
+  {
+   "code": "F18",
+   "name": "Accommodation assessment and alternative-role checklist",
+   "usedAt": "4.5, 5.2"
+  },
+  {
+   "code": "F19",
+   "name": "W.Cl.6 Resumption report and written resumption notice",
+   "usedAt": "4.9"
+  },
+  {
+   "code": "F20",
+   "name": "Incapacity consultation notice and minutes",
+   "usedAt": "5.3"
+  },
+  {
+   "code": "F21",
+   "name": "Incapacity hearing notice and outcome letters",
+   "usedAt": "5.3"
+  },
+  {
+   "code": "F22",
+   "name": "Notice of intention to dismiss or reduce remuneration (to Fund or licensee)",
+   "usedAt": "5.4"
+  },
+  {
+   "code": "F23",
+   "name": "Dismissal report to Chief Inspector and Fund",
+   "usedAt": "5.5"
+  },
+  {
+   "code": "F24",
+   "name": "Record retention register",
+   "usedAt": "5.9"
+  },
+  {
+   "code": "F25",
+   "name": "Objection pack",
+   "usedAt": "3.6, P7"
+  },
+  {
+   "code": "F26",
+   "name": "Inspection response pack and compliance-order tracker",
+   "usedAt": "0.11, P1–P5"
+  },
+  {
+   "code": "F27",
+   "name": "Annual RRR data return and s.85 rebate report",
+   "usedAt": "6.3, 6.4"
+  },
+  {
+   "code": "F28",
+   "name": "Contractor and TES registration verification",
+   "usedAt": "0.4"
+  },
+  {
+   "code": "F29",
+   "name": "Root-cause and corrective-action memo",
+   "usedAt": "6.1"
+  },
+  {
+   "code": "F30",
+   "name": "Governance trend report",
+   "usedAt": "6.2"
+  }
+ ],
+ "processMaps": [
+  {
+   "file": "coida-claim-src_image1.png",
+   "width": 2280,
+   "height": 2076,
+   "path": "maps/coida-claim-src_image1.png"
+  },
+  {
+   "file": "coida-claim-src_image2.png",
+   "width": 2280,
+   "height": 2052,
+   "path": "maps/coida-claim-src_image2.png"
+  }
+ ],
+ "sections": [
+  {
+   "number": "01",
+   "title": "Purpose, status and reading notes",
+   "page": 2
+  },
+  {
+   "number": "02",
+   "title": "Master flow at a glance",
+   "page": 5
+  },
+  {
+   "number": "03",
+   "title": "Phase 0 — Readiness (standing obligations)",
+   "page": 8
+  },
+  {
+   "number": "04",
+   "title": "Phase 1 — Accident and immediate response",
+   "page": 11
+  },
+  {
+   "number": "05",
+   "title": "Phase 2 — Report to the Commissioner and build the claim",
+   "page": 14
+  },
+  {
+   "number": "06",
+   "title": "Phase 3 — Liability, temporary disablement and medical care",
+   "page": 16
+  },
+  {
+   "number": "07",
+   "title": "Phase 4 — Rehabilitation, reintegration and return to work",
+   "page": 19
+  },
+  {
+   "number": "08",
+   "title": "Phase 5 — Outcome, incapacity and closure",
+   "page": 22
+  },
+  {
+   "number": "09",
+   "title": "Phase 6 — Governance and learning",
+   "page": 25
+  },
+  {
+   "number": "10",
+   "title": "Parallel track — inspection, penalties, objections and disputes",
+   "page": 27
+  },
+  {
+   "number": "11",
+   "title": "Employee obligations and conduct",
+   "page": 30
+  },
+  {
+   "number": "12",
+   "title": "Hand-offs and interfaces register",
+   "page": 32
+  },
+  {
+   "number": "13",
+   "title": "Forms register",
+   "page": 34
+  },
+  {
+   "number": "14",
+   "title": "Timeline calendar and penalties register",
+   "page": 37
+  },
+  {
+   "number": "15",
+   "title": "Corrections to existing GBS materials and drafting issues",
+   "page": 41
+  }
+ ],
+ "clarifications": []
+}

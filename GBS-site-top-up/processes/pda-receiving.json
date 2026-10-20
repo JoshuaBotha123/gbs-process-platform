@@ -1,0 +1,3301 @@
+{
+ "id": "pda-receiving",
+ "shortTitle": "Protected Disclosures Receiving",
+ "title": "Protected Disclosures — Organisational Receiving Process Flow",
+ "subtitle": "Protected Disclosures Act 26 of 2000 (as amended 2017) and the Protected Disclosures Bill, 2026 · As at 19 October 2026",
+ "category": "Governance & ethics",
+ "version": "v1.1",
+ "revisionDate": "19 October 2026",
+ "sourceDocument": {
+  "name": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+  "pdf": "docs/PDA_Receiving_Process_Flow_GBS_v1.1.pdf",
+  "pageCount": 46
+ },
+ "overview": {
+  "summary": "This flow tells a receiving organisation what to do, by when, and who hands off to whom, from the moment a disclosure arrives until the case closes and lessons feed back into controls. It is built to comply with the law in force today and to be ready for the Bill without redesign.",
+  "notes": [
+   {
+    "heading": "Legal status",
+    "text": "The Protected Disclosures Act 26 of 2000, as amended by Act 5 of 2017 (“PDA”), is the binding law. The Protected Disclosures Bill, 2026 (“Bill”) was published for comment (closing 14 May 2026) and is not in force; it will repeal the PDA entirely (Bill s.32 and Schedule). Section numbers change completely between the two instruments. As at 19 October 2026 no report of Cabinet approval for tabling or introduction in Parliament was found, and a reported “revised” Bill text could not be located; re-check before this flow is adopted (verify)."
+   },
+   {
+    "heading": "Labels used throughout",
+    "text": "",
+    "points": [
+     "PDA = binding now.",
+     "Bill = proposed; build readiness, do not treat as a current legal duty. Bill tests (e.g. the s.5 exclusions) never decide whether a disclosure is protected today; they are recorded as DRAFT readiness notes only.",
+     "BP = best practice or internal control; not a statutory deadline. Adopt as policy so it becomes binding internally."
+    ]
+   },
+   {
+    "heading": "Design principle",
+    "text": "Where the PDA and Bill differ, the flow applies the stricter of the two as internal policy. Running to Bill timelines now keeps the organisation comfortably inside the PDA and removes the need for a second redesign at commencement."
+   },
+   {
+    "heading": "Five interpretation points that shape the flow",
+    "text": "",
+    "points": [
+     "Counting days. Neither instrument says business or calendar days. Under the Interpretation Act 33 of 1957 s.4, “days” are calendar days, excluding the first day and including the last, unless the last day is a Sunday or public holiday. Diarise in calendar days.",
+     "Bill s.14 and the employer channel. Bill s.14(1) (5-day acknowledgement) applies to disclosures “made in terms of section 11”, which covers authorised persons other than the employer. Bill s.14(2) and the 12-month limit in s.14(8) apply to recipients in s.4(b)–(e), again excluding the employer. The employer’s own procedure is governed by s.12(5), which requires the employer to set its own time frames. However, s.14(3)–(7) refer to any “authorised person”, which by definition includes the employer. Treat all of s.14 as applying to the employer channel as a matter of policy.",
+     "The 10-day decision. Bill s.14(4) says the decision must be made “within 10 days” after the preliminary investigation, not “within 10 days of receipt”. Read literally, the outer limit is day 15. Plan for day 10 from receipt; treat day 15 as the absolute backstop.",
+     "Which PDA duties bind an employer. PDA s.3B (inserted in 2017) binds an employer receiving a disclosure under PDA s.6, as well as recipients under s.7 and s.8. Within 21 days it must decide whether to investigate, refer or not investigate, and acknowledge receipt in writing by informing the discloser of that decision. If it cannot decide within 21 days, it must say the decision is pending, update at intervals of not more than 2 months, and decide within 6 months. The “2 months” and “6 months” therefore relate to the pending decision, not to investigation progress or the final outcome. On conclusion of an investigation the recipient must also inform the discloser of the outcome (s.3B(4)). The duties to notify do not apply where the discloser’s identity and contact details are unknown (s.3B(5)(a)), and the notice duties in s.3B(1)(b), (2)(b) and (3) do not apply where compliance would prejudice the prevention, detection or investigation of a crime (s.3B(5)(b)). Where another recipient refers a disclosure to the organisation, the same 21-day duty runs from the referral (s.3B(2)).",
+     "Group structures. Where the organisation is a shareholder, parent or client that receives a disclosure about another entity, it may be the employer (PDA s.1 “employer” includes persons acting on the employer’s behalf; Bill s.6 adds clients) or a general recipient (PDA s.9 / Bill s.10). A disclosure referred in by another recipient runs the PDA s.3B(2) clock (step 1.1A). Confirm the recipient’s capacity at intake, because it decides which timelines and duties apply."
+    ]
+   },
+   {
+    "heading": "Roles used",
+    "text": "Designated Officer (DO); Legal Adviser (LA); HR Manager (HR); Appointed Investigator (INV); Database Manager (DBM); Senior Sign-off (SSO, e.g. CEO, CFO or Audit Committee chair where management is implicated); Board / Audit or Social & Ethics Committee (BOARD)."
+   }
+  ],
+  "source": {
+   "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+   "section": "§01 Purpose, status and reading notes",
+   "page": 2
+  }
+ },
+ "roles": [
+  {
+   "code": "DO",
+   "name": "Designated Officer"
+  },
+  {
+   "code": "LA",
+   "name": "Legal Adviser"
+  },
+  {
+   "code": "HR",
+   "name": "HR Manager"
+  },
+  {
+   "code": "INV",
+   "name": "Appointed Investigator"
+  },
+  {
+   "code": "DBM",
+   "name": "Database Manager"
+  },
+  {
+   "code": "SSO",
+   "name": "Senior Sign-off"
+  },
+  {
+   "code": "BOARD",
+   "name": "Board / Audit or Social & Ethics Committee"
+  }
+ ],
+ "stages": [
+  {
+   "id": "s1",
+   "group": "Phase 0 — Readiness (standing obligations)",
+   "title": "Phase 0 — Readiness (standing obligations)",
+   "kind": "phase",
+   "intro": [
+    "Phase 0 has no case trigger: it must be complete before the first disclosure arrives, because a discloser is only bound to use the internal procedure if the employer has made them aware of it (PDA s.6(1)(a) read with s.6(2)(a)(ii); Bill s.12(2)). Every later deadline assumes these controls exist."
+   ],
+   "notes": [
+    {
+     "heading": "Discloser side of Phase 0",
+     "text": "Nothing is owed by the discloser yet, but their later obligations depend on this phase: if the organisation has not communicated its procedure, the discloser may go straight to another authorised person and is deemed to have disclosed to the employer (PDA s.6(1)(b), s.6(2)(b); Bill s.12(3)–(4))."
+    },
+    {
+     "heading": "Watch",
+     "text": "A procedure that exists on paper but was never communicated gives the employer no benefit under PDA s.6(1)(a) read with s.6(2)(a)(ii) (Bill s.12(2)). Keep dated proof of communication for every worker category, including contractors."
+    }
+   ],
+   "steps": [
+    {
+     "id": "0.1",
+     "label": "0.1",
+     "title": "Adopt the procedure",
+     "trigger": "",
+     "action": "Board-approved policy and procedure covering every s.12(5) element: named DO and contact details; receipt and handling with time frames; onward referral; compulsory SAPS referral; review and investigation; handling of other wrongdoing found; anonymous reporting and confidentiality; outcome communication. Cover the full protected population, including contractors, TES workers, volunteers, trainees and related persons.",
+     "points": [
+      "Board-approved policy and procedure covering every s.12(5) element:",
+      "named DO and contact details",
+      "receipt and handling with time frames",
+      "onward referral",
+      "compulsory SAPS referral",
+      "review and investigation",
+      "handling of other wrongdoing found",
+      "anonymous reporting and confidentiality",
+      "outcome communication. Cover the full protected population, including contractors, TES workers, volunteers, trainees and related persons."
+     ],
+     "owner": "BOARD, LA",
+     "deadline": "Now (PDA); review before Bill commencement",
+     "form": "Approved, version-controlled policy",
+     "authority": "PDA s.6(2)(a)(i); Bill s.12(1)(a), (5); Practical Guidelines for Employees, GN 702 of 31 Aug 2011 (pre-2017; read with amended Act). Organs of state: distribute per PDA s.10(4)(c)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 6
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.2",
+     "label": "0.2",
+     "title": "Appoint the Designated Officer",
+     "trigger": "",
+     "action": "Name a DO and at least one alternate. Create an independent route (e.g. Audit Committee chair or external provider) for disclosures implicating the DO, CEO or executive.",
+     "points": [
+      "Name a DO and at least one alternate.",
+      "Create an independent route (e.g.",
+      "Audit Committee chair or external provider) for disclosures implicating the DO, CEO or executive."
+     ],
+     "owner": "BOARD",
+     "deadline": "Now",
+     "form": "Appointment letters; delegation of authority",
+     "authority": "Bill s.1 “designated officer”, s.12(5)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 6
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.3",
+     "label": "0.3",
+     "title": "Communicate the procedure",
+     "trigger": "",
+     "action": "Bring the procedure to the attention of every employee and worker: induction, intranet, notice boards, contractor onboarding. Keep proof of communication.",
+     "points": [
+      "Bring the procedure to the attention of every employee and worker: induction, intranet, notice boards, contractor onboarding.",
+      "Keep proof of communication."
+     ],
+     "owner": "HR",
+     "deadline": "Now; on every change",
+     "form": "Communication log; acknowledgement records",
+     "authority": "PDA s.6(1)(a), s.6(2)(a)(ii); Bill s.12(1)(b), (2)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 6
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.4",
+     "label": "0.4",
+     "title": "Stand up channels",
+     "trigger": "",
+     "action": "Written, electronic, oral and anonymous channels, with a return route for anonymous disclosers (case number lookup). If a hotline provider is used, sign an operator agreement covering confidentiality and security.",
+     "points": [
+      "Written, electronic, oral and anonymous channels, with a return route for anonymous disclosers (case number lookup).",
+      "If a hotline provider is used, sign an operator agreement covering confidentiality and security."
+     ],
+     "owner": "DO, IT",
+     "deadline": "Now",
+     "form": "Channel register; operator agreement",
+     "authority": "Bill s.11(1)–(2), s.12(5)(f); POPIA s.20–21",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 6
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.5",
+     "label": "0.5",
+     "title": "Clean up contracts",
+     "trigger": "",
+     "action": "Remove or disapply clauses that exclude the Act or discourage disclosure: NDAs, settlement and exit agreements, supplier contracts. Such clauses are void.",
+     "points": [
+      "Remove or disapply clauses that exclude the Act or discourage disclosure: NDAs, settlement and exit agreements, supplier contracts.",
+      "Such clauses are void."
+     ],
+     "owner": "LA",
+     "deadline": "Now",
+     "form": "Contract review memo; revised templates",
+     "authority": "PDA s.2(3); Bill s.11(4)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 7
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.6",
+     "label": "0.6",
+     "title": "Publish website content",
+     "trigger": "",
+     "action": "Publish the five required items: what a protected disclosure is; how to make one; recipient contact details; remedies and protection procedures; when confidentiality-breach liability is excluded.",
+     "points": [
+      "Publish the five required items:",
+      "what a protected disclosure is",
+      "how to make one",
+      "recipient contact details",
+      "remedies and protection procedures",
+      "when confidentiality-breach liability is excluded."
+     ],
+     "owner": "Compliance",
+     "deadline": "Bill: on commencement (BP: now). Public and state-owned companies: see 0.6A (now)",
+     "form": "Website page (F27 checklist)",
+     "authority": "Bill s.29(4)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 7
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.6A",
+     "label": "0.6A",
+     "title": "Companies Act confidential disclosure system",
+     "trigger": "",
+     "action": "Public and state-owned companies: maintain the confidential disclosure system required by Companies Act s.159(7) and post the reg 131 notice of it, with contact details, at the registered office, main business premises and workplaces, on any website aimed at s.159(4) persons, and on the exchange news service if listed. s.159 also protects shareholders, directors, suppliers and other non-employees, so the channel must accept them.",
+     "points": [
+      "Public and state-owned companies: maintain the confidential disclosure system required by Companies Act s.159(7) and post the reg 131 notice of it, with contact details, at the registered office, main business premises and workplaces, on any website aimed at s.159(4) persons, and on the exchange news service if listed. s.159 also protects shareholders, directors, suppliers and other non-employees, so the channel must accept them."
+     ],
+     "owner": "BOARD, Company Secretary",
+     "deadline": "Now (Companies Act); review annually",
+     "form": "Reg 131 notice; system description",
+     "authority": "Companies Act s.159(4), (7) (verify s.159(7) text); Companies Regulations reg 131",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 6
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.7",
+     "label": "0.7",
+     "title": "Prepare database registration",
+     "trigger": "",
+     "action": "Designate a Database Manager and alternate; draft a field map proving no discloser personal information will be uploaded. Register once the DoJ database and regulations are live.",
+     "points": [
+      "Designate a Database Manager and alternate; draft a field map proving no discloser personal information will be uploaded.",
+      "Register once the DoJ database and regulations are live."
+     ],
+     "owner": "DO, DBM",
+     "deadline": "Bill: on commencement (manner to be prescribed)",
+     "form": "Registration confirmation (F23)",
+     "authority": "Bill s.3(3)–(6)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 7
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.8",
+     "label": "0.8",
+     "title": "Case system and records",
+     "trigger": "",
+     "action": "Restricted-access case management, a separate sealed identity register, an evidence store with audit trail, and a POPIA retention schedule. Record the lawful basis for processing allegations of criminal behaviour (POPIA ss.26–27, 33) and any reliance on s.18(4) notification exceptions; route access requests by implicated persons to LA.",
+     "points": [
+      "Restricted-access case management, a separate sealed identity register, an evidence store with audit trail, and a POPIA retention schedule.",
+      "Record the lawful basis for processing allegations of criminal behaviour (POPIA ss.26–27, 33) and any reliance on s.18(4) notification exceptions; route access requests by implicated persons to LA."
+     ],
+     "owner": "DO, IT",
+     "deadline": "Now",
+     "form": "System access matrix; retention schedule",
+     "authority": "POPIA s.14, s.18, s.19, ss.26–27, s.33; Bill s.14(10)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 7
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.9",
+     "label": "0.9",
+     "title": "Pre-agree external panel",
+     "trigger": "",
+     "action": "Pre-vet forensic investigators, external counsel, law enforcement contacts (SAPS, DPCI, IDAC), EAP and security support, so no time is lost in the 5- and 10-day windows.",
+     "points": [
+      "Pre-vet forensic investigators, external counsel, law enforcement contacts (SAPS, DPCI, IDAC), EAP and security support, so no time is lost in the 5- and 10-day windows."
+     ],
+     "owner": "DO, LA",
+     "deadline": "Now",
+     "form": "Panel list with conflict checks",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 7
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.10",
+     "label": "0.10",
+     "title": "Train and raise awareness",
+     "trigger": "",
+     "action": "Train DO, HR, LA, investigators and line managers, including personal criminal exposure under the Bill. Train managers to forward any disclosure to the DO the same day.",
+     "points": [
+      "Train DO, HR, LA, investigators and line managers, including personal criminal exposure under the Bill.",
+      "Train managers to forward any disclosure to the DO the same day."
+     ],
+     "owner": "HR / L&D",
+     "deadline": "At least annually",
+     "form": "Attendance records; materials",
+     "authority": "Bill s.29(1); BP",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 8
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+    "section": "§03 Phase 0 — Readiness (standing obligations)",
+    "page": 6,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s2",
+   "group": "Phase 1 — Receipt and intake",
+   "title": "Phase 1 — Receipt and intake",
+   "kind": "phase",
+   "intro": [
+    "The clock starts on the day information about improper conduct reaches anyone who can receive it for the organisation, not when the DO first reads it. Day 0 is the day of receipt; day 1 is the next calendar day."
+   ],
+   "notes": [
+    {
+     "heading": "Discloser obligations at this stage",
+     "text": "Disclose in good faith, on reason to believe, to a qualifying recipient (PDA s.1 “disclosure”, ss.5–9; Bill s.4, s.5(a) DRAFT). Use the employer’s procedure if made aware of it (PDA s.6(1)(a); Bill s.12(2)). Provide the prescribed information in the prescribed manner (Bill s.11(1)). Sign the written record of an oral disclosure, or confirm agreement and affix a mark (Bill s.11(3)). Do not disclose information known to be false (PDA s.9B; Bill s.5(d), s.13)."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "Hotline operator → DO (same day). Line manager → DO (same day). IT → evidence preservation. Emergency services or SAPS where danger is imminent. DBM → DoJ database (Bill)."
+    },
+    {
+     "heading": "Watch",
+     "text": "For an anonymous disclosure with no return route, record that acknowledgement was impossible and why. Do not open a separate grievance file and let the disclosure clock lapse: if a grievance and an allegation are mixed, run both in parallel."
+    }
+   ],
+   "steps": [
+    {
+     "id": "1.1",
+     "label": "1.1",
+     "title": "Recognise and forward",
+     "trigger": "Any person conveys information (not only opinion) about possible improper conduct, through any channel, including a line manager, a meeting remark or a hotline call. (PDA disclosures are made by an employee or worker, s.1; others are handled under Companies Act s.159 or as policy.)",
+     "action": "Recipient passes it to the DO without comment or investigation. Wrong internal recipient does not defeat protection: fix the channel administratively.",
+     "points": [
+      "Recipient passes it to the DO without comment or investigation.",
+      "Wrong internal recipient does not defeat protection: fix the channel administratively."
+     ],
+     "owner": "Any manager or channel operator",
+     "deadline": "Same day (BP)",
+     "form": "F01 intake record",
+     "authority": "Bill s.4(a), s.6; PDA s.6",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Receipt and intake",
+      "subsection": null,
+      "page": 9
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.1A",
+     "label": "1.1A",
+     "title": "Inbound referral",
+     "trigger": "Disclosure referred to us by another recipient (e.g. group parent, regulator or other s.6–8 recipient).",
+     "action": "Treat as a new matter from step 1.2. Day 0 = date the referral is received; the PDA s.3B(2) 21-day decision and notice duty applies, with pending notices and the 6-month backstop under s.3B(3) running from the referral.",
+     "points": [
+      "Treat as a new matter from step 1.2.",
+      "Day 0 = date the referral is received; the PDA s.3B(2) 21-day decision and notice duty applies, with pending notices and the 6-month backstop under s.3B(3) running from the referral."
+     ],
+     "owner": "DO",
+     "deadline": "Day 0 = referral received; PDA: 21 days",
+     "form": "F01",
+     "authority": "PDA s.3B(2)–(3)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Receipt and intake",
+      "subsection": null,
+      "page": 9
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.2",
+     "label": "1.2",
+     "title": "Log and reference",
+     "trigger": "DO receives the matter.",
+     "action": "Open case file; assign an identity-neutral reference; record date, time, channel, recipient and a verbatim or near-verbatim account. Record the discloser category (employee / worker per PDA s.1 / other) and whether Companies Act s.159 applies; this decides which statutory clocks run. Non-PDA disclosers are handled to the same standard as policy.",
+     "points": [
+      "Open case file; assign an identity-neutral reference; record date, time, channel, recipient and a verbatim or near-verbatim account.",
+      "Record the discloser category (employee / worker per PDA s.1 / other) and whether Companies Act s.159 applies; this decides which statutory clocks run.",
+      "Non-PDA disclosers are handled to the same standard as policy."
+     ],
+     "owner": "DO",
+     "deadline": "Day 0",
+     "form": "F01",
+     "authority": "PDA s.1 “employee”, “worker”; Companies Act s.159; Bill s.12(5)(a); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Receipt and intake",
+      "subsection": null,
+      "page": 9
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.3",
+     "label": "1.3",
+     "title": "Reduce oral disclosure to writing",
+     "trigger": "Disclosure made orally.",
+     "action": "Write it up and have the discloser sign. If the discloser is illiterate or has a disability preventing a written disclosure: read aloud, interpret and explain in a language they understand, record their agreement and mark, and attach a certificate.",
+     "points": [
+      "Write it up and have the discloser sign.",
+      "If the discloser is illiterate or has a disability preventing a written disclosure: read aloud, interpret and explain in a language they understand, record their agreement and mark, and attach a certificate."
+     ],
+     "owner": "DO",
+     "deadline": "At the intake meeting or within 2 days (BP)",
+     "form": "F02 transcript; F03 certificate",
+     "authority": "Bill s.11(3)(a)–(d) (prescribed form; binding on non-employer recipients, BP for employers)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Receipt and intake",
+      "subsection": null,
+      "page": 9
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.4",
+     "label": "1.4",
+     "title": "Secure identity",
+     "trigger": "Discloser identity known or inferable.",
+     "action": "Record identity only in the sealed identity register, separate from the case file. Everyone given access signs an undertaking. Release identity only with written consent and only to the extent consented to.",
+     "points": [
+      "Record identity only in the sealed identity register, separate from the case file.",
+      "Everyone given access signs an undertaking.",
+      "Release identity only with written consent and only to the extent consented to."
+     ],
+     "owner": "DO",
+     "deadline": "Day 0",
+     "form": "F05 identity register; F06 undertakings; F28 consent",
+     "authority": "Bill s.19(1)–(2), (6)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Receipt and intake",
+      "subsection": null,
+      "page": 9
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.5",
+     "label": "1.5",
+     "title": "Same-day danger and evidence screen",
+     "trigger": "Facts suggest imminent risk to life, health, safety or the environment, or evidence at risk of destruction.",
+     "action": "Escalate to emergency services, SAPS, or the OHS function as needed. Issue a litigation hold; image devices and email; restrict system access. Brief LA on a possible s.15 application.",
+     "points": [
+      "Escalate to emergency services, SAPS, or the OHS function as needed.",
+      "Issue a litigation hold; image devices and email; restrict system access.",
+      "Brief LA on a possible s.15 application."
+     ],
+     "owner": "DO, LA, IT",
+     "deadline": "Day 0",
+     "form": "Escalation note; hold notice",
+     "authority": "Bill s.12(5)(c), s.15; PDA general law",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Receipt and intake",
+      "subsection": null,
+      "page": 9
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.6",
+     "label": "1.6",
+     "title": "Acknowledge in writing",
+     "trigger": "Every disclosure where a return route exists, including anonymous disclosures via the channel.",
+     "action": "Send an acknowledgement: reference number; what happens next and when; single point of contact; confidentiality and its limits (court or law may require disclosure); summary of protection; request for any further information. Do not state whether it is protected yet. Before sending, LA to confirm whether PDA s.3B(5)(b) applies (notice would prejudice a criminal investigation, including FICA tipping-off). If so, withhold, record reasons on F09, and diarise when notice can safely be given. Where identity and contact details are unknown, s.3B(5)(a) applies: record it.",
+     "points": [
+      "Send an acknowledgement:",
+      "reference number",
+      "what happens next and when",
+      "single point of contact",
+      "confidentiality and its limits (court or law may require disclosure)",
+      "summary of protection",
+      "request for any further information. Do not state whether it is protected yet. Before sending, LA to confirm whether PDA s.3B(5)(b) applies (notice would prejudice a criminal investigation, including FICA tipping-off). If so, withhold, record reasons on F09, and diarise when notice can safely be given. Where identity and contact details are unknown, s.3B(5)(a) applies: record it."
+     ],
+     "owner": "DO",
+     "deadline": "Bill: within 5 days (s.14(1)); PDA: within 21 days, combined with the decision (s.3B(1))",
+     "form": "F04 acknowledgement",
+     "authority": "PDA s.3B(1), s.3B(5); Bill s.14(1), s.19(3)(b)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Receipt and intake",
+      "subsection": null,
+      "page": 9
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.7",
+     "label": "1.7",
+     "title": "Database entry",
+     "trigger": "Bill in force and database live.",
+     "action": "Upload receipt and date of receipt, with no personal information of the discloser. Cross-reference the internal case number.",
+     "points": [
+      "Upload receipt and date of receipt, with no personal information of the discloser.",
+      "Cross-reference the internal case number."
+     ],
+     "owner": "DBM",
+     "deadline": "Bill: manner and timing to be prescribed; BP within 5 days",
+     "form": "F23 upload record",
+     "authority": "Bill s.3(2)(b)(i)–(ii), s.3(5)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Receipt and intake",
+      "subsection": null,
+      "page": 9
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.8",
+     "label": "1.8",
+     "title": "Diarise all clocks",
+     "trigger": "File opened.",
+     "action": "Calendar, with owners: PDA day 21 (decision/acknowledgement or pending notice), pending notices at ≤ 2-month intervals and the 6-month decision backstop (binding now); and the Bill acknowledgement, preliminary-assessment, decision, 3-monthly update, 9-month review and 12-month deadlines (policy now).",
+     "points": [
+      "Calendar, with owners: PDA day 21 (decision/acknowledgement or pending notice), pending notices at ≤ 2-month intervals and the 6-month decision backstop (binding now); and the Bill acknowledgement, preliminary-assessment, decision, 3-monthly update, 9-month review and 12-month deadlines (policy now)."
+     ],
+     "owner": "DO",
+     "deadline": "Day 0",
+     "form": "F13 tracker",
+     "authority": "PDA s.3B(1), (3); Bill s.14 (policy)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Receipt and intake",
+      "subsection": null,
+      "page": 9
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+    "section": "§04 Phase 1 — Receipt and intake",
+    "page": 9,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s3",
+   "group": "Phase 2 — Triage and preliminary assessment",
+   "title": "Phase 2 — Triage and preliminary assessment",
+   "kind": "phase",
+   "intro": [
+    "By day 5 (Bill s.14(3) timeline, adopted as policy) record a documented classification. Whether a disclosure is protected is decided only under the PDA in force: good faith (ss.6–8; s.9), reason to believe (s.1), a qualifying channel (ss.5–9) and, for s.8 and s.9 recipients, a reasonable belief that it is substantially true. Bill tests are recorded as DRAFT readiness notes and never ground a “not protected” decision. Protection work starts now and does not wait for that answer."
+   ],
+   "notes": [
+    {
+     "heading": "Discloser obligations at this stage",
+     "text": "Provide further information if asked, truthfully. Do not continue participating in the conduct disclosed; that is a revocation ground (Bill s.27(1)(a)). Do not commit an offence under the Act while providing information (s.27(1)(d))."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "DO → LA (PDA protection test and route opinion). DO → independent route where conflicted. DO → police official / DPCI (PRECCA s.34) or FIC (FICA s.29) where triggered. HR → retaliation monitoring."
+    },
+    {
+     "heading": "Watch",
+     "text": "Do not test whether the allegation is true at triage. Under the PDA, protection attaches to a disclosure made in good faith, on reason to believe, through a qualifying channel (ss.5–9); for s.8 and s.9 recipients the discloser must also reasonably believe it is substantially true. Truth is for Phase 4. Never classify a disclosure as “not protected” on Bill criteria: discipline that follows risks an automatically unfair dismissal (LRA s.187(1)(h)) or unfair labour practice (s.186(2)(d)) finding."
+    }
+   ],
+   "steps": [
+    {
+     "id": "2.1",
+     "label": "2.1",
+     "title": "Threshold test",
+     "trigger": "File opened.",
+     "action": "Is it information about improper conduct by an employer or employee: POCA or PRECCA offences, any crime, breach of a legal obligation, miscarriage of justice, health or safety danger, environmental damage, EEA or PEPUDA discrimination, or concealment of any of these? Location and governing law are irrelevant. A pure personal grievance goes to the grievance procedure with a redirect notice.",
+     "points": [
+      "Is it information about improper conduct by an employer or employee: POCA or PRECCA offences, any crime, breach of a legal obligation, miscarriage of justice, health or safety danger, environmental damage, EEA or PEPUDA discrimination, or concealment of any of these?",
+      "Location and governing law are irrelevant.",
+      "A pure personal grievance goes to the grievance procedure with a redirect notice."
+     ],
+     "owner": "DO",
+     "deadline": "Day 1–2",
+     "form": "F07 memo, part A; F29 redirect",
+     "authority": "Bill s.1 “improper conduct”, “disclosure”; PDA s.1 “disclosure”, “impropriety”",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Triage and preliminary assessment",
+      "subsection": null,
+      "page": 13
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.2",
+     "label": "2.2",
+     "title": "Recipient capacity and route",
+     "trigger": "Threshold met.",
+     "action": "Confirm in what capacity the organisation received it: employer (PDA s.6 / Bill s.6), legal adviser (PDA s.5 / Bill s.7), Cabinet member or MEC (PDA s.7 / Bill s.8), Chapter 9 body, PSC, AG or prescribed body (PDA s.8 and GN R.949 / Bill s.9), or general recipient (PDA s.9 / Bill s.10). For a general disclosure record the s.9(1) beliefs, the s.9(2) trigger and the s.9(3) factors.",
+     "points": [
+      "Confirm in what capacity the organisation received it: employer (PDA s.6 / Bill s.6), legal adviser (PDA s.5 / Bill s.7), Cabinet member or MEC (PDA s.7 / Bill s.8), Chapter 9 body, PSC, AG or prescribed body (PDA s.8 and GN R.949 / Bill s.9), or general recipient (PDA s.9 / Bill s.10).",
+      "For a general disclosure record the s.9(1) beliefs, the s.9(2) trigger and the s.9(3) factors."
+     ],
+     "owner": "DO, LA",
+     "deadline": "Day 1–3",
+     "form": "F07 part B",
+     "authority": "PDA ss.5–9; GN R.949 of 2018; Bill s.4, s.6–10 (DRAFT)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Triage and preliminary assessment",
+      "subsection": null,
+      "page": 13
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.3",
+     "label": "2.3",
+     "title": "Protection test (PDA)",
+     "trigger": "Route confirmed.",
+     "action": "PDA test (binding): confirm the disclosure was made in good faith (PDA ss.6–8), on reason to believe it shows an impropriety (s.1), through a qualifying channel (ss.5–9), and, for s.8/s.9 recipients, on a reasonable belief that it is substantially true; for s.9 also confirm a s.9(2) trigger and s.9(3) reasonableness. Test on evidence, not tone or timing; mixed motives do not automatically defeat good faith. Get a written LA opinion before any “not protected” finding. Bill s.5 exclusions (wrong recipient, known or ought-to-have-known falsity, intent to harm, pecuniary gain, illegal purpose, avoiding discipline): record for readiness only; they do not decide protection today.",
+     "points": [
+      "PDA test (binding):",
+      "confirm the disclosure was made in good faith (PDA ss.6–8), on reason to believe it shows an impropriety (s.1), through a qualifying channel (ss.5–9), and, for s.8/s.9 recipients, on a reasonable belief that it is substantially true",
+      "for s.9 also confirm a s.9(2) trigger and s.9(3) reasonableness. Test on evidence, not tone or timing",
+      "mixed motives do not automatically defeat good faith. Get a written LA opinion before any “not protected” finding. Bill s.5 exclusions (wrong recipient, known or ought-to-have-known falsity, intent to harm, pecuniary gain, illegal purpose, avoiding discipline): record for readiness only",
+      "they do not decide protection today."
+     ],
+     "owner": "DO, LA",
+     "deadline": "Day 3–5",
+     "form": "F07 part C",
+     "authority": "PDA s.1 “disclosure”, ss.5–9 (good faith ss.6–8, s.9(1)); Bill s.5 (DRAFT readiness only)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Triage and preliminary assessment",
+      "subsection": null,
+      "page": 13
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.4",
+     "label": "2.4",
+     "title": "Classification",
+     "trigger": "Steps 2.1–2.3 done.",
+     "action": "Record one of: protected under the PDA; not protected under the PDA (only on the step 2.3 PDA test, with LA opinion, never on Bill s.5 grounds); or grounds not to investigate (Bill s.14(5) grounds adopted as policy: no merit, trivial, more appropriate lawful method, or previously adequately dealt with). Note separately, as DRAFT readiness, whether the Bill tests would give a different result. A “not protected” finding removes statutory protection; it does not remove the need to deal with a credible allegation through ordinary governance, and it never justifies discipline for making the disclosure without separate LA advice (LRA s.187(1)(h), s.186(2)(d)).",
+     "points": [
+      "Record one of:",
+      "protected under the PDA",
+      "not protected under the PDA (only on the step 2.3 PDA test, with LA opinion, never on Bill s.5 grounds)",
+      "grounds not to investigate (Bill s.14(5) grounds adopted as policy: no merit, trivial, more appropriate lawful method, or previously adequately dealt with). Note separately, as DRAFT readiness, whether the Bill tests would give a different result. A “not protected” finding removes statutory protection",
+      "it does not remove the need to deal with a credible allegation through ordinary governance, and it never justifies discipline for making the disclosure without separate LA advice (LRA s.187(1)(h), s.186(2)(d))."
+     ],
+     "owner": "DO, SSO",
+     "deadline": "Bill: within 5 days of receipt (policy); PDA: inside the 21-day decision window",
+     "form": "F07 part D; risk rating",
+     "authority": "PDA ss.1, 5–9; LRA s.186(2)(d), s.187(1)(h); Bill s.14(3), (5) (DRAFT; policy)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Triage and preliminary assessment",
+      "subsection": null,
+      "page": 13
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.5",
+     "label": "2.5",
+     "title": "Mandatory-referral screen",
+     "trigger": "Any sign of crime, a parallel investigation, or imminent danger.",
+     "action": "Check: is another body already investigating (coordinate now, see 3.4; Bill s.14(9)(a)(i) stand-down on commencement)? Is a crime clearly committed (refer to law enforcement, s.14(9)(a)(ii))? Does the DO reasonably believe it is a crime or imminent danger (compulsory SAPS referral, s.12(5)(c))? Does PRECCA s.34 apply: does a person in a position of authority know, or suspect (or ought reasonably to know or suspect), that any corruption offence (PRECCA ss.3–16 or 20–21, any amount) or theft, fraud, extortion, forgery or uttering involving R100,000 or more has been committed? If so, report to a police official (SAPS/DPCI) and record the CAS number. Is a FICA s.29 report required, with tipping-off restrictions? If notice to the discloser would prejudice either, apply PDA s.3B(5)(b) (see 1.6).",
+     "points": [
+      "Check: is another body already investigating (coordinate now, see 3.4; Bill s.14(9)(a)(i) stand-down on commencement)?",
+      "Is a crime clearly committed (refer to law enforcement, s.14(9)(a)(ii))?",
+      "Does the DO reasonably believe it is a crime or imminent danger (compulsory SAPS referral, s.12(5)(c))?",
+      "Does PRECCA s.34 apply: does a person in a position of authority know, or suspect (or ought reasonably to know or suspect), that any corruption offence (PRECCA ss.3–16 or 20–21, any amount) or theft, fraud, extortion, forgery or uttering involving R100,000 or more has been committed?",
+      "If so, report to a police official (SAPS/DPCI) and record the CAS number.",
+      "Is a FICA s.29 report required, with tipping-off restrictions?",
+      "If notice to the discloser would prejudice either, apply PDA s.3B(5)(b) (see 1.6)."
+     ],
+     "owner": "DO, LA",
+     "deadline": "Screen by day 5; inform discloser within 5 days of becoming aware (s.14(9)(b))",
+     "form": "F07 part E",
+     "authority": "PRECCA s.34; FICA s.29; PDA s.3B(5)(b); Bill s.12(5)(c), s.14(9) (DRAFT)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Triage and preliminary assessment",
+      "subsection": null,
+      "page": 13
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.6",
+     "label": "2.6",
+     "title": "Conflict and escalation check",
+     "trigger": "DO, executive or board member implicated, or the organisation itself is the subject.",
+     "action": "Move the matter to the independent route. Record that a disclosure about the employer may not be referred back to that employer.",
+     "points": [
+      "Move the matter to the independent route.",
+      "Record that a disclosure about the employer may not be referred back to that employer."
+     ],
+     "owner": "DO, BOARD",
+     "deadline": "Day 0–2",
+     "form": "Escalation record",
+     "authority": "Bill s.14(7)(c); BP",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Triage and preliminary assessment",
+      "subsection": null,
+      "page": 13
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.7",
+     "label": "2.7",
+     "title": "Retaliation and related-person risk",
+     "trigger": "File opened.",
+     "action": "Map reporting lines, who controls the discloser’s pay, performance, shifts and contract renewals, and who else is exposed: family, household, colleagues, anyone who assisted. Put interim measures in place and record reasons at the time.",
+     "points": [
+      "Map reporting lines, who controls the discloser’s pay, performance, shifts and contract renewals, and who else is exposed: family, household, colleagues, anyone who assisted.",
+      "Put interim measures in place and record reasons at the time."
+     ],
+     "owner": "HR, DO, LA",
+     "deadline": "Day 0 onward; review monthly",
+     "form": "F08",
+     "authority": "Bill s.1 “related person”, s.21; PDA s.3",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Triage and preliminary assessment",
+      "subsection": null,
+      "page": 13
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.8",
+     "label": "2.8",
+     "title": "Privilege and implicated persons",
+     "trigger": "Investigation likely.",
+     "action": "LA to instruct any written analysis to preserve privilege. Treat the allegation as unproven; restrict circulation. Allegations of crime are special personal information (POPIA s.26): process only under an authorisation (ss.27, 33), document any s.18(4) notification exception, and route implicated persons’ access requests to LA. Any suspension of an implicated person must rest on the ordinary disciplinary policy, not on the disclosure.",
+     "points": [
+      "LA to instruct any written analysis to preserve privilege.",
+      "Treat the allegation as unproven; restrict circulation.",
+      "Allegations of crime are special personal information (POPIA s.26): process only under an authorisation (ss.27, 33), document any s.18(4) notification exception, and route implicated persons’ access requests to LA.",
+      "Any suspension of an implicated person must rest on the ordinary disciplinary policy, not on the disclosure."
+     ],
+     "owner": "LA, HR",
+     "deadline": "Before written analysis",
+     "form": "Privilege note",
+     "authority": "Common law privilege; LRA; POPIA ss.18, 26–27, 33; BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Triage and preliminary assessment",
+      "subsection": null,
+      "page": 13
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+    "section": "§05 Phase 2 — Triage and preliminary assessment",
+    "page": 13,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s4",
+   "group": "Phase 3 — Investigation decision",
+   "title": "Phase 3 — Investigation decision",
+   "kind": "phase",
+   "intro": [
+    "The discloser must receive a written decision: under the Bill within 10 days after the preliminary investigation (plan for day 10; backstop day 15), and under the PDA within 21 days of the disclosure. Silence is itself a breach."
+   ],
+   "notes": [
+    {
+     "heading": "Discloser obligations at this stage",
+     "text": "None new. A discloser dissatisfied with a decline may disclose elsewhere; the organisation must not discourage this, and any contract term that tries to is void (PDA s.2(3); Bill s.11(4))."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "DO → receiving authorised person (with a redacted pack). DO → law enforcement agency. DBM → database (referral date and recipient, or dismissal and reason). DO → Phase 4 investigator."
+    },
+    {
+     "heading": "Watch",
+     "text": "The retired judge under Bill s.24 hears complaints about detrimental action, identity breaches, revocation and extension applications. It is not a forum for appealing a decision not to investigate, so do not signpost it as one."
+    }
+   ],
+   "steps": [
+    {
+     "id": "3.1",
+     "label": "3.1",
+     "title": "Decide the route",
+     "trigger": "Classification complete.",
+     "action": "Choose: investigate internally; refer to another authorised person; or not investigate on a s.14(5) ground. Senior sign-off; LA review of every decline.",
+     "points": [
+      "Choose: investigate internally; refer to another authorised person; or not investigate on a s.14(5) ground.",
+      "Senior sign-off; LA review of every decline."
+     ],
+     "owner": "DO, SSO, LA",
+     "deadline": "Bill: 10 days after preliminary investigation; PDA: 21 days",
+     "form": "F09 decision record",
+     "authority": "Bill s.14(4)–(5); PDA s.3B(1)(a)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Investigation decision",
+      "subsection": null,
+      "page": 17
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.2",
+     "label": "3.2",
+     "title": "If PDA decision not possible",
+     "trigger": "Matter too complex to decide by day 21 (PDA).",
+     "action": "Tell the discloser in writing that a decision is pending; repeat at intervals of not more than 2 months; decide within 6 months.",
+     "points": [
+      "Tell the discloser in writing that a decision is pending; repeat at intervals of not more than 2 months; decide within 6 months."
+     ],
+     "owner": "DO",
+     "deadline": "PDA: day 21, then every ≤ 2 months, final by 6 months",
+     "form": "F09 pending variant",
+     "authority": "PDA s.3B",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Investigation decision",
+      "subsection": null,
+      "page": 17
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.3a",
+     "label": "3.3a",
+     "title": "Investigate",
+     "trigger": "Route = investigate.",
+     "action": "Written notice: decision, who will investigate (role), update frequency, expected timeline. Proceed to Phase 4.",
+     "points": [
+      "Written notice: decision, who will investigate (role), update frequency, expected timeline.",
+      "Proceed to Phase 4."
+     ],
+     "owner": "DO",
+     "deadline": "With 3.1",
+     "form": "F09 variant A",
+     "authority": "Bill s.14(4)(a)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Investigation decision",
+      "subsection": null,
+      "page": 17
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.3b",
+     "label": "3.3b",
+     "title": "Refer to another authorised person",
+     "trigger": "Another body is better placed.",
+     "action": "Tell the discloser the reasons and which body; send the referral without identity unless the discloser has consented in writing; update the database. Never refer back to the employer that is the subject.",
+     "points": [
+      "Tell the discloser the reasons and which body; send the referral without identity unless the discloser has consented in writing; update the database.",
+      "Never refer back to the employer that is the subject."
+     ],
+     "owner": "DO",
+     "deadline": "With 3.1; database update BP within 5 days",
+     "form": "F09 variant B; F10 referral letter; F23",
+     "authority": "Bill s.14(4)(b), (7)(a)–(c), s.19(1); PDA s.3B(1)(a)(ii); attach PDA s.8 / GN R.949 list to F10",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Investigation decision",
+      "subsection": null,
+      "page": 17
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.3c",
+     "label": "3.3c",
+     "title": "Not investigate",
+     "trigger": "s.14(5) ground established.",
+     "action": "Written reasons. Name the discloser’s real options: disclosure to a body listed in or prescribed under PDA s.8 (GN R.949 of 2018; attach the list to F09 variant C), or a general disclosure under PDA s.9(2)(c) if no action is taken within a reasonable period. (Bill, on commencement: s.9 bodies, s.10(2)(c) and court review.) Record the dismissal and reason on the database.",
+     "points": [
+      "Written reasons.",
+      "Name the discloser’s real options: disclosure to a body listed in or prescribed under PDA s.8 (GN R.949 of 2018; attach the list to F09 variant C), or a general disclosure under PDA s.9(2)(c) if no action is taken within a reasonable period.",
+      "(Bill, on commencement: s.9 bodies, s.10(2)(c) and court review.) Record the dismissal and reason on the database."
+     ],
+     "owner": "DO, LA",
+     "deadline": "With 3.1",
+     "form": "F09 variant C; F23",
+     "authority": "PDA s.3B(1)(a)(iii), s.8, s.9(2)(c); GN R.949; Bill s.14(5)–(6), s.3(2)(b)(iii)(cc) (DRAFT)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Investigation decision",
+      "subsection": null,
+      "page": 17
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.4",
+     "label": "3.4",
+     "title": "Coordinate with another body that is investigating",
+     "trigger": "Same subject already under investigation by a body authorised by law.",
+     "action": "PDA (now): do not duplicate the agency’s work; agree in writing with the agency which internal steps (including discipline) may proceed, and keep disciplinary capability. Inform the discloser in writing unless PDA s.3B(5)(b) applies (record reasons on F09). Bill (on commencement): stand down per s.14(9)(a).",
+     "points": [
+      "PDA (now): do not duplicate the agency’s work; agree in writing with the agency which internal steps (including discipline) may proceed, and keep disciplinary capability.",
+      "Inform the discloser in writing unless PDA s.3B(5)(b) applies (record reasons on F09).",
+      "Bill (on commencement): stand down per s.14(9)(a)."
+     ],
+     "owner": "DO",
+     "deadline": "PDA: decision within 21 days; Bill: inform within 5 days of becoming aware (policy)",
+     "form": "F11",
+     "authority": "PDA s.3B(1)(a), s.3B(5)(b); Bill s.14(9)(a)(i), (b) (on commencement)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Investigation decision",
+      "subsection": null,
+      "page": 17
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.5",
+     "label": "3.5",
+     "title": "Law enforcement referral",
+     "trigger": "Crime clearly committed, or DO reasonably believes crime or imminent danger.",
+     "action": "Refer to SAPS, DPCI, IDAC or the relevant agency with an evidence summary; record the case number. Where PRECCA s.34 applies (any corruption offence, or theft, fraud, extortion, forgery or uttering of R100,000+, known or suspected), report to a police official (SAPS/DPCI). Before informing the discloser, LA to confirm whether PDA s.3B(5)(b) applies; if so, withhold, record reasons on F09 and diarise when notice can safely be given. Agree with the agency how any internal disciplinary process will run without prejudicing the criminal case.",
+     "points": [
+      "Refer to SAPS, DPCI, IDAC or the relevant agency with an evidence summary; record the case number.",
+      "Where PRECCA s.34 applies (any corruption offence, or theft, fraud, extortion, forgery or uttering of R100,000+, known or suspected), report to a police official (SAPS/DPCI).",
+      "Before informing the discloser, LA to confirm whether PDA s.3B(5)(b) applies; if so, withhold, record reasons on F09 and diarise when notice can safely be given.",
+      "Agree with the agency how any internal disciplinary process will run without prejudicing the criminal case."
+     ],
+     "owner": "DO, LA",
+     "deadline": "Imminent danger: immediately; inform discloser within 5 days of becoming aware; BP: refer within 5 days",
+     "form": "F10; F11",
+     "authority": "PRECCA s.34; PDA s.3B(5)(b); Bill s.12(5)(c), s.14(9)(a)(ii), (b) (DRAFT)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Investigation decision",
+      "subsection": null,
+      "page": 17
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+    "section": "§06 Phase 3 — Investigation decision",
+    "page": 17,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s5",
+   "group": "Phase 4 — Investigation",
+   "title": "Phase 4 — Investigation",
+   "kind": "phase",
+   "intro": [
+    "Under the Bill the investigation must finish within 12 months of receipt, with one extension of up to 6 months granted by the retired judge (Bill s.14(8)). The PDA sets no outer limit; adopt the Bill’s limit as policy."
+   ],
+   "notes": [
+    {
+     "heading": "Discloser obligations at this stage",
+     "text": "Cooperate truthfully; keep the investigation’s confidential information confidential except where a court or law requires it (Bill s.19(3)(a)). Do not continue participating in the conduct."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "DO → external investigator. LA → High Court or magistrate’s court (s.15). DO → retired judge (extension). HR → independent approver. Investigator → law enforcement if a crime becomes clear mid-investigation (coordinate now; stand down under Bill s.14(9) on commencement)."
+    },
+    {
+     "heading": "Watch",
+     "text": "The update record is evidence in its own right: a missed 3-monthly update breaches internal policy now and will be a statutory breach once the Bill commences. Calendar every update on day 0."
+    }
+   ],
+   "steps": [
+    {
+     "id": "4.1",
+     "label": "4.1",
+     "title": "Appoint investigator",
+     "trigger": "Decision to investigate.",
+     "action": "Appoint someone free of any reporting line, financial interest or relationship with implicated persons. External appointment, instructed by LA and overseen by the Board, where senior management is implicated. Signed conflict declaration, undertaking and terms of reference.",
+     "points": [
+      "Appoint someone free of any reporting line, financial interest or relationship with implicated persons.",
+      "External appointment, instructed by LA and overseen by the Board, where senior management is implicated.",
+      "Signed conflict declaration, undertaking and terms of reference."
+     ],
+     "owner": "DO, LA, BOARD",
+     "deadline": "BP: within 10 days of decision",
+     "form": "F12; F06",
+     "authority": "Bill s.14(2); BP",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Investigation",
+      "subsection": null,
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.2",
+     "label": "4.2",
+     "title": "Plan and brief",
+     "trigger": "Appointment made.",
+     "action": "Investigation plan with milestones; brief the investigator that concealing or suppressing evidence is an offence (up to 15 years).",
+     "points": [
+      "Investigation plan with milestones; brief the investigator that concealing or suppressing evidence is an offence (up to 15 years)."
+     ],
+     "owner": "INV, DO",
+     "deadline": "BP: within 5 days of appointment",
+     "form": "F13 plan and tracker",
+     "authority": "Bill s.14(11)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Investigation",
+      "subsection": null,
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.3",
+     "label": "4.3",
+     "title": "Gather evidence",
+     "trigger": "Plan approved.",
+     "action": "Collect documents and data under chain of custody; interview witnesses after a confidentiality briefing; give implicated persons a fair opportunity to respond. Where another form of wrongdoing emerges, extend scope under the procedure.",
+     "points": [
+      "Collect documents and data under chain of custody; interview witnesses after a confidentiality briefing; give implicated persons a fair opportunity to respond.",
+      "Where another form of wrongdoing emerges, extend scope under the procedure."
+     ],
+     "owner": "INV",
+     "deadline": "Ongoing",
+     "form": "F14 evidence register; interview notes",
+     "authority": "Bill s.12(5)(d)–(e); PAJA (public bodies); audi alteram partem",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Investigation",
+      "subsection": null,
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.4",
+     "label": "4.4",
+     "title": "Court assistance",
+     "trigger": "Evidence likely to be destroyed, concealed or tampered with, or a witness under pressure, inducement or intimidation.",
+     "action": "Apply to court for a preservation or restraint order. This is a duty, not a discretion. If the risk is assessed as below threshold, record why.",
+     "points": [
+      "Apply to court for a preservation or restraint order.",
+      "This is a duty, not a discretion.",
+      "If the risk is assessed as below threshold, record why."
+     ],
+     "owner": "LA, DO",
+     "deadline": "Immediately on the risk appearing",
+     "form": "F17 application pack",
+     "authority": "Bill s.15",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Investigation",
+      "subsection": null,
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.5",
+     "label": "4.5",
+     "title": "Progress updates",
+     "trigger": "Every open investigation.",
+     "action": "Written, substantive update: steps done, steps outstanding, next update date. Anonymous disclosers via the return channel.",
+     "points": [
+      "Written, substantive update: steps done, steps outstanding, next update date.",
+      "Anonymous disclosers via the return channel."
+     ],
+     "owner": "DO",
+     "deadline": "Bill: at least every 3 months",
+     "form": "F15",
+     "authority": "Bill s.14(8)(d) (adopted as policy now)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Investigation",
+      "subsection": null,
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.6",
+     "label": "4.6",
+     "title": "Extension",
+     "trigger": "Month-9 review shows the 12-month limit is at risk.",
+     "action": "Apply to the retired judge in the prescribed manner for up to 6 more months, before the 12 months expire. Only one extension is possible. Tell the discloser.",
+     "points": [
+      "Apply to the retired judge in the prescribed manner for up to 6 more months, before the 12 months expire.",
+      "Only one extension is possible.",
+      "Tell the discloser."
+     ],
+     "owner": "DO, LA",
+     "deadline": "Apply by month 10 (BP); limit is month 12",
+     "form": "F16",
+     "authority": "Bill s.14(8)(b)–(c), s.24(3)(a)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Investigation",
+      "subsection": null,
+      "page": 21
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.7",
+     "label": "4.7",
+     "title": "Adverse-action review",
+     "trigger": "Any proposed HR decision affecting the discloser or a related person: discipline, performance rating, transfer, contract renewal, promotion.",
+     "action": "Independent approver reviews before it is taken; reasons recorded separately from the disclosure file, showing the decision is not linked to the disclosure.",
+     "points": [
+      "Independent approver reviews before it is taken; reasons recorded separately from the disclosure file, showing the decision is not linked to the disclosure."
+     ],
+     "owner": "HR, independent approver",
+     "deadline": "Before the decision",
+     "form": "F18",
+     "authority": "Bill s.21(5)–(7); PDA s.3",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Investigation",
+      "subsection": null,
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.8",
+     "label": "4.8",
+     "title": "Parallel discipline",
+     "trigger": "Disciplinary process against the discloser pre-dates or runs alongside.",
+     "action": "Keep it structurally separate, with its own chairperson and file. Document the chronology showing independent grounds.",
+     "points": [
+      "Keep it structurally separate, with its own chairperson and file.",
+      "Document the chronology showing independent grounds."
+     ],
+     "owner": "HR, LA",
+     "deadline": "Ongoing",
+     "form": "Chronology memo",
+     "authority": "Bill s.5(h), s.21 (second) (3), s.21(5)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Investigation",
+      "subsection": null,
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.9",
+     "label": "4.9",
+     "title": "Transfer request",
+     "trigger": "Discloser reasonably believes they may be adversely affected and asks to move.",
+     "action": "Transfer if reasonably possible or practicable, on terms no less favourable without written consent.",
+     "points": [
+      "Transfer if reasonably possible or practicable, on terms no less favourable without written consent."
+     ],
+     "owner": "HR",
+     "deadline": "Promptly on request",
+     "form": "F19",
+     "authority": "Bill s.28(4)–(5); PDA s.4(3)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Investigation",
+      "subsection": null,
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.10",
+     "label": "4.10",
+     "title": "Identity demands",
+     "trigger": "A court or law requires confidential information, or a complaint under s.24(3)(b)(ii) is lodged.",
+     "action": "Tell the discloser in advance where possible. If a complaint is lodged with the retired judge, disclose nothing until the judge’s investigation and recommendation are complete. Seek in camera evidence or redaction orders.",
+     "points": [
+      "Tell the discloser in advance where possible.",
+      "If a complaint is lodged with the retired judge, disclose nothing until the judge’s investigation and recommendation are complete.",
+      "Seek in camera evidence or redaction orders."
+     ],
+     "owner": "LA",
+     "deadline": "Before any release",
+     "form": "F28; court applications",
+     "authority": "Bill s.19(3)–(5), s.25(4)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Investigation",
+      "subsection": null,
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.11",
+     "label": "4.11",
+     "title": "Revocation check",
+     "trigger": "Evidence that the discloser participated after disclosing, made a knowingly false material statement, disclosed solely or substantially to avoid discipline, or committed an Act offence.",
+     "action": "Stop; LA opinion; follow the revocation protocol in section 10. Protection continues while any challenge runs.",
+     "points": [
+      "Stop; LA opinion; follow the revocation protocol in section 10.",
+      "Protection continues while any challenge runs."
+     ],
+     "owner": "DO, LA",
+     "deadline": "When the evidence emerges",
+     "form": "See section 10",
+     "authority": "Bill s.27",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Investigation",
+      "subsection": null,
+      "page": 20
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+    "section": "§07 Phase 4 — Investigation",
+    "page": 20,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s6",
+   "group": "Phase 5 — Close, outcome and enforcement",
+   "title": "Phase 5 — Close, outcome and enforcement",
+   "kind": "phase",
+   "intro": [
+    "The case is closed only when the report is issued, the discloser has a substantive outcome, any crime is referred, and the database and records are finalised. Recommendations then carry High Court enforcement risk under the Bill."
+   ],
+   "notes": [
+    {
+     "heading": "Discloser obligations at this stage",
+     "text": "Keep the report’s confidential content confidential except as law or a court requires. A discloser aggrieved by the report may apply to court for review in the prescribed manner (Bill s.16(3))."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "DO → discloser, employer or relevant person (report). DO → law enforcement. Management → BOARD (recommendation tracking). LA → High Court (s.17 enforcement, or defending one). DBM → database."
+    },
+    {
+     "heading": "Watch",
+     "text": "“The matter is concluded” is not an outcome notice. Give enough substance for the discloser to understand the result and what they can still do."
+    }
+   ],
+   "steps": [
+    {
+     "id": "5.1",
+     "label": "5.1",
+     "title": "Report",
+     "trigger": "Investigation concluded.",
+     "action": "Report with findings and recommendations. Draft redacted from the first paragraph: no confidential personal information about the discloser, including indirect identifiers such as dates, quotes or org-chart detail.",
+     "points": [
+      "Report with findings and recommendations.",
+      "Draft redacted from the first paragraph: no confidential personal information about the discloser, including indirect identifiers such as dates, quotes or org-chart detail."
+     ],
+     "owner": "INV, DO",
+     "deadline": "Within the 12-month (or extended) limit",
+     "form": "F20",
+     "authority": "Bill s.16(1), (2)(b)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Close, outcome and enforcement",
+      "subsection": null,
+      "page": 23
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.2",
+     "label": "5.2",
+     "title": "Distribute report",
+     "trigger": "Report signed off.",
+     "action": "Make available to the discloser; the discloser’s employer (or former employer at the time of the conduct); or the relevant person where the disclosure is not about an employer.",
+     "points": [
+      "Make available to the discloser; the discloser’s employer (or former employer at the time of the conduct); or the relevant person where the disclosure is not about an employer."
+     ],
+     "owner": "DO",
+     "deadline": "Promptly on sign-off (BP within 10 days)",
+     "form": "Distribution log",
+     "authority": "Bill s.16(2)(a)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Close, outcome and enforcement",
+      "subsection": null,
+      "page": 23
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.3",
+     "label": "5.3",
+     "title": "Outcome notice",
+     "trigger": "Report distributed.",
+     "action": "Substantive notice: what was found, what is being done, and the discloser’s remaining options (Bill, on commencement: court review of the report, s.16(3); complaint or court if detriment occurs). Withhold third-party personal information and live criminal-case detail. Not required only where the discloser’s identity and contact details are unknown (PDA s.3B(5)(a)).",
+     "points": [
+      "Substantive notice: what was found, what is being done, and the discloser’s remaining options (Bill, on commencement: court review of the report, s.16(3); complaint or court if detriment occurs).",
+      "Withhold third-party personal information and live criminal-case detail.",
+      "Not required only where the discloser’s identity and contact details are unknown (PDA s.3B(5)(a))."
+     ],
+     "owner": "DO",
+     "deadline": "With 5.2",
+     "form": "F21",
+     "authority": "PDA s.3B(4) (statutory: inform discloser of outcome at conclusion); Bill s.16(2)–(3)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Close, outcome and enforcement",
+      "subsection": null,
+      "page": 23
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.4",
+     "label": "5.4",
+     "title": "Law enforcement referral",
+     "trigger": "Findings show a criminal offence.",
+     "action": "Refer to the relevant agency regardless of any internal sanction; record the case number. PRECCA s.34 offences (any corruption offence, or theft, fraud, extortion, forgery or uttering of R100,000+) go to a police official (SAPS/DPCI).",
+     "points": [
+      "Refer to the relevant agency regardless of any internal sanction; record the case number.",
+      "PRECCA s.34 offences (any corruption offence, or theft, fraud, extortion, forgery or uttering of R100,000+) go to a police official (SAPS/DPCI)."
+     ],
+     "owner": "DO, LA",
+     "deadline": "BP: within 5 days of report",
+     "form": "F10",
+     "authority": "Bill s.16(4); PRECCA s.34",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Close, outcome and enforcement",
+      "subsection": null,
+      "page": 23
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.5",
+     "label": "5.5",
+     "title": "Implement recommendations",
+     "trigger": "Report accepted.",
+     "action": "Owner and due date per recommendation; track to completion; report to BOARD. Unimplemented recommendations can be enforced in the High Court by the authorised person or any interested party.",
+     "points": [
+      "Owner and due date per recommendation; track to completion; report to BOARD.",
+      "Unimplemented recommendations can be enforced in the High Court by the authorised person or any interested party."
+     ],
+     "owner": "Management, DO",
+     "deadline": "Per action plan",
+     "form": "Action tracker",
+     "authority": "Bill s.17",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Close, outcome and enforcement",
+      "subsection": null,
+      "page": 23
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.6",
+     "label": "5.6",
+     "title": "Finalise database",
+     "trigger": "Outcome notice issued.",
+     "action": "Record finalisation and date.",
+     "points": [
+      "Record finalisation and date."
+     ],
+     "owner": "DBM",
+     "deadline": "BP: within 5 days",
+     "form": "F23",
+     "authority": "Bill s.3(2)(b)(iii)(dd)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Close, outcome and enforcement",
+      "subsection": null,
+      "page": 24
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.7",
+     "label": "5.7",
+     "title": "Records retention",
+     "trigger": "Case finalised.",
+     "action": "Keep records only as long as needed to finalise, unless law requires or lawful purposes reasonably require longer. If kept longer, record reasons without delay and tell the discloser. Destroy or de-identify per POPIA.",
+     "points": [
+      "Keep records only as long as needed to finalise, unless law requires or lawful purposes reasonably require longer.",
+      "If kept longer, record reasons without delay and tell the discloser.",
+      "Destroy or de-identify per POPIA."
+     ],
+     "owner": "DO, Records",
+     "deadline": "On finalisation",
+     "form": "F22",
+     "authority": "Bill s.14(10); POPIA s.14",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Close, outcome and enforcement",
+      "subsection": null,
+      "page": 23
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.8",
+     "label": "5.8",
+     "title": "Close protection file",
+     "trigger": "Case closed.",
+     "action": "End-state retaliation assessment; set a post-closure watch period for adverse actions (BP 12 months), since retaliation often follows closure.",
+     "points": [
+      "End-state retaliation assessment; set a post-closure watch period for adverse actions (BP 12 months), since retaliation often follows closure."
+     ],
+     "owner": "HR, DO",
+     "deadline": "On closure, then watch period",
+     "form": "F08 closing entry",
+     "authority": "Bill s.21; BP",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Close, outcome and enforcement",
+      "subsection": null,
+      "page": 23
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.9",
+     "label": "5.9",
+     "title": "Award readiness",
+     "trigger": "Organisation prosecuted and a monetary sanction possible.",
+     "action": "Preserve records of what information came from whom and when, since the court tests origin, novelty and proof of offence elements. Public servants, PRECCA s.34 reporters, plea-deal informants, accomplices and law enforcement officials are excluded.",
+     "points": [
+      "Preserve records of what information came from whom and when, since the court tests origin, novelty and proof of offence elements.",
+      "Public servants, PRECCA s.34 reporters, plea-deal informants, accomplices and law enforcement officials are excluded."
+     ],
+     "owner": "LA",
+     "deadline": "During proceedings",
+     "form": "Evidence provenance file",
+     "authority": "Bill s.18",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Close, outcome and enforcement",
+      "subsection": null,
+      "page": 23
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+    "section": "§08 Phase 5 — Close, outcome and enforcement",
+    "page": 23,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s7",
+   "group": "Phase 6 — Governance and learning",
+   "title": "Phase 6 — Governance and learning",
+   "kind": "phase",
+   "intro": [
+    "Phase 6 turns individual cases into control improvements and board oversight. Almost none of it has a statutory deadline, so it must be fixed in policy or it will be skipped."
+   ],
+   "notes": [
+    {
+     "heading": "Hand-offs",
+     "text": "DO → Audit / Social and Ethics Committee. Compliance → website owner. LA → policy owners."
+    }
+   ],
+   "steps": [
+    {
+     "id": "6.1",
+     "label": "6.1",
+     "title": "Root-cause review",
+     "trigger": "Case closed.",
+     "action": "Which control failed; whether policy was adequate; whether internal channels were trusted; whether related persons were affected. Review the organisation, never the discloser’s credibility.",
+     "points": [
+      "Which control failed; whether policy was adequate; whether internal channels were trusted; whether related persons were affected.",
+      "Review the organisation, never the discloser’s credibility."
+     ],
+     "owner": "DO, HR, LA",
+     "deadline": "BP: within 30 days of closure",
+     "form": "F25",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.2",
+     "label": "6.2",
+     "title": "Governance reporting",
+     "trigger": "Quarterly cycle.",
+     "action": "Volumes by channel and category; timeliness against every deadline; retaliation complaints; referrals; recommendations outstanding; policy changes. Aggregate only.",
+     "points": [
+      "Volumes by channel and category; timeliness against every deadline; retaliation complaints; referrals; recommendations outstanding; policy changes.",
+      "Aggregate only."
+     ],
+     "owner": "DO, Company Secretary",
+     "deadline": "Quarterly",
+     "form": "F26",
+     "authority": "King V Code on Corporate Governance (2025; effective for financial years from 1 Jan 2026), ethics and compliance principles (confirm principle number from the Code); Companies Regulations reg. 43 (Social and Ethics Committee, where applicable)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.3",
+     "label": "6.3",
+     "title": "External visibility check",
+     "trigger": "Annually.",
+     "action": "Anticipate that database data will appear in the DoJ Annual Report and complaints in the retired judge’s annual report. Reconcile internal figures with database entries.",
+     "points": [
+      "Anticipate that database data will appear in the DoJ Annual Report and complaints in the retired judge’s annual report.",
+      "Reconcile internal figures with database entries."
+     ],
+     "owner": "DO, DBM",
+     "deadline": "Annually",
+     "form": "Reconciliation note",
+     "authority": "Bill s.3(7), s.24(4)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 26
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.4",
+     "label": "6.4",
+     "title": "Policy and website refresh",
+     "trigger": "Annually, or on any change of DO, channel or law.",
+     "action": "Update procedure, DO contact details and the five s.29(4) website items; re-communicate.",
+     "points": [
+      "Update procedure, DO contact details and the five s.29(4) website items; re-communicate."
+     ],
+     "owner": "Compliance, LA",
+     "deadline": "At least annually",
+     "form": "Revised policy; F27",
+     "authority": "Bill s.12(1), s.29(4)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.5",
+     "label": "6.5",
+     "title": "Training refresh",
+     "trigger": "Annually and after significant cases.",
+     "action": "Refresh DO, HR, LA, investigator and manager training, including the offences register in section 14.",
+     "points": [
+      "Refresh DO, HR, LA, investigator and manager training, including the offences register in section 14."
+     ],
+     "owner": "HR / L&D",
+     "deadline": "At least annually",
+     "form": "Attendance records",
+     "authority": "Bill s.29(1); BP",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.6",
+     "label": "6.6",
+     "title": "Legislative watch",
+     "trigger": "Bill progress, regulations, database go-live.",
+     "action": "Track introduction in Parliament, amendments, commencement proclamation (which may differ per provision, s.33(2)) and regulations. Run a gap analysis at each step.",
+     "points": [
+      "Track introduction in Parliament, amendments, commencement proclamation (which may differ per provision, s.33(2)) and regulations.",
+      "Run a gap analysis at each step."
+     ],
+     "owner": "LA",
+     "deadline": "Ongoing",
+     "form": "Change log",
+     "authority": "Bill s.30, s.33",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+    "section": "§09 Phase 6 — Governance and learning",
+    "page": 25,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s8",
+   "group": "Parallel track — protection, complaints, revocation and remedies",
+   "title": "Parallel track — protection, complaints, revocation and remedies",
+   "kind": "parallel",
+   "intro": [
+    "This track opens on day 0 and runs until the post-closure watch period ends. Its events are triggered by what happens to people, not by the case timeline."
+   ],
+   "notes": [],
+   "steps": [
+    {
+     "id": "P1",
+     "label": "P1",
+     "title": "Confidentiality",
+     "trigger": "Always.",
+     "action": "Identity and identifying information released only with written consent and to employees competent to deal with the disclosure; no investigation information to any other person.",
+     "points": [
+      "Identity and identifying information released only with written consent and to employees competent to deal with the disclosure; no investigation information to any other person."
+     ],
+     "owner": "",
+     "deadline": "Continuous",
+     "form": "F05, F06, F28",
+     "authority": "Bill s.19(1)–(2), (6): up to 10 years",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — protection, complaints, revocation and remedies",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P2",
+     "label": "P2",
+     "title": "Liability shield",
+     "trigger": "Discloser threatened with a civil claim or charge for breaching confidentiality.",
+     "action": "Do not institute or threaten; such a threat is itself occupational detriment. LA to assess reasonable-belief test.",
+     "points": [
+      "Do not institute or threaten; such a threat is itself occupational detriment.",
+      "LA to assess reasonable-belief test."
+     ],
+     "owner": "",
+     "deadline": "On the threat",
+     "form": "LA memo",
+     "authority": "Bill s.20, s.1 “occupational detriment” (h)–(i); PDA s.9A",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — protection, complaints, revocation and remedies",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P3",
+     "label": "P3",
+     "title": "Occupational detriment",
+     "trigger": "Any adverse employment action linked in any way to the disclosure.",
+     "action": "Prevent via 4.7; if it occurs, reverse and remedy. The employer, the person acting with its authority and a client are jointly and severally liable.",
+     "points": [
+      "Prevent via 4.7; if it occurs, reverse and remedy.",
+      "The employer, the person acting with its authority and a client are jointly and severally liable."
+     ],
+     "owner": "",
+     "deadline": "Immediately",
+     "form": "F18",
+     "authority": "Bill s.21(1), (7)–(8); PDA s.3, s.3A (joint and several liability of employer and client)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — protection, complaints, revocation and remedies",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P4",
+     "label": "P4",
+     "title": "Detrimental action",
+     "trigger": "Threats, intimidation, harassment, injury, property damage or discrimination against the discloser or any related person, inside or outside work.",
+     "action": "Security response; SAPS report where criminal; EAP support; record in F08. Protect against acts by third parties the organisation incites, authorises or knowingly permits.",
+     "points": [
+      "Security response; SAPS report where criminal; EAP support; record in F08.",
+      "Protect against acts by third parties the organisation incites, authorises or knowingly permits."
+     ],
+     "owner": "",
+     "deadline": "Immediately",
+     "form": "F08",
+     "authority": "Bill s.1 “detrimental action”, s.21(2)–(3), (8): up to 15 years",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — protection, complaints, revocation and remedies",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P5",
+     "label": "P5",
+     "title": "Burden of proof",
+     "trigger": "Discloser shows a protected disclosure and a linked detriment.",
+     "action": "Organisation must show the action was not retaliatory; its evidence is the F18 record made at the time.",
+     "points": [
+      "Organisation must show the action was not retaliatory; its evidence is the F18 record made at the time."
+     ],
+     "owner": "",
+     "deadline": "In proceedings",
+     "form": "F18, chronology",
+     "authority": "Bill s.21(5)–(6)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — protection, complaints, revocation and remedies",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P6",
+     "label": "P6",
+     "title": "Witness protection",
+     "trigger": "Serious threat to safety.",
+     "action": "Tell the discloser the Witness Protection Act applies and how to apply to the Office for Witness Protection; do not apply on their behalf without consent.",
+     "points": [
+      "Tell the discloser the Witness Protection Act applies and how to apply to the Office for Witness Protection; do not apply on their behalf without consent."
+     ],
+     "owner": "",
+     "deadline": "On identifying the risk",
+     "form": "Referral note",
+     "authority": "Bill s.22; WPA s.7 as amended by Schedule",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — protection, complaints, revocation and remedies",
+      "subsection": null,
+      "page": 28
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P7",
+     "label": "P7",
+     "title": "Legal aid",
+     "trigger": "Discloser in court or tribunal and cannot afford representation.",
+     "action": "Court or tribunal refers to Legal Aid SA; organisation to respect confidentiality of that direction.",
+     "points": [
+      "Court or tribunal refers to Legal Aid SA; organisation to respect confidentiality of that direction."
+     ],
+     "owner": "",
+     "deadline": "Court-driven",
+     "form": "—",
+     "authority": "Bill s.23; Legal Aid SA Act s.22A (inserted)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — protection, complaints, revocation and remedies",
+      "subsection": null,
+      "page": 28
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P8",
+     "label": "P8",
+     "title": "Complaint to retired judge",
+     "trigger": "Discloser, related person or representative complains of detrimental action, imminent identity disclosure or revocation.",
+     "action": "Respond to information requests (refusal without lawful ground is an offence); allow entry to premises for documents; give reasonable assistance; do not interfere. Receive the judge’s decision and any referral to law enforcement or a Chapter 9 institution.",
+     "points": [
+      "Respond to information requests (refusal without lawful ground is an offence); allow entry to premises for documents; give reasonable assistance; do not interfere.",
+      "Receive the judge’s decision and any referral to law enforcement or a Chapter 9 institution."
+     ],
+     "owner": "",
+     "deadline": "As the judge requires",
+     "form": "Response pack",
+     "authority": "Bill s.24(3), (5)–(7), (12), s.25–26: up to 2 years",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — protection, complaints, revocation and remedies",
+      "subsection": null,
+      "page": 28
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P9",
+     "label": "P9",
+     "title": "Revocation",
+     "trigger": "Evidence of a s.27(1) ground during or after investigation.",
+     "action": "LA-signed written notice to the discloser; notify the Director: Office for Witness Protection if the person is under protection; signpost complaint or court. Protection continues until the judge or court rules otherwise if challenged.",
+     "points": [
+      "LA-signed written notice to the discloser; notify the Director: Office for Witness Protection if the person is under protection; signpost complaint or court.",
+      "Protection continues until the judge or court rules otherwise if challenged."
+     ],
+     "owner": "",
+     "deadline": "On the finding",
+     "form": "F24",
+     "authority": "Bill s.27",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — protection, complaints, revocation and remedies",
+      "subsection": null,
+      "page": 28
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P10",
+     "label": "P10",
+     "title": "Remedies claimed",
+     "trigger": "Discloser or related person lodges a complaint, CCMA referral or Labour Court or other court claim.",
+     "action": "Litigation response. Dismissal in breach is automatically unfair; other detriment is an unfair labour practice via LRA s.191 conciliation, then Labour Court. Courts may order compensation, actual damages or remedial steps.",
+     "points": [
+      "Litigation response.",
+      "Dismissal in breach is automatically unfair; other detriment is an unfair labour practice via LRA s.191 conciliation, then Labour Court.",
+      "Courts may order compensation, actual damages or remedial steps."
+     ],
+     "owner": "",
+     "deadline": "Employee referral windows: 30 days (dismissal, from dismissal or, if later, the final decision to dismiss or uphold it) / 90 days (unfair labour practice, from the act or knowledge of it)",
+     "form": "Litigation file",
+     "authority": "PDA s.4(1)–(2) (workers: any court, s.4(1A); orders, s.4(1B)); LRA s.186(2)(d), s.187(1)(h), s.191(1)(b), s.191(13); Bill s.28(1)–(3) (DRAFT)",
+     "route": "",
+     "basis": "mixed",
+     "source": {
+      "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — protection, complaints, revocation and remedies",
+      "subsection": null,
+      "page": 29
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "PDA_Receiving_Process_Flow_GBS_v1.1.docx",
+    "section": "§10 Parallel track — protection, complaints, revocation and remedies",
+    "page": 27,
+    "subsection": null
+   },
+   "applicability": "event"
+  }
+ ],
+ "referenceTables": [
+  {
+   "title": "Master flow at a glance",
+   "section": "§02 Master flow at a glance",
+   "page": 4,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Every channel feeds one intake; Phase 3 branches into investigate or refer/decline, and both close in Phase 5. The protection track is not a phase: it opens on day 0 and runs until the case closes, whatever the triage outcome.",
+    "Read each phase column top to bottom to see who acts and who hands off; read each lane left to right to see one party’s whole job. The Designated Officer lane is the spine: every other lane connects to it, and the protection lane runs underneath from day 0 until the post-closure watch ends."
+   ]
+  },
+  {
+   "title": "Discloser obligations and conduct",
+   "section": "§11 Discloser obligations and conduct",
+   "page": 30,
+   "kind": "obligations",
+   "columns": [
+    "Obligation",
+    "When",
+    "Consequence if not met",
+    "Authority"
+   ],
+   "rows": [
+    [
+     "Disclose to a qualifying recipient",
+     "At disclosure",
+     "Not protected",
+     "PDA s.1 “protected disclosure”, ss.5–9; Bill s.4, s.5(a) (DRAFT)"
+    ],
+    [
+     "Disclose in good faith and on reason to believe",
+     "At disclosure",
+     "Not protected (PDA)",
+     "PDA s.1 “disclosure”, s.6(1), s.7(1), s.8(1), s.9(1); Bill removes the good-faith test (DRAFT)"
+    ],
+    [
+     "Use the employer’s procedure, if made aware of it",
+     "Internal disclosure",
+     "Route may be challenged; if no procedure exists, may go to any authorised person and is deemed to have disclosed to the employer",
+     "PDA s.6(1)(a), s.6(2)(a)(ii); Bill s.12(2)–(4)"
+    ],
+    [
+     "Use the prescribed manner and information (other recipients)",
+     "External disclosure",
+     "Formal defects; follow-up requests",
+     "Bill s.11(1)"
+    ],
+    [
+     "Sign the written record of an oral disclosure, or confirm and mark",
+     "Oral disclosure",
+     "Record may be disputed",
+     "Bill s.11(3)"
+    ],
+    [
+     "General route only: good faith; reasonable belief the information is substantially true; not for personal gain; a s.9(2) trigger; reasonable in the circumstances (s.9(3))",
+     "Disclosure to media or other persons",
+     "Not protected",
+     "PDA s.9 (Bill s.10, DRAFT)"
+    ],
+    [
+     "Do not disclose known or ought-to-be-known false information with intent to harm where harm results",
+     "Always",
+     "Not protected (no good faith); offence, up to 2 years; prosecution needs written authority of the Director of Public Prosecutions",
+     "PDA s.9B; Bill s.5(d)–(e), s.13 (DRAFT)"
+    ],
+    [
+     "Not for pecuniary gain (Act rewards excepted), an illegal purpose, or solely or substantially to avoid discipline",
+     "Always",
+     "Bill (DRAFT): not protected. PDA today: relevant only through good faith and, for a general disclosure, personal gain (s.9(1)(b))",
+     "Bill s.5(f)–(h) (DRAFT); PDA s.9(1)(b)"
+    ],
+    [
+     "Stop participating in the conduct disclosed",
+     "After disclosing",
+     "Protection may be revoked",
+     "Bill s.27(1)(a)"
+    ],
+    [
+     "No material statement known or believed to be false",
+     "Throughout",
+     "Revocation",
+     "Bill s.27(1)(b)"
+    ],
+    [
+     "Respect confidentiality of investigation information, subject to court or law",
+     "Throughout",
+     "Loss of confidence; possible liability",
+     "Bill s.19(3)(a)"
+    ],
+    [
+     "Claim remedies through the proper forum",
+     "After detriment",
+     "Remedies may be delayed; retired judge may decline where the LRA applies",
+     "Bill s.24–28"
+    ]
+   ],
+   "intro": [
+    "The discloser keeps protection by choosing the right recipient, following a communicated procedure, and disclosing in good faith and on reason to believe (PDA ss.1, 6–9). The Bill’s s.5 exclusions are shown as DRAFT only; they do not decide protection today. The organisation should explain these in F04, without using them to discourage disclosure."
+   ]
+  },
+  {
+   "title": "Discloser obligations and conduct",
+   "section": "§11 Discloser obligations and conduct",
+   "page": 30,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Rights the organisation must not obstruct. Anonymous disclosure (Bill s.11(2), s.12(5)(f)); disclosure to other authorised persons; complaint to the retired judge; court or Labour Court relief; transfer on request (s.28(4)); witness protection and legal aid."
+   ]
+  },
+  {
+   "title": "Hand-offs and interfaces register",
+   "section": "§12 Hand-offs and interfaces register",
+   "page": 32,
+   "kind": "interfaces",
+   "columns": [
+    "Party or system",
+    "Trigger",
+    "What is handed over",
+    "When",
+    "Step",
+    "Authority"
+   ],
+   "rows": [
+    [
+     "Hotline or channel provider",
+     "Disclosure received by provider",
+     "Full report, return-channel reference",
+     "Same day",
+     "1.1",
+     "POPIA s.21 operator agreement"
+    ],
+    [
+     "Line managers",
+     "Disclosure made to them",
+     "Everything received, no copies retained",
+     "Same day",
+     "1.1",
+     "Procedure"
+    ],
+    [
+     "IT / records",
+     "Evidence risk or investigation",
+     "Litigation hold, device images, access logs",
+     "Day 0 onward",
+     "1.5, 4.3",
+     "BP"
+    ],
+    [
+     "Legal Adviser / external counsel",
+     "Route, exclusion, decline, s.15, revocation",
+     "Privileged instructions",
+     "From day 1",
+     "2.2–2.8",
+     "Privilege"
+    ],
+    [
+     "Independent route (Audit Committee chair)",
+     "DO or executive implicated",
+     "Whole case",
+     "Day 0–2",
+     "2.6",
+     "BP; Bill s.14(7)(c)"
+    ],
+    [
+     "HR",
+     "Retaliation risk; adverse actions; transfers",
+     "Need-to-know extract, no disclosure content",
+     "From day 0",
+     "2.7, 4.7, 4.9",
+     "Bill s.21, s.28(4)"
+    ],
+    [
+     "Other authorised person (PDA s.8 bodies, GN R.949; Bill s.8–10)",
+     "Referral decision",
+     "Redacted referral pack; F10 with the PDA s.8 / GN R.949 list attached",
+     "With decision",
+     "3.3b",
+     "PDA s.3B(1)(a)(ii), s.8; GN R.949; Bill s.14(7)"
+    ],
+    [
+     "SAPS / DPCI / IDAC / IPID",
+     "Crime, imminent danger, PRECCA s.34 (any corruption offence, or theft/fraud/extortion/forgery/uttering of R100,000+, known or suspected)",
+     "Evidence summary; case number returned",
+     "Immediately to BP 5 days",
+     "3.5, 5.4",
+     "PRECCA s.34 (police official); PDA s.3B(5)(b); Bill s.12(5)(c), s.14(9), s.16(4)"
+    ],
+    [
+     "Financial Intelligence Centre",
+     "Suspicious or unusual transaction (accountable and reporting institutions)",
+     "STR, without tipping off",
+     "As FICA prescribes",
+     "2.5",
+     "FICA s.29"
+    ],
+    [
+     "Sector regulator (e.g. FSCA, PA, NNR, Dept of Employment and Labour)",
+     "Regulatory breach with a reporting duty",
+     "Regulatory report",
+     "Per sector law",
+     "2.5",
+     "Sector law"
+    ],
+    [
+     "DoJ central database",
+     "Receipt, referral, dismissal, finalisation",
+     "Case status fields, no personal information",
+     "As prescribed",
+     "1.7, 3.3, 5.6",
+     "Bill s.3"
+    ],
+    [
+     "Retired judge",
+     "Extension application; complaint information request; entry",
+     "Application; documents requested",
+     "Before month 12; as requested",
+     "4.6, P8",
+     "Bill s.14(8), s.24–25"
+    ],
+    [
+     "Courts",
+     "Evidence risk; in camera or redaction; enforcement; review",
+     "Applications",
+     "As triggered",
+     "4.4, 4.10, 5.5",
+     "Bill s.15–17, s.19(4)–(5)"
+    ],
+    [
+     "Office for Witness Protection",
+     "Serious safety threat; revocation of a protected person",
+     "Discloser’s own application; revocation notice",
+     "On risk; on revocation",
+     "P6, P9",
+     "Bill s.22, s.27(2); WPA"
+    ],
+    [
+     "Legal Aid SA",
+     "Court or tribunal direction",
+     "Handled by the court",
+     "Court-driven",
+     "P7",
+     "Bill s.23"
+    ],
+    [
+     "CCMA / Labour Court",
+     "Discloser refers a dispute",
+     "Response and evidence",
+     "30 days (dismissal) / 90 days (ULP) for the employee’s referral",
+     "P10",
+     "PDA s.4(1)–(2); LRA s.186(2)(d), s.187(1)(h), s.191(1)(b), s.191(13); Bill s.28(3)"
+    ],
+    [
+     "Board / Audit / Social and Ethics Committee",
+     "Quarterly; senior-management cases",
+     "Aggregate report; case oversight where implicated",
+     "Quarterly",
+     "6.2",
+     "Governance"
+    ],
+    [
+     "External investigator",
+     "Appointment",
+     "ToR, access, redacted file",
+     "Within BP 10 days of decision",
+     "4.1",
+     "Bill s.14(2)"
+    ],
+    [
+     "EAP / security provider",
+     "Wellbeing or safety risk",
+     "Minimum personal detail with consent",
+     "On risk",
+     "P4",
+     "BP"
+    ]
+   ],
+   "intro": [
+    "Every hand-off carries a confidentiality risk: send the minimum, redact identity unless the discloser consented in writing, and log what was sent, to whom and when."
+   ]
+  },
+  {
+   "title": "Hand-offs and interfaces register",
+   "section": "§12 Hand-offs and interfaces register",
+   "page": 32,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Adjacent regimes to check at triage. Companies Act s.159 (separate whistleblower protection for company-related disclosures, including by shareholders, directors, suppliers and other non-employees; public and state-owned companies must maintain the s.159(7) confidential disclosure system and post the reg 131 notice now: step 0.6A). NEMA s.31 (environmental whistleblowing). OHSA and MHSA (health and safety reporting). These can run alongside the PDA and may impose their own timelines."
+   ]
+  },
+  {
+   "title": "Forms register",
+   "section": "§13 Forms register",
+   "page": 35,
+   "kind": "forms",
+   "columns": [
+    "Form",
+    "Name",
+    "Used at",
+    "Existing template",
+    "Statutory form?"
+   ],
+   "rows": [
+    [
+     "F01",
+     "Intake record and case register entry",
+     "1.1–1.2",
+     "T2 (partly)",
+     "No"
+    ],
+    [
+     "F02",
+     "Written record of oral disclosure, signed",
+     "1.3",
+     "—",
+     "Bill s.11(3)(a)"
+    ],
+    [
+     "F03",
+     "Read-back and interpretation certificate",
+     "1.3",
+     "—",
+     "Yes, prescribed (Bill s.11(3)(d))"
+    ],
+    [
+     "F04",
+     "Acknowledgement of receipt with confidentiality-limits notice",
+     "1.6",
+     "T1",
+     "No"
+    ],
+    [
+     "F05",
+     "Sealed identity register",
+     "1.4",
+     "—",
+     "No"
+    ],
+    [
+     "F06",
+     "Confidentiality undertaking",
+     "1.4, 4.1",
+     "T10",
+     "No"
+    ],
+    [
+     "F07",
+     "Preliminary assessment memo (parts A–E)",
+     "Phase 2",
+     "T2",
+     "No"
+    ],
+    [
+     "F08",
+     "Retaliation and related-person risk assessment and interim-measures log",
+     "2.7, P4, 5.8",
+     "T3",
+     "No"
+    ],
+    [
+     "F09",
+     "Decision notice: investigate / refer / not investigate (variant C attaches the PDA s.8 / GN R.949 list) / pending (PDA); records any s.3B(5) reliance",
+     "Phase 3",
+     "T4 (add pending variant)",
+     "No"
+    ],
+    [
+     "F10",
+     "Referral letter to authorised person or law enforcement (attach list of bodies under PDA s.8(1) and GN R.949 of 14 Sept 2018 with the matters each covers)",
+     "3.3b, 3.5, 5.4",
+     "T5",
+     "No"
+    ],
+    [
+     "F11",
+     "Coordination notice to discloser (Bill s.14(9) stand-down on commencement)",
+     "3.4, 3.5",
+     "—",
+     "No"
+    ],
+    [
+     "F12",
+     "Investigator appointment, terms of reference and conflict declaration",
+     "4.1",
+     "T6",
+     "No"
+    ],
+    [
+     "F13",
+     "Investigation plan and deadline tracker",
+     "1.8, 4.2",
+     "—",
+     "No"
+    ],
+    [
+     "F14",
+     "Evidence register and chain of custody",
+     "4.3",
+     "—",
+     "No"
+    ],
+    [
+     "F15",
+     "Progress update letter",
+     "4.5",
+     "T7",
+     "No"
+    ],
+    [
+     "F16",
+     "Extension application to the retired judge",
+     "4.6",
+     "—",
+     "Yes, prescribed manner"
+    ],
+    [
+     "F17",
+     "Section 15 court application pack",
+     "4.4",
+     "—",
+     "Court rules"
+    ],
+    [
+     "F18",
+     "Adverse-action review record",
+     "4.7, P3, P5",
+     "—",
+     "No"
+    ],
+    [
+     "F19",
+     "Transfer request and decision",
+     "4.9",
+     "—",
+     "No"
+    ],
+    [
+     "F20",
+     "Investigation report",
+     "5.1",
+     "T8 (structure only)",
+     "No"
+    ],
+    [
+     "F21",
+     "Outcome notice",
+     "5.3",
+     "T9",
+     "No (notice is a PDA s.3B(4) duty)"
+    ],
+    [
+     "F22",
+     "Retention decision and discloser notice",
+     "5.7",
+     "—",
+     "No"
+    ],
+    [
+     "F23",
+     "Database registration, upload, update and closure record",
+     "0.7, 1.7, 3.3, 5.6",
+     "—",
+     "Manner to be prescribed"
+    ],
+    [
+     "F24",
+     "Revocation notice",
+     "P9",
+     "T11",
+     "No"
+    ],
+    [
+     "F25",
+     "Root-cause memo",
+     "6.1",
+     "—",
+     "No"
+    ],
+    [
+     "F26",
+     "Governance trend report",
+     "6.2",
+     "—",
+     "No"
+    ],
+    [
+     "F27",
+     "Website content checklist (five s.29(4) items)",
+     "0.6, 6.4",
+     "—",
+     "No"
+    ],
+    [
+     "F28",
+     "Written consent to identity release",
+     "1.4, 3.3b, 4.10",
+     "—",
+     "No (Bill s.19(1)(a))"
+    ],
+    [
+     "F29",
+     "Redirect notice (grievance or wrong channel)",
+     "2.1",
+     "—",
+     "No"
+    ]
+   ],
+   "intro": [
+    "Twenty-nine forms support the flow; the GBS Baseline 1.0 template (T-number) is shown where one already exists, so the gaps are the forms still to draft."
+   ]
+  },
+  {
+   "title": "Forms register",
+   "section": "§13 Forms register",
+   "page": 35,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Forms marked “prescribed” cannot be finalised until regulations under Bill s.30 are published."
+   ]
+  },
+  {
+   "title": "Case calendar (calendar days from receipt)",
+   "section": "§14 Timeline calendar and offences register",
+   "page": 38,
+   "kind": "timeline",
+   "columns": [
+    "When",
+    "Event",
+    "PDA",
+    "Bill",
+    "Type"
+   ],
+   "rows": [
+    [
+     "Day 0",
+     "Log, reference, identity secured, danger screen, clocks diarised",
+     "—",
+     "—",
+     "BP"
+    ],
+    [
+     "Day 0 onward",
+     "Retaliation risk assessment and interim measures",
+     "Implied (s.3)",
+     "Implied (s.21)",
+     "BP"
+    ],
+    [
+     "By day 5",
+     "Written acknowledgement",
+     "Folded into day 21",
+     "Bill duty (s.14(1))",
+     "Bill (adopted as policy)"
+    ],
+    [
+     "By day 5",
+     "Preliminary investigation and classification",
+     "—",
+     "Bill duty (s.14(3))",
+     "Bill (adopted as policy)"
+    ],
+    [
+     "Within 5 days of becoming aware",
+     "Inform discloser of stand-down (parallel investigation or crime)",
+     "—",
+     "Bill duty (s.14(9)(b))",
+     "Bill (adopted as policy)"
+    ],
+    [
+     "By day 10 (backstop 15)",
+     "Written decision: investigate, refer or not",
+     "—",
+     "Bill duty (s.14(4))",
+     "Bill (adopted as policy)"
+    ],
+    [
+     "By day 21",
+     "Decision and acknowledgement, or “pending” notice (from receipt, or from receipt of a referral: s.3B(2))",
+     "Statutory (s.3B)",
+     "—",
+     "Statutory"
+    ],
+    [
+     "Every ≤ 2 months to month 6",
+     "Pending-decision notices, final decision by month 6",
+     "Statutory (s.3B)",
+     "—",
+     "Statutory"
+    ],
+    [
+     "Decision + 10 days",
+     "Investigator appointed",
+     "—",
+     "—",
+     "BP"
+    ],
+    [
+     "Months 3, 6, 9, 12",
+     "Progress updates",
+     "—",
+     "At least every 3 months (s.14(8)(d))",
+     "Bill (adopted as policy)"
+    ],
+    [
+     "Month 9",
+     "Extension review",
+     "—",
+     "—",
+     "BP"
+    ],
+    [
+     "By month 12",
+     "Investigation complete, or extension applied for",
+     "—",
+     "Bill duty (s.14(8)(a)–(b))",
+     "Bill (adopted as policy)"
+    ],
+    [
+     "By month 18",
+     "Absolute end if extended",
+     "—",
+     "Bill duty (s.14(8)(c))",
+     "Bill (adopted as policy)"
+    ],
+    [
+     "On conclusion",
+     "Report, distribution, outcome, crime referral",
+     "Statutory (s.3B(4)), no days set",
+     "Bill duty, no days set (s.16)",
+     "Statutory (PDA outcome); Bill (policy) for report"
+    ],
+    [
+     "Outcome + 5 days",
+     "Database finalised",
+     "—",
+     "Manner to be prescribed",
+     "BP"
+    ],
+    [
+     "Closure + 30 days",
+     "Root-cause review",
+     "—",
+     "—",
+     "BP"
+    ],
+    [
+     "Closure + 12 months",
+     "Post-closure retaliation watch ends",
+     "—",
+     "—",
+     "BP"
+    ]
+   ],
+   "intro": [
+    "Using Bill timelines as internal policy, a routine case has four hard Bill dates in the first fortnight (adopted as policy now), the statutory PDA day-21 decision, then a 3-monthly rhythm to month 12. Only the PDA s.3B dates (day 21; pending notices ≤ 2 months; 6 months; outcome on conclusion) are statutory today."
+   ]
+  },
+  {
+   "title": "Offences register (Bill, unless stated)",
+   "section": "§14 Timeline calendar and offences register",
+   "page": 38,
+   "kind": "liability",
+   "columns": [
+    "Offence",
+    "Who is exposed",
+    "Maximum imprisonment",
+    "Authority"
+   ],
+   "rows": [
+    [
+     "Concealing or suppressing evidence during an investigation",
+     "Authorised person and its staff",
+     "15 years",
+     "s.14(11)"
+    ],
+    [
+     "Subjecting a discloser to occupational detriment, or a discloser or related person to detrimental action",
+     "Anyone, including managers",
+     "15 years",
+     "s.21(8)"
+    ],
+    [
+     "Disclosing identity or investigation information",
+     "Authorised person and its staff",
+     "10 years",
+     "s.19(6)"
+    ],
+    [
+     "Knowingly false disclosure intended to and causing harm",
+     "Discloser",
+     "2 years (DPP written authority to prosecute)",
+     "PDA s.9B (in force); Bill s.13"
+    ],
+    [
+     "Refusing the retired judge’s information request without lawful ground",
+     "Any person or employer",
+     "2 years",
+     "s.24(6)"
+    ],
+    [
+     "Interfering with the retired judge",
+     "Anyone",
+     "2 years",
+     "s.24(12)"
+    ],
+    [
+     "Contravening regulations (if regulations so provide)",
+     "Anyone",
+     "3 years",
+     "s.30(3)"
+    ]
+   ]
+  },
+  {
+   "title": "Timeline calendar and offences register",
+   "section": "§14 Timeline calendar and offences register",
+   "page": 38,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Fines may be imposed instead of or alongside imprisonment for each offence."
+   ]
+  },
+  {
+   "title": "Corrections to GBS materials",
+   "section": "§15 Corrections to existing GBS materials and Bill drafting issues",
+   "page": 41,
+   "kind": "corrections",
+   "columns": [
+    "#",
+    "Current statement",
+    "Where",
+    "Correction"
+   ],
+   "rows": [
+    [
+     "1",
+     "SAPS referral “within 5 days of identifying criminal conduct”",
+     "Flow Table 3.3–3.4; Baseline 3.3–3.4; Training Paper 6.1; slides 21, 25, 30",
+     "Bill s.12(5)(c) and s.14(9)(a)(ii) set no referral deadline. The 5 days in s.14(9)(b) is to inform the discloser. Present 5 days as BP."
+    ],
+    [
+     "2",
+     "Decision “within 10 days of receipt”",
+     "All materials",
+     "s.14(4): within 10 days after the preliminary investigation, so up to day 15. Keep day 10 as policy, but cite accurately."
+    ],
+    [
+     "3",
+     "PDA “progress updates every 2 months” and “outcome within 6 months”",
+     "Flow Table 4.3, 5.2; Baseline 4.3, 5.2; Training Paper 6.1, 10; slide 21",
+     "Under PDA s.3B these relate to a pending decision, not investigation progress or outcome. The PDA has no outcome deadline, but s.3B(4) does require the discloser to be told the outcome when the investigation concludes (statutory now)."
+    ],
+    [
+     "4",
+     "PDA “acknowledge within 21 days” as a stand-alone step",
+     "Flow Table 1.2; T1",
+     "PDA s.3B joins acknowledgement to informing the discloser of the decision within 21 days."
+    ],
+    [
+     "5",
+     "Decline letters signpost a complaint to the retired judge",
+     "Baseline 3.2, T4 variant C; Flow Table 3.2; slide 25",
+     "Bill s.24(3) covers detrimental action, identity breaches, revocation and extensions, not declines. Signpost PDA s.8 bodies (GN R.949 of 2018) and a general disclosure under PDA s.9(2)(c) instead; Bill s.9, s.10(2)(c) and court review only once the Bill commences."
+    ],
+    [
+     "6",
+     "Database upload “immediately on receipt”",
+     "Flow Table 1.3; Baseline 1.3; slides 21, 23",
+     "Bill s.3 sets no timing; it will be prescribed. Label as BP pending regulations."
+    ],
+    [
+     "7",
+     "Bill s.14(1), (2) and (8) presented as binding employers",
+     "All materials",
+     "Textually these apply to s.11 and s.4(b)–(e) recipients, not the employer channel. Apply by policy and say so."
+    ],
+    [
+     "8",
+     "Training “now a statutory duty for both sectors” citing s.29(2)–(3)",
+     "Flow Table 6.4; Baseline 6.4; slide 28",
+     "s.29(2)–(3) bind Cabinet members and SAJEI. Employers’ duties are s.29(1) (awareness) and s.29(4) (website)."
+    ],
+    [
+     "9",
+     "Investigator “within 10 days”, database close “within 5 days”, root cause “within 30 days” shown beside statutory citations",
+     "Flow Table 4.1, 5.4, 6.1",
+     "Internal BP only. Label clearly so they are not mistaken for law."
+    ],
+    [
+     "10",
+     "Framatome disclosure analysed under PDA s.8 and Bill s.9",
+     "Training Paper 13",
+     "Those sections list public oversight bodies. A majority shareholder is more likely an employer-side recipient (Bill s.6: client or person acting on behalf) or a general recipient (PDA s.9; Bill s.10). LA to review the opinion’s reasoning."
+    ],
+    [
+     "11",
+     "Acknowledgement row “failure risk: criminal offence to suppress evidence”",
+     "Training Paper 6.1 table",
+     "Mismatched; missing an acknowledgement is non-compliance, not the s.14(11) offence."
+    ],
+    [
+     "12",
+     "“King V Principle 13”",
+     "Flow Table 6.2; slide 28",
+     "Cite King V (2025; effective for financial years from 1 January 2026) by name; confirm the principle number from the Code itself before citing."
+    ],
+    [
+     "13",
+     "PDA s.3B cited for investigation conduct and independence",
+     "Flow Table 4.1–4.3; Baseline 4.1–4.2",
+     "s.3B deals with deciding and informing only."
+    ]
+   ],
+   "intro": [
+    "Comparing the Process Flow Table, Baseline 1.0, Training Paper, slide deck and Navigator guide against the Bill text turned up points that should be fixed before client use. This flow already reflects them."
+   ]
+  },
+  {
+   "title": "Revision history — v1.1 (19 October 2026)",
+   "section": "§15 Corrections to existing GBS materials and Bill drafting issues",
+   "page": 41,
+   "kind": "corrections",
+   "columns": [
+    "#",
+    "Finding (severity)",
+    "Where",
+    "Change made"
+   ],
+   "rows": [
+    [
+     "1",
+     "Protection classified on Bill tests instead of the PDA (Critical)",
+     "2.3, 2.4, Phase 2 intro and Watch, Labels, s.11 table, Phase 1 discloser obligations, hand-offs, both diagrams",
+     "Step 2.3 now runs the binding PDA test (good faith ss.6–8, reason to believe s.1, channel ss.5–9, substantially true for s.8/s.9, s.9(2)–(3)); Bill s.5 recorded as DRAFT readiness only and never grounds “not protected”; LRA s.187(1)(h)/s.186(2)(d) risk flagged; diagrams corrected."
+    ],
+    [
+     "2",
+     "PDA s.3B(4) outcome duty labelled BP (Major)",
+     "5.3; calendar “On conclusion”; correction 3; F21; interpretation point 4",
+     "Outcome notice cited as statutory PDA s.3B(4), no day count; s.3B(5)(a) exemption noted."
+    ],
+    [
+     "3",
+     "PDA s.3A and s.9B swapped (Major)",
+     "Phase 1 discloser obligations; s.11 false-information row; offences register; P3",
+     "False-disclosure offence now PDA s.9B; P3 joint liability now PDA s.3A; NDPP corrected to Director of Public Prosecutions (re-verified)."
+    ],
+    [
+     "4",
+     "Wrong s.6 citations for procedure duties (Major)",
+     "0.1, 0.3, Phase 0 intro, discloser side, Watch, s.11 table",
+     "0.1 → PDA s.6(2)(a)(i); 0.3 → s.6(1)(a), s.6(2)(a)(ii); “made aware” rule cited as s.6(1)(a) with s.6(2)(a)(ii); deemed-disclosure cites s.6(1)(b), s.6(2)(b)."
+    ],
+    [
+     "5",
+     "Bill section numbers used for routes and decline letters (Major)",
+     "2.2, 3.3c, hand-offs register, s.11 general route, correction 5",
+     "PDA numbering first (s.5 legal adviser, s.7 Cabinet/MEC, s.8 bodies and GN R.949, s.9 general) with Bill numbers in brackets; “court review” removed from current decline options."
+    ],
+    [
+     "6",
+     "PRECCA s.34 trigger understated (Major)",
+     "2.5, 3.5, 5.4, hand-offs, Phase 2 hand-offs",
+     "Any corruption offence (no threshold) or theft/fraud/extortion/forgery/uttering R100,000+, known or suspected (or ought to be); report to a police official (SAPS/DPCI); CAS number recorded."
+    ],
+    [
+     "7",
+     "Companies Act s.159(7)/reg 131 step missing (Major)",
+     "New step 0.6A; 0.6 deadline; adjacent regimes",
+     "Added Phase 0 step for public and state-owned companies: s.159(7) system and reg 131 notice, effective now."
+    ],
+    [
+     "8",
+     "Bill-only deadlines labelled “Statutory” (Minor)",
+     "Calendar Type column and intro; 4.5; Phase 4 Watch",
+     "Bill-only rows relabelled “Bill (adopted as policy)”; only PDA s.3B dates remain statutory; Watch reworded."
+    ],
+    [
+     "9",
+     "PDA s.3B(5) exemptions missing (Minor)",
+     "1.6, 2.5, 3.4, 3.5, interpretation point 4, F09",
+     "Added s.3B(5)(b) check before any notice in criminal/FICA matters, with reasons on F09; s.3B(5)(a) noted."
+    ],
+    [
+     "10",
+     "Discloser category not recorded (Minor)",
+     "1.1, 1.2",
+     "Intake records employee / worker / other and Companies Act s.159 applicability."
+    ],
+    [
+     "11",
+     "Inbound referral branch missing (Minor)",
+     "New step 1.1A; interpretation points 4–5; calendar day 21",
+     "Added 1.1A: day 0 = referral received; s.3B(2)–(3) clocks run from the referral."
+    ],
+    [
+     "12",
+     "Day-0 diary omits PDA clocks (Minor)",
+     "1.8",
+     "Diary now includes PDA day 21, ≤ 2-monthly pending notices and 6-month backstop."
+    ],
+    [
+     "13",
+     "Blanket stand-down adopted now (Minor)",
+     "3.4, 2.5, Phase 4 hand-offs, F11",
+     "Now: coordinate with the agency in writing and keep disciplinary capability; Bill s.14(9)(a) stand-down only on commencement."
+    ],
+    [
+     "14",
+     "Practical Guidelines currency (Minor)",
+     "0.1 Authority",
+     "Cited GN 702 of 31 Aug 2011 (pre-2017; read with amended Act); s.10(4)(c) distribution limited to organs of state."
+    ],
+    [
+     "15",
+     "LRA referral windows missing (Improvement)",
+     "P10; hand-offs CCMA row",
+     "30 days (dismissal; from dismissal or later final decision) / 90 days (ULP); PDA s.4(1A), (1B); LRA s.191(13)."
+    ],
+    [
+     "16",
+     "King Code currency (Improvement)",
+     "6.2; correction 12",
+     "Cited King V (2025; effective for financial years from 1 Jan 2026)."
+    ],
+    [
+     "17",
+     "POPIA handling of implicated persons thin (Improvement)",
+     "0.8, 2.8",
+     "Added lawful basis for criminal-behaviour information (POPIA ss.26–27, 33), s.18(4) exceptions, access-request routing."
+    ],
+    [
+     "18",
+     "Prescribed-bodies list not attached (Improvement)",
+     "3.3b, 3.3c, F09, F10, hand-offs",
+     "F09 variant C and F10 attach the PDA s.8 / GN R.949 (14 Sept 2018) list."
+    ],
+    [
+     "O1",
+     "Open: Companies Act s.159(7) full text (verify)",
+     "0.6A",
+     "Duty relied on via reg 131 cross-reference; full s.159(7) text not retrieved."
+    ],
+    [
+     "O2",
+     "Open: Bill status and any revised Bill text (verify)",
+     "Section 1 Legal status; 6.6",
+     "No report of tabling or a revised text found as at 19 Oct 2026; re-check justice.gov.za and PMG."
+    ],
+    [
+     "O3",
+     "Open: Bill offences s.13, s.24(6), s.24(12), s.30(3) and Bill s.18, s.22, s.23, s.27, s.28 (verify)",
+     "Offences register; P6–P9; 5.9",
+     "Not verified against full Bill text; unchanged."
+    ],
+    [
+     "O4",
+     "Open: Interpretation Act s.4, LRA s.191 wording, GN R.949 amendments, FICA s.29/NEMA s.31 (verify)",
+     "Interpretation point 1; P10; F10; 2.5",
+     "Consistent with standard sources; primary text not re-checked."
+    ],
+    [
+     "O5",
+     "Open: client-specific questions (public/state-owned/listed; organ of state; FICA institution; group employer; Bill timelines as policy; non-employee channel)",
+     "Phase 0, 2.2, 2.5, F04",
+     "Answer per client before adoption."
+    ]
+   ],
+   "intro": [
+    "Scope mismatch in s.14: subsections (1), (2) and (8) exclude employers; (3)–(7) include them. The 12-month limit and extension regime should expressly apply, or not apply, to employers.",
+    "s.14(4) has a dangling “or” and an unclear starting point for the 10 days. “Days” is not defined as business or calendar days.",
+    "s.14(9)(a)(ii) bars any investigation where a crime is clearly committed. Read literally, this stops employers running internal forensic or disciplinary investigations into fraud. A coordination mechanism with law enforcement is needed instead.",
+    "s.12(5)(d) requires PAJA-compliant review by all employers, although PAJA governs administrative action by organs of state.",
+    "s.18(1) refers to convicting an employer “of improper conduct in terms of this Act”, but the Act creates no such offence.",
+    "s.21 has two subsections numbered (3), and s.21(3)(b) contains a stray “because”. s.19(3)(a) is double-lettered.",
+    "s.24(3)(a) refers to extension under s.14(8)(a); the extension provision is s.14(8)(b).",
+    "The Schedule’s amendments refer to the Protected Disclosures Act 2000 (and “Act No. 26 of 2025”) instead of the new Act, and its heading cites section 31 instead of 32.",
+    "There is no mechanism to challenge a decision not to investigate, and no time limit for issuing the s.16 report.",
+    "s.11(3) requires a signature on oral disclosures, which sits awkwardly with anonymous oral disclosures under s.11(2)."
+   ]
+  },
+  {
+   "title": "Corrections to existing GBS materials and Bill drafting issues",
+   "section": "§15 Corrections to existing GBS materials and Bill drafting issues",
+   "page": 41,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Protected Disclosures Bill, 2026 (published text, project file).",
+    "GBS Process Flow Table, Baseline 1.0, Training Paper, training deck and Navigator User Guide (project files).",
+    "Bowmans, “South Africa: Draft Protected Disclosures Bill, 2026 published for public comment”, 16 April 2026 (https://bowmanslaw.com/insights/south-africa-draft-protected-disclosures-bill-2026-published-for-public-comment/); SAnews, “Government moves to strengthen whistleblower protection with new Bill”, 9 April 2026 (https://www.sanews.gov.za/node/80704). A search on 28 September 2026 found no report of formal introduction in Parliament; confirm before relying on commencement planning.",
+    "PDA 26 of 2000 as amended by Act 5 of 2017, consolidated text (Acts Online): ss.1, 3, 3A, 3B, 4, 6–9, 9A, 9B, 10 checked in the 15 October 2026 V&V review (https://shop.acts.co.za/protected-disclosures-act-2000/protected_disclosures_act_2000_content.php); s.9B prosecution authority (Director of Public Prosecutions) re-checked 19 October 2026. FICA, LRA s.191, NEMA s.31 and the Interpretation Act are cited from general knowledge; verify section wording against consolidated texts.",
+    "PDA Regulations, GN R.949, GG 41904, 14 September 2018, Annexure A (prescribed persons and bodies under s.8) (https://shop.acts.co.za/protected-disclosures-act-2000/r949_annexure_a.php); Practical Guidelines for Employees, GN 702, GG 34572, 31 August 2011.",
+    "Companies Act 71 of 2008 s.159 and Companies Regulations reg 131 (https://shop.acts.co.za/companies-act-2008/r351_131__notice_of_availability_of_system_to_receive_confidential_disclosures.php).",
+    "Cliffe Dekker Hofmeyr, “My duty to report a suspicion of fraud and the consequences thereof”, 23 March 2021 (PRECCA s.34); Cliffe Dekker Hofmeyr, “King V Code published and effective date announced”, 31 October 2025.",
+    "GBS Legal V&V Review: PDA Receiving Process Flow, 15 October 2026 (findings implemented in v1.1).",
+    "This flow is a working document for legal review, not legal advice."
+   ]
+  }
+ ],
+ "forms": [
+  {
+   "code": "F01",
+   "name": "Intake record and case register entry",
+   "usedAt": "1.1–1.2"
+  },
+  {
+   "code": "F02",
+   "name": "Written record of oral disclosure, signed",
+   "usedAt": "1.3"
+  },
+  {
+   "code": "F03",
+   "name": "Read-back and interpretation certificate",
+   "usedAt": "1.3"
+  },
+  {
+   "code": "F04",
+   "name": "Acknowledgement of receipt with confidentiality-limits notice",
+   "usedAt": "1.6"
+  },
+  {
+   "code": "F05",
+   "name": "Sealed identity register",
+   "usedAt": "1.4"
+  },
+  {
+   "code": "F06",
+   "name": "Confidentiality undertaking",
+   "usedAt": "1.4, 4.1"
+  },
+  {
+   "code": "F07",
+   "name": "Preliminary assessment memo (parts A–E)",
+   "usedAt": "Phase 2"
+  },
+  {
+   "code": "F08",
+   "name": "Retaliation and related-person risk assessment and interim-measures log",
+   "usedAt": "2.7, P4, 5.8"
+  },
+  {
+   "code": "F09",
+   "name": "Decision notice: investigate / refer / not investigate (variant C attaches the PDA s.8 / GN R.949 list) / pending (PDA); records any s.3B(5) reliance",
+   "usedAt": "Phase 3"
+  },
+  {
+   "code": "F10",
+   "name": "Referral letter to authorised person or law enforcement (attach list of bodies under PDA s.8(1) and GN R.949 of 14 Sept 2018 with the matters each covers)",
+   "usedAt": "3.3b, 3.5, 5.4"
+  },
+  {
+   "code": "F11",
+   "name": "Coordination notice to discloser (Bill s.14(9) stand-down on commencement)",
+   "usedAt": "3.4, 3.5"
+  },
+  {
+   "code": "F12",
+   "name": "Investigator appointment, terms of reference and conflict declaration",
+   "usedAt": "4.1"
+  },
+  {
+   "code": "F13",
+   "name": "Investigation plan and deadline tracker",
+   "usedAt": "1.8, 4.2"
+  },
+  {
+   "code": "F14",
+   "name": "Evidence register and chain of custody",
+   "usedAt": "4.3"
+  },
+  {
+   "code": "F15",
+   "name": "Progress update letter",
+   "usedAt": "4.5"
+  },
+  {
+   "code": "F16",
+   "name": "Extension application to the retired judge",
+   "usedAt": "4.6"
+  },
+  {
+   "code": "F17",
+   "name": "Section 15 court application pack",
+   "usedAt": "4.4"
+  },
+  {
+   "code": "F18",
+   "name": "Adverse-action review record",
+   "usedAt": "4.7, P3, P5"
+  },
+  {
+   "code": "F19",
+   "name": "Transfer request and decision",
+   "usedAt": "4.9"
+  },
+  {
+   "code": "F20",
+   "name": "Investigation report",
+   "usedAt": "5.1"
+  },
+  {
+   "code": "F21",
+   "name": "Outcome notice",
+   "usedAt": "5.3"
+  },
+  {
+   "code": "F22",
+   "name": "Retention decision and discloser notice",
+   "usedAt": "5.7"
+  },
+  {
+   "code": "F23",
+   "name": "Database registration, upload, update and closure record",
+   "usedAt": "0.7, 1.7, 3.3, 5.6"
+  },
+  {
+   "code": "F24",
+   "name": "Revocation notice",
+   "usedAt": "P9"
+  },
+  {
+   "code": "F25",
+   "name": "Root-cause memo",
+   "usedAt": "6.1"
+  },
+  {
+   "code": "F26",
+   "name": "Governance trend report",
+   "usedAt": "6.2"
+  },
+  {
+   "code": "F27",
+   "name": "Website content checklist (five s.29(4) items)",
+   "usedAt": "0.6, 6.4"
+  },
+  {
+   "code": "F28",
+   "name": "Written consent to identity release",
+   "usedAt": "1.4, 3.3b, 4.10"
+  },
+  {
+   "code": "F29",
+   "name": "Redirect notice (grievance or wrong channel)",
+   "usedAt": "2.1"
+  }
+ ],
+ "processMaps": [
+  {
+   "file": "pda-receiving-src_image1.png",
+   "width": 2280,
+   "height": 2076,
+   "path": "maps/pda-receiving-src_image1.png"
+  },
+  {
+   "file": "pda-receiving-src_image2.png",
+   "width": 2280,
+   "height": 2052,
+   "path": "maps/pda-receiving-src_image2.png"
+  }
+ ],
+ "sections": [
+  {
+   "number": "01",
+   "title": "Purpose, status and reading notes",
+   "page": 2
+  },
+  {
+   "number": "02",
+   "title": "Master flow at a glance",
+   "page": 4
+  },
+  {
+   "number": "03",
+   "title": "Phase 0 — Readiness (standing obligations)",
+   "page": 6
+  },
+  {
+   "number": "04",
+   "title": "Phase 1 — Receipt and intake",
+   "page": 9
+  },
+  {
+   "number": "05",
+   "title": "Phase 2 — Triage and preliminary assessment",
+   "page": 13
+  },
+  {
+   "number": "06",
+   "title": "Phase 3 — Investigation decision",
+   "page": 17
+  },
+  {
+   "number": "07",
+   "title": "Phase 4 — Investigation",
+   "page": 20
+  },
+  {
+   "number": "08",
+   "title": "Phase 5 — Close, outcome and enforcement",
+   "page": 23
+  },
+  {
+   "number": "09",
+   "title": "Phase 6 — Governance and learning",
+   "page": 25
+  },
+  {
+   "number": "10",
+   "title": "Parallel track — protection, complaints, revocation and remedies",
+   "page": 27
+  },
+  {
+   "number": "11",
+   "title": "Discloser obligations and conduct",
+   "page": 30
+  },
+  {
+   "number": "12",
+   "title": "Hand-offs and interfaces register",
+   "page": 32
+  },
+  {
+   "number": "13",
+   "title": "Forms register",
+   "page": 35
+  },
+  {
+   "number": "14",
+   "title": "Timeline calendar and offences register",
+   "page": 38
+  },
+  {
+   "number": "15",
+   "title": "Corrections to existing GBS materials and Bill drafting issues",
+   "page": 41
+  }
+ ],
+ "clarifications": []
+}

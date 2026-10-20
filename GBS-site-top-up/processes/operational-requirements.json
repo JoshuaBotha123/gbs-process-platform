@@ -1,0 +1,4093 @@
+{
+ "id": "operational-requirements",
+ "shortTitle": "Operational Requirements (Retrenchment)",
+ "title": "Operational Requirements (Retrenchment) — Organisational Process Flow",
+ "subtitle": "Sections 189 and 189A of the Labour Relations Act 66 of 1995 · Code of Good Practice: Dismissal, 2025 (GN 3470, GG 53294), Part G, items 22–24 and Annexure A · Facilitation Regulations under s.189A(6) · As at 19 October 2026",
+ "category": "Employee relations",
+ "version": "v1.1",
+ "revisionDate": "19 October 2026",
+ "sourceDocument": {
+  "name": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+  "pdf": "docs/Operational_Requirements_Process_Flow_GBS_v1.1.pdf",
+  "pageCount": 50
+ },
+ "overview": {
+  "summary": "This flow tells an employer what to do, by when, and who hands off to whom, from the moment management first sees that jobs may be at risk for business reasons until the last referral window closes and lessons feed back into policy. It runs one shared spine for every retrenchment, then splits at the point where the law splits:",
+  "notes": [
+   {
+    "heading": "",
+    "text": "Every case moves through the same phases: readiness; identifying the need and choosing the route; the s.189(3) notice and disclosure; consultation on the track that applies; decision, selection and notice of termination; termination and aftercare; and governance. The flow assumes no collective agreement or bargaining council agreement regulates retrenchment procedure; where one does, it prevails and this flow must be adjusted."
+   },
+   {
+    "heading": "Legal status",
+    "text": "The fairness of a dismissal for operational requirements is governed by the LRA: s.188(1)(a)(ii) (fair reason), s.188(1)(b) (fair procedure), s.189 (procedure for all employers), s.189A (additional rules for large-scale dismissals by employers with more than 50 employees), s.191 (dispute routes) and s.192 (onus on the employer once dismissal is proved). “Operational requirements” means requirements based on the economic, technological, structural or similar needs of an employer (s.213). The Code of Good Practice: Dismissal, 2025 (“the Code”), issued under s.203 and in effect from 4 September 2025, repealed both the Schedule 8 Code and the separate Code of Good Practice on Dismissal Based on Operational Requirements (1999). It is guidance, not statute, but anyone deciding whether a dismissal was fair must take it into account (s.188(2), s.203(3)). Item references verified against the final Code (GN 3470, GG 53294, 4 September 2025): Part G items 22–24, footnote 7 and Annexure A items 1–9 match the citations in this flow. Severance is governed by the BCEA (s.41), and notice by BCEA s.37–38. A search on 29 September 2026 (rechecked at the 15 October 2026 review) found no enacted amendment to ss.189 or 189A since 2014 and none to the Code since publication. A draft Labour Relations Amendment Bill (published for comment 26 February 2026, not yet tabled) proposes deleting s.189A(13)–(18) and other changes to s.189A; it is not law (DRAFT). Monitor under 6.6."
+   },
+   {
+    "heading": "Labels used throughout",
+    "text": "",
+    "points": [
+     "LRA = the Labour Relations Act and other statutes and regulations (BCEA, EEA, Facilitation Regulations, POPIA, Companies Act, Insolvency Act); binding now.",
+     "Code = the Code of Good Practice: Dismissal, 2025 (cited by item number); must be taken into account, and departures must be justified.",
+     "CL = a principle from case law, cited by name, court and year. Verify the citation and any later authority before using it in advice.",
+     "BP = best practice or internal control; not a statutory deadline. Adopt as policy so it becomes binding internally."
+    ]
+   },
+   {
+    "heading": "Design principle",
+    "text": "Retrenchment is a no-fault dismissal with a high human cost (Code item 22(3)), so the law puts the burden on the employer to show a genuine and fair business reason, that dismissal was a last resort, and that it consulted with an open mind before deciding (Code items 23(2)–(3), 24(5)–(6)). The flow is built so that every later challenge can be answered from a record made at the time: the business case written as a proposal, the notice, the disclosure log, the minutes, the written replies to written representations, the alternatives register and the selection matrix. The statutory clock starts on the date of the s.189(3) notice; the internal clock starts earlier, when management first contemplates job losses. Internal targets sit inside every statutory limit."
+   },
+   {
+    "heading": "Ten interpretation points that shape the flow",
+    "text": "",
+    "points": [
+     "The weight of the Code. The Code is intentionally general; departures may be justified in proper circumstances, including the size of the establishment (item 2(1)); it does not alter rights under a collective agreement (item 2(3)); and it must not be read as requiring small businesses to do what is impractical (item 3). Guidance that was only in the repealed 1999 operational requirements code (for example on bumping, LIFO and social plans) now survives only as case law and best practice. Record any justified departure at the time.",
+     "s.189A adds to s.189; it never replaces it. Every large-scale retrenchment must still meet every requirement of s.189(1)–(7). Section 189A adds a threshold, a minimum timetable, the facilitation option, the right to strike over the dismissals, and a different procedural remedy. This is why the flow runs one spine with three tracks rather than two separate processes.",
+     "The threshold test. Section 189A applies only to an employer employing more than 50 employees that contemplates dismissing at least 10 (up to 200 employees), 20 (201–300), 30 (301–400), 40 (401–500) or 50 (more than 500) employees, or where the number contemplated plus the number dismissed for operational requirements in the 12 months before the s.189(3) notice equals or exceeds that number (s.189A(1)). The employer is the legal entity, not the group (public service: the executing authority, s.189A(20)). The Act does not say on what date headcount is measured or whether TES workers deemed to be employees under s.198A(3)(b) count. Take a dated headcount on the notice date, include deemed TES employees, and where the answer is borderline or numbers may grow, treat the matter as s.189A (BP). If the number contemplated rises above the threshold during consultation, take advice on issuing a fresh notice.",
+     "“Contemplates” means before the decision. Consultation must start when the employer contemplates dismissal, not after it has decided (s.189(1)). An employer may have a preferred proposal, but must keep an open mind and seriously consider every proposal (Code item 24(6); CL: Atlantis Diesel Engines v NUMSA, AD 1995; Johnson & Johnson v CWIU, LAC 1998). Board papers, investor announcements and internal emails must speak of a proposal to consult, not a decision to dismiss.",
+     "Fair reason: genuine and fair. The reason and the selection must both relate to operational requirements (Code item 23(1)). A court asks whether the reason is genuine and whether dismissal was a fair response in the light of the alternatives, not only whether a commercial rationale exists (CL: BMD Knitting Mills v SACTWU, LAC 2001; CWIU v Algorax, LAC 2003). Retrenching to improve profitability, not only to survive, can be fair (CL: General Food Industries v FAWU, LAC 2004). Note that Code item 23(2) describes dismissal as a measure of last resort; in profit-improvement cases, record why each alternative could not achieve the objective. Dismissing employees who refuse changes to terms is not automatically unfair if the dismissal is genuinely for operational reasons and final, rather than a device to compel acceptance of a demand (s.187(1)(c); CL: NUMSA v Aveng Trident Steel, CC 2020).",
+     "Who must be consulted. Section 189(1) sets a hierarchy: first anyone the employer must consult under a collective agreement; if none, a workplace forum (for affected employees in its workplace) and any registered union whose members are likely to be affected; if no workplace forum, the registered union; if no union, the affected employees or their nominated representatives. Apply the hierarchy per affected employee, so that unionised and non-unionised employees are both covered. Bargaining council agreements may regulate the process (Code item 24(4) footnote).",
+     "Counting days. LRA periods are calendar days, excluding the first and including the last, unless the last is a Sunday or public holiday (Interpretation Act 33 of 1957 s.4). The 60 days in s.189A(7) and the 30 days in s.189A(8)(a) run from the date the s.189(3) notice was given (day 0). Because the statute requires the periods to “have elapsed” or “lapsed”, the earliest s.189A(8)(a) referral is day 31 and the earliest s.189A(7) termination notice is day 61 (60 full days must have elapsed after the notice date). The Labour Court Rules, 2024 (in operation from 17 July 2024, verify) exclude 16 December to 15 January from “days” for court time limits only; do not apply that exclusion to LRA periods.",
+     "Different dispute routes. For a s.189-only dismissal, both procedure and reason go to the CCMA or a council within 30 days, then to the Labour Court (s.191(5)(b)(ii)), or to arbitration where s.191(12) applies (individual consultation, only that employee dismissed, or an employer whose workforce is fewer than ten employees, verify current wording). For a s.189A dismissal, procedural complaints can be raised only by a s.189A(13) application within 30 days of the notice of termination (s.189A(17)); the Labour Court may not decide procedural fairness in a s.191 referral (s.189A(18)); and the substantive dispute goes to the Labour Court or is pursued by strike, but not both (s.189A(10)) (CL: Steenkamp v Edcon, CC 2016; Steenkamp v Edcon [2019] ZACC 17 (CC)). After failed facilitation the substantive dispute goes directly to the Labour Court without conciliation (CL: NUMSA v Industrial Oleo Chemical Products [2026] ZACC 22).",
+     "Premature notice does not make a dismissal invalid. Notice of termination given before the s.189A(7) or (8) periods expire is a procedural defect: it entitles the union to strike (s.189A(9)) and exposes the employer to s.189A(13) orders, but the dismissal is not void (CL: Steenkamp v Edcon, CC 2016, which rejected the invalidity line in the LAC decisions in De Beers and Revan (verify full citations)). Treat the periods as hard floors all the same.",
+     "Who is the employer. A temporary employment service is the employer of placed workers, but after three months below-threshold workers performing temporary services are deemed employees of the client (s.198A(3)(b); CL: Assign Services v NUMSA, CC 2018); ending a placement to avoid deeming is a dismissal (s.198A(4)). In a transfer of a going concern, dismissal because of the transfer is automatically unfair (s.187(1)(g)). In business rescue, retrenchments remain subject to ss.189 and 189A (Companies Act s.136(1)(b)); on sequestration or liquidation, contracts are suspended (Insolvency Act s.38(1)); the trustee or liquidator must consult before terminating (s.38(5)–(7), proposals within 21 days); suspended contracts end 45 days after the final appointment unless agreed otherwise (s.38(9)); BCEA s.41(2) severance applies."
+    ]
+   },
+   {
+    "heading": "Roles used",
+    "text": "Employee Relations Officer (ERO, the process owner and spine; in smaller organisations the HR manager); Senior Sign-off (SSO, e.g. CEO or COO; the Board where material); Board or Remuneration / Social and Ethics Committee (BOARD); Legal Adviser (LA); Finance (FIN); Line Management (LM); HR Manager (HR); Payroll (PAY); Benefits Administrator (BEN); Communications (COMMS); Employer consultation team (ECT: SSO delegate, ERO, FIN and LM representatives). Consulting parties (CP): trade union (TU), workplace forum (WF), nominated employee representatives (REP). Affected employees (EMP). External: CCMA or council (CCMA/BC); facilitator (FAC); Labour Court (LC); Unemployment Insurance Fund (UIF); South African Revenue Service (SARS); retirement fund or insurer (FUND); temporary employment service (TES); business rescue practitioner (BRP)."
+   }
+  ],
+  "source": {
+   "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+   "section": "§01 Purpose, status and reading notes",
+   "page": 2
+  }
+ },
+ "roles": [
+  {
+   "code": "ERO",
+   "name": "Employee Relations Officer"
+  },
+  {
+   "code": "SSO",
+   "name": "Senior Sign-off"
+  },
+  {
+   "code": "BOARD",
+   "name": "Board or Remuneration / Social and Ethics Committee"
+  },
+  {
+   "code": "LA",
+   "name": "Legal Adviser"
+  },
+  {
+   "code": "FIN",
+   "name": "Finance"
+  },
+  {
+   "code": "LM",
+   "name": "Line Management"
+  },
+  {
+   "code": "HR",
+   "name": "HR Manager"
+  },
+  {
+   "code": "PAY",
+   "name": "Payroll"
+  },
+  {
+   "code": "BEN",
+   "name": "Benefits Administrator"
+  },
+  {
+   "code": "COMMS",
+   "name": "Communications"
+  },
+  {
+   "code": "ECT",
+   "name": "Employer consultation team"
+  },
+  {
+   "code": "CP",
+   "name": "Consulting parties"
+  },
+  {
+   "code": "EMP",
+   "name": "Affected employees"
+  },
+  {
+   "code": "CCMA/BC",
+   "name": "External: CCMA or council"
+  },
+  {
+   "code": "LC",
+   "name": "Labour Court"
+  },
+  {
+   "code": "UIF",
+   "name": "Unemployment Insurance Fund"
+  },
+  {
+   "code": "SARS",
+   "name": "South African Revenue Service"
+  }
+ ],
+ "stages": [
+  {
+   "id": "s1",
+   "group": "Phase 0 — Readiness (standing obligations)",
+   "title": "Phase 0 — Readiness (standing obligations)",
+   "kind": "phase",
+   "intro": [
+    "Phase 0 has no case trigger. It must be in place before the first retrenchment is contemplated, because the s.189A threshold, the s.189(3)(i)–(j) disclosures, the consulting-party hierarchy and the fairness of selection are all decided by records that must already exist."
+   ],
+   "notes": [
+    {
+     "heading": "Employee side of Phase 0",
+     "text": "Nothing is owed yet, but the fairness of selection is decided here: criteria applied to inaccurate service or skills data are neither fair nor objective."
+    },
+    {
+     "heading": "Watch",
+     "text": "An employer that cannot produce its 12-month look-back on the notice date risks treating a s.189A retrenchment as a s.189 one, and so giving notice of termination before the s.189A floors expire."
+    }
+   ],
+   "steps": [
+    {
+     "id": "0.1",
+     "label": "0.1",
+     "title": "Adopt the retrenchment policy",
+     "trigger": "",
+     "action": "Board-approved policy covering both routes and all three tracks; the threshold test; consulting-party hierarchy; notice and disclosure; consultation conduct; alternatives; selection; severance; notice; aftercare; re-employment. Reconcile with recognition agreements, bargaining council agreements and public-service resolutions, which prevail.",
+     "points": [
+      "Board-approved policy covering both routes and all three tracks; the threshold test; consulting-party hierarchy; notice and disclosure; consultation conduct; alternatives; selection; severance; notice; aftercare; re-employment.",
+      "Reconcile with recognition agreements, bargaining council agreements and public-service resolutions, which prevail."
+     ],
+     "owner": "BOARD, LA, HR",
+     "deadline": "Now; review annually",
+     "form": "R01 policy",
+     "authority": "Code items 2(3), 3, 22–24; s.189(1)(a)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 11
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.2",
+     "label": "0.2",
+     "title": "Consulting-party register",
+     "trigger": "",
+     "action": "For each entity, site and job category: registered unions and membership; recognition and consultation clauses in collective agreements; workplace forums; bargaining council agreements on retrenchment; how non-unionised employees nominate representatives.",
+     "points": [
+      "For each entity, site and job category:",
+      "registered unions and membership",
+      "recognition and consultation clauses in collective agreements",
+      "workplace forums",
+      "bargaining council agreements on retrenchment",
+      "how non-unionised employees nominate representatives."
+     ],
+     "owner": "HR",
+     "deadline": "Now; update monthly",
+     "form": "R02 register",
+     "authority": "s.189(1); Code item 24(3)–(4)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 11
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.3",
+     "label": "0.3",
+     "title": "Headcount and 12-month look-back log",
+     "trigger": "",
+     "action": "Dated headcount per employing entity (including deemed TES employees); a log of every dismissal for operational requirements with date, entity and number, so the s.189A(1)(b) look-back and the s.189(3)(i)–(j) disclosures can be produced on the day.",
+     "points": [
+      "Dated headcount per employing entity (including deemed TES employees); a log of every dismissal for operational requirements with date, entity and number, so the s.189A(1)(b) look-back and the s.189(3)(i)–(j) disclosures can be produced on the day."
+     ],
+     "owner": "HR, PAY",
+     "deadline": "Continuous",
+     "form": "R03 log",
+     "authority": "s.189(3)(i)–(j); s.189A(1); s.198A(3)(b)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 11
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.4",
+     "label": "0.4",
+     "title": "Workforce data",
+     "trigger": "",
+     "action": "Organograms, job categories, service dates (with breaks), qualifications, skills matrices, any performance or disciplinary data proposed as criteria, EE demographics per category. Data must be accurate before it is used to select.",
+     "points": [
+      "Organograms, job categories, service dates (with breaks), qualifications, skills matrices, any performance or disciplinary data proposed as criteria, EE demographics per category.",
+      "Data must be accurate before it is used to select."
+     ],
+     "owner": "HR",
+     "deadline": "Now",
+     "form": "HRIS extract",
+     "authority": "s.189(3)(c), (7); EEA s.6",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 11
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.5",
+     "label": "0.5",
+     "title": "Severance and benefits map",
+     "trigger": "",
+     "action": "Contractual or collective severance above BCEA s.41; notice periods; leave pay; retirement fund retrenchment and withdrawal rules; group risk continuation; medical scheme continuation; tax on severance benefits.",
+     "points": [
+      "Contractual or collective severance above BCEA s.41; notice periods; leave pay; retirement fund retrenchment and withdrawal rules; group risk continuation; medical scheme continuation; tax on severance benefits."
+     ],
+     "owner": "BEN, PAY, LA",
+     "deadline": "Now; on renewal",
+     "form": "R04 map",
+     "authority": "BCEA ss.37, 40, 41; fund rules; Income Tax Act (verify)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 11
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.6",
+     "label": "0.6",
+     "title": "Delegations",
+     "trigger": "",
+     "action": "Who may contemplate and approve a proposal to consult, sign the s.189(3) notice, request facilitation, approve alternatives and enhanced packages, agree extensions, sign the decision and termination letters, settle disputes.",
+     "points": [
+      "Who may contemplate and approve a proposal to consult, sign the s.189(3) notice, request facilitation, approve alternatives and enhanced packages, agree extensions, sign the decision and termination letters, settle disputes."
+     ],
+     "owner": "SSO, BOARD",
+     "deadline": "Now",
+     "form": "R05 matrix",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 12
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.7",
+     "label": "0.7",
+     "title": "Consultation readiness",
+     "trigger": "",
+     "action": "Trained employer consultation team; external LR counsel on call; interpreters; minute-taker; venues and video platform; CCMA regional contacts; list of accredited private facilitators (s.189A(4)).",
+     "points": [
+      "Trained employer consultation team; external LR counsel on call; interpreters; minute-taker; venues and video platform; CCMA regional contacts; list of accredited private facilitators (s.189A(4))."
+     ],
+     "owner": "HR, LA",
+     "deadline": "Now",
+     "form": "Panel list",
+     "authority": "Regs reg 2(3), 8; BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 12
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.8",
+     "label": "0.8",
+     "title": "Employee assistance menu",
+     "trigger": "",
+     "action": "EAP; financial counselling; CV and interview support; outplacement provider; re-skilling and SETA-funded training options; UIF claim guidance; internal vacancy portal.",
+     "points": [
+      "EAP; financial counselling; CV and interview support; outplacement provider; re-skilling and SETA-funded training options; UIF claim guidance; internal vacancy portal."
+     ],
+     "owner": "HR",
+     "deadline": "Now",
+     "form": "R06 menu",
+     "authority": "s.189(3)(g); Code item 24(7)(b)(iv), Annexure A item 7",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 12
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.9",
+     "label": "0.9",
+     "title": "Records, confidentiality and POPIA",
+     "trigger": "",
+     "action": "Restricted consultation file; disclosure log; confidentiality undertakings for commercially sensitive information; retention schedule; lawful basis for processing employee data in selection. Identify the s.27 authorisation for processing race, union membership and health data in selection; limit access to the consultation file; give s.18 notification.",
+     "points": [
+      "Restricted consultation file; disclosure log; confidentiality undertakings for commercially sensitive information; retention schedule; lawful basis for processing employee data in selection.",
+      "Identify the s.27 authorisation for processing race, union membership and health data in selection; limit access to the consultation file; give s.18 notification."
+     ],
+     "owner": "HR, LA",
+     "deadline": "Now",
+     "form": "R07 undertaking",
+     "authority": "s.16(5); POPIA ss.11, 14, 18, 19, 26–27",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 12
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.10",
+     "label": "0.10",
+     "title": "Adjacent regimes checklist",
+     "trigger": "",
+     "action": "Transfers (s.197, s.197A); business rescue; liquidation (Insolvency Act s.38: contracts suspended; consult per s.38(5)–(7); automatic termination 45 days after final appointment, s.38(9); BCEA s.41(2) severance); TES arrangements; mining (MPRDA s.52 notice and Social and Labour Plan); competition-merger conditions on retrenchments; incentive or grant job-retention conditions; JSE announcement rules; public-service frameworks.",
+     "points": [
+      "Transfers (s.197, s.197A); business rescue; liquidation (Insolvency Act s.38:",
+      "contracts suspended",
+      "consult per s.38(5)–(7)",
+      "automatic termination 45 days after final appointment, s.38(9)",
+      "BCEA s.41(2) severance)",
+      "TES arrangements",
+      "mining (MPRDA s.52 notice and Social and Labour Plan)",
+      "competition-merger conditions on retrenchments",
+      "incentive or grant job-retention conditions",
+      "JSE announcement rules",
+      "public-service frameworks."
+     ],
+     "owner": "LA",
+     "deadline": "Now; at Phase 1",
+     "form": "Checklist",
+     "authority": "Various (verify)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 12
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.11",
+     "label": "0.11",
+     "title": "Train",
+     "trigger": "",
+     "action": "Managers: do not announce or pre-decide; keep confidentiality; speak of proposals. ECT: s.189(2) topics, written responses, alternatives register, record-keeping. HR: threshold test and clocks.",
+     "points": [
+      "Managers: do not announce or pre-decide; keep confidentiality; speak of proposals.",
+      "ECT: s.189(2) topics, written responses, alternatives register, record-keeping.",
+      "HR: threshold test and clocks."
+     ],
+     "owner": "HR / L&D",
+     "deadline": "At least annually",
+     "form": "Attendance records",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 12
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.12",
+     "label": "0.12",
+     "title": "Small-business version",
+     "trigger": "",
+     "action": "A simplified procedure that keeps the core: written notice with the Annexure A information; at least one genuine consultation meeting; consider and answer representations in writing; fair selection; severance; written reasons. Record why a shorter process was fair.",
+     "points": [
+      "A simplified procedure that keeps the core:",
+      "written notice with the Annexure A information",
+      "at least one genuine consultation meeting",
+      "consider and answer representations in writing",
+      "fair selection",
+      "severance",
+      "written reasons. Record why a shorter process was fair."
+     ],
+     "owner": "HR, LA",
+     "deadline": "Now",
+     "form": "Simplified procedure",
+     "authority": "Code items 3, 24(13)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 12
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+    "section": "§03 Phase 0 — Readiness (standing obligations)",
+    "page": 11,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s2",
+   "group": "Phase 1 — Identifying the need, planning and choosing the route",
+   "title": "Phase 1 — Identifying the need, planning and choosing the route",
+   "kind": "phase",
+   "intro": [
+    "The internal clock starts on the day management first contemplates that jobs may be lost. Phase 1 must be finished before the notice is issued, because the notice must already contain the reasons, the alternatives considered and the reasons for rejecting them (s.189(3)(a)–(b)). Phase 1 decides nothing final: it prepares a proposal."
+   ],
+   "notes": [
+    {
+     "heading": "Employee obligations at this stage",
+     "text": "None; employees are not yet aware. Managers must keep the proposal confidential."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "SSO → FIN (business case). SSO → LA (threshold, route, special status). HR → LA (selection criteria). FIN → LA (disclosure pack and confidentiality). ERO → COMMS."
+    },
+    {
+     "heading": "Watch",
+     "text": "The options paper is the employer’s main exhibit on substance. An alternatives section written after the decision, or one that lists alternatives without costing them, is easily exposed."
+    }
+   ],
+   "steps": [
+    {
+     "id": "1.1",
+     "label": "1.1",
+     "title": "Record the rationale",
+     "trigger": "Financial pressure; loss of a contract; new technology; restructuring; closure; relocation; outsourcing.",
+     "action": "Record the economic, technological, structural or similar need with data: financials, forecasts, contract terms, process maps. Distinguish the business problem from the proposed solution.",
+     "points": [
+      "Record the economic, technological, structural or similar need with data: financials, forecasts, contract terms, process maps.",
+      "Distinguish the business problem from the proposed solution."
+     ],
+     "owner": "LM, FIN, SSO",
+     "deadline": "Internal day 0–10 (BP)",
+     "form": "R08",
+     "authority": "s.213; Code item 22(1)–(2)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Identifying the need, planning and choosing the route",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.2",
+     "label": "1.2",
+     "title": "Business case and options paper",
+     "trigger": "Rationale recorded.",
+     "action": "List alternatives to job losses and, for each, cost, feasibility and why it is proposed to reject it: natural attrition; recruitment freeze; ending TES and contractor use; reduced overtime; short time; reduced hours; redeployment; retraining; voluntary severance or early retirement; wage or bonus freeze by agreement; relocation; bumping. Written as a proposal for consultation.",
+     "points": [
+      "List alternatives to job losses and, for each, cost, feasibility and why it is proposed to reject it:",
+      "natural attrition",
+      "recruitment freeze",
+      "ending TES and contractor use",
+      "reduced overtime",
+      "short time",
+      "reduced hours",
+      "redeployment",
+      "retraining",
+      "voluntary severance or early retirement",
+      "wage or bonus freeze by agreement",
+      "relocation",
+      "bumping. Written as a proposal for consultation."
+     ],
+     "owner": "SSO, FIN, LA",
+     "deadline": "Before 1.3",
+     "form": "R08",
+     "authority": "s.189(3)(b); Code items 23(2)–(3), 24(7)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Identifying the need, planning and choosing the route",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.3",
+     "label": "1.3",
+     "title": "Resolve to consult, not to dismiss",
+     "trigger": "Options paper complete.",
+     "action": "Board or Exco resolution approves a proposal and the issue of a s.189(3) notice. Avoid wording that shows the outcome is decided. Coordinate any market announcement with LA so it does not pre-empt consultation.",
+     "points": [
+      "Board or Exco resolution approves a proposal and the issue of a s.189(3) notice.",
+      "Avoid wording that shows the outcome is decided.",
+      "Coordinate any market announcement with LA so it does not pre-empt consultation."
+     ],
+     "owner": "BOARD, SSO, LA",
+     "deadline": "Before notice",
+     "form": "R09",
+     "authority": "s.189(1); CL: Johnson & Johnson (LAC 1998)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Identifying the need, planning and choosing the route",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": [
+      {
+       "step": "1.2",
+       "reason": "Step 1.2 must be done before 1.3 (source Deadline column: \"Before 1.3\")."
+      }
+     ]
+    },
+    {
+     "id": "1.4",
+     "label": "1.4",
+     "title": "Scope",
+     "trigger": "Resolution passed.",
+     "action": "Identify affected entities, sites, job categories, positions and a range of numbers. Define the selection pool: which roles are interchangeable, and whether bumping is proposed.",
+     "points": [
+      "Identify affected entities, sites, job categories, positions and a range of numbers.",
+      "Define the selection pool: which roles are interchangeable, and whether bumping is proposed."
+     ],
+     "owner": "HR, LM",
+     "deadline": "Before notice",
+     "form": "R08",
+     "authority": "s.189(3)(c); Code Annexure A item 1",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Identifying the need, planning and choosing the route",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.5",
+     "label": "1.5",
+     "title": "Threshold test",
+     "trigger": "Scope defined.",
+     "action": "Complete the worksheet: entity headcount on the notice date; numbers contemplated; add op-req dismissals in the 12 months before the notice; apply the s.189A(1) scale. Borderline or likely to grow: treat as s.189A (BP). LA signs off.",
+     "points": [
+      "Complete the worksheet:",
+      "entity headcount on the notice date",
+      "numbers contemplated",
+      "add op-req dismissals in the 12 months before the notice",
+      "apply the s.189A(1) scale. Borderline or likely to grow: treat as s.189A (BP). LA signs off."
+     ],
+     "owner": "HR, LA",
+     "deadline": "Before notice",
+     "form": "R10",
+     "authority": "s.189A(1)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Identifying the need, planning and choosing the route",
+      "subsection": null,
+      "page": 15
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.6",
+     "label": "1.6",
+     "title": "Choose the route and track",
+     "trigger": "Threshold result.",
+     "action": "s.189 only → track 3A. s.189A → decide whether the employer will request facilitation (3B) or not (3C). Weigh scale, number of unions, relationship history, strike risk, complexity of disclosure and the value of a neutral chair. Recommend facilitation for large or contentious matters (BP). Record the decision and reasons.",
+     "points": [
+      "s.189 only → track 3A. s.189A → decide whether the employer will request facilitation (3B) or not (3C).",
+      "Weigh scale, number of unions, relationship history, strike risk, complexity of disclosure and the value of a neutral chair.",
+      "Recommend facilitation for large or contentious matters (BP).",
+      "Record the decision and reasons."
+     ],
+     "owner": "SSO, LA, ERO",
+     "deadline": "Before notice",
+     "form": "R10 route memo",
+     "authority": "s.189A(3), (4); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Identifying the need, planning and choosing the route",
+      "subsection": null,
+      "page": 15
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.7",
+     "label": "1.7",
+     "title": "Identify consulting parties",
+     "trigger": "Route chosen.",
+     "action": "Apply the s.189(1) hierarchy to every affected employee; map union members, non-members and workplace forum coverage. For non-unionised employees, run a nomination process for representatives.",
+     "points": [
+      "Apply the s.189(1) hierarchy to every affected employee; map union members, non-members and workplace forum coverage.",
+      "For non-unionised employees, run a nomination process for representatives."
+     ],
+     "owner": "HR, LA",
+     "deadline": "Before notice",
+     "form": "R02 extract",
+     "authority": "s.189(1); Code item 24(3)–(4)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Identifying the need, planning and choosing the route",
+      "subsection": null,
+      "page": 15
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.8",
+     "label": "1.8",
+     "title": "Selection criteria proposal",
+     "trigger": "Pool defined.",
+     "action": "Propose fair and objective criteria (length of service, retention of skills, qualifications are generally accepted). Where LIFO is used, define exceptions for skills retention and justify them. Test for indirect discrimination against EE demographics. Never use union membership or activity, pregnancy or any listed ground.",
+     "points": [
+      "Propose fair and objective criteria (length of service, retention of skills, qualifications are generally accepted).",
+      "Where LIFO is used, define exceptions for skills retention and justify them.",
+      "Test for indirect discrimination against EE demographics.",
+      "Never use union membership or activity, pregnancy or any listed ground."
+     ],
+     "owner": "HR, LA",
+     "deadline": "Before notice",
+     "form": "R11",
+     "authority": "s.189(7); Code item 24(8)–(9); EEA s.6; POPIA ss.26–27",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Identifying the need, planning and choosing the route",
+      "subsection": null,
+      "page": 15
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.9",
+     "label": "1.9",
+     "title": "Special-status screen",
+     "trigger": "Pool defined.",
+     "action": "Flag: pregnant employees and those on maternity or parental leave; union representatives and office-bearers; employees in disciplinary or incapacity processes (retrenchment must not be used as a shortcut); protected disclosers; employees on ill-health or COIDA leave; employees near retirement; TES workers; fixed-term employees; s.197 context. LA review of each flag.",
+     "points": [
+      "Flag: pregnant employees and those on maternity or parental leave; union representatives and office-bearers; employees in disciplinary or incapacity processes (retrenchment must not be used as a shortcut); protected disclosers; employees on ill-health or COIDA leave; employees near retirement; TES workers; fixed-term employees; s.197 context.",
+      "LA review of each flag."
+     ],
+     "owner": "HR, LA",
+     "deadline": "Before notice",
+     "form": "Screening checklist",
+     "authority": "s.187(1); s.198A(4); EEA s.6; PDA",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Identifying the need, planning and choosing the route",
+      "subsection": null,
+      "page": 15
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.10",
+     "label": "1.10",
+     "title": "Disclosure pack",
+     "trigger": "Proposal settled.",
+     "action": "Assemble all relevant information: financials, business case, organograms, headcount, look-back, selection data, severance calculations, options paper. Identify information that is privileged, confidential and likely to cause substantial harm, or private personal information, and prepare redactions or undertakings.",
+     "points": [
+      "Assemble all relevant information: financials, business case, organograms, headcount, look-back, selection data, severance calculations, options paper.",
+      "Identify information that is privileged, confidential and likely to cause substantial harm, or private personal information, and prepare redactions or undertakings."
+     ],
+     "owner": "FIN, HR, LA",
+     "deadline": "Before notice",
+     "form": "R12 index",
+     "authority": "s.189(3), (4)(a); s.16(3)–(5); POPIA ss.26–27",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Identifying the need, planning and choosing the route",
+      "subsection": null,
+      "page": 15
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.11",
+     "label": "1.11",
+     "title": "Communication plan",
+     "trigger": "Pack assembled.",
+     "action": "Sequence: consulting parties first, then affected employees, then the wider workforce, then external stakeholders. Prepare scripts and FAQs that speak of proposals and consultation.",
+     "points": [
+      "Sequence: consulting parties first, then affected employees, then the wider workforce, then external stakeholders.",
+      "Prepare scripts and FAQs that speak of proposals and consultation."
+     ],
+     "owner": "COMMS, HR",
+     "deadline": "Before notice",
+     "form": "R13",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Identifying the need, planning and choosing the route",
+      "subsection": null,
+      "page": 16
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.12",
+     "label": "1.12",
+     "title": "Diarise all clocks",
+     "trigger": "Route chosen.",
+     "action": "Calendar: notice date (day 0); first meeting; day 15 (facilitation request by CPs); day 31 (earliest s.189A(8) referral); day 61 (earliest s.189A(7) termination notice, and internal floor on track 3C under Code item 24(14)); BCEA notice periods; 30-day s.189A(13) and s.191 referral windows; 90-day Labour Court windows.",
+     "points": [
+      "Calendar: notice date (day 0); first meeting; day 15 (facilitation request by CPs); day 31 (earliest s.189A(8) referral); day 61 (earliest s.189A(7) termination notice, and internal floor on track 3C under Code item 24(14)); BCEA notice periods; 30-day s.189A(13) and s.191 referral windows; 90-day Labour Court windows."
+     ],
+     "owner": "ERO",
+     "deadline": "Before notice",
+     "form": "R14 tracker",
+     "authority": "ss.189A(3), (7), (8), (17), 191",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Identifying the need, planning and choosing the route",
+      "subsection": null,
+      "page": 16
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+    "section": "§04 Phase 1 — Identifying the need, planning and choosing the route",
+    "page": 14,
+    "subsection": null
+   },
+   "applicability": "conditional"
+  },
+  {
+   "id": "s3",
+   "group": "Phase 2 — The s.189(3) notice and disclosure",
+   "title": "Phase 2 — The s.189(3) notice and disclosure",
+   "kind": "phase",
+   "intro": [
+    "Day 0 is the date the notice is given to the consulting parties. It starts the s.189A clocks and fixes the look-back window. The notice must invite consultation and disclose in writing all relevant information, including the ten items in s.189(3); the Code expects it to follow Annexure A (item 24(2))."
+   ],
+   "notes": [
+    {
+     "heading": "Consulting party obligations at this stage",
+     "text": "Acknowledge the notice; confirm representatives; request information in writing; decide whether to request facilitation within 15 days (s.189A); keep disclosed confidential information confidential."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "ERO → consulting parties (notice and pack). LA → CCMA (LRA 7.20). HR → employees (letters). FIN → data room."
+    },
+    {
+     "heading": "Watch",
+     "text": "A notice that says “the company has decided to retrench” or that lists named employees to be dismissed before consultation begins is strong evidence that the decision was made in advance. Annexure A suggests full names for larger employers; do so only for the purpose of identifying the pool, and treat the list as provisional."
+    }
+   ],
+   "steps": [
+    {
+     "id": "2.1",
+     "label": "2.1",
+     "title": "Draft the notice",
+     "trigger": "Phase 1 complete.",
+     "action": "Cover every s.189(3) item: reasons; alternatives considered and why each was rejected; number likely to be affected and job categories; proposed selection method; timing; proposed severance; assistance; possibility of re-employment; total employees; op-req dismissals in the preceding 12 months. Add Annexure A content, the proposed consultation schedule and, for 3B, the facilitation request. State that the proposals are open to consultation.",
+     "points": [
+      "Cover every s.189(3) item:",
+      "reasons",
+      "alternatives considered and why each was rejected",
+      "number likely to be affected and job categories",
+      "proposed selection method",
+      "timing",
+      "proposed severance",
+      "assistance",
+      "possibility of re-employment",
+      "total employees",
+      "op-req dismissals in the preceding 12 months. Add Annexure A content, the proposed consultation schedule and, for 3B, the facilitation request. State that the proposals are open to consultation."
+     ],
+     "owner": "LA, HR, ERO",
+     "deadline": "Before day 0",
+     "form": "R15 notice",
+     "authority": "s.189(3)(a)–(j); Code item 24(1)–(2), Annexure A",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — The s.189(3) notice and disclosure",
+      "subsection": null,
+      "page": 17
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.2",
+     "label": "2.2",
+     "title": "Sign-off",
+     "trigger": "Draft final.",
+     "action": "SSO signs within delegation. LA confirms route, threshold and consulting parties.",
+     "points": [
+      "SSO signs within delegation.",
+      "LA confirms route, threshold and consulting parties."
+     ],
+     "owner": "SSO, LA",
+     "deadline": "Day 0",
+     "form": "R15",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — The s.189(3) notice and disclosure",
+      "subsection": null,
+      "page": 17
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.3",
+     "label": "2.3",
+     "title": "Serve on every consulting party",
+     "trigger": "Notice signed.",
+     "action": "Deliver to every consulting party identified in 1.7 with the disclosure pack. Record time, method and recipient. For non-unionised employees, deliver to each affected employee or nominated representative.",
+     "points": [
+      "Deliver to every consulting party identified in 1.7 with the disclosure pack.",
+      "Record time, method and recipient.",
+      "For non-unionised employees, deliver to each affected employee or nominated representative."
+     ],
+     "owner": "ERO",
+     "deadline": "Day 0",
+     "form": "R16 proof of service",
+     "authority": "s.189(1), (3); Code item 24(3)–(4)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — The s.189(3) notice and disclosure",
+      "subsection": null,
+      "page": 17
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.4",
+     "label": "2.4",
+     "title": "Facilitation request (track 3B)",
+     "trigger": "Employer requests facilitation, or CPs may.",
+     "action": "Employer: request in the notice and file LRA 7.20 with the CCMA, served and filed per CCMA Rules. CPs representing the majority of employees contemplated for dismissal may request and notify the CCMA within 15 days of the notice. The parties may agree on a private facilitator instead.",
+     "points": [
+      "Employer: request in the notice and file LRA 7.20 with the CCMA, served and filed per CCMA Rules.",
+      "CPs representing the majority of employees contemplated for dismissal may request and notify the CCMA within 15 days of the notice.",
+      "The parties may agree on a private facilitator instead."
+     ],
+     "owner": "LA",
+     "deadline": "Employer: day 0. CPs: by day 15",
+     "form": "R17; LRA 7.20",
+     "authority": "s.189A(3)–(5); Regs regs 1–2",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — The s.189(3) notice and disclosure",
+      "subsection": null,
+      "page": 17
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.5",
+     "label": "2.5",
+     "title": "Tell affected employees",
+     "trigger": "Notice served on CPs.",
+     "action": "Written letter to each potentially affected employee, the same day: what is proposed, that no decision has been taken, who represents them, how to make representations, EAP support, contact person. Brief the wider workforce.",
+     "points": [
+      "Written letter to each potentially affected employee, the same day: what is proposed, that no decision has been taken, who represents them, how to make representations, EAP support, contact person.",
+      "Brief the wider workforce."
+     ],
+     "owner": "HR, LM",
+     "deadline": "Day 0 (after CPs)",
+     "form": "R18",
+     "authority": "Code item 24(4); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — The s.189(3) notice and disclosure",
+      "subsection": null,
+      "page": 18
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.6",
+     "label": "2.6",
+     "title": "Freeze the pool",
+     "trigger": "From day 0.",
+     "action": "Freeze recruitment into affected categories; reserve vacancies as possible alternatives; do not move people into or out of the pool without consultation; suspend unrelated restructuring that would change the numbers.",
+     "points": [
+      "Freeze recruitment into affected categories; reserve vacancies as possible alternatives; do not move people into or out of the pool without consultation; suspend unrelated restructuring that would change the numbers."
+     ],
+     "owner": "HR",
+     "deadline": "Day 0 onward",
+     "form": "Freeze notice",
+     "authority": "Code item 23(3); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — The s.189(3) notice and disclosure",
+      "subsection": null,
+      "page": 18
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.7",
+     "label": "2.7",
+     "title": "Information requests",
+     "trigger": "CP asks for further information.",
+     "action": "Log each request; respond in writing within a set period (BP 5 working days). Refuse only information that is not relevant, is legally privileged, cannot be disclosed without breaking a law or court order, is confidential and would cause substantial harm, or is private personal information without consent. The employer bears the onus of proving that withheld information is not relevant.",
+     "points": [
+      "Log each request; respond in writing within a set period (BP 5 working days).",
+      "Refuse only information that is not relevant, is legally privileged, cannot be disclosed without breaking a law or court order, is confidential and would cause substantial harm, or is private personal information without consent.",
+      "The employer bears the onus of proving that withheld information is not relevant."
+     ],
+     "owner": "LA, FIN, ERO",
+     "deadline": "BP 5 working days per request",
+     "form": "R12 log",
+     "authority": "s.189(4); s.16(3)–(5)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — The s.189(3) notice and disclosure",
+      "subsection": null,
+      "page": 18
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.8",
+     "label": "2.8",
+     "title": "First meeting set",
+     "trigger": "Notice served.",
+     "action": "3A and 3C: propose a first meeting within 7 days (BP). 3B: CCMA names the facilitator and, after consulting the parties, the first meeting date within 7 days of the request, with at least 7 days’ notice of that meeting.",
+     "points": [
+      "3A and 3C: propose a first meeting within 7 days (BP). 3B: CCMA names the facilitator and, after consulting the parties, the first meeting date within 7 days of the request, with at least 7 days’ notice of that meeting."
+     ],
+     "owner": "ERO; CCMA",
+     "deadline": "3A/3C: by day 7 (BP); 3B: per Regs",
+     "form": "R19 agenda",
+     "authority": "Regs reg 2(1)–(2); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — The s.189(3) notice and disclosure",
+      "subsection": null,
+      "page": 18
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+    "section": "§05 Phase 2 — The s.189(3) notice and disclosure",
+    "page": 17,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s4",
+   "group": "Phase 3 — Consultation",
+   "title": "Common steps (all tracks)",
+   "kind": "phase",
+   "intro": [
+    "Consultation is a meaningful joint consensus-seeking process on the s.189(2) topics: measures to avoid dismissals, minimise their number, change their timing and mitigate their effects; the selection method; and severance (s.189(2); Code item 24(5)–(7)). The employer must allow representations on these and any other related matter, consider and respond to them, give reasons for disagreeing, and reply in writing to written representations (s.189(5)–(6)). The common steps below apply on every track; the track tables add what differs."
+   ],
+   "notes": [],
+   "steps": [
+    {
+     "id": "3.1",
+     "label": "3.1",
+     "title": "Opening meeting",
+     "trigger": "First meeting convened.",
+     "action": "Agree ground rules, attendance, interpreters, minute-taking and approval of minutes, schedule, information still required, and whether any part will be without prejudice. Present the rationale and proposals; confirm no decision has been made.",
+     "points": [
+      "Agree ground rules, attendance, interpreters, minute-taking and approval of minutes, schedule, information still required, and whether any part will be without prejudice.",
+      "Present the rationale and proposals; confirm no decision has been made."
+     ],
+     "owner": "ECT, CP (FAC in 3B)",
+     "deadline": "3A/3C: by day 7 (BP); 3B: first facilitation meeting",
+     "form": "R19",
+     "authority": "s.189(2); Regs reg 3(1)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Common steps (all tracks)",
+      "page": 19
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.2",
+     "label": "3.2",
+     "title": "Work through every topic",
+     "trigger": "Each meeting.",
+     "action": "Take each s.189(2) topic in turn, but do not refuse to discuss a topic because another is unresolved. Record the employer’s position, each CP proposal, and the response.",
+     "points": [
+      "Take each s.189(2) topic in turn, but do not refuse to discuss a topic because another is unresolved.",
+      "Record the employer’s position, each CP proposal, and the response."
+     ],
+     "owner": "ECT, CP",
+     "deadline": "Each meeting",
+     "form": "R19 minutes",
+     "authority": "s.189(2); Code item 24(7); CL: SACU v Telkom (LC 2020, verify)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Common steps (all tracks)",
+      "page": 19
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.3",
+     "label": "3.3",
+     "title": "Representations and written responses",
+     "trigger": "Representation received.",
+     "action": "Log every representation. Consider it genuinely; respond with reasons for disagreeing. Respond in writing to any written representation, before the next meeting where possible (BP within 5 working days).",
+     "points": [
+      "Log every representation.",
+      "Consider it genuinely; respond with reasons for disagreeing.",
+      "Respond in writing to any written representation, before the next meeting where possible (BP within 5 working days)."
+     ],
+     "owner": "ERO, LA",
+     "deadline": "BP 5 working days",
+     "form": "R20 register",
+     "authority": "s.189(5)–(6)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Common steps (all tracks)",
+      "page": 19
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.4",
+     "label": "3.4",
+     "title": "Alternatives register",
+     "trigger": "Proposal made by anyone.",
+     "action": "Record every alternative: who proposed it, cost and saving, feasibility, effect on numbers, the employer’s response and reasons. Revisit alternatives that become viable as facts change.",
+     "points": [
+      "Record every alternative: who proposed it, cost and saving, feasibility, effect on numbers, the employer’s response and reasons.",
+      "Revisit alternatives that become viable as facts change."
+     ],
+     "owner": "ERO, FIN",
+     "deadline": "Updated after each meeting",
+     "form": "R21",
+     "authority": "s.189(2)(a); Code items 23(2)–(3), 24(6)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Common steps (all tracks)",
+      "page": 19
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.5",
+     "label": "3.5",
+     "title": "Minutes",
+     "trigger": "After each meeting.",
+     "action": "Circulate draft minutes within 2 working days; note corrections or disagreements rather than refusing them; keep the final version with the attendance register.",
+     "points": [
+      "Circulate draft minutes within 2 working days; note corrections or disagreements rather than refusing them; keep the final version with the attendance register."
+     ],
+     "owner": "ERO",
+     "deadline": "2 working days (BP)",
+     "form": "R19",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Common steps (all tracks)",
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.6",
+     "label": "3.6",
+     "title": "Voluntary measures",
+     "trigger": "Parties consider VSPs or early retirement.",
+     "action": "Consult on the terms before inviting applications. Set eligibility, window, the employer’s right to decline where skills must be retained, and cooling-off. Applications are voluntary; no pressure. Record the effect on the numbers still at risk.",
+     "points": [
+      "Consult on the terms before inviting applications.",
+      "Set eligibility, window, the employer’s right to decline where skills must be retained, and cooling-off.",
+      "Applications are voluntary; no pressure.",
+      "Record the effect on the numbers still at risk."
+     ],
+     "owner": "ECT, HR, BEN",
+     "deadline": "Per agreed timetable",
+     "form": "R22",
+     "authority": "s.189(2)(a)(ii); CL: SACU v Telkom (LC 2020, verify)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Common steps (all tracks)",
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.7",
+     "label": "3.7",
+     "title": "Alternative positions and redeployment",
+     "trigger": "Vacancies or new structure available.",
+     "action": "Match affected employees to vacancies and new posts; offer in writing with terms and a reasonable trial period where appropriate. Record reasons for any refusal. An employee who unreasonably refuses a reasonable offer of alternative employment loses statutory severance.",
+     "points": [
+      "Match affected employees to vacancies and new posts; offer in writing with terms and a reasonable trial period where appropriate.",
+      "Record reasons for any refusal.",
+      "An employee who unreasonably refuses a reasonable offer of alternative employment loses statutory severance."
+     ],
+     "owner": "HR, LM",
+     "deadline": "Throughout",
+     "form": "R24",
+     "authority": "BCEA s.41(4); CL: Irvin & Johnson v CCMA (LAC 2006, verify)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Common steps (all tracks)",
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.8",
+     "label": "3.8",
+     "title": "Selection criteria agreed or fixed",
+     "trigger": "Consultation on selection.",
+     "action": "Try to agree criteria. If none are agreed, use fair and objective criteria and say why. Share the selection matrix and pool definitions.",
+     "points": [
+      "Try to agree criteria.",
+      "If none are agreed, use fair and objective criteria and say why.",
+      "Share the selection matrix and pool definitions."
+     ],
+     "owner": "ECT, CP",
+     "deadline": "Before provisional selection",
+     "form": "R11; R23",
+     "authority": "s.189(7); Code item 24(8)–(9)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Common steps (all tracks)",
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.9",
+     "label": "3.9",
+     "title": "Provisional selection and queries",
+     "trigger": "Criteria settled.",
+     "action": "Apply the criteria consistently; produce a provisional list; tell each provisionally selected employee individually with the scoring; allow a query or objection and decide it before the final decision. Share scoring only with the employee concerned and the consulting party entitled to it (POPIA ss.26–27).",
+     "points": [
+      "Apply the criteria consistently; produce a provisional list; tell each provisionally selected employee individually with the scoring; allow a query or objection and decide it before the final decision.",
+      "Share scoring only with the employee concerned and the consulting party entitled to it (POPIA ss.26–27)."
+     ],
+     "owner": "HR, LM",
+     "deadline": "Before Phase 4",
+     "form": "R23",
+     "authority": "s.189(7); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Common steps (all tracks)",
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.10",
+     "label": "3.10",
+     "title": "Individual consultation",
+     "trigger": "Always for non-unionised; BP for all.",
+     "action": "One-to-one meetings on personal circumstances, alternative posts, VSP eligibility, severance calculation and assistance. Allow a representative.",
+     "points": [
+      "One-to-one meetings on personal circumstances, alternative posts, VSP eligibility, severance calculation and assistance.",
+      "Allow a representative."
+     ],
+     "owner": "HR, LM, EMP",
+     "deadline": "Throughout",
+     "form": "R19",
+     "authority": "s.189(1)(d); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Common steps (all tracks)",
+      "page": 19
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.11",
+     "label": "3.11",
+     "title": "Severance and assistance",
+     "trigger": "Consultation on mitigation.",
+     "action": "Table the statutory minimum and any enhancement; consult on assistance (outplacement, training, time off to seek work, retention of benefits) and re-employment preference.",
+     "points": [
+      "Table the statutory minimum and any enhancement; consult on assistance (outplacement, training, time off to seek work, retention of benefits) and re-employment preference."
+     ],
+     "owner": "ECT, BEN",
+     "deadline": "Throughout",
+     "form": "R04",
+     "authority": "s.189(2)(c), (3)(f)–(h); BCEA s.41; Code item 24(15)–(16)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Common steps (all tracks)",
+      "page": 19
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.12",
+     "label": "3.12",
+     "title": "Extension requests",
+     "trigger": "CP asks for more time.",
+     "action": "Consider in good faith and reply with reasons. In s.189A cases a party may not unreasonably refuse an extension needed for meaningful consultation; record why any refusal is reasonable.",
+     "points": [
+      "Consider in good faith and reply with reasons.",
+      "In s.189A cases a party may not unreasonably refuse an extension needed for meaningful consultation; record why any refusal is reasonable."
+     ],
+     "owner": "SSO, LA",
+     "deadline": "Within 2 working days of request (BP)",
+     "form": "R25",
+     "authority": "s.189A(2)(c)–(d); Code item 24(14)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Common steps (all tracks)",
+      "page": 21
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.13",
+     "label": "3.13",
+     "title": "Consensus or impasse",
+     "trigger": "Topics exhausted.",
+     "action": "Record agreement (a collective agreement where concluded with a union) or impasse, the employer’s final position on each topic with reasons, and the CPs’ positions.",
+     "points": [
+      "Record agreement (a collective agreement where concluded with a union) or impasse, the employer’s final position on each topic with reasons, and the CPs’ positions."
+     ],
+     "owner": "ECT, CP",
+     "deadline": "End of consultation",
+     "form": "R26",
+     "authority": "s.189(2), (6); Regs reg 10",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Common steps (all tracks)",
+      "page": 19
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+    "section": "§06 Phase 3 — Consultation",
+    "page": 19,
+    "subsection": "Common steps (all tracks)"
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s5",
+   "group": "Phase 3 — Consultation",
+   "title": "Track 3A — s.189 only",
+   "kind": "phase",
+   "intro": [
+    "There is no minimum period. The length and number of meetings depend on the complexity of the issues, the nature and size of the employer and the scale of the retrenchments; a simple retrenchment at a small employer can be done quickly (Code item 24(12)–(13))."
+   ],
+   "notes": [],
+   "steps": [
+    {
+     "id": "3A.1",
+     "label": "3A.1",
+     "title": "Calibrate the process",
+     "trigger": "Track 3A chosen.",
+     "action": "Set a timetable proportionate to the scale: BP at least two meetings for a single employee, spread over at least a week; several meetings over two to six weeks for group retrenchments. Record why the period is adequate.",
+     "points": [
+      "Set a timetable proportionate to the scale: BP at least two meetings for a single employee, spread over at least a week; several meetings over two to six weeks for group retrenchments.",
+      "Record why the period is adequate."
+     ],
+     "owner": "ERO, LA",
+     "deadline": "At first meeting",
+     "form": "R14",
+     "authority": "Code item 24(12)–(13)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Track 3A — s.189 only",
+      "page": 21
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3A.2",
+     "label": "3A.2",
+     "title": "Single-position redundancy",
+     "trigger": "One employee affected.",
+     "action": "Consult the employee (with a representative) as the consulting party unless a union or collective agreement applies. Share the business case, discuss alternatives and severance, and respond in writing.",
+     "points": [
+      "Consult the employee (with a representative) as the consulting party unless a union or collective agreement applies.",
+      "Share the business case, discuss alternatives and severance, and respond in writing."
+     ],
+     "owner": "ERO, LM",
+     "deadline": "Throughout",
+     "form": "R19; R20",
+     "authority": "s.189(1)(d); s.191(12)(b)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Track 3A — s.189 only",
+      "page": 21
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3A.3",
+     "label": "3A.3",
+     "title": "Disclosure disputes",
+     "trigger": "Disclosure refused or disputed.",
+     "action": "A CP may refer the dispute to the CCMA under s.16; the commissioner conciliates and, if unresolved, arbitrates. Pause or adapt the timetable so consultation is not undermined.",
+     "points": [
+      "A CP may refer the dispute to the CCMA under s.16; the commissioner conciliates and, if unresolved, arbitrates.",
+      "Pause or adapt the timetable so consultation is not undermined."
+     ],
+     "owner": "LA",
+     "deadline": "On referral",
+     "form": "R12",
+     "authority": "s.189(4)(a); s.16(6)–(14)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Track 3A — s.189 only",
+      "page": 21
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3A.4",
+     "label": "3A.4",
+     "title": "Aggregation watch",
+     "trigger": "Further retrenchments likely within 12 months.",
+     "action": "Re-run the threshold test before any later notice: earlier s.189 dismissals count towards the s.189A look-back.",
+     "points": [
+      "Re-run the threshold test before any later notice: earlier s.189 dismissals count towards the s.189A look-back."
+     ],
+     "owner": "HR, LA",
+     "deadline": "Before any later notice",
+     "form": "R03; R10",
+     "authority": "s.189A(1)(b)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Track 3A — s.189 only",
+      "page": 21
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3A.5",
+     "label": "3A.5",
+     "title": "Close consultation",
+     "trigger": "Consensus or impasse.",
+     "action": "Written final position; move to Phase 4. No statutory waiting period, but do not give notice of termination until representations have been answered.",
+     "points": [
+      "Written final position; move to Phase 4.",
+      "No statutory waiting period, but do not give notice of termination until representations have been answered."
+     ],
+     "owner": "ERO",
+     "deadline": "End of consultation",
+     "form": "R26",
+     "authority": "s.189(6)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Track 3A — s.189 only",
+      "page": 22
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+    "section": "§06 Phase 3 — Consultation",
+    "page": 19,
+    "subsection": "Track 3A — s.189 only"
+   },
+   "applicability": "conditional"
+  },
+  {
+   "id": "s6",
+   "group": "Phase 3 — Consultation",
+   "title": "Track 3B — s.189A with facilitation",
+   "kind": "phase",
+   "intro": [
+    "A CCMA facilitator (or one agreed by the parties) chairs the process under the Facilitation Regulations. Notice of termination may not be given until 60 days from the s.189(3) notice have elapsed (s.189A(7)(a)); counting day 0 as the notice date, the earliest notice date is day 61."
+   ],
+   "notes": [],
+   "steps": [
+    {
+     "id": "3B.1",
+     "label": "3B.1",
+     "title": "Facilitator appointed",
+     "trigger": "LRA 7.20 filed.",
+     "action": "CCMA names the facilitator and sets the first meeting date after consulting the parties, within 7 days of receiving the request, giving at least 7 days’ notice of the meeting. Parties may agree a different facilitator at their own cost.",
+     "points": [
+      "CCMA names the facilitator and sets the first meeting date after consulting the parties, within 7 days of receiving the request, giving at least 7 days’ notice of the meeting.",
+      "Parties may agree a different facilitator at their own cost."
+     ],
+     "owner": "CCMA; LA",
+     "deadline": "≤ 7 days of request",
+     "form": "CCMA notice",
+     "authority": "Regs reg 2",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Track 3B — s.189A with facilitation",
+      "page": 22
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3B.2",
+     "label": "3B.2",
+     "title": "First facilitation meeting",
+     "trigger": "Meeting convened.",
+     "action": "Facilitator helps the parties agree the procedure, dates of further meetings, and what information must be disclosed and when.",
+     "points": [
+      "Facilitator helps the parties agree the procedure, dates of further meetings, and what information must be disclosed and when."
+     ],
+     "owner": "FAC, ECT, CP",
+     "deadline": "First meeting",
+     "form": "R19",
+     "authority": "Regs reg 3",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Track 3B — s.189A with facilitation",
+      "page": 22
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3B.3",
+     "label": "3B.3",
+     "title": "Facilitation meetings",
+     "trigger": "Schedule agreed.",
+     "action": "Up to four facilitation meetings unless settled sooner or the parties agree fewer; the CCMA Director may authorise more. The facilitator may chair, decide procedural issues (finally), arrange further meetings and direct the parties to consult without the facilitator. Keep consulting between meetings.",
+     "points": [
+      "Up to four facilitation meetings unless settled sooner or the parties agree fewer; the CCMA Director may authorise more.",
+      "The facilitator may chair, decide procedural issues (finally), arrange further meetings and direct the parties to consult without the facilitator.",
+      "Keep consulting between meetings."
+     ],
+     "owner": "FAC, ECT, CP",
+     "deadline": "Between day ~15 and day 60",
+     "form": "R19",
+     "authority": "Regs regs 4, 6",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Track 3B — s.189A with facilitation",
+      "page": 22
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3B.4",
+     "label": "3B.4",
+     "title": "Disclosure orders",
+     "trigger": "Disclosure disputed.",
+     "action": "Facilitator hears representations and may order production of relevant documents; the onus and s.16 confidentiality rules apply. The Labour Court may not later reopen a disclosure matter decided by a s.16 award.",
+     "points": [
+      "Facilitator hears representations and may order production of relevant documents; the onus and s.16 confidentiality rules apply.",
+      "The Labour Court may not later reopen a disclosure matter decided by a s.16 award."
+     ],
+     "owner": "FAC, LA",
+     "deadline": "When raised",
+     "form": "R12",
+     "authority": "Regs reg 5; s.189(4)(b); s.189A(16)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Track 3B — s.189A with facilitation",
+      "page": 22
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3B.5",
+     "label": "3B.5",
+     "title": "With or without prejudice",
+     "trigger": "Parties want part without prejudice.",
+     "action": "Facilitation is with prejudice; agree in writing if any part is without prejudice. The facilitator cannot be called as a witness.",
+     "points": [
+      "Facilitation is with prejudice; agree in writing if any part is without prejudice.",
+      "The facilitator cannot be called as a witness."
+     ],
+     "owner": "LA",
+     "deadline": "When agreed",
+     "form": "Written agreement",
+     "authority": "Regs reg 7",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Track 3B — s.189A with facilitation",
+      "page": 23
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3B.6",
+     "label": "3B.6",
+     "title": "Majority agreement",
+     "trigger": "More than one CP.",
+     "action": "Any agreement for s.189A(2) or the Regulations must be concluded by CPs representing the majority of the employees concerned.",
+     "points": [
+      "Any agreement for s.189A(2) or the Regulations must be concluded by CPs representing the majority of the employees concerned."
+     ],
+     "owner": "ECT, LA",
+     "deadline": "On agreement",
+     "form": "R26",
+     "authority": "Regs reg 10",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Track 3B — s.189A with facilitation",
+      "page": 23
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3B.7",
+     "label": "3B.7",
+     "title": "Day-61 gate (60 days elapsed)",
+     "trigger": "Day 60 has fully elapsed (day 61).",
+     "action": "Only once 60 full days have elapsed after the notice date (from day 61) may the employer give BCEA s.37(1) notice of termination, unless the parties agreed a different period. Confirm consultation on all topics is complete and no reasonable extension request is outstanding.",
+     "points": [
+      "Only once 60 full days have elapsed after the notice date (from day 61) may the employer give BCEA s.37(1) notice of termination, unless the parties agreed a different period.",
+      "Confirm consultation on all topics is complete and no reasonable extension request is outstanding."
+     ],
+     "owner": "SSO, LA",
+     "deadline": "Not before day 61 (60 full days must have elapsed after the notice date)",
+     "form": "R27",
+     "authority": "s.189A(2)(c)–(d), (7)(a)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Track 3B — s.189A with facilitation",
+      "page": 23
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+    "section": "§06 Phase 3 — Consultation",
+    "page": 19,
+    "subsection": "Track 3B — s.189A with facilitation"
+   },
+   "applicability": "conditional"
+  },
+  {
+   "id": "s7",
+   "group": "Phase 3 — Consultation",
+   "title": "Track 3C — s.189A without facilitation",
+   "kind": "phase",
+   "intro": [
+    "The parties consult without a facilitator. No party may refer a dispute to the CCMA or a council until 30 days from the notice have passed (s.189A(8)(a)); once the s.64(1)(a) period has run after referral, the employer may give notice of termination (s.189A(8)(b)(i)). Code item 24(14) sets a 60-day minimum consultation period for every s.189A case, so do not give notice before day 61 on this track either unless the periods are varied by agreement (s.189A(2)(c))."
+   ],
+   "notes": [
+    {
+     "heading": "Consulting party obligations at this stage",
+     "text": "Engage genuinely; make proposals and representations in time; do not use delay as a tactic; do not unreasonably refuse an extension (s.189A); keep confidential information confidential; attend facilitation meetings. A consulting party that refuses to engage cannot later rely on its own refusal (CL, verify)."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "ERO ↔ consulting parties (minutes, responses). FIN → ERO (costing of alternatives). HR ↔ employees (VSP, redeployment, provisional selection). LA → CCMA (disclosure disputes, referrals). FAC → parties (procedural rulings)."
+    },
+    {
+     "heading": "Watch",
+     "text": "The written-response duty in s.189(6)(b) is the most frequently breached requirement. Every written representation, including a union letter tabled at a meeting, needs a written reply with reasons."
+    }
+   ],
+   "steps": [
+    {
+     "id": "3C.1",
+     "label": "3C.1",
+     "title": "Consult at least 30 days",
+     "trigger": "Track 3C chosen.",
+     "action": "Run the common steps with a schedule of meetings across at least 30 days; do not refer before day 31.",
+     "points": [
+      "Run the common steps with a schedule of meetings across at least 30 days; do not refer before day 31."
+     ],
+     "owner": "ECT, CP",
+     "deadline": "Day 0–30 minimum",
+     "form": "R14; R19",
+     "authority": "s.189A(8)(a)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Track 3C — s.189A without facilitation",
+      "page": 23
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3C.2",
+     "label": "3C.2",
+     "title": "Referral to CCMA or council",
+     "trigger": "Day 30 passed; dispute remains.",
+     "action": "A CP refers the dispute for conciliation. If no CP refers, the Act is unclear whether the s.64(1)(a) period can run: BP is for the employer itself to refer, so that the period starts and the timetable is certain. LA to confirm.",
+     "points": [
+      "A CP refers the dispute for conciliation.",
+      "If no CP refers, the Act is unclear whether the s.64(1)(a) period can run: BP is for the employer itself to refer, so that the period starts and the timetable is certain.",
+      "LA to confirm."
+     ],
+     "owner": "CP or LA",
+     "deadline": "From day 31",
+     "form": "LRA 7.11 (verify)",
+     "authority": "s.189A(8)(a)–(b); s.64(1)(a)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Track 3C — s.189A without facilitation",
+      "page": 23
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3C.3",
+     "label": "3C.3",
+     "title": "Conciliation period",
+     "trigger": "Referral made.",
+     "action": "Conciliation within 30 days of referral, or until a certificate that the dispute is unresolved is issued if earlier; the parties may agree to extend. Keep consulting.",
+     "points": [
+      "Conciliation within 30 days of referral, or until a certificate that the dispute is unresolved is issued if earlier; the parties may agree to extend.",
+      "Keep consulting."
+     ],
+     "owner": "CCMA/BC, ECT, CP",
+     "deadline": "30 days from referral",
+     "form": "Certificate",
+     "authority": "s.64(1)(a)(i)–(ii)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Track 3C — s.189A without facilitation",
+      "page": 23
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3C.4",
+     "label": "3C.4",
+     "title": "Notice gate",
+     "trigger": "Conciliation period elapsed.",
+     "action": "Only then, and not before day 61 (Code item 24(14)), may the employer give BCEA s.37(1) notice of termination, unless the periods are varied by agreement.",
+     "points": [
+      "Only then, and not before day 61 (Code item 24(14)), may the employer give BCEA s.37(1) notice of termination, unless the periods are varied by agreement."
+     ],
+     "owner": "SSO, LA",
+     "deadline": "After s.64(1)(a) period and not before day 61",
+     "form": "R27",
+     "authority": "s.189A(8)(b)(i)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Consultation",
+      "subsection": "Track 3C — s.189A without facilitation",
+      "page": 24
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+    "section": "§06 Phase 3 — Consultation",
+    "page": 19,
+    "subsection": "Track 3C — s.189A without facilitation"
+   },
+   "applicability": "conditional"
+  },
+  {
+   "id": "s8",
+   "group": "Phase 4 — Decision, selection and notice of termination",
+   "title": "Phase 4 — Decision, selection and notice of termination",
+   "kind": "phase",
+   "intro": [
+    "The decision is taken only after consultation has run its course and, for s.189A, after the statutory periods have elapsed. The decision memo is the employer’s record of why dismissal remained necessary after every alternative was considered."
+   ],
+   "notes": [
+    {
+     "heading": "Employee obligations at this stage",
+     "text": "Attend the final meeting or explain; consider any last alternative offered; work the notice period unless paid in lieu; return property."
+    },
+    {
+     "heading": "Watch",
+     "text": "Two timing errors recur in s.189A cases: counting 60 days from the first meeting instead of the notice date, and issuing termination notices on or before day 60, before 60 full days have elapsed. The earliest notice date is day 61; the termination date follows the notice period."
+    }
+   ],
+   "steps": [
+    {
+     "id": "4.1",
+     "label": "4.1",
+     "title": "Pre-decision checklist",
+     "trigger": "Consultation ends.",
+     "action": "Confirm: every s.189(2) topic consulted; every written representation answered in writing; alternatives register complete; selection applied consistently and queries decided; special-status flags reviewed; EE impact checked; s.189A periods elapsed or varied by agreement; no reasonable extension request outstanding; numbers not higher than in the notice (if higher, re-notify).",
+     "points": [
+      "Confirm: every s.189(2) topic consulted; every written representation answered in writing; alternatives register complete; selection applied consistently and queries decided; special-status flags reviewed; EE impact checked; s.189A periods elapsed or varied by agreement; no reasonable extension request outstanding; numbers not higher than in the notice (if higher, re-notify)."
+     ],
+     "owner": "ERO, LA",
+     "deadline": "Before 4.2",
+     "form": "R27",
+     "authority": "ss.189, 189A(7)–(8); Code item 24",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Decision, selection and notice of termination",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.2",
+     "label": "4.2",
+     "title": "Decision",
+     "trigger": "Checklist complete.",
+     "action": "SSO signs the decision memo: final numbers and categories, selection result, severance and assistance, timing, reasons for rejecting the remaining proposals.",
+     "points": [
+      "SSO signs the decision memo: final numbers and categories, selection result, severance and assistance, timing, reasons for rejecting the remaining proposals."
+     ],
+     "owner": "SSO",
+     "deadline": "After 4.1",
+     "form": "R28",
+     "authority": "Code item 23(2)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Decision, selection and notice of termination",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": [
+      {
+       "step": "4.1",
+       "reason": "Step 4.1 must be done before 4.2 (source Deadline column: \"Before 4.2\")."
+      }
+     ]
+    },
+    {
+     "id": "4.3",
+     "label": "4.3",
+     "title": "Tell consulting parties",
+     "trigger": "Decision signed.",
+     "action": "Written notice of the outcome, final terms, and list of affected positions, before individual notices go out.",
+     "points": [
+      "Written notice of the outcome, final terms, and list of affected positions, before individual notices go out."
+     ],
+     "owner": "ERO",
+     "deadline": "Same day as 4.2 (BP)",
+     "form": "Outcome letter",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Decision, selection and notice of termination",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.4",
+     "label": "4.4",
+     "title": "Individual final meeting",
+     "trigger": "CPs informed.",
+     "action": "Meet each selected employee (with a representative): selection and scoring; alternatives offered; severance and final pay; notice; assistance; re-employment preference; dispute rights. Hand over the termination letter.",
+     "points": [
+      "Meet each selected employee (with a representative):",
+      "selection and scoring",
+      "alternatives offered",
+      "severance and final pay",
+      "notice",
+      "assistance",
+      "re-employment preference",
+      "dispute rights. Hand over the termination letter."
+     ],
+     "owner": "HR, LM",
+     "deadline": "Within 2 working days of 4.3 (BP)",
+     "form": "R29",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Decision, selection and notice of termination",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": [
+      {
+       "step": "4.3",
+       "reason": "The deadline for 4.4 runs from step 4.3 (source Deadline column: \"Within 2 working days of 4.3 (BP)\")."
+      }
+     ]
+    },
+    {
+     "id": "4.5",
+     "label": "4.5",
+     "title": "Notice of termination",
+     "trigger": "Final meeting.",
+     "action": "At least BCEA s.37(1) notice (one week if employed six months or less; two weeks if more than six months but not more than a year; four weeks if a year or more, or a farm or domestic worker employed more than six months), or longer by contract; a collective agreement may vary the period within s.37(2)–(3). Pay in lieu is permitted (s.38). Notice must be in writing (and explained orally where the employee cannot understand it) (s.37(5)). It may not be given during, or run at the same time as, annual, maternity, parental or other Chapter Three leave, except sick leave (s.37(6)); time notices for employees on leave accordingly. For s.189A, not before day 61 (s.189A(7)(a); Code item 24(14)) and, on track 3C, not before the s.189A(8)(b) gate.",
+     "points": [
+      "At least BCEA s.37(1) notice (one week if employed six months or less; two weeks if more than six months but not more than a year; four weeks if a year or more, or a farm or domestic worker employed more than six months), or longer by contract; a collective agreement may vary the period within s.37(2)–(3).",
+      "Pay in lieu is permitted (s.38).",
+      "Notice must be in writing (and explained orally where the employee cannot understand it) (s.37(5)).",
+      "It may not be given during, or run at the same time as, annual, maternity, parental or other Chapter Three leave, except sick leave (s.37(6)); time notices for employees on leave accordingly.",
+      "For s.189A, not before day 61 (s.189A(7)(a); Code item 24(14)) and, on track 3C, not before the s.189A(8)(b) gate."
+     ],
+     "owner": "SSO, HR",
+     "deadline": "Per BCEA s.37; s.189A gates (earliest day 61)",
+     "form": "R29",
+     "authority": "BCEA ss.37–38, 37(2)–(6); s.189A(7)(a), (8)(b)(i); Code item 24(14)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Decision, selection and notice of termination",
+      "subsection": null,
+      "page": 26
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.6",
+     "label": "4.6",
+     "title": "Termination letter contents",
+     "trigger": "With 4.5.",
+     "action": "Reason (operational requirements); how the employee was selected; termination date; notice or pay in lieu; severance calculation; leave pay; other amounts; benefits and fund position; UIF; re-employment preference arrangements; dispute routes and time limits for the track (facilitated: Labour Court directly within 90 days of the termination notice, no conciliation, Industrial Oleo, CC 2026).",
+     "points": [
+      "Reason (operational requirements); how the employee was selected; termination date; notice or pay in lieu; severance calculation; leave pay; other amounts; benefits and fund position; UIF; re-employment preference arrangements; dispute routes and time limits for the track (facilitated: Labour Court directly within 90 days of the termination notice, no conciliation, Industrial Oleo, CC 2026)."
+     ],
+     "owner": "HR, LA",
+     "deadline": "With 4.5",
+     "form": "R29",
+     "authority": "s.189(3)(f)–(h); BCEA ss.40–42",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Decision, selection and notice of termination",
+      "subsection": null,
+      "page": 26
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.7",
+     "label": "4.7",
+     "title": "Time off and support during notice",
+     "trigger": "Notice running.",
+     "action": "Allow reasonable time off to seek work and to attend outplacement (BP). Start the assistance promised in the notice.",
+     "points": [
+      "Allow reasonable time off to seek work and to attend outplacement (BP).",
+      "Start the assistance promised in the notice."
+     ],
+     "owner": "HR, LM",
+     "deadline": "During notice",
+     "form": "R06",
+     "authority": "s.189(3)(g); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Decision, selection and notice of termination",
+      "subsection": null,
+      "page": 26
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.8",
+     "label": "4.8",
+     "title": "Accept settlements",
+     "trigger": "Employee or CP proposes settlement.",
+     "action": "Written, informed, voluntary; state the consideration and any waiver clearly; do not include terms that stop the employee making protected disclosures.",
+     "points": [
+      "Written, informed, voluntary; state the consideration and any waiver clearly; do not include terms that stop the employee making protected disclosures."
+     ],
+     "owner": "LA",
+     "deadline": "On proposal",
+     "form": "Settlement agreement",
+     "authority": "PDA s.2(3); s.142A (verify)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Decision, selection and notice of termination",
+      "subsection": null,
+      "page": 26
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+    "section": "§07 Phase 4 — Decision, selection and notice of termination",
+    "page": 25,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s9",
+   "group": "Phase 5 — Termination, payment and aftercare",
+   "title": "Phase 5 — Termination, payment and aftercare",
+   "kind": "phase",
+   "intro": [],
+   "notes": [
+    {
+     "heading": "Employee obligations at this stage",
+     "text": "Return property; lodge UIF and fund claims; keep contact details current for re-employment; refer any dispute in time."
+    }
+   ],
+   "steps": [
+    {
+     "id": "5.1",
+     "label": "5.1",
+     "title": "Final pay and severance",
+     "trigger": "Termination date.",
+     "action": "Pay remuneration, notice pay (if in lieu), leave pay, and severance of at least one week’s remuneration for each completed year of continuous service, or more if agreed. Payment of severance does not affect other amounts due.",
+     "points": [
+      "Pay remuneration, notice pay (if in lieu), leave pay, and severance of at least one week’s remuneration for each completed year of continuous service, or more if agreed.",
+      "Payment of severance does not affect other amounts due."
+     ],
+     "owner": "PAY",
+     "deadline": "On termination (BP); final remuneration no later than 7 days after termination (BCEA s.32)",
+     "form": "R30",
+     "authority": "BCEA ss.32, 35, 38, 40, 41(2), (5)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Termination, payment and aftercare",
+      "subsection": null,
+      "page": 28
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.2",
+     "label": "5.2",
+     "title": "Tax",
+     "trigger": "Severance payable.",
+     "action": "Apply for a tax directive for the severance benefit and apply the correct tax treatment.",
+     "points": [
+      "Apply for a tax directive for the severance benefit and apply the correct tax treatment."
+     ],
+     "owner": "PAY",
+     "deadline": "Before payment",
+     "form": "SARS directive",
+     "authority": "Income Tax Act (verify)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Termination, payment and aftercare",
+      "subsection": null,
+      "page": 28
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.3",
+     "label": "5.3",
+     "title": "Statutory documents",
+     "trigger": "Termination.",
+     "action": "Certificate of service; UI-19 and UIF declarations so employees can claim unemployment benefits; retirement fund and group risk forms; medical scheme notice.",
+     "points": [
+      "Certificate of service; UI-19 and UIF declarations so employees can claim unemployment benefits; retirement fund and group risk forms; medical scheme notice."
+     ],
+     "owner": "PAY, BEN",
+     "deadline": "On termination",
+     "form": "R31",
+     "authority": "BCEA s.42; UIA (verify)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Termination, payment and aftercare",
+      "subsection": null,
+      "page": 28
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.4",
+     "label": "5.4",
+     "title": "Property and access",
+     "trigger": "Termination.",
+     "action": "Return of property; removal of system and site access; handover.",
+     "points": [
+      "Return of property; removal of system and site access; handover."
+     ],
+     "owner": "LM, IT",
+     "deadline": "On termination",
+     "form": "R31",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Termination, payment and aftercare",
+      "subsection": null,
+      "page": 28
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.5",
+     "label": "5.5",
+     "title": "Deliver assistance",
+     "trigger": "After termination.",
+     "action": "Deliver the outplacement, training and support promised in the notice and consultation; record delivery.",
+     "points": [
+      "Deliver the outplacement, training and support promised in the notice and consultation; record delivery."
+     ],
+     "owner": "HR",
+     "deadline": "Per commitment",
+     "form": "R06",
+     "authority": "s.189(3)(g)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Termination, payment and aftercare",
+      "subsection": null,
+      "page": 28
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.6",
+     "label": "5.6",
+     "title": "Re-employment preference",
+     "trigger": "Comparable vacancy arises.",
+     "action": "Keep a register of retrenched employees and contact details; offer comparable vacancies first for the agreed period (BP 12 months) and record offers and responses.",
+     "points": [
+      "Keep a register of retrenched employees and contact details; offer comparable vacancies first for the agreed period (BP 12 months) and record offers and responses."
+     ],
+     "owner": "HR",
+     "deadline": "Per agreement",
+     "form": "R32",
+     "authority": "s.189(3)(h); Code item 24(16), Annexure A item 8",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Termination, payment and aftercare",
+      "subsection": null,
+      "page": 28
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.7",
+     "label": "5.7",
+     "title": "Remaining workforce",
+     "trigger": "Implementation.",
+     "action": "Communicate the new structure; manage workload and role changes by agreement; watch for unilateral changes that could be unfair labour practices; offer EAP.",
+     "points": [
+      "Communicate the new structure; manage workload and role changes by agreement; watch for unilateral changes that could be unfair labour practices; offer EAP."
+     ],
+     "owner": "LM, HR",
+     "deadline": "From termination",
+     "form": "Communication",
+     "authority": "s.186(2)(a); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Termination, payment and aftercare",
+      "subsection": null,
+      "page": 28
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.8",
+     "label": "5.8",
+     "title": "Severance disputes",
+     "trigger": "Dispute about severance.",
+     "action": "Respond to a referral to the CCMA or a council; the matter may be dealt with together with a dismissal dispute.",
+     "points": [
+      "Respond to a referral to the CCMA or a council; the matter may be dealt with together with a dismissal dispute."
+     ],
+     "owner": "LA",
+     "deadline": "Per referral",
+     "form": "R33",
+     "authority": "BCEA s.41(6)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Termination, payment and aftercare",
+      "subsection": null,
+      "page": 29
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.9",
+     "label": "5.9",
+     "title": "Close the file",
+     "trigger": "All payments made.",
+     "action": "Consolidate the record; update the 12-month look-back log; diarise retention until every referral and review period has run.",
+     "points": [
+      "Consolidate the record; update the 12-month look-back log; diarise retention until every referral and review period has run."
+     ],
+     "owner": "ERO",
+     "deadline": "Within 10 working days (BP)",
+     "form": "R03; R14",
+     "authority": "POPIA s.14; BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Termination, payment and aftercare",
+      "subsection": null,
+      "page": 29
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+    "section": "§08 Phase 5 — Termination, payment and aftercare",
+    "page": 28,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s10",
+   "group": "Phase 6 — Governance and learning",
+   "title": "Phase 6 — Governance and learning",
+   "kind": "phase",
+   "intro": [],
+   "notes": [],
+   "steps": [
+    {
+     "id": "6.1",
+     "label": "6.1",
+     "title": "Post-implementation review",
+     "trigger": "Three to six months after termination.",
+     "action": "Compare actual savings and structure with the business case. Material differences may suggest the reason was not genuine.",
+     "points": [
+      "Compare actual savings and structure with the business case.",
+      "Material differences may suggest the reason was not genuine."
+     ],
+     "owner": "FIN, ERO",
+     "deadline": "BP 6 months",
+     "form": "R34",
+     "authority": "Code item 23(1)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 30
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.2",
+     "label": "6.2",
+     "title": "Rehire monitoring",
+     "trigger": "Hiring into redundant roles.",
+     "action": "LA review of any new hire into a role declared redundant within 12 months; apply re-employment preference.",
+     "points": [
+      "LA review of any new hire into a role declared redundant within 12 months; apply re-employment preference."
+     ],
+     "owner": "HR, LA",
+     "deadline": "Continuous",
+     "form": "R32",
+     "authority": "Code item 24(16); CL (pretext)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 30
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.3",
+     "label": "6.3",
+     "title": "Look-back maintenance",
+     "trigger": "Every op-req dismissal.",
+     "action": "Keep the 12-month look-back log current for every entity.",
+     "points": [
+      "Keep the 12-month look-back log current for every entity."
+     ],
+     "owner": "HR",
+     "deadline": "Continuous",
+     "form": "R03",
+     "authority": "s.189A(1)(b)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 30
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.4",
+     "label": "6.4",
+     "title": "EE and B-BBEE effects",
+     "trigger": "After termination.",
+     "action": "Assess the effect on the EE plan and numerical targets; revise the plan through the EE consultative process where needed.",
+     "points": [
+      "Assess the effect on the EE plan and numerical targets; revise the plan through the EE consultative process where needed."
+     ],
+     "owner": "HR",
+     "deadline": "Next EE cycle",
+     "form": "EE plan",
+     "authority": "EEA ss.16, 20 (verify)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 30
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.5",
+     "label": "6.5",
+     "title": "Board reporting",
+     "trigger": "Quarterly.",
+     "action": "Numbers, costs, disputes, strikes, awards and lessons; consistency across entities.",
+     "points": [
+      "Numbers, costs, disputes, strikes, awards and lessons; consistency across entities."
+     ],
+     "owner": "ERO, SSO",
+     "deadline": "Quarterly",
+     "form": "R35",
+     "authority": "Governance",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 30
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.6",
+     "label": "6.6",
+     "title": "Policy refresh and legislative watch",
+     "trigger": "Annually or on change.",
+     "action": "Track amendments to the LRA, the Code, the Facilitation Regulations, CCMA Rules and Labour Court Rules, and case law on ss.189 and 189A. Monitor the draft Labour Relations Amendment Bill (published for comment 26 February 2026, not yet tabled; DRAFT), which proposes deleting s.189A(13)–(18).",
+     "points": [
+      "Track amendments to the LRA, the Code, the Facilitation Regulations, CCMA Rules and Labour Court Rules, and case law on ss.189 and 189A.",
+      "Monitor the draft Labour Relations Amendment Bill (published for comment 26 February 2026, not yet tabled; DRAFT), which proposes deleting s.189A(13)–(18)."
+     ],
+     "owner": "LA",
+     "deadline": "Ongoing",
+     "form": "R01",
+     "authority": "LRA s.203",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 30
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+    "section": "§09 Phase 6 — Governance and learning",
+    "page": 30,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s11",
+   "group": "Parallel track — disputes, industrial action and remedies",
+   "title": "Parallel track — disputes, industrial action and remedies",
+   "kind": "parallel",
+   "intro": [
+    "This track opens on the notice date and runs until the last referral, review or strike window closes. Its events are triggered by what the consulting parties or employees do, not by the consultation timetable. Most events differ depending on whether the dismissal is s.189 only or s.189A."
+   ],
+   "notes": [],
+   "steps": [
+    {
+     "id": "P1",
+     "label": "P1",
+     "title": "Disclosure dispute",
+     "trigger": "CP disputes a refusal to disclose.",
+     "action": "Respond to the s.16 referral (3A/3C) or facilitator hearing (3B); prove irrelevance of withheld information; propose confidentiality terms.",
+     "points": [
+      "Respond to the s.16 referral (3A/3C) or facilitator hearing (3B); prove irrelevance of withheld information; propose confidentiality terms."
+     ],
+     "owner": "",
+     "deadline": "Per CCMA notice",
+     "form": "R12",
+     "authority": "s.189(4); s.16; Regs reg 5",
+     "route": "Both",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — disputes, industrial action and remedies",
+      "subsection": null,
+      "page": 31
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P2",
+     "label": "P2",
+     "title": "Procedural challenge — s.189A",
+     "trigger": "CP applies to compel a fair procedure, interdict dismissal, reinstate until compliance, or for compensation.",
+     "action": "Brief LA immediately; prepare the record; consider curing the defect (e.g. extending consultation) rather than opposing. The application must be brought within 30 days of the termination notice (condonation possible) and is heard on an expedited basis. Note: the draft Labour Relations Amendment Bill (DRAFT, not in force) would delete s.189A(13)–(18).",
+     "points": [
+      "Brief LA immediately; prepare the record; consider curing the defect (e.g. extending consultation) rather than opposing.",
+      "The application must be brought within 30 days of the termination notice (condonation possible) and is heard on an expedited basis.",
+      "Note: the draft Labour Relations Amendment Bill (DRAFT, not in force) would delete s.189A(13)–(18)."
+     ],
+     "owner": "",
+     "deadline": "Application ≤ 30 days of notice (s.189A(17))",
+     "form": "R33",
+     "authority": "s.189A(13)–(17); Labour Court Rules 2024 (urgent / expedited procedure)",
+     "route": "s.189A",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — disputes, industrial action and remedies",
+      "subsection": null,
+      "page": 31
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P3",
+     "label": "P3",
+     "title": "Premature notice — s.189A",
+     "trigger": "Termination notice given before the s.189A(7)(a) or (8)(b)(i) period.",
+     "action": "Withdraw and re-issue at the right time where possible; expect strike notice; LA advice.",
+     "points": [
+      "Withdraw and re-issue at the right time where possible; expect strike notice; LA advice."
+     ],
+     "owner": "",
+     "deadline": "Immediately",
+     "form": "R27",
+     "authority": "s.189A(9); CL: Steenkamp v Edcon (CC 2016)",
+     "route": "s.189A",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — disputes, industrial action and remedies",
+      "subsection": null,
+      "page": 31
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P4",
+     "label": "P4",
+     "title": "Strike over the dismissals",
+     "trigger": "Union gives strike notice after the periods, or after premature notice.",
+     "action": "Contingency plan; picketing rules; essential and maintenance services; lock-out only in response to a strike notice. Secondary strikes need at least seven days’ written notice to the secondary employer (s.66(2)(b)). A union that strikes cannot also refer the reason to the Labour Court, and its members’ referrals are deemed withdrawn.",
+     "points": [
+      "Contingency plan; picketing rules; essential and maintenance services; lock-out only in response to a strike notice.",
+      "Secondary strikes need at least seven days’ written notice to the secondary employer (s.66(2)(b)).",
+      "A union that strikes cannot also refer the reason to the Labour Court, and its members’ referrals are deemed withdrawn."
+     ],
+     "owner": "",
+     "deadline": "48 hours’ notice (s.64(1)(b)); seven days where the State is the employer (s.64(1)(d)); at least 7 days for secondary (s.66(2)(b))",
+     "form": "Strike plan",
+     "authority": "s.189A(2)(b), (9)–(12); ss.64–69 (incl. s.66(2)(b)), 76",
+     "route": "s.189A",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — disputes, industrial action and remedies",
+      "subsection": null,
+      "page": 31
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P5",
+     "label": "P5",
+     "title": "Substantive dispute — s.189A",
+     "trigger": "CP or employees refer fairness of the reason to the Labour Court.",
+     "action": "Defend on the business case, alternatives register and selection record.",
+     "points": [
+      "Defend on the business case, alternatives register and selection record."
+     ],
+     "owner": "",
+     "deadline": "Facilitated: direct Labour Court referral within 90 days of termination notice (Regs reg 9; Industrial Oleo, CC 2026). Not facilitated: Labour Court referral under s.191(11); for planning, assume 90 days from the later of the s.64(1)(a) certificate/period and the termination notice; LA to confirm",
+     "form": "R33",
+     "authority": "s.189A(7)(b)(ii), (8)(b)(ii)(bb); s.191(11); CL: NUMSA v Industrial Oleo Chemical Products [2026] ZACC 22",
+     "route": "s.189A",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — disputes, industrial action and remedies",
+      "subsection": null,
+      "page": 32
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P6",
+     "label": "P6",
+     "title": "Dismissal dispute — s.189 only",
+     "trigger": "Employee refers an unfair dismissal dispute.",
+     "action": "Conciliation; then Labour Court on procedure and substance, or arbitration where the employee elects under s.191(12).",
+     "points": [
+      "Conciliation; then Labour Court on procedure and substance, or arbitration where the employee elects under s.191(12)."
+     ],
+     "owner": "",
+     "deadline": "Employee: 30 days of dismissal; LC: 90 days of certificate",
+     "form": "R33",
+     "authority": "s.191(1), (5)(b)(ii), (11), (12)",
+     "route": "s.189",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — disputes, industrial action and remedies",
+      "subsection": null,
+      "page": 31
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P7",
+     "label": "P7",
+     "title": "Automatically unfair claim",
+     "trigger": "Allegation that the real reason was union activity, pregnancy, discrimination, a transfer, a protected disclosure, or compelling acceptance of a demand.",
+     "action": "LA review; chronology showing the operational reason; the Phase 1 special-status record.",
+     "points": [
+      "LA review; chronology showing the operational reason; the Phase 1 special-status record."
+     ],
+     "owner": "",
+     "deadline": "Per referral",
+     "form": "R33",
+     "authority": "s.187(1)(a)–(h); CL: Aveng Trident Steel (CC 2020)",
+     "route": "Both",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — disputes, industrial action and remedies",
+      "subsection": null,
+      "page": 31
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P8",
+     "label": "P8",
+     "title": "Severance dispute",
+     "trigger": "Dispute over entitlement or amount, including refusal of alternative employment.",
+     "action": "Respond with the offer, its terms and the reasons the refusal was unreasonable.",
+     "points": [
+      "Respond with the offer, its terms and the reasons the refusal was unreasonable."
+     ],
+     "owner": "",
+     "deadline": "Per referral",
+     "form": "R24; R30",
+     "authority": "BCEA s.41(4), (6)",
+     "route": "Both",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — disputes, industrial action and remedies",
+      "subsection": null,
+      "page": 32
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P9",
+     "label": "P9",
+     "title": "Unfair labour practice",
+     "trigger": "Unilateral demotion or change to terms of remaining employees.",
+     "action": "Prefer agreed changes; respond with the record.",
+     "points": [
+      "Prefer agreed changes; respond with the record."
+     ],
+     "owner": "",
+     "deadline": "Employee: 90 days",
+     "form": "R33",
+     "authority": "s.186(2)(a); s.191(1)(b)(ii)",
+     "route": "Both",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — disputes, industrial action and remedies",
+      "subsection": null,
+      "page": 33
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P10",
+     "label": "P10",
+     "title": "TES and transfer overlaps",
+     "trigger": "Placed workers or a transfer affected.",
+     "action": "Confirm who the employer is; include deemed employees; no termination to avoid deeming; take LA advice on any retrenchment near a s.197 transfer.",
+     "points": [
+      "Confirm who the employer is; include deemed employees; no termination to avoid deeming; take LA advice on any retrenchment near a s.197 transfer."
+     ],
+     "owner": "",
+     "deadline": "Before notice",
+     "form": "Checklist",
+     "authority": "s.187(1)(g); ss.197, 198A(3)–(4)",
+     "route": "Both",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — disputes, industrial action and remedies",
+      "subsection": null,
+      "page": 31
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P11",
+     "label": "P11",
+     "title": "Remedies and review",
+     "trigger": "Award or judgment.",
+     "action": "Comply or review (arbitration awards) or appeal (Labour Court). Reinstatement, re-employment or compensation up to 12 months’ remuneration; 24 months for automatically unfair dismissal; s.189A(13) compensation must comply with s.194.",
+     "points": [
+      "Comply or review (arbitration awards) or appeal (Labour Court).",
+      "Reinstatement, re-employment or compensation up to 12 months’ remuneration; 24 months for automatically unfair dismissal; s.189A(13) compensation must comply with s.194."
+     ],
+     "owner": "",
+     "deadline": "Review: 6 weeks",
+     "form": "Litigation file",
+     "authority": "ss.145, 189A(15), 193, 194",
+     "route": "Both",
+     "basis": "law",
+     "source": {
+      "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — disputes, industrial action and remedies",
+      "subsection": null,
+      "page": 31
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "Operational_Requirements_Process_Flow_GBS_v1.1.docx",
+    "section": "§10 Parallel track — disputes, industrial action and remedies",
+    "page": 31,
+    "subsection": null
+   },
+   "applicability": "event"
+  }
+ ],
+ "referenceTables": [
+  {
+   "title": "s.189 and s.189A compared",
+   "section": "§02 Master flow at a glance",
+   "page": 7,
+   "kind": "reference",
+   "columns": [
+    "Feature",
+    "s.189 only",
+    "s.189A — facilitated",
+    "s.189A — not facilitated"
+   ],
+   "rows": [
+    [
+     "Applies to",
+     "Any employer, any number of dismissals below the s.189A threshold",
+     "Employer with > 50 employees meeting the s.189A(1) scale (with 12-month look-back)",
+     "Same as facilitated"
+    ],
+    [
+     "Notice and disclosure",
+     "s.189(3)(a)–(j); Code item 24(1)–(2) and Annexure A",
+     "Same, plus facilitation request in the notice if the employer wants it (s.189A(3)(a)); LRA 7.20 to CCMA (Regs reg 1)",
+     "Same as s.189"
+    ],
+    [
+     "Consulting parties and topics",
+     "s.189(1)–(2), (5)–(7)",
+     "Same, facilitated; where more than one CP, agreement must be by CPs representing the majority (Regs reg 10)",
+     "Same as s.189"
+    ],
+    [
+     "Minimum period",
+     "None; depends on complexity, size and scale (Code item 24(12)–(13))",
+     "60 days must have elapsed from the notice: earliest notice of termination is day 61 (s.189A(7)(a); Code item 24(14))",
+     "30 days before referral to CCMA/council (s.189A(8)(a)), then s.64(1)(a) period (30 days from referral or certificate) before notice of termination (s.189A(8)(b)). Code item 24(14) sets a 60-day minimum consultation period for every s.189A case: internal floor day 61 unless varied by agreement (s.189A(2)(c))"
+    ],
+    [
+     "Varying periods",
+     "n/a",
+     "Parties may agree to vary (s.189A(2)(c)); no party may unreasonably refuse an extension needed for meaningful consultation (s.189A(2)(d))",
+     "Same as facilitated"
+    ],
+    [
+     "Who controls the process",
+     "Employer and CPs",
+     "Facilitator decides procedural issues finally (Regs reg 4(2)); may order disclosure (reg 5); up to 4 meetings unless extended (reg 6)",
+     "Employer and CPs; commissioner during conciliation"
+    ],
+    [
+     "Right to strike over the dismissals",
+     "No (s.65(1)(c) bars a strike over a dispute that may be referred to adjudication)",
+     "Yes, after the periods, instead of a Labour Court referral (s.189A(2)(b), (7)(b), (10), (11))",
+     "Yes, after the periods (s.189A(8)(b)(ii))"
+    ],
+    [
+     "Procedural challenge",
+     "CCMA/council within 30 days, then Labour Court (s.191(1), (5)(b)(ii)) or arbitration (s.191(12))",
+     "Only s.189A(13) application within 30 days of notice of termination (s.189A(17)); not in a s.191 referral (s.189A(18))",
+     "Same as facilitated"
+    ],
+    [
+     "Substantive challenge",
+     "As above",
+     "Labour Court directly, no conciliation, within 90 days of notice of termination (s.189A(7)(b)(ii); Regs reg 9; Industrial Oleo, CC 2026) or strike",
+     "Labour Court (s.189A(8)(b)(ii)(bb), s.191(11)) or strike"
+    ],
+    [
+     "Typical earliest termination (4-week BCEA notice)",
+     "Consultation period + notice",
+     "About day 89",
+     "About day 89, later if referral or conciliation is delayed"
+    ]
+   ],
+   "intro": [
+    "Every retrenchment enters through Phase 1, where the threshold test decides the route. The notice (Phase 2) is common to all routes; consultation (Phase 3) runs on track 3A, 3B or 3C; decision, notice and termination (Phases 4 and 5) are common again, but their timing depends on the track. The disputes and industrial-action track is not a phase: it opens on the day of the notice and runs until the last referral window closes."
+   ]
+  },
+  {
+   "title": "Master flow at a glance",
+   "section": "§02 Master flow at a glance",
+   "page": 7,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Read each phase column top to bottom to see who acts and who hands off; read each lane left to right to see one party’s whole job. The ERO lane is the spine: every other lane connects to it, and the disputes and industrial-action track runs underneath from the notice date until the referral windows close."
+   ]
+  },
+  {
+   "title": "Consulting party and employee obligations",
+   "section": "§11 Consulting party and employee obligations",
+   "page": 34,
+   "kind": "obligations",
+   "columns": [
+    "Obligation",
+    "Who",
+    "When",
+    "Consequence if not met",
+    "Authority"
+   ],
+   "rows": [
+    [
+     "Engage in a meaningful joint consensus-seeking process",
+     "CPs and employer",
+     "Throughout",
+     "A party that refuses to engage weakens its later procedural complaint",
+     "s.189(2); CL (verify)"
+    ],
+    [
+     "Make representations and proposals in time",
+     "CPs, employees",
+     "Throughout",
+     "Employer may decide on the proposals tabled",
+     "s.189(5)"
+    ],
+    [
+     "Request information in writing; use it for its purpose; keep confidential information confidential",
+     "CPs",
+     "Throughout",
+     "Loss of trust; possible s.16 breach remedies",
+     "s.189(4); s.16"
+    ],
+    [
+     "Request facilitation within 15 days (CPs representing the majority)",
+     "CPs",
+     "By day 15",
+     "No right to CCMA facilitation after that",
+     "s.189A(3)(b)"
+    ],
+    [
+     "Not unreasonably refuse a needed extension",
+     "All consulting parties",
+     "s.189A",
+     "Procedural challenge; adverse inference",
+     "s.189A(2)(d); Code item 24(14)"
+    ],
+    [
+     "Elect strike or Labour Court on the reason — not both",
+     "Unions, employees",
+     "After s.189A periods",
+     "Referral deemed withdrawn if union strikes",
+     "s.189A(10)"
+    ],
+    [
+     "Bring any s.189A(13) application in time",
+     "CPs",
+     "30 days of termination notice",
+     "Condonation needed",
+     "s.189A(17)"
+    ],
+    [
+     "Consider reasonable alternative employment reasonably",
+     "Employees",
+     "Throughout",
+     "Loss of statutory severance",
+     "BCEA s.41(4)"
+    ],
+    [
+     "Refer s.189-only disputes in time",
+     "Employees",
+     "30 days of dismissal",
+     "Condonation needed",
+     "s.191(1)"
+    ]
+   ],
+   "intro": [
+    "Consultation is a joint process. The employer should explain these duties in the notice and at the first meeting, without using them to discourage participation."
+   ]
+  },
+  {
+   "title": "Consulting party and employee obligations",
+   "section": "§11 Consulting party and employee obligations",
+   "page": 34,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Rights the organisation must not obstruct. To be consulted before a decision is taken; to relevant information; to make representations and receive reasons in writing; to facilitation (s.189A); to strike over large-scale dismissals once the periods have run; to be selected on agreed or fair and objective criteria; to severance; to refer disputes; to freedom of association and freedom from unfair discrimination."
+   ]
+  },
+  {
+   "title": "Hand-offs and interfaces register",
+   "section": "§12 Hand-offs and interfaces register",
+   "page": 36,
+   "kind": "interfaces",
+   "columns": [
+    "Party or system",
+    "Trigger",
+    "What is handed over",
+    "When",
+    "Step",
+    "Authority"
+   ],
+   "rows": [
+    [
+     "Board / Exco",
+     "Proposal ready; decision",
+     "Business case, options paper, resolution to consult; decision memo",
+     "Before notice; Phase 4",
+     "1.3, 4.2",
+     "Governance"
+    ],
+    [
+     "Finance",
+     "Rationale; alternatives",
+     "Financials; costing of alternatives; savings tracking",
+     "Phase 1 onward",
+     "1.1–1.2, 3.4, 6.1",
+     "BP"
+    ],
+    [
+     "Legal Adviser",
+     "Threshold, route, special status, disputes",
+     "Privileged instructions and opinions",
+     "From Phase 1",
+     "1.5–1.9, P1–P11",
+     "Privilege"
+    ],
+    [
+     "Trade unions / workplace forum / reps",
+     "Notice; each meeting",
+     "Notice, disclosure pack, minutes, written responses, outcome",
+     "Day 0 onward",
+     "2.3, 3.1–3.13, 4.3",
+     "s.189(1)–(6)"
+    ],
+    [
+     "Affected employees",
+     "Notice; selection; outcome",
+     "Letters, VSP offers, provisional selection, termination letter",
+     "Day 0 onward",
+     "2.5, 3.6–3.10, 4.4",
+     "Code item 24(4)"
+    ],
+    [
+     "CCMA",
+     "Facilitation; referral; disputes",
+     "LRA 7.20; referral forms; response bundles",
+     "Day 0–15; day 31+",
+     "2.4, 3B, 3C.2, P1",
+     "s.189A(3), (8); Regs"
+    ],
+    [
+     "Private facilitator",
+     "Agreed appointment",
+     "Terms of appointment; notice and pack",
+     "On agreement",
+     "3B.1",
+     "s.189A(4); Regs reg 2(3)"
+    ],
+    [
+     "Labour Court",
+     "s.189A(13); substantive disputes",
+     "Answering papers; record",
+     "On service",
+     "P2, P5, P6",
+     "ss.189A(13), 191"
+    ],
+    [
+     "Payroll / SARS",
+     "Termination",
+     "Final pay, severance, tax directive",
+     "On termination",
+     "5.1–5.2",
+     "BCEA; Income Tax Act"
+    ],
+    [
+     "UIF",
+     "Termination",
+     "UI-19 and declarations",
+     "On termination",
+     "5.3",
+     "UIA (verify)"
+    ],
+    [
+     "Retirement fund / insurer / medical scheme",
+     "Termination",
+     "Exit notifications; claim forms",
+     "On termination",
+     "5.3",
+     "Fund rules"
+    ],
+    [
+     "TES",
+     "Placed workers affected",
+     "Consultation arrangements; deemed-employee status",
+     "Phase 1",
+     "1.9, P10",
+     "s.198A"
+    ],
+    [
+     "Business rescue practitioner / liquidator",
+     "Company in rescue or liquidation",
+     "Consultation plan; approvals",
+     "Phase 1",
+     "0.10",
+     "Companies Act s.136; Insolvency Act s.38(1), (5)–(9); BCEA s.41(2)"
+    ],
+    [
+     "Regulators (e.g. Department of Mineral and Petroleum Resources (DMPR) for mining; MPRDA s.52 notice)",
+     "Sector notice duty",
+     "Prescribed notice",
+     "Per sector law",
+     "0.10",
+     "MPRDA s.52 (verify)"
+    ],
+    [
+     "Outplacement / EAP provider",
+     "Assistance agreed",
+     "Minimum personal data with consent",
+     "From notice",
+     "2.5, 5.5",
+     "POPIA"
+    ]
+   ],
+   "intro": [
+    "Send the minimum information needed, keep proof of what was sent, to whom and when, and record it on the file."
+   ]
+  },
+  {
+   "title": "Hand-offs and interfaces register",
+   "section": "§12 Hand-offs and interfaces register",
+   "page": 36,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Adjacent regimes to check at Phase 1. The GBS Misconduct, Incapacity, COIDA and PDA flows (a retrenchment must not be used to end a case that belongs in one of them); s.197 and s.197A transfers; Companies Act business rescue; Insolvency Act s.38; MPRDA s.52 and Social and Labour Plans; Competition Act merger conditions; JSE Listings Requirements; public-service frameworks."
+   ]
+  },
+  {
+   "title": "Forms register",
+   "section": "§13 Forms register",
+   "page": 38,
+   "kind": "forms",
+   "columns": [
+    "Form",
+    "Name",
+    "Used at",
+    "Statutory or prescribed?"
+   ],
+   "rows": [
+    [
+     "R01",
+     "Retrenchment policy and procedure",
+     "0.1, 6.6",
+     "No"
+    ],
+    [
+     "R02",
+     "Consulting-party register",
+     "0.2, 1.7",
+     "No"
+    ],
+    [
+     "R03",
+     "Headcount and 12-month op-req dismissal log",
+     "0.3, 3A.4, 5.9, 6.3",
+     "No (supports s.189(3)(i)–(j), s.189A(1))"
+    ],
+    [
+     "R04",
+     "Severance and benefits map",
+     "0.5, 3.11",
+     "No"
+    ],
+    [
+     "R05",
+     "Delegation of authority matrix",
+     "0.6",
+     "No"
+    ],
+    [
+     "R06",
+     "Employee assistance menu",
+     "0.8, 4.7, 5.5",
+     "No"
+    ],
+    [
+     "R07",
+     "Confidentiality undertaking for disclosed information",
+     "0.9, 1.10",
+     "No"
+    ],
+    [
+     "R08",
+     "Business case and options paper (proposal)",
+     "1.1–1.4",
+     "No"
+    ],
+    [
+     "R09",
+     "Resolution to consult",
+     "1.3",
+     "No"
+    ],
+    [
+     "R10",
+     "s.189A threshold worksheet and route memo",
+     "1.5–1.6, 3A.4",
+     "No"
+    ],
+    [
+     "R11",
+     "Selection criteria proposal and pool definition",
+     "1.8, 3.8",
+     "No"
+    ],
+    [
+     "R12",
+     "Disclosure index and information-request log",
+     "1.10, 2.7, 3A.3, 3B.4, P1",
+     "No"
+    ],
+    [
+     "R13",
+     "Communication plan and scripts",
+     "1.11",
+     "No"
+    ],
+    [
+     "R14",
+     "Clock tracker",
+     "1.12, 3A.1, 5.9",
+     "No"
+    ],
+    [
+     "R15",
+     "s.189(3) notice (Annexure A format)",
+     "2.1–2.2",
+     "Content prescribed by s.189(3); form per Code Annexure A"
+    ],
+    [
+     "R16",
+     "Proof of service",
+     "2.3",
+     "No"
+    ],
+    [
+     "R17",
+     "Facilitation request cover letter (with LRA 7.20)",
+     "2.4",
+     "LRA 7.20 prescribed (Regs reg 1)"
+    ],
+    [
+     "R18",
+     "Letter to affected employees",
+     "2.5",
+     "No"
+    ],
+    [
+     "R19",
+     "Meeting agenda, attendance register and minutes",
+     "2.8, 3.1–3.10",
+     "No"
+    ],
+    [
+     "R20",
+     "Representations and written response register",
+     "3.3, 3A.2",
+     "No (supports s.189(6))"
+    ],
+    [
+     "R21",
+     "Alternatives register",
+     "3.4",
+     "No"
+    ],
+    [
+     "R22",
+     "VSP / early retirement offer and separation agreement",
+     "3.6",
+     "No"
+    ],
+    [
+     "R23",
+     "Selection matrix, provisional list and query form",
+     "3.8–3.9",
+     "No"
+    ],
+    [
+     "R24",
+     "Alternative position offer and trial letter",
+     "3.7, P8",
+     "No"
+    ],
+    [
+     "R25",
+     "Extension request and response",
+     "3.12",
+     "No"
+    ],
+    [
+     "R26",
+     "Consensus agreement or impasse record",
+     "3.13, 3A.5, 3B.6",
+     "Collective agreement where signed with a union"
+    ],
+    [
+     "R27",
+     "Pre-decision and timing checklist",
+     "3B.7, 3C.4, 4.1, P3",
+     "No"
+    ],
+    [
+     "R28",
+     "Decision memo",
+     "4.2",
+     "No"
+    ],
+    [
+     "R29",
+     "Notice of termination (operational requirements) with dispute rights",
+     "4.4–4.6",
+     "No"
+    ],
+    [
+     "R30",
+     "Final pay and severance calculation",
+     "5.1, P8",
+     "No"
+    ],
+    [
+     "R31",
+     "Termination checklist (certificate, UI-19, tax directive, fund, property)",
+     "5.3–5.4",
+     "UI-19 prescribed"
+    ],
+    [
+     "R32",
+     "Re-employment preference register and offer letter",
+     "5.6, 6.2",
+     "No"
+    ],
+    [
+     "R33",
+     "Dispute and s.189A(13) response pack",
+     "5.8, P2–P9",
+     "Court and CCMA forms"
+    ],
+    [
+     "R34",
+     "Post-implementation review",
+     "6.1",
+     "No"
+    ],
+    [
+     "R35",
+     "Governance dashboard",
+     "6.5",
+     "No"
+    ]
+   ],
+   "intro": [
+    "Thirty-five forms support the flow, numbered in the order used. None is a statutory form except LRA 7.20 (facilitation request) and the CCMA referral forms, which are prescribed; the s.189(3) notice must follow Annexure A to the Code."
+   ]
+  },
+  {
+   "title": "Track 3A — s.189 only",
+   "section": "§14 Timeline calendar and liability register",
+   "page": 41,
+   "kind": "timeline",
+   "columns": [
+    "When",
+    "Event",
+    "Owner",
+    "Authority",
+    "Type"
+   ],
+   "rows": [
+    [
+     "Before day 0",
+     "Business case, threshold test, route, disclosure pack",
+     "SSO, LA, FIN",
+     "s.189(3)",
+     "BP"
+    ],
+    [
+     "Day 0",
+     "Notice and disclosure served",
+     "ERO",
+     "s.189(3)",
+     "Statutory"
+    ],
+    [
+     "By day 7",
+     "First consultation meeting",
+     "ECT",
+     "Code item 24(12)–(13)",
+     "BP"
+    ],
+    [
+     "Within 5 working days of each written representation",
+     "Written response with reasons",
+     "ERO, LA",
+     "s.189(6)(b)",
+     "Statutory duty; BP timing"
+    ],
+    [
+     "Two to six weeks (scale-dependent)",
+     "Consultation concluded",
+     "ECT",
+     "Code item 24(12)–(13)",
+     "BP"
+    ],
+    [
+     "After consultation",
+     "Decision; notice of termination",
+     "SSO",
+     "BCEA s.37",
+     "Statutory notice"
+    ],
+    [
+     "Dismissal + 30 days",
+     "Last day for employee to refer dispute",
+     "EMP",
+     "s.191(1)(b)(i)",
+     "Statutory"
+    ],
+    [
+     "Certificate + 90 days",
+     "Last day to refer to Labour Court",
+     "EMP",
+     "s.191(11)",
+     "Statutory"
+    ]
+   ],
+   "intro": [
+    "The three routes share a start date (the notice) and differ in their floors. The calendars below use the statutory periods and set internal targets as policy."
+   ]
+  },
+  {
+   "title": "Track 3B — s.189A facilitated",
+   "section": "§14 Timeline calendar and liability register",
+   "page": 41,
+   "kind": "timeline",
+   "columns": [
+    "When",
+    "Event",
+    "Owner",
+    "Authority",
+    "Type"
+   ],
+   "rows": [
+    [
+     "Day 0",
+     "Notice with facilitation request; LRA 7.20 filed",
+     "ERO, LA",
+     "s.189A(3)(a); Regs reg 1",
+     "Statutory"
+    ],
+    [
+     "Within 7 days of request",
+     "CCMA names facilitator and first meeting date (≥ 7 days’ notice)",
+     "CCMA",
+     "Regs reg 2",
+     "Statutory (CCMA)"
+    ],
+    [
+     "By day 15",
+     "Last day for CPs to request facilitation",
+     "CP",
+     "s.189A(3)(b)",
+     "Statutory"
+    ],
+    [
+     "Day ~15 to day 60",
+     "Up to four facilitation meetings; consultation between meetings",
+     "FAC, ECT, CP",
+     "Regs reg 6",
+     "Statutory"
+    ],
+    [
+     "Day 61 (earliest; 60 full days elapsed)",
+     "Notice of termination (unless periods varied by agreement)",
+     "SSO",
+     "s.189A(7)(a)",
+     "Statutory floor"
+    ],
+    [
+     "Notice + 30 days",
+     "Last day for s.189A(13) application",
+     "CP",
+     "s.189A(17)",
+     "Statutory"
+    ],
+    [
+     "Notice + 90 days",
+     "Last day for Labour Court referral on the reason (if no strike)",
+     "CP, EMP",
+     "Regs reg 9",
+     "Statutory"
+    ]
+   ]
+  },
+  {
+   "title": "Track 3C — s.189A not facilitated",
+   "section": "§14 Timeline calendar and liability register",
+   "page": 41,
+   "kind": "timeline",
+   "columns": [
+    "When",
+    "Event",
+    "Owner",
+    "Authority",
+    "Type"
+   ],
+   "rows": [
+    [
+     "Day 0",
+     "Notice served",
+     "ERO",
+     "s.189(3)",
+     "Statutory"
+    ],
+    [
+     "Day 0–30",
+     "Consultation; no referral allowed",
+     "ECT, CP",
+     "s.189A(8)(a)",
+     "Statutory floor"
+    ],
+    [
+     "From day 31",
+     "Referral to CCMA or council (by CP; employer as BP if none)",
+     "CP / LA",
+     "s.189A(8)(a)",
+     "Statutory / BP"
+    ],
+    [
+     "Referral + 30 days (or certificate)",
+     "Conciliation period ends",
+     "CCMA/BC",
+     "s.64(1)(a)",
+     "Statutory"
+    ],
+    [
+     "After that period and not before day 61 (Code item 24(14))",
+     "Notice of termination",
+     "SSO",
+     "s.189A(8)(b)(i)",
+     "Statutory floor"
+    ],
+    [
+     "Notice + 30 days",
+     "Last day for s.189A(13) application",
+     "CP",
+     "s.189A(17)",
+     "Statutory"
+    ],
+    [
+     "Per s.191(11): for planning, 90 days from the later of the s.64(1)(a) certificate/period and the termination notice (LA to confirm)",
+     "Labour Court referral on the reason (if no strike)",
+     "CP, EMP",
+     "s.189A(8)(b)(ii)(bb)",
+     "Statutory"
+    ]
+   ]
+  },
+  {
+   "title": "Liability register",
+   "section": "§14 Timeline calendar and liability register",
+   "page": 41,
+   "kind": "liability",
+   "columns": [
+    "Exposure",
+    "Who is exposed",
+    "Consequence",
+    "Authority"
+   ],
+   "rows": [
+    [
+     "Dismissal without a fair reason or fair procedure (s.189 only)",
+     "Employer",
+     "Reinstatement, re-employment or compensation up to 12 months’ remuneration",
+     "ss.188, 193, 194(1)"
+    ],
+    [
+     "Procedural non-compliance in a s.189A retrenchment",
+     "Employer",
+     "Orders to comply, interdict, reinstatement until compliance, or compensation",
+     "s.189A(13)–(15)"
+    ],
+    [
+     "Termination notice before the s.189A periods",
+     "Employer",
+     "Protected strike; s.189A(13) orders",
+     "s.189A(9), (13)"
+    ],
+    [
+     "Dismissal for a prohibited reason (union activity, pregnancy, discrimination, transfer, disclosure, compelling a demand)",
+     "Employer",
+     "Automatically unfair; compensation up to 24 months’ remuneration",
+     "ss.187, 194(3)"
+    ],
+    [
+     "Refusal to disclose relevant information",
+     "Employer",
+     "Disclosure order; procedural unfairness",
+     "s.189(4); s.16; Regs reg 5"
+    ],
+    [
+     "Failure to pay severance",
+     "Employer",
+     "Compliance order; payment with interest",
+     "BCEA ss.41, 68–69 (verify)"
+    ],
+    [
+     "Discriminatory selection",
+     "Employer",
+     "Unfair discrimination claim; automatic unfairness",
+     "EEA s.6; s.187(1)(f)"
+    ],
+    [
+     "Unlawful processing of employee data in selection",
+     "Responsible party",
+     "Regulatory action; civil claim",
+     "POPIA ss.11, 19, 26–27, 99 (verify)"
+    ]
+   ]
+  },
+  {
+   "title": "Points to check in the deck and other GBS retrenchment materials",
+   "section": "§15 Source review, points to check in existing GBS materials, and drafting issues",
+   "page": 45,
+   "kind": "corrections",
+   "columns": [
+    "#",
+    "Common statement",
+    "Correction"
+   ],
+   "rows": [
+    [
+     "1",
+     "References to “the Code of Good Practice on Dismissal Based on Operational Requirements” or “Schedule 8”",
+     "Both were repealed on 4 September 2025. Cite the Code of Good Practice: Dismissal, 2025 (GN 3470, GG 53294), items 22–24 and Annexure A."
+    ],
+    [
+     "2",
+     "Citing the uploaded Code as the operative text",
+     "The uploaded file is the draft of 21 January 2025 (GN R.5765, GG 51947). Cite the final Code (GN 3470, GG 53294, 4 September 2025); the item references in this flow have been verified against it."
+    ],
+    [
+     "3",
+     "“Consultation must last at least 60 days” for every retrenchment",
+     "Under the Act the 60-day period in s.189A(7) applies to facilitated cases; a non-facilitated case has a 30-day floor before referral plus the s.64(1)(a) period. But Code item 24(14) sets a 60-day minimum consultation period for every s.189A case, so do not give notice of termination before day 61 on any s.189A track unless the periods are varied by agreement. A s.189-only process has no minimum."
+    ],
+    [
+     "4",
+     "Reliance on s.189A(19) (substantive fairness test)",
+     "s.189A(19) was repealed by Act 6 of 2014. Use the case-law test (genuine and fair reason, last resort, fair selection)."
+    ],
+    [
+     "5",
+     "Dismissals before the s.189A periods expire “are invalid”",
+     "Since Steenkamp v Edcon (CC 2016) the remedy is procedural (s.189A(9), (13)); the dismissal is not void."
+    ],
+    [
+     "6",
+     "Procedural unfairness in a s.189A case can be raised at the CCMA or in a s.191 referral",
+     "Only by a s.189A(13) application within 30 days of the termination notice (s.189A(17)–(18))."
+    ],
+    [
+     "7",
+     "Facilitation is compulsory for large-scale retrenchments",
+     "Facilitation applies only if requested by the employer, by CPs representing the majority within 15 days, or by agreement (s.189A(3)–(4))."
+    ],
+    [
+     "8",
+     "Threshold counted only on the current exercise",
+     "The 12-month look-back in s.189A(1)(b) adds prior op-req dismissals."
+    ],
+    [
+     "9",
+     "Severance: “one week per year worked”",
+     "At least one week’s remuneration for each completed year of continuous service (BCEA s.41(2)); forfeited only where the employee unreasonably refuses a reasonable offer of alternative employment (s.41(4))."
+    ],
+    [
+     "10",
+     "Timeline counts 60 days from the first facilitation meeting",
+     "Count from the date the s.189(3) notice was given."
+    ],
+    [
+     "11",
+     "Consult only the union",
+     "Apply the s.189(1) hierarchy to every affected employee; non-members may need separate consultation through nominated representatives."
+    ]
+   ],
+   "intro": [
+    "The uploaded slide deck could not be reviewed. “Operational Requirements Consultation Process rev 19 May (pptx) — with Timeline” is password-protected, so its content could not be compared with this flow in the way the other GBS flows compared existing materials. When an unprotected copy is available, check it against the points below, which are the errors most often found in retrenchment materials."
+   ]
+  },
+  {
+   "title": "Revision history — v1.1 (19 October 2026)",
+   "section": "§15 Source review, points to check in existing GBS materials, and drafting issues",
+   "page": 45,
+   "kind": "corrections",
+   "columns": [
+    "#",
+    "Finding (severity)",
+    "Where",
+    "Change made"
+   ],
+   "rows": [
+    [
+     "1",
+     "s.189A(7) day count — earliest termination notice (Critical)",
+     "Interpretation point “Counting days”; comparison table; 1.12; Track 3B intro; 3B.7; 4.5; Phase 4 Watch; Timeline 3B; Figures 1–3",
+     "Earliest s.189A(7) termination notice is day 61 (60 full days must have elapsed after the notice date); earliest s.189A(8)(a) referral is day 31; typical earliest termination about day 89. Figure 1 (“not before day 61”), Figure 2 (“day 31+”) and Figure 3 (timeline bars and markers) regenerated."
+    ],
+    [
+     "2",
+     "Code item 24(14) 60-day minimum for every s.189A case (Major)",
+     "Comparison table (3C); Track 3C intro; 3C.4; Timeline 3C; Points to check #3; Figure 3",
+     "Day 61 adopted as the internal floor on track 3C as well, unless periods are varied by agreement (s.189A(2)(c)); Points to check #3 rewritten so it no longer tells users that a 60-day floor for all s.189A cases is wrong."
+    ],
+    [
+     "3",
+     "BCEA s.37(2)–(6) notice rules missing (Major)",
+     "4.5",
+     "Added written notice and oral explanation (s.37(5)), the bar on notice during or running with Chapter Three leave except sick leave (s.37(6)), and that a collective agreement may vary the period within s.37(2)–(3)."
+    ],
+    [
+     "4",
+     "Secondary-strike notice period (Major)",
+     "P4",
+     "Corrected from 14 days to at least seven days’ written notice to the secondary employer (s.66(2)(b))."
+    ],
+    [
+     "5",
+     "Direct Labour Court referral after failed facilitation (Major)",
+     "Interpretation point “Different dispute routes”; comparison table; 4.6; P5; Drafting issues; Figure 3",
+     "Stated as settled: no conciliation; Labour Court within 90 days of the termination notice (NUMSA v Industrial Oleo Chemical Products [2026] ZACC 22, overruling NUMSA v SAA Technical, LAC 2024; Regs reg 9)."
+    ],
+    [
+     "6",
+     "Schedule 7 item 32 repealed (Minor)",
+     "P2 Authority; Drafting issues; Sources",
+     "Reliance on item 32 removed; P2 cites the Labour Court Rules, 2024 (urgent / expedited procedure); the item 32 drafting bullet deleted."
+    ],
+    [
+     "7",
+     "DMRE outdated (Minor)",
+     "Hand-offs register",
+     "Now Department of Mineral and Petroleum Resources (DMPR); MPRDA s.52 notice."
+    ],
+    [
+     "8",
+     "Draft Labour Relations Amendment Bill not mentioned (Minor)",
+     "Legal status; 6.6; P2",
+     "Added as DRAFT, not in force (published for comment 26 February 2026, not yet tabled); proposes deleting s.189A(13)–(18). Resolves author question 4."
+    ],
+    [
+     "9",
+     "s.64(1)(d) State-employer notice (Minor)",
+     "P4 Deadline",
+     "48 hours (s.64(1)(b)); seven days where the State is the employer (s.64(1)(d))."
+    ],
+    [
+     "10",
+     "De Beers / Revan citation (Minor)",
+     "Interpretation point “Premature notice”",
+     "Two separate LAC decisions; “rejected the invalidity line” (full citations still to verify)."
+    ],
+    [
+     "11",
+     "Steenkamp 2019 case name (Minor)",
+     "Interpretation point “Different dispute routes”",
+     "Corrected to Steenkamp v Edcon [2019] ZACC 17 (CC)."
+    ],
+    [
+     "12",
+     "Insolvency Act s.38 mischaracterised (Minor)",
+     "Interpretation point “Who is the employer”; 0.10; Hand-offs register",
+     "s.38(1) suspension; consultation and 21-day proposals (s.38(5)–(7)); automatic termination 45 days after final appointment (s.38(9)); BCEA s.41(2) severance."
+    ],
+    [
+     "13",
+     "BCEA s.32 final-pay deadline (Minor)",
+     "5.1",
+     "Final remuneration no later than 7 days after termination (BCEA s.32); BP target on termination date retained."
+    ],
+    [
+     "14",
+     "Code item 24(3)–(4) overstated (Minor)",
+     "Drafting issues",
+     "Rewritten: item 24(4) omits the workplace forum and nominated representatives, but item 24(3) cross-refers to all s.189(1) parties."
+    ],
+    [
+     "15",
+     "POPIA special personal information (Improvement)",
+     "0.9; 1.8; 1.10; 3.9; Liability register",
+     "Added POPIA ss.18, 26–27; identify the s.27 authorisation for race, union and health data; limit access to the consultation file."
+    ],
+    [
+     "16",
+     "Code item 23(2) last-resort test (Improvement)",
+     "Interpretation point “Fair reason”",
+     "Warning added for profit-improvement retrenchments: record why each alternative could not achieve the objective."
+    ],
+    [
+     "17",
+     "Non-facilitated referral start date (Improvement)",
+     "P5; Timeline 3C",
+     "Planning rule: 90 days from the later of the s.64(1)(a) certificate/period and the termination notice; LA to confirm."
+    ],
+    [
+     "18",
+     "Draft Code caveat (Improvement)",
+     "Legal status; Points to check #2; Sources",
+     "Item references stated as verified against the final Code (GN 3470, GG 53294, 4 September 2025)."
+    ],
+    [
+     "C",
+     "Cover and dates",
+     "Cover; subtitle",
+     "Version v1.1; date 19 October 2026; “As at 19 October 2026”."
+    ],
+    [
+     "O1",
+     "OPEN — s.191(12) current wording",
+     "Interpretation point “Different dispute routes”",
+     "Clarified that “fewer than ten employees” refers to the employer’s workforce; current statutory text not retrieved — marked (verify)."
+    ],
+    [
+     "O2",
+     "OPEN — primary text of s.189A(1)–(3), (9)–(20); ss.191(1)(b), 145, 194",
+     "Throughout",
+     "Figures match secondary sources but were not confirmed against the Act’s text, including “lock-out only in response to a strike notice” (P4). Retained."
+    ],
+    [
+     "O3",
+     "OPEN — CCMA referral form LRA 7.11; PDA s.2(3)/s.142A; BCEA ss.68–69; EEA ss.16, 20; MPRDA s.52; Companies Act s.136(1)(b)",
+     "3C.2; 4.8; 6.4; Liability register; 0.10",
+     "“(verify)” markers retained."
+    ],
+    [
+     "O4",
+     "OPEN — full case citations",
+     "Interpretation points",
+     "Atlantis Diesel, Johnson & Johnson, BMD Knitting Mills, Algorax, General Food Industries, De Beers and Revan to be checked. No judgment found on the day-count reading in Finding 1; the conservative day-61 position is adopted."
+    ],
+    [
+     "O5",
+     "OPEN — author questions",
+     "Scope",
+     "State employers and mining-right holders (s.64(1)(d), s.189A(20), MPRDA s.52, SLPs); bargaining council agreements on retrenchment; current parental-leave regime for s.37(6) timing (verify after Van Wyk v Minister of Employment and Labour, CC 2025); unprotected copy of the “rev 19 May” deck still required."
+    ]
+   ],
+   "intro": [
+    "Annexure A item 9 tells only employers with more than 50 employees to disclose total headcount and op-req dismissals in the preceding 12 months, but s.189(3)(i)–(j) require every employer to disclose them. Follow the Act.",
+    "Item 24(4) omits the workplace forum and nominated representatives, though item 24(3) cross-refers to all s.189(1) parties; follow s.189(1).",
+    "Code item 24(7) lists the consultation topics, but does not repeat the s.189(6) duty to respond in writing to written representations, the most commonly breached requirement.",
+    "The Code gives no guidance on bumping, LIFO and its exceptions, voluntary packages, TES workers, the s.189A threshold count, what “contemplates” means, or facilitation, much of which the repealed 1999 code covered.",
+    "Annexure A footnote 8 suggests giving full names, job titles and numbers of affected employees in the notice. That can make the process look pre-decided and raises POPIA questions; the Act requires numbers and job categories (s.189(3)(c)).",
+    "s.189A(1) does not fix the date on which the “more than 50 employees” count is taken or say whether deemed TES employees count.",
+    "s.189A(8)(b) makes notice of termination depend on the s.64(1)(a) period having elapsed, but that period only runs after a referral. The Act does not say what happens if no party refers.",
+    "s.189A(7)(b)(ii) refers to a Labour Court referral “in terms of section 191(11)”, which runs from a conciliation certificate, while Facilitation Regulations reg 9 runs 90 days from the termination notice. After failed facilitation, a dispute about the fairness of the reason goes directly to the Labour Court within 90 days of the termination notice; conciliation is not required (CL: NUMSA v Industrial Oleo Chemical Products [2026] ZACC 22, overruling NUMSA v SAA Technical, LAC 2024; Regs reg 9).",
+    "Facilitation Regulations reg 2(1) refers to “a notice in terms of regulation 2”; it should refer to the request in regulation 1. The Regulations call themselves the “Facilitation Regulations, 2002”, though published in 2003.",
+    "Version 1.1 implements every finding of the independent verification and validation review of 15 October 2026 (Critical 1, Major 4, Minor 9, Improvement 4), all approved by the document owner. Items that could not be verified remain marked “(verify)” and are listed as open below."
+   ]
+  },
+  {
+   "title": "Source review, points to check in existing GBS materials, and drafting issues",
+   "section": "§15 Source review, points to check in existing GBS materials, and drafting issues",
+   "page": 45,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Labour Relations Act 66 of 1995, consolidated (uploaded), in particular ss.16, 64, 65, 66, 186–192, 194, 197, 198A and 213 (Schedule 7 item 32 is repealed; s.189A(13) applications follow the Labour Court Rules, 2024).",
+    "Draft Code of Good Practice on Dismissal, GN R.5765, GG 51947, 21 January 2025 (uploaded; scanned and read by OCR, so check any quoted wording against the Gazette); final Code of Good Practice: Dismissal, 2025, GN 3470, GG 53294 (item references verified against the final text at the 15 October 2026 review).",
+    "Regulations for the conduct of facilitations in terms of section 189A (Facilitation Regulations), as published by Workinfo (https://www.workinfo.org/index.php/legislation/item/1724-regulations-for-the-conduct-of-facilitations-in-terms-of-section-189a).",
+    "Commentary confirming that the final Code repealed Schedule 8 and the 1999 operational requirements code and substantively mirrors the draft: Cliffe Dekker Hofmeyr, 4 September 2025; Werksmans, 2026; HBG Schindlers, 2026. Commentary on the Labour Court Rules, 2024: DLA Piper, 2024.",
+    "GBS PDA, AARTO, COIDA, Misconduct and Incapacity process flows (project files), for format and cross-references.",
+    "The BCEA, EEA, Interpretation Act, Companies Act, Insolvency Act, MPRDA, POPIA, Income Tax Act, Unemployment Insurance Act, CCMA Rules and the cases named are cited from general knowledge; verify wording, citations and any later authority before use.",
+    "v1.1 sources (V&V review, 15 October 2026): NUMSA v Industrial Oleo Chemical Products (CCT 367/24) [2026] ZACC 22; Steenkamp v Edcon [2016] ZACC 1 and [2019] ZACC 17; Code of Good Practice: Dismissal, 2025, items 23(2), 24(3)–(4), 24(14); BCEA ss.32, 37(2)–(6); LRA ss.64(1), 66(2)(b); Insolvency Act s.38; Labour Court Rules, 2024 (GN 4775, GG 50608); Information Regulator Guidance Note on Processing Special Personal Information; Bowmans and Cliffe Dekker Hofmeyr commentary on Industrial Oleo (May 2026) and on the draft Labour Relations Amendment Bill (2026).",
+    "This flow is a working document for legal review, not legal advice."
+   ]
+  }
+ ],
+ "forms": [
+  {
+   "code": "R01",
+   "name": "Retrenchment policy and procedure",
+   "usedAt": "0.1, 6.6"
+  },
+  {
+   "code": "R02",
+   "name": "Consulting-party register",
+   "usedAt": "0.2, 1.7"
+  },
+  {
+   "code": "R03",
+   "name": "Headcount and 12-month op-req dismissal log",
+   "usedAt": "0.3, 3A.4, 5.9, 6.3"
+  },
+  {
+   "code": "R04",
+   "name": "Severance and benefits map",
+   "usedAt": "0.5, 3.11"
+  },
+  {
+   "code": "R05",
+   "name": "Delegation of authority matrix",
+   "usedAt": "0.6"
+  },
+  {
+   "code": "R06",
+   "name": "Employee assistance menu",
+   "usedAt": "0.8, 4.7, 5.5"
+  },
+  {
+   "code": "R07",
+   "name": "Confidentiality undertaking for disclosed information",
+   "usedAt": "0.9, 1.10"
+  },
+  {
+   "code": "R08",
+   "name": "Business case and options paper (proposal)",
+   "usedAt": "1.1–1.4"
+  },
+  {
+   "code": "R09",
+   "name": "Resolution to consult",
+   "usedAt": "1.3"
+  },
+  {
+   "code": "R10",
+   "name": "s.189A threshold worksheet and route memo",
+   "usedAt": "1.5–1.6, 3A.4"
+  },
+  {
+   "code": "R11",
+   "name": "Selection criteria proposal and pool definition",
+   "usedAt": "1.8, 3.8"
+  },
+  {
+   "code": "R12",
+   "name": "Disclosure index and information-request log",
+   "usedAt": "1.10, 2.7, 3A.3, 3B.4, P1"
+  },
+  {
+   "code": "R13",
+   "name": "Communication plan and scripts",
+   "usedAt": "1.11"
+  },
+  {
+   "code": "R14",
+   "name": "Clock tracker",
+   "usedAt": "1.12, 3A.1, 5.9"
+  },
+  {
+   "code": "R15",
+   "name": "s.189(3) notice (Annexure A format)",
+   "usedAt": "2.1–2.2"
+  },
+  {
+   "code": "R16",
+   "name": "Proof of service",
+   "usedAt": "2.3"
+  },
+  {
+   "code": "R17",
+   "name": "Facilitation request cover letter (with LRA 7.20)",
+   "usedAt": "2.4"
+  },
+  {
+   "code": "R18",
+   "name": "Letter to affected employees",
+   "usedAt": "2.5"
+  },
+  {
+   "code": "R19",
+   "name": "Meeting agenda, attendance register and minutes",
+   "usedAt": "2.8, 3.1–3.10"
+  },
+  {
+   "code": "R20",
+   "name": "Representations and written response register",
+   "usedAt": "3.3, 3A.2"
+  },
+  {
+   "code": "R21",
+   "name": "Alternatives register",
+   "usedAt": "3.4"
+  },
+  {
+   "code": "R22",
+   "name": "VSP / early retirement offer and separation agreement",
+   "usedAt": "3.6"
+  },
+  {
+   "code": "R23",
+   "name": "Selection matrix, provisional list and query form",
+   "usedAt": "3.8–3.9"
+  },
+  {
+   "code": "R24",
+   "name": "Alternative position offer and trial letter",
+   "usedAt": "3.7, P8"
+  },
+  {
+   "code": "R25",
+   "name": "Extension request and response",
+   "usedAt": "3.12"
+  },
+  {
+   "code": "R26",
+   "name": "Consensus agreement or impasse record",
+   "usedAt": "3.13, 3A.5, 3B.6"
+  },
+  {
+   "code": "R27",
+   "name": "Pre-decision and timing checklist",
+   "usedAt": "3B.7, 3C.4, 4.1, P3"
+  },
+  {
+   "code": "R28",
+   "name": "Decision memo",
+   "usedAt": "4.2"
+  },
+  {
+   "code": "R29",
+   "name": "Notice of termination (operational requirements) with dispute rights",
+   "usedAt": "4.4–4.6"
+  },
+  {
+   "code": "R30",
+   "name": "Final pay and severance calculation",
+   "usedAt": "5.1, P8"
+  },
+  {
+   "code": "R31",
+   "name": "Termination checklist (certificate, UI-19, tax directive, fund, property)",
+   "usedAt": "5.3–5.4"
+  },
+  {
+   "code": "R32",
+   "name": "Re-employment preference register and offer letter",
+   "usedAt": "5.6, 6.2"
+  },
+  {
+   "code": "R33",
+   "name": "Dispute and s.189A(13) response pack",
+   "usedAt": "5.8, P2–P9"
+  },
+  {
+   "code": "R34",
+   "name": "Post-implementation review",
+   "usedAt": "6.1"
+  },
+  {
+   "code": "R35",
+   "name": "Governance dashboard",
+   "usedAt": "6.5"
+  }
+ ],
+ "processMaps": [
+  {
+   "file": "operational-requirements-src_image1.png",
+   "width": 2142,
+   "height": 1238,
+   "path": "maps/operational-requirements-src_image1.png"
+  },
+  {
+   "file": "operational-requirements-src_image2.png",
+   "width": 2202,
+   "height": 1360,
+   "path": "maps/operational-requirements-src_image2.png"
+  },
+  {
+   "file": "operational-requirements-src_image3.png",
+   "width": 2703,
+   "height": 1273,
+   "path": "maps/operational-requirements-src_image3.png"
+  }
+ ],
+ "sections": [
+  {
+   "number": "01",
+   "title": "Purpose, status and reading notes",
+   "page": 2
+  },
+  {
+   "number": "02",
+   "title": "Master flow at a glance",
+   "page": 7
+  },
+  {
+   "number": "03",
+   "title": "Phase 0 — Readiness (standing obligations)",
+   "page": 11
+  },
+  {
+   "number": "04",
+   "title": "Phase 1 — Identifying the need, planning and choosing the route",
+   "page": 14
+  },
+  {
+   "number": "05",
+   "title": "Phase 2 — The s.189(3) notice and disclosure",
+   "page": 17
+  },
+  {
+   "number": "06",
+   "title": "Phase 3 — Consultation",
+   "page": 19
+  },
+  {
+   "number": "07",
+   "title": "Phase 4 — Decision, selection and notice of termination",
+   "page": 25
+  },
+  {
+   "number": "08",
+   "title": "Phase 5 — Termination, payment and aftercare",
+   "page": 28
+  },
+  {
+   "number": "09",
+   "title": "Phase 6 — Governance and learning",
+   "page": 30
+  },
+  {
+   "number": "10",
+   "title": "Parallel track — disputes, industrial action and remedies",
+   "page": 31
+  },
+  {
+   "number": "11",
+   "title": "Consulting party and employee obligations",
+   "page": 34
+  },
+  {
+   "number": "12",
+   "title": "Hand-offs and interfaces register",
+   "page": 36
+  },
+  {
+   "number": "13",
+   "title": "Forms register",
+   "page": 38
+  },
+  {
+   "number": "14",
+   "title": "Timeline calendar and liability register",
+   "page": 41
+  },
+  {
+   "number": "15",
+   "title": "Source review, points to check in existing GBS materials, and drafting issues",
+   "page": 45
+  }
+ ],
+ "clarifications": [],
+ "supportingDocuments": [
+  {
+   "title": "Operational Requirements — Core Templates (Forms Pack, Part 1)",
+   "version": "v1.1",
+   "revisionDate": "19 October 2026",
+   "pdf": "docs/Operational_Requirements_Forms_Pack_Part1_GBS_v1.1.pdf",
+   "pageCount": 22
+  }
+ ]
+}

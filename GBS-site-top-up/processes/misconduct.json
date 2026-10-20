@@ -1,0 +1,4555 @@
+{
+ "id": "misconduct",
+ "shortTitle": "Misconduct & Discipline",
+ "title": "Misconduct — Organisational Disciplinary Process Flow",
+ "subtitle": "Labour Relations Act 66 of 1995 and the Code of Good Practice: Dismissal, 2025 (GN 3470, GG 53294) · As at 19 October 2026",
+ "category": "Employee relations",
+ "version": "v1.1",
+ "revisionDate": "19 October 2026",
+ "sourceDocument": {
+  "name": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+  "pdf": "docs/Misconduct_Disciplinary_Process_Flow_GBS_v1.1.pdf",
+  "pageCount": 56
+ },
+ "overview": {
+  "summary": "This flow tells an employer what to do, by when, and who hands off to whom, from the moment possible misconduct comes to light until the matter closes and lessons feed back into controls. It follows a generic disciplinary process in this order:",
+  "notes": [
+   {
+    "heading": "",
+    "text": "The flow assumes no collective agreement or bargaining council procedure applies, and must be adjusted where one does."
+   },
+   {
+    "heading": "Legal status",
+    "text": "The fairness of a dismissal is governed by the LRA (ss.185, 186(1), 188 and 192). Disciplinary action short of dismissal, including suspension and warnings, is tested as an unfair labour practice under s.186(2)(b). The Code of Good Practice: Dismissal, 2025 (“the Code”), issued under s.203(2A) of the LRA (GN 3470, GG 53294) and in effect from 4 September 2025, repealed the Schedule 8 Code of Good Practice: Dismissal and the 1999 Code of Good Practice on Operational Requirements. The Code is guidance, not statute, but anyone considering whether a dismissal was for a fair reason or in accordance with a fair procedure must take it into account (s.188(2), s.203(3)). The Code does not deal with precautionary suspension or with the order of proceedings at an enquiry; both are governed by case law and internal policy. A search on 29 September 2026 found no amendment to the Code since publication; status should be re-checked before this flow is adopted."
+   },
+   {
+    "heading": "Labels used throughout",
+    "text": "",
+    "points": [
+     "LRA = the Labour Relations Act and other statutes; binding now.",
+     "Code = the Code of Good Practice: Dismissal, 2025 (cited by item number); must be taken into account, and departures must be justified.",
+     "CL = a principle from case law, cited by name, court and year. Verify the citation and any later authority before using it in advice.",
+     "BP = best practice or internal control; not a statutory deadline. Adopt as policy so it becomes binding internally."
+    ]
+   },
+   {
+    "heading": "Design principle",
+    "text": "Internal targets sit inside every statutory limit, and the clock starts on the day any manager learns of the incident, because unexplained delay weakens both the case and any suspension. The flow screens first and charges second: the label chosen (misconduct, incapacity, poor performance or probation) decides which test applies. The 48-hour minimum for the notice to attend is a floor, not a target: the Code’s test is a reasonable period to prepare (item 11(4)(b)), so complex matters get longer."
+   },
+   {
+    "heading": "Six interpretation points that shape the flow",
+    "text": "",
+    "points": [
+     "The weight of the Code. The Code is intentionally general and departures “may be justified in proper circumstances” (item 2(1)); it does not alter rights under a collective agreement (item 2(3)); and it must not be read as requiring small businesses to do what is impractical (item 3). A recognition agreement or bargaining council procedure therefore prevails over this flow. The employer may depart from its own rules and procedures if there is a justification (item 6(7)): record that justification at the time.",
+     "Counting time. LRA referral periods (30 days for a dismissal, 90 days for an unfair labour practice, s.191(1)(b)) are calendar days under the Interpretation Act 33 of 1957 s.4. The Rules for the Conduct of Proceedings before the CCMA, 2023 (rule 3) count time in calendar days, excluding the first day and including the last; if the last day falls on a Saturday, Sunday or public holiday, the period ends on the next working day. The former 16 December to 7 January exclusion no longer applies. Internal steps in this flow use working days. The 48-hour notice period runs from proven service of the notice to the start of the enquiry; as policy, it must include at least two full working days, so a notice served on Friday afternoon does not support a Monday enquiry.",
+     "Precautionary suspension is not a sanction. The Constitutional Court has held that a precautionary suspension is not disciplinary action; its fairness turns on whether there is a fair reason, the prejudice to the employee, and whether it is on full pay, and a prior hearing is not a legal requirement (CL: Long v South African Breweries, CC 2019). The Labour Court has nonetheless favoured giving the employee an opportunity to make representations (CL: SAPU v National Commissioner of the SAPS, LC 2005; Mogothle v Premier of the North West Province, LC 2009). Footnote 2 of the Code lists “suspension” among graduated disciplinary measures: that is unpaid suspension as a sanction, a different thing, available only after a fair process and where the code or contract provides for it (verify).",
+     "The enquiry is not a criminal trial. The Code requires “a genuine dialogue and an opportunity for reflection” (item 11(1)) and says an enquiry need not be formal (item 11(3)). The adversarial sequence in Phase 4 (opening, evidence in chief, cross-examination, closing) is used because it is the clearest way to give an adequate opportunity to respond where facts are disputed. It should be run fairly and without technicality (CL: Avril Elizabeth Home v CCMA, LC 2006). For admitted or simple matters the chair may shorten it, with reasons.",
+     "Misconduct, incapacity or something else. Misconduct is a culpable breach of a rule or standard (items 7 to 10). Poor work performance after probation (items 19–20), ill health and injury (item 21(1)–(5)), incompatibility (item 21(7)) and probation (items 14–18) have their own tests. Dependency on alcohol or drugs may call for counselling and rehabilitation (item 21(4)). An employee on a COIDA claim is handled with the COIDA flow and RRR Regulations reg 10(1)(m)–(n). Action against someone who has made a protected disclosure risks an automatically unfair dismissal (s.187(1)(h)): run the PDA flow in parallel.",
+     "Who is the employer, and who is being disciplined. A temporary employment service is the employer of the workers it places (s.198(2)); the client reports the conduct and may ask for removal, but the TES runs the discipline, subject to the deeming provisions for lower-earning placed workers (s.198A: placed workers earning below the BCEA threshold, R269 600.90 p.a. from 1 May 2026, are deemed employees of the client after three months unless the placement is a genuine temporary service). Discipline of a trade union representative or office-bearer should not be instituted without first informing and consulting the union (item 11(7)). Public-service employers follow their bargaining council resolutions, which set their own suspension and hearing time limits."
+    ]
+   },
+   {
+    "heading": "Roles used",
+    "text": "Employee Relations Officer (ERO, the case owner; in smaller organisations the HR manager); Line Manager (LM); Investigator (INV); Initiator (INI, the employer party at the enquiry); Chairperson (CHR, independent of the matter); Appeal Chairperson (APC); Legal Adviser (LA); HR Manager (HR); Payroll (PAY); IT and Security (ITS); Senior Sign-off (SSO, e.g. HR Director or COO; the Board chair where an executive is implicated); Board, Remuneration or Social and Ethics Committee (BOARD). The employee (EMP) and their representative (REP: a fellow employee or trade union representative, item 11(4)(c)); together, “the employee party”. External: trade union (TU); CCMA or bargaining council (CCMA/BC); SAPS."
+   }
+  ],
+  "source": {
+   "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+   "section": "§01 Purpose, status and reading notes",
+   "page": 2
+  }
+ },
+ "roles": [
+  {
+   "code": "ERO",
+   "name": "Employee Relations Officer"
+  },
+  {
+   "code": "LM",
+   "name": "Line Manager"
+  },
+  {
+   "code": "INV",
+   "name": "Investigator"
+  },
+  {
+   "code": "INI",
+   "name": "Initiator"
+  },
+  {
+   "code": "CHR",
+   "name": "Chairperson"
+  },
+  {
+   "code": "APC",
+   "name": "Appeal Chairperson"
+  },
+  {
+   "code": "LA",
+   "name": "Legal Adviser"
+  },
+  {
+   "code": "HR",
+   "name": "HR Manager"
+  },
+  {
+   "code": "PAY",
+   "name": "Payroll"
+  },
+  {
+   "code": "ITS",
+   "name": "IT and Security"
+  },
+  {
+   "code": "SSO",
+   "name": "Senior Sign-off"
+  },
+  {
+   "code": "BOARD",
+   "name": "Board, Remuneration or Social and Ethics Committee"
+  },
+  {
+   "code": "EMP",
+   "name": "The employee"
+  },
+  {
+   "code": "TU",
+   "name": "External: trade union"
+  },
+  {
+   "code": "CCMA/BC",
+   "name": "CCMA or bargaining council"
+  }
+ ],
+ "stages": [
+  {
+   "id": "s1",
+   "group": "Phase 0 — Readiness (standing obligations)",
+   "title": "Phase 0 — Readiness (standing obligations)",
+   "kind": "phase",
+   "intro": [
+    "Phase 0 has no case trigger. It must be in place before the first incident, because whether the employee “was aware, or could reasonably be expected to have been aware” of the rule (item 8(2)(b)), and whether the rule was consistently applied (item 8(2)(e)), are fixed by what happened before the conduct."
+   ],
+   "notes": [
+    {
+     "heading": "Employee side of Phase 0",
+     "text": "Nothing is owed by an employee yet, but the rule-awareness test in item 8(2)(b) is decided here. An employee who was never shown the testing policy is hard to discipline for refusing a test."
+    },
+    {
+     "heading": "Watch",
+     "text": "A code the chairperson has never read, or that conflicts with a recognition agreement, is a common source of procedural unfairness. Reconcile before adoption."
+    }
+   ],
+   "steps": [
+    {
+     "id": "0.1",
+     "label": "0.1",
+     "title": "Adopt the code and procedure",
+     "trigger": "",
+     "action": "Board-approved disciplinary code covering: rules and standards; delegations; informal, expedited and formal routes; precautionary suspension and its correspondence; the enquiry sequence in Phase 4; sanctions and warning validity periods; appeal; records; POPIA. Reconcile it with any recognition agreement or bargaining council agreement before adoption.",
+     "points": [
+      "Board-approved disciplinary code covering:",
+      "rules and standards",
+      "delegations",
+      "informal, expedited and formal routes",
+      "precautionary suspension and its correspondence",
+      "the enquiry sequence in Phase 4",
+      "sanctions and warning validity periods",
+      "appeal",
+      "records",
+      "POPIA. Reconcile it with any recognition agreement or bargaining council agreement before adoption."
+     ],
+     "owner": "BOARD, LA, HR",
+     "deadline": "Now; review annually",
+     "form": "D01 code and procedure; D02 code table",
+     "authority": "Code items 2(3), 6(3)–(5); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 9
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.2",
+     "label": "0.2",
+     "title": "Communicate the rules",
+     "trigger": "",
+     "action": "Make rules and procedures available in a manner that is easily understood, in the main workplace languages: induction, intranet, notice boards, contractor and TES onboarding. Some rules are so well known that they need no communication (footnote 3), but dated proof of awareness wins cases.",
+     "points": [
+      "Make rules and procedures available in a manner that is easily understood, in the main workplace languages: induction, intranet, notice boards, contractor and TES onboarding.",
+      "Some rules are so well known that they need no communication (footnote 3), but dated proof of awareness wins cases."
+     ],
+     "owner": "HR",
+     "deadline": "Now; on hire; on every change",
+     "form": "D03 acknowledgement",
+     "authority": "Code items 6(4), 8(2)(b)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 9
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.3",
+     "label": "0.3",
+     "title": "Delegations",
+     "trigger": "",
+     "action": "Set who may give informal correction, issue each level of warning, suspend, frame charges, initiate, chair, hear appeals and sign off a dismissal. No one chairs a matter they investigated, initiated or witnessed.",
+     "points": [
+      "Set who may give informal correction, issue each level of warning, suspend, frame charges, initiate, chair, hear appeals and sign off a dismissal.",
+      "No one chairs a matter they investigated, initiated or witnessed."
+     ],
+     "owner": "SSO, HR",
+     "deadline": "Now",
+     "form": "D04 delegation matrix",
+     "authority": "Code item 11(1); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 9
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.4",
+     "label": "0.4",
+     "title": "Chair, initiator and investigator pool",
+     "trigger": "",
+     "action": "Trained internal chairs at more than one level; trained initiators; pre-vetted external chairs and investigators with conflict checks; interpreters for the main languages; a secure virtual-hearing platform.",
+     "points": [
+      "Trained internal chairs at more than one level; trained initiators; pre-vetted external chairs and investigators with conflict checks; interpreters for the main languages; a secure virtual-hearing platform."
+     ],
+     "owner": "HR, LA",
+     "deadline": "Now",
+     "form": "Panel list",
+     "authority": "Code item 11(4)(d); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 9
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.5",
+     "label": "0.5",
+     "title": "Lawful evidence sources",
+     "trigger": "",
+     "action": "Notices for CCTV, email, device, telematics and access-control monitoring; interception only as RICA permits; an alcohol and drug testing policy with calibrated devices, trained testers and a confirmatory-test route.",
+     "points": [
+      "Notices for CCTV, email, device, telematics and access-control monitoring; interception only as RICA permits; an alcohol and drug testing policy with calibrated devices, trained testers and a confirmatory-test route."
+     ],
+     "owner": "ITS, HR, LA",
+     "deadline": "Now",
+     "form": "Monitoring notice; testing policy",
+     "authority": "RICA ss.5–6; POPIA ss.11, 18; OHS Act General Safety Regulation 2A (verify); Code item 21(4)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 10
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.6",
+     "label": "0.6",
+     "title": "Case system and records",
+     "trigger": "",
+     "action": "Restricted-access case register; evidence store with audit trail; warnings register with expiry dates; precedent register of offences and sanctions to support consistency; correspondence templates D11 to D15; retention schedule.",
+     "points": [
+      "Restricted-access case register; evidence store with audit trail; warnings register with expiry dates; precedent register of offences and sanctions to support consistency; correspondence templates D11 to D15; retention schedule."
+     ],
+     "owner": "HR, ITS",
+     "deadline": "Now",
+     "form": "D06 register; D34 precedent register",
+     "authority": "Code items 10, 13; POPIA ss.14, 19",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 10
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.7",
+     "label": "0.7",
+     "title": "Unions and collective agreements",
+     "trigger": "",
+     "action": "Register recognised unions, shop stewards and office-bearers, and any agreed rules on representation, notice periods and discipline of representatives.",
+     "points": [
+      "Register recognised unions, shop stewards and office-bearers, and any agreed rules on representation, notice periods and discipline of representatives."
+     ],
+     "owner": "HR",
+     "deadline": "Now; on change",
+     "form": "Union register",
+     "authority": "LRA ss.14, 23; Code items 2(3), 11(7)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 10
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.8",
+     "label": "0.8",
+     "title": "TES and contractor arrangements",
+     "trigger": "",
+     "action": "Contracts require the TES or contractor to run discipline promptly on the client’s report and set a protocol for requesting removal from site.",
+     "points": [
+      "Contracts require the TES or contractor to run discipline promptly on the client’s report and set a protocol for requesting removal from site."
+     ],
+     "owner": "Procurement, LA",
+     "deadline": "Before placement",
+     "form": "Contract clause",
+     "authority": "LRA ss.198, 198A; BCEA threshold R269 600.90 p.a. from 1 May 2026",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 10
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.9",
+     "label": "0.9",
+     "title": "Train",
+     "trigger": "",
+     "action": "Managers: reporting, making safe, the suspension test. Initiators: evidence plans, leading evidence, cross-examination. Chairs: running the sequence, rulings, credibility findings, reasons and sanction. Everyone: non-retaliation and confidentiality.",
+     "points": [
+      "Managers: reporting, making safe, the suspension test.",
+      "Initiators: evidence plans, leading evidence, cross-examination.",
+      "Chairs: running the sequence, rulings, credibility findings, reasons and sanction.",
+      "Everyone: non-retaliation and confidentiality."
+     ],
+     "owner": "HR / L&D",
+     "deadline": "At least annually",
+     "form": "Attendance records",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 10
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.10",
+     "label": "0.10",
+     "title": "Small-business version",
+     "trigger": "",
+     "action": "Where HR capacity is limited, adopt a simplified procedure that keeps the core: tell the employee what is alleged, give a reasonable chance to respond on the allegation and the sanction, decide on the evidence, give reasons, keep a record.",
+     "points": [
+      "Where HR capacity is limited, adopt a simplified procedure that keeps the core: tell the employee what is alleged, give a reasonable chance to respond on the allegation and the sanction, decide on the evidence, give reasons, keep a record."
+     ],
+     "owner": "HR, LA",
+     "deadline": "Now",
+     "form": "Simplified procedure",
+     "authority": "Code items 3, 11(3)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 10
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+    "section": "§03 Phase 0 — Readiness (standing obligations)",
+    "page": 9,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s2",
+   "group": "Phase 1 — Incident and preliminary investigation",
+   "title": "Phase 1 — Incident and preliminary investigation",
+   "kind": "phase",
+   "intro": [
+    "Day 0 is the day any supervisor or manager first learns of the possible misconduct. The preliminary investigation answers three questions by working day 5 (BP): is there a case to answer; does the employee’s presence pose a risk that justifies considering suspension; and which route should the matter take. It makes no finding of guilt. The full evidence is gathered in Phase 3."
+   ],
+   "notes": [
+    {
+     "heading": "Employee obligations at this stage",
+     "text": "Follow a lawful instruction to stop work or leave the site; report what happened truthfully; do not delete records or approach witnesses. An employee may decline to give a statement, but should be told the process may continue on the evidence available."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "LM → ERO (same day). ERO → ITS (evidence and access). ERO → LA (special status, crime). ERO → TU (union representative). ERO → TES. ERO or LA → SAPS. INV → ERO (preliminary report)."
+    },
+    {
+     "heading": "Watch",
+     "text": "Many weak cases are lost here: CCTV overwritten, a test result not properly recorded, or a manager’s “informal chat” that becomes the only account. Preserve first, interview second."
+    }
+   ],
+   "steps": [
+    {
+     "id": "1.1",
+     "label": "1.1",
+     "title": "Make safe",
+     "trigger": "Incident, allegation or complaint: theft, assault, intoxication, safety breach, harassment, dishonesty, absence.",
+     "action": "Stop the activity; separate the people involved; call security, medical help or SAPS where needed. Where an employee must leave the site at once (intoxication, violence), send them home on full pay for the rest of the shift and confirm in writing by the next working day. This is a same-day safety measure, not yet a suspension.",
+     "points": [
+      "Stop the activity; separate the people involved; call security, medical help or SAPS where needed.",
+      "Where an employee must leave the site at once (intoxication, violence), send them home on full pay for the rest of the shift and confirm in writing by the next working day.",
+      "This is a same-day safety measure, not yet a suspension."
+     ],
+     "owner": "LM",
+     "deadline": "Immediately",
+     "form": "D05 incident report",
+     "authority": "OHS Act s.8; GSR 2A (verify); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Incident and preliminary investigation",
+      "subsection": null,
+      "page": 12
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.2",
+     "label": "1.2",
+     "title": "Report and forward",
+     "trigger": "Any manager learns of possible misconduct.",
+     "action": "Forward to the ERO the same day with the facts known, names, and where evidence sits. Do not interview the employee informally, promise an outcome or discuss it with the team.",
+     "points": [
+      "Forward to the ERO the same day with the facts known, names, and where evidence sits.",
+      "Do not interview the employee informally, promise an outcome or discuss it with the team."
+     ],
+     "owner": "LM",
+     "deadline": "Same day (BP)",
+     "form": "D05",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Incident and preliminary investigation",
+      "subsection": null,
+      "page": 12
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.3",
+     "label": "1.3",
+     "title": "Secure evidence at risk",
+     "trigger": "Report received.",
+     "action": "Secure anything that may be lost: CCTV (overwrite cycles are short), access logs, emails, devices, stock counts, test results. Start the chain-of-custody record; restrict system access where evidence could be deleted.",
+     "points": [
+      "Secure anything that may be lost: CCTV (overwrite cycles are short), access logs, emails, devices, stock counts, test results.",
+      "Start the chain-of-custody record; restrict system access where evidence could be deleted."
+     ],
+     "owner": "ERO, ITS",
+     "deadline": "Day 0–1",
+     "form": "D17 evidence register",
+     "authority": "POPIA ss.10–11; RICA; BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Incident and preliminary investigation",
+      "subsection": null,
+      "page": 12
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.4",
+     "label": "1.4",
+     "title": "Log and open the file",
+     "trigger": "ERO receives the report.",
+     "action": "Case reference; date first known; employee details; allegation category; status flags (probation, union representative, TES worker, COIDA claimant, discloser).",
+     "points": [
+      "Case reference; date first known; employee details; allegation category; status flags (probation, union representative, TES worker, COIDA claimant, discloser)."
+     ],
+     "owner": "ERO",
+     "deadline": "Day 0",
+     "form": "D06 case register",
+     "authority": "Code item 13; BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Incident and preliminary investigation",
+      "subsection": null,
+      "page": 12
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.5",
+     "label": "1.5",
+     "title": "Classify",
+     "trigger": "Logged.",
+     "action": "Misconduct; poor performance; incapacity (ill health, injury, dependency); incompatibility; probation; grievance; operational. Record the reason. If unclear, gather facts before choosing a process.",
+     "points": [
+      "Misconduct; poor performance; incapacity (ill health, injury, dependency); incompatibility; probation; grievance; operational.",
+      "Record the reason.",
+      "If unclear, gather facts before choosing a process."
+     ],
+     "owner": "ERO, LA",
+     "deadline": "Day 0–2",
+     "form": "D06 note",
+     "authority": "Code items 7, 14–21",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Incident and preliminary investigation",
+      "subsection": null,
+      "page": 13
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.6",
+     "label": "1.6",
+     "title": "Special-status screen",
+     "trigger": "Classified.",
+     "action": "Union representative or office-bearer: inform and consult the union before instituting discipline. Protected disclosure by the employee: LA review; run the PDA flow. If the employee refers the matter to the CCMA or council under s.188A(11), stop scheduling the internal enquiry pending the CCMA’s jurisdiction ruling (see P3). COIDA claimant: run the COIDA flow. TES worker: report to the TES. Probationer: items 17–18.",
+     "points": [
+      "Union representative or office-bearer: inform and consult the union before instituting discipline.",
+      "Protected disclosure by the employee: LA review; run the PDA flow.",
+      "If the employee refers the matter to the CCMA or council under s.188A(11), stop scheduling the internal enquiry pending the CCMA’s jurisdiction ruling (see P3).",
+      "COIDA claimant: run the COIDA flow.",
+      "TES worker: report to the TES.",
+      "Probationer: items 17–18."
+     ],
+     "owner": "ERO, LA",
+     "deadline": "Day 0–2",
+     "form": "Screening checklist",
+     "authority": "Code item 11(7); LRA ss.187(1)(h), 188A(11), 198; RRR Regs reg 10(1)(m)–(n)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Incident and preliminary investigation",
+      "subsection": null,
+      "page": 13
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.7",
+     "label": "1.7",
+     "title": "Criminal and reporting screen",
+     "trigger": "Facts suggest a crime.",
+     "action": "Decide on a SAPS report. A person in a position of authority who knows, ought reasonably to have known or suspects that an offence of corruption (PRECCA ss.3–16, 20–21), theft, fraud, extortion, forgery or uttering involving R100 000 or more has been committed must report it to a police official (DPCI); failing to report is itself an offence. Discipline need not wait for the criminal case; the tests and standard of proof differ.",
+     "points": [
+      "Decide on a SAPS report.",
+      "A person in a position of authority who knows, ought reasonably to have known or suspects that an offence of corruption (PRECCA ss.3–16, 20–21), theft, fraud, extortion, forgery or uttering involving R100 000 or more has been committed must report it to a police official (DPCI); failing to report is itself an offence.",
+      "Discipline need not wait for the criminal case; the tests and standard of proof differ."
+     ],
+     "owner": "ERO, LA",
+     "deadline": "Day 0–2; PRECCA report as soon as possible",
+     "form": "Escalation note",
+     "authority": "PRECCA s.34(1); CL (verify)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Incident and preliminary investigation",
+      "subsection": null,
+      "page": 13
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.8",
+     "label": "1.8",
+     "title": "Conflict check",
+     "trigger": "Implicated person is the ERO, a senior manager, an executive, or related to a decision-maker.",
+     "action": "Move to the independent route: SSO or the Board chair appoints an external investigator and chair.",
+     "points": [
+      "Move to the independent route: SSO or the Board chair appoints an external investigator and chair."
+     ],
+     "owner": "ERO, SSO",
+     "deadline": "Day 0–2",
+     "form": "Escalation record",
+     "authority": "Code item 11(1); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Incident and preliminary investigation",
+      "subsection": null,
+      "page": 13
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.9",
+     "label": "1.9",
+     "title": "Appoint the investigator",
+     "trigger": "Facts not clear or not admitted.",
+     "action": "Someone independent of the matter and of the future chair. Terms of reference: allegations, scope, preliminary report date, confidentiality, POPIA. External where senior management is implicated. Where the facts are clear and undisputed (an admitted absence, a confirmed test), record that no investigation is needed.",
+     "points": [
+      "Someone independent of the matter and of the future chair.",
+      "Terms of reference: allegations, scope, preliminary report date, confidentiality, POPIA.",
+      "External where senior management is implicated.",
+      "Where the facts are clear and undisputed (an admitted absence, a confirmed test), record that no investigation is needed."
+     ],
+     "owner": "ERO, SSO",
+     "deadline": "Working day 1",
+     "form": "D07 appointment and ToR",
+     "authority": "Code item 11(3); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Incident and preliminary investigation",
+      "subsection": null,
+      "page": 12
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.10",
+     "label": "1.10",
+     "title": "Initial fact-finding",
+     "trigger": "ToR issued.",
+     "action": "Speak to the complainant and key witnesses; take first signed statements; collect the core documents; identify further evidence for Phase 3. Tell the employee the general nature of the allegation and invite, but do not compel, a version; record any refusal. A refusal is not an admission.",
+     "points": [
+      "Speak to the complainant and key witnesses; take first signed statements; collect the core documents; identify further evidence for Phase 3.",
+      "Tell the employee the general nature of the allegation and invite, but do not compel, a version; record any refusal.",
+      "A refusal is not an admission."
+     ],
+     "owner": "INV",
+     "deadline": "Working day 1–4 (BP)",
+     "form": "D08 statements",
+     "authority": "Code item 11(1)–(2); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Incident and preliminary investigation",
+      "subsection": null,
+      "page": 12
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.11",
+     "label": "1.11",
+     "title": "Preliminary investigation report",
+     "trigger": "Initial facts gathered.",
+     "action": "Facts known; evidence for and against; rules implicated; whether there is a case to answer; risk factors relevant to suspension; recommended route and draft charges; evidence plan for Phase 3. No finding of guilt and no sanction recommendation.",
+     "points": [
+      "Facts known; evidence for and against; rules implicated; whether there is a case to answer; risk factors relevant to suspension; recommended route and draft charges; evidence plan for Phase 3.",
+      "No finding of guilt and no sanction recommendation."
+     ],
+     "owner": "INV",
+     "deadline": "Working day 5 (BP)",
+     "form": "D09 part A",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Incident and preliminary investigation",
+      "subsection": null,
+      "page": 12
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.12",
+     "label": "1.12",
+     "title": "Route decision",
+     "trigger": "Preliminary report.",
+     "action": "Choose: (a) no case — close and tell the employee in writing; (b) informal correction (item 6(6)); (c) expedited warning process, where a warning is the most severe possible outcome — a short-form version of Phases 4 and 5 without formal evidence-leading; (d) formal enquiry, where dismissal is possible — continue to Phase 3; (e) another process (incapacity, performance, probation, grievance). Check the precedent register.",
+     "points": [
+      "Choose: (a) no case — close and tell the employee in writing; (b) informal correction (item 6(6)); (c) expedited warning process, where a warning is the most severe possible outcome — a short-form version of Phases 4 and 5 without formal evidence-leading; (d) formal enquiry, where dismissal is possible — continue to Phase 3; (e) another process (incapacity, performance, probation, grievance).",
+      "Check the precedent register."
+     ],
+     "owner": "ERO, LM; SSO for (d)",
+     "deadline": "Working day 5–6 (BP)",
+     "form": "D09 part B",
+     "authority": "Code items 6(6), 8, 10; LRA s.186(2)(b)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Incident and preliminary investigation",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.13",
+     "label": "1.13",
+     "title": "Diarise all clocks",
+     "trigger": "Route chosen.",
+     "action": "Calendar: suspension decision and reviews; evidence complete; notice served (with the 48-hour and two-working-day check); enquiry date; outcome letter; appeal; 30-day (restarted at any appeal outcome that upholds a dismissal) and 90-day referral windows; warning expiry dates.",
+     "points": [
+      "Calendar: suspension decision and reviews; evidence complete; notice served (with the 48-hour and two-working-day check); enquiry date; outcome letter; appeal; 30-day (restarted at any appeal outcome that upholds a dismissal) and 90-day referral windows; warning expiry dates."
+     ],
+     "owner": "ERO",
+     "deadline": "Working day 6",
+     "form": "D06 tracker",
+     "authority": "LRA s.191; BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Incident and preliminary investigation",
+      "subsection": null,
+      "page": 12
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+    "section": "§04 Phase 1 — Incident and preliminary investigation",
+    "page": 12,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s3",
+   "group": "Phase 2 — Suspension decision and correspondence",
+   "title": "Phase 2 — Suspension decision and correspondence",
+   "kind": "phase",
+   "intro": [
+    "The suspension question is asked as soon as there is reasonable cause, often before the preliminary report is finished, and is revisited whenever circumstances change. Every step produces a letter: the paper trail is the employer’s only defence to an unfair suspension claim."
+   ],
+   "notes": [
+    {
+     "heading": "Employee obligations at this stage",
+     "text": "Make any representations honestly and on time; acknowledge receipt of letters; comply with the suspension conditions; remain contactable. A suspended employee remains an employee and still owes duties of good faith."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "ERO → SSO (sign-off). ERO → PAY and ITS (pay continues; access restricted). ERO → LM (team message). ERO → TU."
+    },
+    {
+     "heading": "Watch",
+     "text": "A suspension without a stated reason, without pay, without a review date, or dragging on while nothing happens, can be an unfair labour practice even if the employee is later found guilty."
+    }
+   ],
+   "steps": [
+    {
+     "id": "2.1",
+     "label": "2.1",
+     "title": "Consider suspension",
+     "trigger": "Allegation of serious misconduct and a concern about the employee’s continued presence.",
+     "action": "ERO considers suspension on the facts then known and the investigator’s risk assessment. Line managers do not suspend without the ERO and SSO.",
+     "points": [
+      "ERO considers suspension on the facts then known and the investigator’s risk assessment.",
+      "Line managers do not suspend without the ERO and SSO."
+     ],
+     "owner": "ERO",
+     "deadline": "As soon as reasonable cause exists",
+     "form": "D10 part A",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Suspension decision and correspondence",
+      "subsection": null,
+      "page": 16
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.2",
+     "label": "2.2",
+     "title": "Threshold test",
+     "trigger": "Suspension under consideration.",
+     "action": "Suspend only if all three are met and recorded. (1) A reasonable belief, on the information available, that the employee committed serious misconduct. (2) An objectively justifiable reason to exclude them: risk of interfering with evidence or witnesses, of repeating the conduct, to safety or property, or a breakdown that makes continued presence untenable. (3) No less restrictive measure would do. Never use suspension to punish, pressure or “manage out”.",
+     "points": [
+      "Suspend only if all three are met and recorded.",
+      "(1) A reasonable belief, on the information available, that the employee committed serious misconduct.",
+      "(2) An objectively justifiable reason to exclude them: risk of interfering with evidence or witnesses, of repeating the conduct, to safety or property, or a breakdown that makes continued presence untenable.",
+      "(3) No less restrictive measure would do.",
+      "Never use suspension to punish, pressure or “manage out”."
+     ],
+     "owner": "ERO, SSO",
+     "deadline": "BP within 1 working day of 2.1",
+     "form": "D10 part B",
+     "authority": "CL: Long v SAB (CC 2019); SAPU v National Commissioner of the SAPS (LC 2005); LRA s.186(2)(b)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Suspension decision and correspondence",
+      "subsection": null,
+      "page": 16
+     },
+     "prerequisites": [
+      {
+       "step": "2.1",
+       "reason": "The deadline for 2.2 runs from step 2.1 (source Deadline column: \"BP within 1 working day of 2.1\")."
+      }
+     ]
+    },
+    {
+     "id": "2.3",
+     "label": "2.3",
+     "title": "Alternatives",
+     "trigger": "Test partly met.",
+     "action": "Consider restricted system or site access, temporary transfer on the same terms and pay, supervised duties, or a no-contact instruction. Record why each was accepted or rejected.",
+     "points": [
+      "Consider restricted system or site access, temporary transfer on the same terms and pay, supervised duties, or a no-contact instruction.",
+      "Record why each was accepted or rejected."
+     ],
+     "owner": "ERO, LM",
+     "deadline": "With 2.2",
+     "form": "D10 part C",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Suspension decision and correspondence",
+      "subsection": null,
+      "page": 16
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.4",
+     "label": "2.4",
+     "title": "Notice of intention to suspend",
+     "trigger": "Test met.",
+     "action": "Letter (or email with read receipt), in a language the employee understands: the allegation in general terms; why suspension is being considered; that it would be on full pay and is not a finding; an invitation to make written or oral representations, with a representative, by a stated time. Representations are a GBS policy safeguard; they are not a legal precondition after Long (CC 2019), so the employer must still record a fair reason (e.g. a reasonable apprehension of interference with the investigation or repetition of the conduct), and full pay limits the prejudice.",
+     "points": [
+      "Letter (or email with read receipt), in a language the employee understands:",
+      "the allegation in general terms",
+      "why suspension is being considered",
+      "that it would be on full pay and is not a finding",
+      "an invitation to make written or oral representations, with a representative, by a stated time. Representations are a GBS policy safeguard",
+      "they are not a legal precondition after Long (CC 2019), so the employer must still record a fair reason (e.g. a reasonable apprehension of interference with the investigation or repetition of the conduct), and full pay limits the prejudice."
+     ],
+     "owner": "ERO",
+     "deadline": "Representations within 24 to 48 hours (BP)",
+     "form": "D11",
+     "authority": "CL: Mogothle v Premier, North West (LC 2009); Long v SAB [2019] ZACC 7; BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Suspension decision and correspondence",
+      "subsection": null,
+      "page": 17
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.5",
+     "label": "2.5",
+     "title": "Consider representations and decide",
+     "trigger": "Representations received or time passed.",
+     "action": "Consider them genuinely; record the reasons for the decision; SSO signs off.",
+     "points": [
+      "Consider them genuinely; record the reasons for the decision; SSO signs off."
+     ],
+     "owner": "ERO, SSO",
+     "deadline": "Within 1 working day of representations (BP)",
+     "form": "D10 part D",
+     "authority": "CL: Long; BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Suspension decision and correspondence",
+      "subsection": null,
+      "page": 16
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.6",
+     "label": "2.6",
+     "title": "Urgent suspension",
+     "trigger": "Immediate risk (violence, threat to evidence, safety).",
+     "action": "Suspend at once by letter stating the reason, and invite representations within 48 hours; reconsider promptly and confirm, vary or lift in writing.",
+     "points": [
+      "Suspend at once by letter stating the reason, and invite representations within 48 hours; reconsider promptly and confirm, vary or lift in writing."
+     ],
+     "owner": "ERO, SSO",
+     "deadline": "Same day; reconsider within 2 working days after (BP)",
+     "form": "D12 (urgent variant)",
+     "authority": "CL: Long (prior hearing not required); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Suspension decision and correspondence",
+      "subsection": null,
+      "page": 17
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.7",
+     "label": "2.7",
+     "title": "Suspension letter",
+     "trigger": "Decision to suspend.",
+     "action": "Precautionary, not a finding or a sanction; on full pay and benefits; reasons; start date and first review date; conditions (stay off premises and systems unless invited; remain contactable in working hours; attend investigation and enquiry meetings; no contact with named witnesses about the case); company property returned only where needed; how the employee will get access to documents and witnesses to prepare a defence; contact person; EAP; right to raise a grievance. Serve by hand with signed acknowledgement, or by email with delivery proof; if the employee refuses to sign, a witness records service.",
+     "points": [
+      "Precautionary, not a finding or a sanction; on full pay and benefits; reasons; start date and first review date; conditions (stay off premises and systems unless invited; remain contactable in working hours; attend investigation and enquiry meetings; no contact with named witnesses about the case); company property returned only where needed; how the employee will get access to documents and witnesses to prepare a defence; contact person; EAP; right to raise a grievance.",
+      "Serve by hand with signed acknowledgement, or by email with delivery proof; if the employee refuses to sign, a witness records service."
+     ],
+     "owner": "ERO, SSO",
+     "deadline": "On the day of suspension",
+     "form": "D12",
+     "authority": "CL: Long; LRA s.186(2)(b)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Suspension decision and correspondence",
+      "subsection": null,
+      "page": 17
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.8",
+     "label": "2.8",
+     "title": "Pay, benefits and access",
+     "trigger": "Suspension in force.",
+     "action": "Continue full remuneration, regular allowances and benefits; no leave deduction. Restrict access; tell only those who need to know.",
+     "points": [
+      "Continue full remuneration, regular allowances and benefits; no leave deduction.",
+      "Restrict access; tell only those who need to know."
+     ],
+     "owner": "PAY, ITS, HR",
+     "deadline": "Each pay run",
+     "form": "Payroll instruction",
+     "authority": "BCEA s.34; POPIA s.19; CL: Long",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Suspension decision and correspondence",
+      "subsection": null,
+      "page": 18
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.9",
+     "label": "2.9",
+     "title": "Communication to the team",
+     "trigger": "Suspension in force.",
+     "action": "A neutral message that the employee is away from work for a period; no reasons; no speculation. Clients or suppliers told only what is operationally necessary.",
+     "points": [
+      "A neutral message that the employee is away from work for a period; no reasons; no speculation.",
+      "Clients or suppliers told only what is operationally necessary."
+     ],
+     "owner": "LM, ERO",
+     "deadline": "Same day",
+     "form": "Script",
+     "authority": "POPIA; BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Suspension decision and correspondence",
+      "subsection": null,
+      "page": 16
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.10",
+     "label": "2.10",
+     "title": "Review and extension letters",
+     "trigger": "Every 30 days, or earlier when circumstances change.",
+     "action": "Review whether the reason still exists and whether the matter is progressing; write to the employee confirming continuation (with reasons and the next review date), variation, or upliftment. Aim to open the enquiry within 30 days of suspension (BP). Public-service employers apply their bargaining council limit (60 days under PSCBC Resolution 1 of 2003, verify).",
+     "points": [
+      "Review whether the reason still exists and whether the matter is progressing; write to the employee confirming continuation (with reasons and the next review date), variation, or upliftment.",
+      "Aim to open the enquiry within 30 days of suspension (BP).",
+      "Public-service employers apply their bargaining council limit (60 days under PSCBC Resolution 1 of 2003, verify)."
+     ],
+     "owner": "ERO, SSO",
+     "deadline": "At least every 30 days (BP)",
+     "form": "D13",
+     "authority": "CL: unduly long suspension is an unfair labour practice; BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Suspension decision and correspondence",
+      "subsection": null,
+      "page": 18
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.11",
+     "label": "2.11",
+     "title": "Variation of conditions",
+     "trigger": "Employee needs access to prepare a defence, or conditions are no longer needed.",
+     "action": "Allow supervised access to documents, systems or witnesses needed for the defence; confirm in writing.",
+     "points": [
+      "Allow supervised access to documents, systems or witnesses needed for the defence; confirm in writing."
+     ],
+     "owner": "ERO",
+     "deadline": "Promptly on request",
+     "form": "D13 (variation)",
+     "authority": "Code item 11(4)(b); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Suspension decision and correspondence",
+      "subsection": null,
+      "page": 16
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.12",
+     "label": "2.12",
+     "title": "Upliftment letter",
+     "trigger": "Reason gone; no charge; outcome reached.",
+     "action": "Written notice of upliftment and return date; restore access; brief the team neutrally.",
+     "points": [
+      "Written notice of upliftment and return date; restore access; brief the team neutrally."
+     ],
+     "owner": "ERO",
+     "deadline": "Promptly",
+     "form": "D14",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Suspension decision and correspondence",
+      "subsection": null,
+      "page": 16
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.13",
+     "label": "2.13",
+     "title": "Decision not to suspend",
+     "trigger": "Test not met, or alternatives suffice.",
+     "action": "Letter confirming that the employee is not suspended, any interim measures (transfer, restricted access, no-contact instruction) and the expected conduct during the process.",
+     "points": [
+      "Letter confirming that the employee is not suspended, any interim measures (transfer, restricted access, no-contact instruction) and the expected conduct during the process."
+     ],
+     "owner": "ERO",
+     "deadline": "With 2.5",
+     "form": "D15",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Suspension decision and correspondence",
+      "subsection": null,
+      "page": 16
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.14",
+     "label": "2.14",
+     "title": "Union representative",
+     "trigger": "Employee is a union representative or office-bearer.",
+     "action": "Inform the union before or at the time of suspension and before instituting discipline; consult on the process.",
+     "points": [
+      "Inform the union before or at the time of suspension and before instituting discipline; consult on the process."
+     ],
+     "owner": "ERO",
+     "deadline": "Before instituting discipline",
+     "form": "D25",
+     "authority": "Code item 11(7)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Suspension decision and correspondence",
+      "subsection": null,
+      "page": 16
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+    "section": "§05 Phase 2 — Suspension decision and correspondence",
+    "page": 16,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s4",
+   "group": "Phase 3 — Gathering evidence and the notice to attend",
+   "title": "Gathering evidence",
+   "kind": "phase",
+   "intro": [
+    "The employer bears the onus of proving the misconduct on a balance of probabilities, and of showing that dismissal, if imposed, was fair (s.192(2)). Evidence is gathered against each element of each charge, disclosed to the employee in time to prepare, and presented in Phase 4. The notice to attend is served only once the evidence is substantially complete."
+   ],
+   "notes": [],
+   "steps": [
+    {
+     "id": "3.1",
+     "label": "3.1",
+     "title": "Evidence plan",
+     "trigger": "Route (d) chosen.",
+     "action": "For each draft charge, list the elements to prove (rule, awareness, conduct, identity, time, place) and the evidence for each; identify gaps and who will obtain what by when.",
+     "points": [
+      "For each draft charge, list the elements to prove (rule, awareness, conduct, identity, time, place) and the evidence for each; identify gaps and who will obtain what by when."
+     ],
+     "owner": "INI, INV",
+     "deadline": "Working day 6 (BP)",
+     "form": "D16 evidence plan",
+     "authority": "LRA s.192(2); Code item 8",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Gathering evidence and the notice to attend",
+      "subsection": "Gathering evidence",
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.2",
+     "label": "3.2",
+     "title": "Documentary evidence",
+     "trigger": "Plan approved.",
+     "action": "Collect originals or certified copies: policies and acknowledgements, contracts, timesheets, invoices, stock records, emails, reports, prior warnings. Record source, date obtained and custodian.",
+     "points": [
+      "Collect originals or certified copies: policies and acknowledgements, contracts, timesheets, invoices, stock records, emails, reports, prior warnings.",
+      "Record source, date obtained and custodian."
+     ],
+     "owner": "INV, ERO",
+     "deadline": "Working day 6–10",
+     "form": "D17",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Gathering evidence and the notice to attend",
+      "subsection": "Gathering evidence",
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.3",
+     "label": "3.3",
+     "title": "Physical and digital evidence",
+     "trigger": "Plan approved.",
+     "action": "Physical items tagged, photographed and stored securely. Digital evidence (CCTV, access logs, telematics, system audit trails, device images, messages) exported with metadata by someone able to explain how it was extracted. Check lawfulness of collection under RICA and POPIA before use.",
+     "points": [
+      "Physical items tagged, photographed and stored securely.",
+      "Digital evidence (CCTV, access logs, telematics, system audit trails, device images, messages) exported with metadata by someone able to explain how it was extracted.",
+      "Check lawfulness of collection under RICA and POPIA before use."
+     ],
+     "owner": "ITS, INV",
+     "deadline": "Working day 6–10",
+     "form": "D17",
+     "authority": "RICA ss.5–6; POPIA ss.10–11",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Gathering evidence and the notice to attend",
+      "subsection": "Gathering evidence",
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.4",
+     "label": "3.4",
+     "title": "Witness evidence",
+     "trigger": "Plan approved.",
+     "action": "Signed, dated statements in the witness’s own words and language; confirm availability to testify; tell witnesses retaliation is prohibited; arrange release from duty for the enquiry date.",
+     "points": [
+      "Signed, dated statements in the witness’s own words and language; confirm availability to testify; tell witnesses retaliation is prohibited; arrange release from duty for the enquiry date."
+     ],
+     "owner": "INV, LM",
+     "deadline": "Working day 6–10",
+     "form": "D08",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Gathering evidence and the notice to attend",
+      "subsection": "Gathering evidence",
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.5",
+     "label": "3.5",
+     "title": "Expert evidence",
+     "trigger": "A technical question needs opinion (forensic accounting, IT forensics, handwriting, medical, engineering, test calibration).",
+     "action": "Instruct in writing; the expert must state qualifications, method, facts relied on and opinion; be available to testify. The expert is not the decision-maker.",
+     "points": [
+      "Instruct in writing; the expert must state qualifications, method, facts relied on and opinion; be available to testify.",
+      "The expert is not the decision-maker."
+     ],
+     "owner": "INI, LA",
+     "deadline": "Working day 6–12",
+     "form": "Expert brief and report",
+     "authority": "CL (weight of opinion evidence, verify); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Gathering evidence and the notice to attend",
+      "subsection": "Gathering evidence",
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.6",
+     "label": "3.6",
+     "title": "Test results",
+     "trigger": "Alcohol, drug or similar test relied on.",
+     "action": "Test certificate, device calibration record, tester’s training record, chain of custody for samples and any confirmatory laboratory result.",
+     "points": [
+      "Test certificate, device calibration record, tester’s training record, chain of custody for samples and any confirmatory laboratory result."
+     ],
+     "owner": "HR, INV",
+     "deadline": "Working day 6–10",
+     "form": "D17",
+     "authority": "GSR 2A (verify); testing policy",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Gathering evidence and the notice to attend",
+      "subsection": "Gathering evidence",
+      "page": 21
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.7",
+     "label": "3.7",
+     "title": "Lawfulness and admissibility check",
+     "trigger": "Evidence assembled.",
+     "action": "Screen for unlawfully obtained evidence (interception, covert recording, private accounts), privileged material and unfair prejudice; LA decides whether to rely on it. Hearsay only where the witness cannot be called and there is good reason; the chair weighs it with caution.",
+     "points": [
+      "Screen for unlawfully obtained evidence (interception, covert recording, private accounts), privileged material and unfair prejudice; LA decides whether to rely on it.",
+      "Hearsay only where the witness cannot be called and there is good reason; the chair weighs it with caution."
+     ],
+     "owner": "LA, INI",
+     "deadline": "Before the bundle is finalised",
+     "form": "LA note",
+     "authority": "RICA; POPIA; Law of Evidence Amendment Act 45 of 1988 s.3 (by analogy, verify)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Gathering evidence and the notice to attend",
+      "subsection": "Gathering evidence",
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.8",
+     "label": "3.8",
+     "title": "Compile the bundle",
+     "trigger": "Evidence complete.",
+     "action": "Indexed and paginated bundle; exhibit list; witness list; copy for the employee party and the chair. Items that cannot be copied (CCTV, physical exhibits) are made available for viewing before the enquiry.",
+     "points": [
+      "Indexed and paginated bundle; exhibit list; witness list; copy for the employee party and the chair.",
+      "Items that cannot be copied (CCTV, physical exhibits) are made available for viewing before the enquiry."
+     ],
+     "owner": "INI, ERO",
+     "deadline": "Working day 12 (BP)",
+     "form": "D18 bundle index and witness list",
+     "authority": "Code item 11(4)(b), 11(5)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Gathering evidence and the notice to attend",
+      "subsection": "Gathering evidence",
+      "page": 21
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+    "section": "§06 Phase 3 — Gathering evidence and the notice to attend",
+    "page": 20,
+    "subsection": "Gathering evidence"
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s5",
+   "group": "Phase 3 — Gathering evidence and the notice to attend",
+   "title": "Drafting and issuing the notice to attend",
+   "kind": "phase",
+   "intro": [],
+   "notes": [
+    {
+     "heading": "Employee obligations at this stage",
+     "text": "Read the notice and bundle; prepare; arrange a representative and witnesses in time; ask early, and with reasons, for documents, a postponement or accommodation."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "INV → INI (evidence). INI → LA (lawfulness). ERO → CHR (appointment and bundle). ERO → employee (notice and bundle). ERO → TU. LM → witnesses (release)."
+    },
+    {
+     "heading": "Watch",
+     "text": "Vague charges (“misconduct”, “breach of trust”) and notices served too late are the two most common procedural failures. Forty-eight hours is the minimum this flow allows, not a safe harbour: if the bundle is large or the charges are complex, give more time."
+    }
+   ],
+   "steps": [
+    {
+     "id": "3.9",
+     "label": "3.9",
+     "title": "Frame the charges",
+     "trigger": "Evidence substantially complete.",
+     "action": "For each charge: the rule or standard, what the employee is alleged to have done, when and where, in plain language and enough detail to understand. Avoid duplicated or rolled-up charges; add alternative charges where needed; state that dismissal is a possible outcome.",
+     "points": [
+      "For each charge:",
+      "the rule or standard, what the employee is alleged to have done, when and where, in plain language and enough detail to understand. Avoid duplicated or rolled-up charges",
+      "add alternative charges where needed",
+      "state that dismissal is a possible outcome."
+     ],
+     "owner": "INI, LA",
+     "deadline": "Working day 12 (BP)",
+     "form": "D19 charge sheet",
+     "authority": "Code item 11(4)(a), 11(5)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Gathering evidence and the notice to attend",
+      "subsection": "Drafting and issuing the notice to attend",
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.10",
+     "label": "3.10",
+     "title": "Appoint chair and initiator",
+     "trigger": "Charges settled.",
+     "action": "Chair independent of the matter, senior enough to decide sanction, trained; external where senior management is implicated; signed conflict declaration. Initiator should ideally not be the investigator or a key witness.",
+     "points": [
+      "Chair independent of the matter, senior enough to decide sanction, trained; external where senior management is implicated; signed conflict declaration.",
+      "Initiator should ideally not be the investigator or a key witness."
+     ],
+     "owner": "ERO, SSO",
+     "deadline": "Before the notice",
+     "form": "D20",
+     "authority": "Code item 11(1)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Gathering evidence and the notice to attend",
+      "subsection": "Drafting and issuing the notice to attend",
+      "page": 23
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.11",
+     "label": "3.11",
+     "title": "Draft the notice",
+     "trigger": "Chair and date fixed.",
+     "action": "The notice states: the charges (attached); date, time and venue or virtual link; the chair’s name; the right to a fellow employee or union representative; the right to an interpreter; the right to call witnesses, question the employer’s witnesses, present evidence and see documents; that the employee will be heard on both guilt and sanction; the possible sanctions including dismissal; what happens if the employee does not attend without good reason; how to ask for documents, a postponement or accommodation; suspension status; and a contact person.",
+     "points": [
+      "The notice states:",
+      "the charges (attached)",
+      "date, time and venue or virtual link",
+      "the chair’s name",
+      "the right to a fellow employee or union representative",
+      "the right to an interpreter",
+      "the right to call witnesses, question the employer’s witnesses, present evidence and see documents",
+      "that the employee will be heard on both guilt and sanction",
+      "the possible sanctions including dismissal",
+      "what happens if the employee does not attend without good reason",
+      "how to ask for documents, a postponement or accommodation",
+      "suspension status",
+      "a contact person."
+     ],
+     "owner": "INI, ERO",
+     "deadline": "Working day 12–13 (BP)",
+     "form": "D21 notice to attend",
+     "authority": "Code item 11(4)(a)–(d), 11(5)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Gathering evidence and the notice to attend",
+      "subsection": "Drafting and issuing the notice to attend",
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.12",
+     "label": "3.12",
+     "title": "Language and accessibility",
+     "trigger": "Notice drafted.",
+     "action": "Translate or explain the notice where needed; arrange reasonable accommodation for disability; check the venue or platform works for the employee.",
+     "points": [
+      "Translate or explain the notice where needed; arrange reasonable accommodation for disability; check the venue or platform works for the employee."
+     ],
+     "owner": "ERO",
+     "deadline": "Before service",
+     "form": "D24",
+     "authority": "Code item 11(4)(d); EEA s.6",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Gathering evidence and the notice to attend",
+      "subsection": "Drafting and issuing the notice to attend",
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.13",
+     "label": "3.13",
+     "title": "Issue the notice at least 48 hours before the enquiry",
+     "trigger": "Notice final.",
+     "action": "Serve the notice, charge sheet and bundle at least 48 hours before the enquiry starts, and so that at least two full working days fall between service and the enquiry. Allow longer for complex matters, many charges or a large bundle (BP: 5 working days). Serve by hand with signed acknowledgement, or by email or WhatsApp to the employee’s known address with delivery proof; if the employee refuses to sign, a witness records the date, time and refusal.",
+     "points": [
+      "Serve the notice, charge sheet and bundle at least 48 hours before the enquiry starts, and so that at least two full working days fall between service and the enquiry.",
+      "Allow longer for complex matters, many charges or a large bundle (BP: 5 working days).",
+      "Serve by hand with signed acknowledgement, or by email or WhatsApp to the employee’s known address with delivery proof; if the employee refuses to sign, a witness records the date, time and refusal."
+     ],
+     "owner": "ERO",
+     "deadline": "At least 48 hours and two working days before the enquiry",
+     "form": "D22 proof of service",
+     "authority": "Code item 11(4)(b); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Gathering evidence and the notice to attend",
+      "subsection": "Drafting and issuing the notice to attend",
+      "page": 24
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.14",
+     "label": "3.14",
+     "title": "Confirm receipt",
+     "trigger": "Notice served.",
+     "action": "Confirm receipt by phone or message and record it; answer questions about process, not merits.",
+     "points": [
+      "Confirm receipt by phone or message and record it; answer questions about process, not merits."
+     ],
+     "owner": "ERO",
+     "deadline": "Within 1 working day of service",
+     "form": "D22",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Gathering evidence and the notice to attend",
+      "subsection": "Drafting and issuing the notice to attend",
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.15",
+     "label": "3.15",
+     "title": "Pre-hearing requests",
+     "trigger": "Employee asks for documents, a postponement, legal representation, an interpreter or accommodation.",
+     "action": "Chair decides promptly with reasons: relevant, non-privileged documents; a reasonable postponement; legal representation at the chair’s discretion, weighing complexity, seriousness and whether the employer is legally represented; an interpreter where reasonably possible; reasonable accommodation.",
+     "points": [
+      "Chair decides promptly with reasons:",
+      "relevant, non-privileged documents",
+      "a reasonable postponement",
+      "legal representation at the chair’s discretion, weighing complexity, seriousness and whether the employer is legally represented",
+      "an interpreter where reasonably possible",
+      "reasonable accommodation."
+     ],
+     "owner": "CHR, ERO",
+     "deadline": "Before the enquiry",
+     "form": "D23",
+     "authority": "Code item 11(4)(b)–(d); CL: MEC Finance, Northern Province v Mahumani (SCA 2004); MEC for Finance, KZN v Dorkin (LAC 2008); EEA s.6",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Gathering evidence and the notice to attend",
+      "subsection": "Drafting and issuing the notice to attend",
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.16",
+     "label": "3.16",
+     "title": "Witness arrangements",
+     "trigger": "Enquiry date fixed.",
+     "action": "Notify employer witnesses; release the employee party’s witnesses from duty on request; arrange a waiting area so witnesses do not hear each other’s evidence.",
+     "points": [
+      "Notify employer witnesses; release the employee party’s witnesses from duty on request; arrange a waiting area so witnesses do not hear each other’s evidence."
+     ],
+     "owner": "ERO, LM",
+     "deadline": "Before the enquiry",
+     "form": "D18",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Gathering evidence and the notice to attend",
+      "subsection": "Drafting and issuing the notice to attend",
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.17",
+     "label": "3.17",
+     "title": "Pre-dismissal arbitration",
+     "trigger": "Serious or complex matter; employee’s written consent given after being told of the allegations, or a collective agreement, or a contract term (employees earning above the BCEA threshold).",
+     "action": "With the employee’s written consent given after the employee has been told of the allegations (or under a collective agreement, or a contract term for employees earning above the BCEA threshold), request an inquiry by arbitrator on LRA Form 7.19 (employer pays the fee) in place of the internal enquiry. The ruling has the status of an arbitration award and is reviewable under s.145. The employee’s own right to refer under s.188A(11) in protected-disclosure cases is dealt with at P3.",
+     "points": [
+      "With the employee’s written consent given after the employee has been told of the allegations (or under a collective agreement, or a contract term for employees earning above the BCEA threshold), request an inquiry by arbitrator on LRA Form 7.19 (employer pays the fee) in place of the internal enquiry.",
+      "The ruling has the status of an arbitration award and is reviewable under s.145.",
+      "The employee’s own right to refer under s.188A(11) in protected-disclosure cases is dealt with at P3."
+     ],
+     "owner": "LA, SSO",
+     "deadline": "Before the notice",
+     "form": "LRA Form 7.19",
+     "authority": "LRA s.188A(1), (4)(a)–(b), (8), (11); s.145; CL: Msagala v Transnet (LC 2017)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Gathering evidence and the notice to attend",
+      "subsection": "Drafting and issuing the notice to attend",
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.18",
+     "label": "3.18",
+     "title": "Union representative",
+     "trigger": "Charges against a representative or office-bearer.",
+     "action": "Inform and consult the union before instituting discipline; record the consultation.",
+     "points": [
+      "Inform and consult the union before instituting discipline; record the consultation."
+     ],
+     "owner": "ERO",
+     "deadline": "Before the notice",
+     "form": "D25",
+     "authority": "Code item 11(7)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Gathering evidence and the notice to attend",
+      "subsection": "Drafting and issuing the notice to attend",
+      "page": 20
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+    "section": "§06 Phase 3 — Gathering evidence and the notice to attend",
+    "page": 20,
+    "subsection": "Drafting and issuing the notice to attend"
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s6",
+   "group": "Phase 4 — The disciplinary enquiry",
+   "title": "Phase 4 — The disciplinary enquiry",
+   "kind": "phase",
+   "intro": [
+    "The chairperson runs the enquiry in the order below and keeps a record throughout. The employer party (initiator) goes first because it bears the onus; the employee party always has the last word before each decision. Rulings on objections and procedural points are given with brief reasons on the record."
+   ],
+   "notes": [
+    {
+     "heading": "Employee obligations at this stage",
+     "text": "Attend or explain absence; conduct themselves properly; tell the truth; put their version to the employer’s witnesses; comply with procedural rulings."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "CHR → ERO (record and adjournment date). ERO → LA (if dismissal is likely). Scribe → CHR (record)."
+    },
+    {
+     "heading": "Watch",
+     "text": "Two failures recur. An employee party that never put its version to a witness cannot fairly complain later that the witness was not challenged, and a chair who never explained that duty to an unrepresented employee risks a procedural finding. Explain it at 4.5 and remind the employee at 4.11."
+    }
+   ],
+   "steps": [
+    {
+     "id": "4.1",
+     "label": "4.1",
+     "title": "Preliminary arrangements",
+     "trigger": "Enquiry day.",
+     "action": "Venue or platform ready; attendance register; interpreter present and sworn to accuracy and confidentiality; recording equipment or scribe; witnesses waiting outside; bundle copies for everyone.",
+     "points": [
+      "Venue or platform ready; attendance register; interpreter present and sworn to accuracy and confidentiality; recording equipment or scribe; witnesses waiting outside; bundle copies for everyone."
+     ],
+     "owner": "ERO",
+     "deadline": "Before the start",
+     "form": "D26 chair’s script; D24",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — The disciplinary enquiry",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.2",
+     "label": "4.2",
+     "title": "Welcome and introductions",
+     "trigger": "Enquiry opens.",
+     "action": "Chair introduces themselves and asks everyone present to state their name and role (employee, representative, initiator, interpreter, scribe, observers). Explains the purpose (to decide whether the employee is guilty and, if so, the appropriate sanction), that the chair has not decided anything in advance, that the proceedings are recorded, and the language to be used.",
+     "points": [
+      "Chair introduces themselves and asks everyone present to state their name and role (employee, representative, initiator, interpreter, scribe, observers).",
+      "Explains the purpose (to decide whether the employee is guilty and, if so, the appropriate sanction), that the chair has not decided anything in advance, that the proceedings are recorded, and the language to be used."
+     ],
+     "owner": "CHR",
+     "deadline": "Start of enquiry",
+     "form": "D27 record",
+     "authority": "Code items 11(1), 11(4)(d)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — The disciplinary enquiry",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.3",
+     "label": "4.3",
+     "title": "Confirm preliminary employee rights were met",
+     "trigger": "Introductions done.",
+     "action": "Chair confirms on the record: notice served at least 48 hours and two working days before; notice and charges understood; bundle received and time to study it; right to a fellow employee or union representative explained (representative present, or the right waived); interpreter offered; right to call witnesses and question the employer’s witnesses; reasonable accommodation; union consulted for a representative. If any right was not met, the chair decides whether a short adjournment or postponement cures it.",
+     "points": [
+      "Chair confirms on the record:",
+      "notice served at least 48 hours and two working days before",
+      "notice and charges understood",
+      "bundle received and time to study it",
+      "right to a fellow employee or union representative explained (representative present, or the right waived)",
+      "interpreter offered",
+      "right to call witnesses and question the employer’s witnesses",
+      "reasonable accommodation",
+      "union consulted for a representative. If any right was not met, the chair decides whether a short adjournment or postponement cures it."
+     ],
+     "owner": "CHR",
+     "deadline": "Start of enquiry",
+     "form": "D26 rights checklist",
+     "authority": "Code item 11(4)(a)–(d), 11(7)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — The disciplinary enquiry",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.4",
+     "label": "4.4",
+     "title": "Preliminary applications",
+     "trigger": "Either party raises a point.",
+     "action": "Postponement, recusal of the chair, legal representation, further documents, separation of charges. Hear both sides; rule with reasons.",
+     "points": [
+      "Postponement, recusal of the chair, legal representation, further documents, separation of charges.",
+      "Hear both sides; rule with reasons."
+     ],
+     "owner": "CHR",
+     "deadline": "Before the charges are read",
+     "form": "D23",
+     "authority": "Code item 11(4)(b); CL: Mahumani (SCA 2004); Dorkin",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — The disciplinary enquiry",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.5",
+     "label": "4.5",
+     "title": "Explain the procedure",
+     "trigger": "Preliminaries resolved.",
+     "action": "Chair explains the order of proceedings, that the employer must prove each charge on a balance of probabilities, that the employee may testify or remain silent (but unchallenged evidence may be accepted), that mitigation will be heard separately if there is a guilty finding, and how objections will be handled.",
+     "points": [
+      "Chair explains the order of proceedings, that the employer must prove each charge on a balance of probabilities, that the employee may testify or remain silent (but unchallenged evidence may be accepted), that mitigation will be heard separately if there is a guilty finding, and how objections will be handled."
+     ],
+     "owner": "CHR",
+     "deadline": "Before the charges are read",
+     "form": "D26",
+     "authority": "LRA s.192(2); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — The disciplinary enquiry",
+      "subsection": null,
+      "page": 28
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.6",
+     "label": "4.6",
+     "title": "Read the charges and take a plea",
+     "trigger": "Procedure explained.",
+     "action": "Chair or initiator reads each charge; chair confirms the employee understands it; employee pleads guilty or not guilty to each charge. A refusal to plead, or an equivocal plea, is recorded as not guilty.",
+     "points": [
+      "Chair or initiator reads each charge; chair confirms the employee understands it; employee pleads guilty or not guilty to each charge.",
+      "A refusal to plead, or an equivocal plea, is recorded as not guilty."
+     ],
+     "owner": "CHR, EMP",
+     "deadline": "After 4.5",
+     "form": "D27",
+     "authority": "Code item 11(4)(a), 11(5)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — The disciplinary enquiry",
+      "subsection": null,
+      "page": 28
+     },
+     "prerequisites": [
+      {
+       "step": "4.5",
+       "reason": "The deadline for 4.6 runs from step 4.5 (source Deadline column: \"After 4.5\")."
+      }
+     ]
+    },
+    {
+     "id": "4.7",
+     "label": "4.7",
+     "title": "Guilty plea",
+     "trigger": "Employee pleads guilty to a charge.",
+     "action": "Chair confirms the plea is informed and voluntary and that the employee understands the possible sanctions; records the facts admitted. Where the admission is incomplete or equivocal, treat it as not guilty. The initiator may lead brief evidence to place the facts on record. Go to the finding (Phase 5) for that charge.",
+     "points": [
+      "Chair confirms the plea is informed and voluntary and that the employee understands the possible sanctions; records the facts admitted.",
+      "Where the admission is incomplete or equivocal, treat it as not guilty.",
+      "The initiator may lead brief evidence to place the facts on record.",
+      "Go to the finding (Phase 5) for that charge."
+     ],
+     "owner": "CHR, INI",
+     "deadline": "After 4.6",
+     "form": "D27",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — The disciplinary enquiry",
+      "subsection": null,
+      "page": 29
+     },
+     "prerequisites": [
+      {
+       "step": "4.6",
+       "reason": "The deadline for 4.7 runs from step 4.6 (source Deadline column: \"After 4.6\")."
+      }
+     ]
+    },
+    {
+     "id": "4.8",
+     "label": "4.8",
+     "title": "Opening statement: employer",
+     "trigger": "Not-guilty plea on any charge.",
+     "action": "Initiator briefly outlines the case: what the employer will prove, the witnesses and exhibits it will use. An opening statement is not evidence.",
+     "points": [
+      "Initiator briefly outlines the case: what the employer will prove, the witnesses and exhibits it will use.",
+      "An opening statement is not evidence."
+     ],
+     "owner": "INI",
+     "deadline": "After 4.6",
+     "form": "D27",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — The disciplinary enquiry",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": [
+      {
+       "step": "4.6",
+       "reason": "The deadline for 4.8 runs from step 4.6 (source Deadline column: \"After 4.6\")."
+      }
+     ]
+    },
+    {
+     "id": "4.9",
+     "label": "4.9",
+     "title": "Opening statement: employee party",
+     "trigger": "Employer’s opening done.",
+     "action": "Employee or representative outlines the defence: which facts are disputed and why. The employee party may reserve its opening until the start of its own case.",
+     "points": [
+      "Employee or representative outlines the defence: which facts are disputed and why.",
+      "The employee party may reserve its opening until the start of its own case."
+     ],
+     "owner": "EMP, REP",
+     "deadline": "After 4.8",
+     "form": "D27",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — The disciplinary enquiry",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": [
+      {
+       "step": "4.8",
+       "reason": "The deadline for 4.9 runs from step 4.8 (source Deadline column: \"After 4.8\")."
+      }
+     ]
+    },
+    {
+     "id": "4.10",
+     "label": "4.10",
+     "title": "Employer evidence in chief",
+     "trigger": "Openings done.",
+     "action": "Initiator calls each witness in turn; witnesses give evidence in their own words in answer to open (non-leading) questions; exhibits are identified by the witness who can speak to them.",
+     "points": [
+      "Initiator calls each witness in turn; witnesses give evidence in their own words in answer to open (non-leading) questions; exhibits are identified by the witness who can speak to them."
+     ],
+     "owner": "INI, witnesses",
+     "deadline": "During enquiry",
+     "form": "D27",
+     "authority": "Code item 11(2); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — The disciplinary enquiry",
+      "subsection": null,
+      "page": 29
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.11",
+     "label": "4.11",
+     "title": "Cross-examination by the employee party",
+     "trigger": "Each employer witness finishes evidence in chief.",
+     "action": "Employee or representative questions the witness to test the evidence and must put the employee’s version on points in dispute, so the witness can respond. Questions, not speeches; the chair protects witnesses from harassment but does not prevent legitimate testing.",
+     "points": [
+      "Employee or representative questions the witness to test the evidence and must put the employee’s version on points in dispute, so the witness can respond.",
+      "Questions, not speeches; the chair protects witnesses from harassment but does not prevent legitimate testing."
+     ],
+     "owner": "EMP, REP",
+     "deadline": "After each witness’s evidence in chief",
+     "form": "D27",
+     "authority": "CL: President of the RSA v SARFU (CC 2000) (duty to put version); Code item 11(2)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — The disciplinary enquiry",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.12",
+     "label": "4.12",
+     "title": "Re-examination and chair’s questions",
+     "trigger": "Cross-examination finished.",
+     "action": "Initiator may re-examine only on matters raised in cross-examination. Chair may ask clarifying questions; both parties may then ask follow-up questions arising.",
+     "points": [
+      "Initiator may re-examine only on matters raised in cross-examination.",
+      "Chair may ask clarifying questions; both parties may then ask follow-up questions arising."
+     ],
+     "owner": "INI, CHR",
+     "deadline": "After each witness",
+     "form": "D27",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — The disciplinary enquiry",
+      "subsection": null,
+      "page": 29
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.13",
+     "label": "4.13",
+     "title": "Close of the employer’s case",
+     "trigger": "All employer witnesses heard.",
+     "action": "Initiator closes the case. The employee party may argue that there is no case to answer on a charge; the chair rules with reasons.",
+     "points": [
+      "Initiator closes the case.",
+      "The employee party may argue that there is no case to answer on a charge; the chair rules with reasons."
+     ],
+     "owner": "INI, CHR",
+     "deadline": "After 4.12",
+     "form": "D27",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — The disciplinary enquiry",
+      "subsection": null,
+      "page": 29
+     },
+     "prerequisites": [
+      {
+       "step": "4.12",
+       "reason": "The deadline for 4.13 runs from step 4.12 (source Deadline column: \"After 4.12\")."
+      }
+     ]
+    },
+    {
+     "id": "4.14",
+     "label": "4.14",
+     "title": "Employee evidence in chief",
+     "trigger": "Employer’s case closed.",
+     "action": "Employee testifies (or elects not to, recorded) and calls witnesses; the representative leads them with open questions; documents are introduced.",
+     "points": [
+      "Employee testifies (or elects not to, recorded) and calls witnesses; the representative leads them with open questions; documents are introduced."
+     ],
+     "owner": "EMP, REP, witnesses",
+     "deadline": "During enquiry",
+     "form": "D27",
+     "authority": "Code item 11(2), 11(4)(b)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — The disciplinary enquiry",
+      "subsection": null,
+      "page": 30
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.15",
+     "label": "4.15",
+     "title": "Cross-examination by the employer",
+     "trigger": "Each employee witness finishes evidence in chief.",
+     "action": "Initiator questions each witness to test their evidence and puts the employer’s version on points in dispute.",
+     "points": [
+      "Initiator questions each witness to test their evidence and puts the employer’s version on points in dispute."
+     ],
+     "owner": "INI",
+     "deadline": "After each witness’s evidence in chief",
+     "form": "D27",
+     "authority": "CL: SARFU",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — The disciplinary enquiry",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.16",
+     "label": "4.16",
+     "title": "Re-examination and chair’s questions",
+     "trigger": "Cross-examination finished.",
+     "action": "Representative may re-examine on matters arising; chair asks clarifying questions; parties may follow up.",
+     "points": [
+      "Representative may re-examine on matters arising; chair asks clarifying questions; parties may follow up."
+     ],
+     "owner": "REP, CHR",
+     "deadline": "After each witness",
+     "form": "D27",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — The disciplinary enquiry",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.17",
+     "label": "4.17",
+     "title": "Close of the employee’s case",
+     "trigger": "All employee witnesses heard.",
+     "action": "Representative closes the case. No new evidence after this point unless the chair allows it for good reason, with the other party able to respond.",
+     "points": [
+      "Representative closes the case.",
+      "No new evidence after this point unless the chair allows it for good reason, with the other party able to respond."
+     ],
+     "owner": "REP, CHR",
+     "deadline": "After 4.16",
+     "form": "D27",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — The disciplinary enquiry",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": [
+      {
+       "step": "4.16",
+       "reason": "The deadline for 4.17 runs from step 4.16 (source Deadline column: \"After 4.16\")."
+      }
+     ]
+    },
+    {
+     "id": "4.18",
+     "label": "4.18",
+     "title": "Closing statements",
+     "trigger": "Both cases closed.",
+     "action": "Employer first, then the employee party. Each summarises the evidence, deals with credibility and probabilities, and says what finding it asks for on each charge. No new evidence.",
+     "points": [
+      "Employer first, then the employee party.",
+      "Each summarises the evidence, deals with credibility and probabilities, and says what finding it asks for on each charge.",
+      "No new evidence."
+     ],
+     "owner": "INI, then EMP / REP",
+     "deadline": "After 4.17",
+     "form": "D27",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — The disciplinary enquiry",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": [
+      {
+       "step": "4.17",
+       "reason": "The deadline for 4.18 runs from step 4.17 (source Deadline column: \"After 4.17\")."
+      }
+     ]
+    },
+    {
+     "id": "4.19",
+     "label": "4.19",
+     "title": "Adjourn for the finding",
+     "trigger": "Closings done.",
+     "action": "Chair adjourns to deliberate; tells the parties when the finding will be given (the same day, or within 3 working days, BP).",
+     "points": [
+      "Chair adjourns to deliberate; tells the parties when the finding will be given (the same day, or within 3 working days, BP)."
+     ],
+     "owner": "CHR",
+     "deadline": "After 4.18",
+     "form": "D27",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — The disciplinary enquiry",
+      "subsection": null,
+      "page": 30
+     },
+     "prerequisites": [
+      {
+       "step": "4.18",
+       "reason": "The deadline for 4.19 runs from step 4.18 (source Deadline column: \"After 4.18\")."
+      }
+     ]
+    },
+    {
+     "id": "4.20",
+     "label": "4.20",
+     "title": "Employee absent",
+     "trigger": "Employee does not attend.",
+     "action": "Check proper service and contact attempts; postpone once if there is a reasonable explanation; otherwise proceed in absence, lead the employer’s evidence, and record why. Item 11(6) (exceptional circumstances) is a separate exemption and is not relied on for an enquiry in absence.",
+     "points": [
+      "Check proper service and contact attempts; postpone once if there is a reasonable explanation; otherwise proceed in absence, lead the employer’s evidence, and record why.",
+      "Item 11(6) (exceptional circumstances) is a separate exemption and is not relied on for an enquiry in absence."
+     ],
+     "owner": "CHR",
+     "deadline": "On the day",
+     "form": "D27",
+     "authority": "Code items 11(2), 11(4)(b); BP; CL",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — The disciplinary enquiry",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+    "section": "§07 Phase 4 — The disciplinary enquiry",
+    "page": 27,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s7",
+   "group": "Phase 5 — Finding, mitigation, aggravation, sanction and outcome",
+   "title": "Phase 5 — Finding, mitigation, aggravation, sanction and outcome",
+   "kind": "phase",
+   "intro": [
+    "The finding on guilt and the sanction are separate decisions, each preceded by the parties’ submissions and each given with reasons. The employee party is heard on sanction before it is decided (item 11(4)(b)), even where the finding seems to make dismissal obvious."
+   ],
+   "notes": [
+    {
+     "heading": "Employee obligations at this stage",
+     "text": "Put any mitigation fully; return company property; lodge any appeal within the policy period; refer any dispute within 30 days (dismissal; from the appeal outcome if later) or 90 days (unfair labour practice)."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "CHR → ERO (outcome and reasons). ERO → PAY, HR and ITS (implementation). ERO → complainant. LA → CCMA or council."
+    },
+    {
+     "heading": "Watch",
+     "text": "The 2025 Code no longer repeats the old Schedule 8 direction to give reasons and remind the employee of referral rights, but both remain good practice and remove later condonation arguments. If you offer an internal appeal, the 30-day period for a dismissal dispute runs from the appeal outcome; state this correctly in the outcome letter."
+    }
+   ],
+   "steps": [
+    {
+     "id": "5.1",
+     "label": "5.1",
+     "title": "Deliberate on guilt",
+     "trigger": "Enquiry adjourned after closings, or guilty plea.",
+     "action": "For each charge decide: did a rule or standard exist; was it valid and reasonable; was the employee aware of it; did the employee contravene it (item 8(1)–(2)(b)). Where versions conflict, assess each witness’s credibility, the reliability of their evidence, and the probabilities, and say which version is more probable and why.",
+     "points": [
+      "For each charge decide:",
+      "did a rule or standard exist",
+      "was it valid and reasonable",
+      "was the employee aware of it",
+      "did the employee contravene it (item 8(1)–(2)(b)). Where versions conflict, assess each witness’s credibility, the reliability of their evidence, and the probabilities, and say which version is more probable and why."
+     ],
+     "owner": "CHR",
+     "deadline": "Same day or within 3 working days (BP)",
+     "form": "D28 part A",
+     "authority": "Code item 8; CL: SFW Group v Martell (SCA 2003) (credibility, reliability, probabilities)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Finding, mitigation, aggravation, sanction and outcome",
+      "subsection": null,
+      "page": 32
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.2",
+     "label": "5.2",
+     "title": "Announce the finding",
+     "trigger": "Deliberation complete.",
+     "action": "Reconvene; announce guilty or not guilty on each charge with brief reasons. If not guilty on all charges, the matter ends: lift any suspension (D14) and confirm in writing.",
+     "points": [
+      "Reconvene; announce guilty or not guilty on each charge with brief reasons.",
+      "If not guilty on all charges, the matter ends: lift any suspension (D14) and confirm in writing."
+     ],
+     "owner": "CHR",
+     "deadline": "On reconvening",
+     "form": "D28 part A",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Finding, mitigation, aggravation, sanction and outcome",
+      "subsection": null,
+      "page": 32
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.3",
+     "label": "5.3",
+     "title": "Aggravation: employer submissions",
+     "trigger": "Guilty on any charge.",
+     "action": "Initiator addresses: the importance of the rule; actual or potential harm; the nature of the job and position of trust; valid warnings on file; absence of acknowledgement; effect on the business and on colleagues; consistency with past cases.",
+     "points": [
+      "Initiator addresses:",
+      "the importance of the rule",
+      "actual or potential harm",
+      "the nature of the job and position of trust",
+      "valid warnings on file",
+      "absence of acknowledgement",
+      "effect on the business and on colleagues",
+      "consistency with past cases."
+     ],
+     "owner": "INI",
+     "deadline": "After 5.2",
+     "form": "D27",
+     "authority": "Code items 8(2)(c)–(e), 9(1)–(2), 10",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Finding, mitigation, aggravation, sanction and outcome",
+      "subsection": null,
+      "page": 32
+     },
+     "prerequisites": [
+      {
+       "step": "5.2",
+       "reason": "The deadline for 5.3 runs from step 5.2 (source Deadline column: \"After 5.2\")."
+      }
+     ]
+    },
+    {
+     "id": "5.4",
+     "label": "5.4",
+     "title": "Mitigation: employee submissions",
+     "trigger": "Employer’s aggravation done.",
+     "action": "Employee or representative addresses: length of service; clean or old record; acknowledgement and remorse; willingness to comply; personal circumstances and the effect of dismissal; provocation or other context; inconsistency with how others were treated; alternatives to dismissal. The employee may call character witnesses.",
+     "points": [
+      "Employee or representative addresses:",
+      "length of service",
+      "clean or old record",
+      "acknowledgement and remorse",
+      "willingness to comply",
+      "personal circumstances and the effect of dismissal",
+      "provocation or other context",
+      "inconsistency with how others were treated",
+      "alternatives to dismissal. The employee may call character witnesses."
+     ],
+     "owner": "EMP, REP",
+     "deadline": "After 5.3",
+     "form": "D27",
+     "authority": "Code items 9(3)–(5), 10",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Finding, mitigation, aggravation, sanction and outcome",
+      "subsection": null,
+      "page": 32
+     },
+     "prerequisites": [
+      {
+       "step": "5.3",
+       "reason": "The deadline for 5.4 runs from step 5.3 (source Deadline column: \"After 5.3\")."
+      }
+     ]
+    },
+    {
+     "id": "5.5",
+     "label": "5.5",
+     "title": "Replies",
+     "trigger": "Mitigation done.",
+     "action": "Initiator may reply briefly on points raised in mitigation; the employee party has the final word.",
+     "points": [
+      "Initiator may reply briefly on points raised in mitigation; the employee party has the final word."
+     ],
+     "owner": "INI, then EMP / REP",
+     "deadline": "After 5.4",
+     "form": "D27",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Finding, mitigation, aggravation, sanction and outcome",
+      "subsection": null,
+      "page": 33
+     },
+     "prerequisites": [
+      {
+       "step": "5.4",
+       "reason": "The deadline for 5.5 runs from step 5.4 (source Deadline column: \"After 5.4\")."
+      }
+     ]
+    },
+    {
+     "id": "5.6",
+     "label": "5.6",
+     "title": "Decide the sanction",
+     "trigger": "Submissions closed.",
+     "action": "Apply item 8(2)(f) and item 9: dismissal is generally appropriate only if a continued relationship is intolerable, considering the job, the seriousness and effect of the conduct, whether progressive discipline could prevent recurrence, acknowledgement, and the employee’s circumstances. Check consistency with past cases and co-accused (item 10); record any departure. Consider alternatives: final written warning; unpaid suspension or demotion as an alternative to dismissal where the code allows (verify); training; counselling.",
+     "points": [
+      "Apply item 8(2)(f) and item 9:",
+      "dismissal is generally appropriate only if a continued relationship is intolerable, considering the job, the seriousness and effect of the conduct, whether progressive discipline could prevent recurrence, acknowledgement, and the employee’s circumstances. Check consistency with past cases and co-accused (item 10)",
+      "record any departure. Consider alternatives: final written warning",
+      "unpaid suspension or demotion as an alternative to dismissal where the code allows (verify)",
+      "training",
+      "counselling."
+     ],
+     "owner": "CHR",
+     "deadline": "Same day or within 5 working days (BP)",
+     "form": "D28 part B",
+     "authority": "Code items 7, 8(2)(f), 9, 10",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Finding, mitigation, aggravation, sanction and outcome",
+      "subsection": null,
+      "page": 32
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.7",
+     "label": "5.7",
+     "title": "Pronounce the sanction",
+     "trigger": "Sanction decided.",
+     "action": "Reconvene (or, if the parties agree, deliver in writing); state the sanction and the reasons, including why lesser sanctions were or were not appropriate; for warnings, the validity period.",
+     "points": [
+      "Reconvene (or, if the parties agree, deliver in writing); state the sanction and the reasons, including why lesser sanctions were or were not appropriate; for warnings, the validity period."
+     ],
+     "owner": "CHR",
+     "deadline": "On reconvening",
+     "form": "D28 part B",
+     "authority": "Code items 9, 13",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Finding, mitigation, aggravation, sanction and outcome",
+      "subsection": null,
+      "page": 32
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.8",
+     "label": "5.8",
+     "title": "Communicate the outcome and rights orally",
+     "trigger": "Sanction pronounced.",
+     "action": "Chair explains, in a language the employee understands: the sanction and when it takes effect; any internal appeal and its deadline; and the right to refer a dispute (see 5.10). Confirm on the record that it was understood.",
+     "points": [
+      "Chair explains, in a language the employee understands:",
+      "the sanction and when it takes effect",
+      "any internal appeal and its deadline",
+      "the right to refer a dispute (see 5.10). Confirm on the record that it was understood."
+     ],
+     "owner": "CHR",
+     "deadline": "At the enquiry",
+     "form": "D27",
+     "authority": "Code item 11(4)(d); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Finding, mitigation, aggravation, sanction and outcome",
+      "subsection": null,
+      "page": 32
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.9",
+     "label": "5.9",
+     "title": "Written outcome",
+     "trigger": "Oral outcome given.",
+     "action": "Letter with the findings on each charge, reasons, sanction, effective date; for warnings, the validity period; for dismissal, notice or pay in lieu (or summary termination for cause), final pay, return of property, last working day; appeal right; referral rights (for dismissal, that the 30 days run from the appeal outcome if an appeal is lodged and the dismissal upheld); CCMA or council contact details. Serve with proof, as for the notice.",
+     "points": [
+      "Letter with the findings on each charge, reasons, sanction, effective date; for warnings, the validity period; for dismissal, notice or pay in lieu (or summary termination for cause), final pay, return of property, last working day; appeal right; referral rights (for dismissal, that the 30 days run from the appeal outcome if an appeal is lodged and the dismissal upheld); CCMA or council contact details.",
+      "Serve with proof, as for the notice."
+     ],
+     "owner": "CHR, ERO",
+     "deadline": "Within 2 working days (BP)",
+     "form": "D29 (short of dismissal); D30 (dismissal)",
+     "authority": "BCEA s.37(6)(a); Code item 13; BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Finding, mitigation, aggravation, sanction and outcome",
+      "subsection": null,
+      "page": 34
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.10",
+     "label": "5.10",
+     "title": "Rights to refer the matter",
+     "trigger": "Every outcome.",
+     "action": "Dismissal: refer an unfair dismissal dispute to the CCMA, or to a bargaining council with jurisdiction, within 30 days of the date of dismissal or, if later, within 30 days of the employer’s final decision to dismiss or to uphold the dismissal on internal appeal. Sanction short of dismissal, and suspension (unfair labour practice): within 90 days of the act or omission or, if later, of the date the employee became aware of it; an internal appeal does not extend this period. Automatically unfair dismissal: conciliation, then the Labour Court. Late referral needs condonation on good cause. Referral is on the prescribed LRA form (LRA Form 7.11; CCMA Rules, 2023, rule 10) served on the employer.",
+     "points": [
+      "Dismissal: refer an unfair dismissal dispute to the CCMA, or to a bargaining council with jurisdiction, within 30 days of the date of dismissal or, if later, within 30 days of the employer’s final decision to dismiss or to uphold the dismissal on internal appeal. Sanction short of dismissal, and suspension (unfair labour practice):",
+      "within 90 days of the act or omission or, if later, of the date the employee became aware of it",
+      "an internal appeal does not extend this period. Automatically unfair dismissal: conciliation, then the Labour Court. Late referral needs condonation on good cause. Referral is on the prescribed LRA form (LRA Form 7.11",
+      "CCMA Rules, 2023, rule 10) served on the employer."
+     ],
+     "owner": "CHR, ERO",
+     "deadline": "With 5.8 and 5.9",
+     "form": "D30",
+     "authority": "LRA ss.186(2)(b), 191(1)(b), (2), (5); CL: Bouwer v Supreme Pets CC [2019] ZALCJHB 303",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Finding, mitigation, aggravation, sanction and outcome",
+      "subsection": null,
+      "page": 34
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.11",
+     "label": "5.11",
+     "title": "Internal appeal (if the code provides one)",
+     "trigger": "Employee lodges an appeal.",
+     "action": "Heard by someone more senior and uninvolved, on the record, with new evidence only if it was not available before. Decide within the policy period.",
+     "points": [
+      "Heard by someone more senior and uninvolved, on the record, with new evidence only if it was not available before.",
+      "Decide within the policy period."
+     ],
+     "owner": "APC",
+     "deadline": "Lodge within 5 working days; decide within 10 working days (BP)",
+     "form": "D32",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Finding, mitigation, aggravation, sanction and outcome",
+      "subsection": null,
+      "page": 32
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.12",
+     "label": "5.12",
+     "title": "Implement the sanction",
+     "trigger": "Outcome final (or appeal decided).",
+     "action": "Dismissal: final remuneration and leave pay; certificate of service; UI-19 and UIF declaration; access revoked; property returned; no deductions without a lawful basis. Other sanctions: warnings register with expiry date; brief the line manager.",
+     "points": [
+      "Dismissal: final remuneration and leave pay; certificate of service; UI-19 and UIF declaration; access revoked; property returned; no deductions without a lawful basis.",
+      "Other sanctions: warnings register with expiry date; brief the line manager."
+     ],
+     "owner": "PAY, HR, ITS, LM",
+     "deadline": "Next normal pay date or per contract (BP)",
+     "form": "D31 termination checklist; D33",
+     "authority": "BCEA ss.34, 40, 42; UIA and regulations (verify)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Finding, mitigation, aggravation, sanction and outcome",
+      "subsection": null,
+      "page": 32
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.13",
+     "label": "5.13",
+     "title": "Close the file",
+     "trigger": "Sanction implemented.",
+     "action": "File the record, outcome and reasons; update the precedent register; end or lift any suspension; tell the complainant the matter was dealt with, without unnecessary personal information; keep at least until referral, review and appeal periods have run.",
+     "points": [
+      "File the record, outcome and reasons; update the precedent register; end or lift any suspension; tell the complainant the matter was dealt with, without unnecessary personal information; keep at least until referral, review and appeal periods have run."
+     ],
+     "owner": "ERO",
+     "deadline": "Within 5 working days (BP)",
+     "form": "D06; D34",
+     "authority": "Code item 13; POPIA s.14",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Finding, mitigation, aggravation, sanction and outcome",
+      "subsection": null,
+      "page": 35
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.14",
+     "label": "5.14",
+     "title": "Dispute referral response",
+     "trigger": "CCMA or council referral received.",
+     "action": "Diarise; brief LA; prepare the bundle and record; attend conciliation or con-arb; consider settlement. Legal representation at arbitration of a conduct dismissal is restricted (CCMA Rules, 2023, rule 25).",
+     "points": [
+      "Diarise; brief LA; prepare the bundle and record; attend conciliation or con-arb; consider settlement.",
+      "Legal representation at arbitration of a conduct dismissal is restricted (CCMA Rules, 2023, rule 25)."
+     ],
+     "owner": "LA, ERO",
+     "deadline": "Per notice of set-down",
+     "form": "D36",
+     "authority": "LRA ss.191, 192; CCMA Rules, 2023",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Finding, mitigation, aggravation, sanction and outcome",
+      "subsection": null,
+      "page": 35
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+    "section": "§08 Phase 5 — Finding, mitigation, aggravation, sanction and outcome",
+    "page": 32,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s8",
+   "group": "Phase 6 — Governance and learning",
+   "title": "Phase 6 — Governance and learning",
+   "kind": "phase",
+   "intro": [
+    "Phase 6 turns individual cases into consistency and control improvements. None of it has a statutory deadline, so it must be fixed in policy or it will be skipped."
+   ],
+   "notes": [],
+   "steps": [
+    {
+     "id": "6.1",
+     "label": "6.1",
+     "title": "Consistency review",
+     "trigger": "Quarterly cycle.",
+     "action": "Compare sanctions for like offences across sites and chairs; correct drift; update the code table.",
+     "points": [
+      "Compare sanctions for like offences across sites and chairs; correct drift; update the code table."
+     ],
+     "owner": "ERO, HR",
+     "deadline": "Quarterly",
+     "form": "D34",
+     "authority": "Code item 10",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 36
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.2",
+     "label": "6.2",
+     "title": "Dashboard and reporting",
+     "trigger": "Quarterly cycle.",
+     "action": "Cases by category; time from incident to outcome; suspensions and their length; notices served on time; outcomes and appeals; referrals, results and costs.",
+     "points": [
+      "Cases by category; time from incident to outcome; suspensions and their length; notices served on time; outcomes and appeals; referrals, results and costs."
+     ],
+     "owner": "ERO, SSO",
+     "deadline": "Quarterly",
+     "form": "D37",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 36
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.3",
+     "label": "6.3",
+     "title": "Root cause",
+     "trigger": "Serious case closed; any lost referral.",
+     "action": "Which control failed: the rule, its communication, supervision, evidence, or process.",
+     "points": [
+      "Which control failed: the rule, its communication, supervision, evidence, or process."
+     ],
+     "owner": "HR, LA",
+     "deadline": "Within 30 days (BP)",
+     "form": "D38",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 36
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.4",
+     "label": "6.4",
+     "title": "Code and template refresh",
+     "trigger": "Annually, or on a legal change.",
+     "action": "Update the code, the code table, correspondence and the chair’s script; re-communicate.",
+     "points": [
+      "Update the code, the code table, correspondence and the chair’s script; re-communicate."
+     ],
+     "owner": "HR, LA",
+     "deadline": "At least annually",
+     "form": "D01; D02; D26",
+     "authority": "Code item 6(4)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 36
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.5",
+     "label": "6.5",
+     "title": "Chair calibration and training",
+     "trigger": "Annually and after overturned outcomes.",
+     "action": "Review a sample of records against the Phase 4 sequence and the quality of reasons; retrain chairs, initiators and investigators.",
+     "points": [
+      "Review a sample of records against the Phase 4 sequence and the quality of reasons; retrain chairs, initiators and investigators."
+     ],
+     "owner": "HR / L&D, LA",
+     "deadline": "At least annually",
+     "form": "Attendance records",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 36
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.6",
+     "label": "6.6",
+     "title": "Legislative watch",
+     "trigger": "Ongoing.",
+     "action": "Track: amendments to the Code or the LRA; CCMA Rules, 2023; the Harassment Code; the Protected Disclosures Bill, 2026; commencement of the Cannabis for Private Purposes Act and case law on testing; COIDA RRR Regulations.",
+     "points": [
+      "Track: amendments to the Code or the LRA; CCMA Rules, 2023; the Harassment Code; the Protected Disclosures Bill, 2026; commencement of the Cannabis for Private Purposes Act and case law on testing; COIDA RRR Regulations."
+     ],
+     "owner": "LA",
+     "deadline": "Ongoing",
+     "form": "Change log",
+     "authority": "LRA s.203",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 36
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+    "section": "§09 Phase 6 — Governance and learning",
+    "page": 36,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s9",
+   "group": "Parallel track — protection, fairness and disputes",
+   "title": "Parallel track — protection, fairness and disputes",
+   "kind": "parallel",
+   "intro": [
+    "This track opens on day 0 and runs until the referral periods have run. Its events are triggered by what happens to people and by the employee’s own choices, not by the case timeline."
+   ],
+   "notes": [],
+   "steps": [
+    {
+     "id": "P1",
+     "label": "P1",
+     "title": "Unfair suspension claim",
+     "trigger": "Employee refers an unfair labour practice dispute about suspension or other action short of dismissal.",
+     "action": "Respond with the Phase 2 record: reason, representations, pay, reviews and time to hearing.",
+     "points": [
+      "Respond with the Phase 2 record: reason, representations, pay, reviews and time to hearing."
+     ],
+     "owner": "",
+     "deadline": "Employee refers within 90 days of the act or of becoming aware of it",
+     "form": "D10–D15",
+     "authority": "LRA ss.186(2)(b), 191(1)(b)(ii)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — protection, fairness and disputes",
+      "subsection": null,
+      "page": 37
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P2",
+     "label": "P2",
+     "title": "Grievance by the accused",
+     "trigger": "Grievance about the process, the investigator or the complainant.",
+     "action": "Deal with it under the grievance procedure; where it concerns the same issue, the chair may rule on it. Do not let it stall the case indefinitely.",
+     "points": [
+      "Deal with it under the grievance procedure; where it concerns the same issue, the chair may rule on it.",
+      "Do not let it stall the case indefinitely."
+     ],
+     "owner": "",
+     "deadline": "Per grievance procedure",
+     "form": "Grievance record",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — protection, fairness and disputes",
+      "subsection": null,
+      "page": 37
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P3",
+     "label": "P3",
+     "title": "Protected disclosure overlap",
+     "trigger": "Employee made a disclosure before or during the process.",
+     "action": "LA review; show independent grounds with a chronology; independent approver for the decision; run the PDA flow. If the employee refers the matter to the CCMA or council under s.188A(11), alleging in good faith that the enquiry is an occupational detriment for a protected disclosure, suspend scheduling of the internal enquiry pending the CCMA’s ruling on jurisdiction (CL: IDC v Modika, LAC 2026); if the referral is accepted, the inquiry by arbitrator replaces the internal enquiry. A bare allegation is not enough (CL: Mohlala-Mulaudzi v PPRA, LC).",
+     "points": [
+      "LA review; show independent grounds with a chronology; independent approver for the decision; run the PDA flow.",
+      "If the employee refers the matter to the CCMA or council under s.188A(11), alleging in good faith that the enquiry is an occupational detriment for a protected disclosure, suspend scheduling of the internal enquiry pending the CCMA’s ruling on jurisdiction (CL: IDC v Modika, LAC 2026); if the referral is accepted, the inquiry by arbitrator replaces the internal enquiry.",
+      "A bare allegation is not enough (CL: Mohlala-Mulaudzi v PPRA, LC)."
+     ],
+     "owner": "",
+     "deadline": "Before any decision",
+     "form": "PDA flow F18",
+     "authority": "LRA s.187(1)(h); s.188A(11); PDA ss.3–4",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — protection, fairness and disputes",
+      "subsection": null,
+      "page": 37
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P4",
+     "label": "P4",
+     "title": "Criminal proceedings",
+     "trigger": "Charges laid or pending.",
+     "action": "Discipline may proceed. If the employee declines to testify on legal advice, proceed on the evidence and record it. Share information with SAPS only as the law permits.",
+     "points": [
+      "Discipline may proceed.",
+      "If the employee declines to testify on legal advice, proceed on the evidence and record it.",
+      "Share information with SAPS only as the law permits."
+     ],
+     "owner": "",
+     "deadline": "Ongoing",
+     "form": "Coordination note",
+     "authority": "CL (verify); POPIA ss.26–27, 33 (verify)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — protection, fairness and disputes",
+      "subsection": null,
+      "page": 38
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P5",
+     "label": "P5",
+     "title": "Resignation during the process",
+     "trigger": "Employee resigns with notice, or with immediate effect.",
+     "action": "With notice: the enquiry may proceed during the notice period. With immediate effect: the Labour Court is divided. Mtati (LC 2017) and Naidoo v Standard Bank (LC 2019) hold that disciplinary jurisdiction ends; Coetzee v Zeitz MOCAA (LC 2018) held that an employer that does not accept the resignation may proceed during the notice period. LA to advise. Record the outcome.",
+     "points": [
+      "With notice: the enquiry may proceed during the notice period.",
+      "With immediate effect: the Labour Court is divided.",
+      "Mtati (LC 2017) and Naidoo v Standard Bank (LC 2019) hold that disciplinary jurisdiction ends; Coetzee v Zeitz MOCAA (LC 2018) held that an employer that does not accept the resignation may proceed during the notice period.",
+      "LA to advise.",
+      "Record the outcome."
+     ],
+     "owner": "",
+     "deadline": "On receipt",
+     "form": "LA memo",
+     "authority": "CL: Mtati v KPMG Services (LC 2017); Naidoo v Standard Bank (LC 2019); Coetzee v Zeitz MOCAA (LC 2018); no LAC ruling located",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — protection, fairness and disputes",
+      "subsection": null,
+      "page": 37
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P6",
+     "label": "P6",
+     "title": "Incapacity emerges",
+     "trigger": "Evidence of illness, disability, dependency or work injury.",
+     "action": "Consider switching to an incapacity process; offer counselling or rehabilitation for dependency; reasonable accommodation; COIDA flow where work-related.",
+     "points": [
+      "Consider switching to an incapacity process; offer counselling or rehabilitation for dependency; reasonable accommodation; COIDA flow where work-related."
+     ],
+     "owner": "",
+     "deadline": "When it emerges",
+     "form": "Referral note",
+     "authority": "Code item 21; EEA s.6",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — protection, fairness and disputes",
+      "subsection": null,
+      "page": 38
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P7",
+     "label": "P7",
+     "title": "Second enquiry or overriding the chair",
+     "trigger": "Management disagrees with the outcome.",
+     "action": "Only in exceptional circumstances where it is fair to do so, and only if the code permits; never simply to get a harsher result.",
+     "points": [
+      "Only in exceptional circumstances where it is fair to do so, and only if the code permits; never simply to get a harsher result."
+     ],
+     "owner": "",
+     "deadline": "Before acting",
+     "form": "LA memo",
+     "authority": "CL: BMW (SA) v Van der Walt (LAC 2000)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — protection, fairness and disputes",
+      "subsection": null,
+      "page": 38
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P8",
+     "label": "P8",
+     "title": "Harassment complainant",
+     "trigger": "Complaint of harassment or violence.",
+     "action": "Protective measures that do not disadvantage the complainant (do not move them against their wishes); support; follow the Harassment Code; consider screening arrangements when the complainant testifies.",
+     "points": [
+      "Protective measures that do not disadvantage the complainant (do not move them against their wishes); support; follow the Harassment Code; consider screening arrangements when the complainant testifies."
+     ],
+     "owner": "",
+     "deadline": "From day 0",
+     "form": "Risk note",
+     "authority": "EEA s.6(3); Code of Good Practice on the Prevention and Elimination of Harassment in the Workplace, 2022 (GN R.1890, GG 46056, 18 March 2022)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — protection, fairness and disputes",
+      "subsection": null,
+      "page": 37
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P9",
+     "label": "P9",
+     "title": "Collective misconduct and strikes",
+     "trigger": "Unprotected strike or group misconduct.",
+     "action": "Follow item 12: contact a union official at the earliest opportunity; consider representations; issue a clear ultimatum with time to reflect; collective representations may satisfy procedural fairness; do not dismiss those who comply with the ultimatum. Derivative misconduct needs a proper evidential basis.",
+     "points": [
+      "Follow item 12:",
+      "contact a union official at the earliest opportunity",
+      "consider representations",
+      "issue a clear ultimatum with time to reflect",
+      "collective representations may satisfy procedural fairness",
+      "do not dismiss those who comply with the ultimatum. Derivative misconduct needs a proper evidential basis."
+     ],
+     "owner": "",
+     "deadline": "As events unfold",
+     "form": "D35 strike pack",
+     "authority": "Code item 12; LRA s.68(5); CL: FAWU v ABI (LAC 1994, verify)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — protection, fairness and disputes",
+      "subsection": null,
+      "page": 39
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P10",
+     "label": "P10",
+     "title": "Constructive dismissal",
+     "trigger": "Employee resigns alleging the employer made continued employment intolerable (e.g. a prolonged or punitive suspension).",
+     "action": "LA review; the Phase 2 record is the defence.",
+     "points": [
+      "LA review; the Phase 2 record is the defence."
+     ],
+     "owner": "",
+     "deadline": "Employee refers within 30 days",
+     "form": "D36",
+     "authority": "LRA s.186(1)(e)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — protection, fairness and disputes",
+      "subsection": null,
+      "page": 39
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P11",
+     "label": "P11",
+     "title": "Dismissal dispute",
+     "trigger": "Employee refers.",
+     "action": "Conciliation, then arbitration (conduct); automatically unfair dismissals to the Labour Court. Late referral needs condonation on good cause.",
+     "points": [
+      "Conciliation, then arbitration (conduct); automatically unfair dismissals to the Labour Court.",
+      "Late referral needs condonation on good cause."
+     ],
+     "owner": "",
+     "deadline": "Employee within 30 days of dismissal or, if later, of the final decision to uphold it on appeal",
+     "form": "D36",
+     "authority": "LRA s.191(1)(b)(i), (2), (5)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — protection, fairness and disputes",
+      "subsection": null,
+      "page": 39
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "P12",
+     "label": "P12",
+     "title": "Award or judgment",
+     "trigger": "Arbitration award or judgment.",
+     "action": "Comply, or apply for review. Reinstatement is the primary remedy unless an exception applies; a procedurally unfair but substantively fair dismissal attracts compensation only (CL: UPN v Mbatsana, LAC 2026); compensation up to 12 months (24 for automatically unfair dismissals; 12 for unfair labour practices).",
+     "points": [
+      "Comply, or apply for review. Reinstatement is the primary remedy unless an exception applies; a procedurally unfair but substantively fair dismissal attracts compensation only (CL:",
+      "UPN v Mbatsana, LAC 2026)",
+      "compensation up to 12 months (24 for automatically unfair dismissals",
+      "12 for unfair labour practices)."
+     ],
+     "owner": "",
+     "deadline": "Review within 6 weeks of the award",
+     "form": "Litigation file",
+     "authority": "LRA ss.145, 193, 194",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — protection, fairness and disputes",
+      "subsection": null,
+      "page": 39
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "Misconduct_Disciplinary_Process_Flow_GBS_v1.1.docx",
+    "section": "§10 Parallel track — protection, fairness and disputes",
+    "page": 37,
+    "subsection": null
+   },
+   "applicability": "event"
+  }
+ ],
+ "referenceTables": [
+  {
+   "title": "Master flow at a glance",
+   "section": "§02 Master flow at a glance",
+   "page": 5,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Every report feeds one intake. Phase 1 ends with the route decision; only matters where dismissal is a possible outcome go through the full enquiry. Phase 2 (suspension) can run alongside Phases 1 and 3 and stays open until the outcome. The short-form route for informal correction and warnings joins at Phase 5, so the outcome and referral rights are always given. The protection and disputes track is not a phase: it opens on day 0 and runs until any referral period has run.",
+    "Read each phase column top to bottom to see who acts and who hands off; read each lane left to right to see one party’s whole job. The ERO lane is the spine: every other lane connects to it, and the protection and disputes track runs underneath from day 0 until the referral windows close."
+   ]
+  },
+  {
+   "title": "Suspension correspondence register",
+   "section": "§05 Phase 2 — Suspension decision and correspondence",
+   "page": 16,
+   "kind": "forms",
+   "columns": [
+    "Letter",
+    "When",
+    "Must contain",
+    "Form"
+   ],
+   "rows": [
+    [
+     "Notice of intention to suspend",
+     "Before suspension (non-urgent)",
+     "General allegation; reason for considering suspension; full pay; not a finding; invitation to representations, with a representative, and the deadline",
+     "D11"
+    ],
+    [
+     "Suspension letter",
+     "On the day of suspension",
+     "Precautionary nature; full pay and benefits; reasons; conditions; review date; access to prepare a defence; contact person; EAP; grievance right; how served",
+     "D12"
+    ],
+    [
+     "Urgent suspension letter",
+     "Immediate risk",
+     "As above, plus invitation to representations within 48 hours and a reconsideration date",
+     "D12 (urgent)"
+    ],
+    [
+     "Review, extension or variation letter",
+     "At least every 30 days; on any change",
+     "Outcome of review; reasons for continuing; next review date; any varied conditions",
+     "D13"
+    ],
+    [
+     "Upliftment letter",
+     "When the reason falls away or the matter ends",
+     "Return date; restored access; reminder that it is not a finding (if the matter continues)",
+     "D14"
+    ],
+    [
+     "Confirmation of no suspension",
+     "Where suspension was considered and rejected",
+     "Interim measures; conduct expected; no-contact instruction if any",
+     "D15"
+    ]
+   ]
+  },
+  {
+   "title": "Types of evidence",
+   "section": "§06 Phase 3 — Gathering evidence and the notice to attend",
+   "page": 20,
+   "kind": "reference",
+   "columns": [
+    "Type",
+    "Examples",
+    "How to obtain and preserve",
+    "Weight and pitfalls"
+   ],
+   "rows": [
+    [
+     "Documentary",
+     "Policies, signed acknowledgements, contracts, timesheets, invoices, stock sheets, emails, letters, reports, minutes",
+     "Originals or certified copies; note author, date, custodian",
+     "Strong if authentic and explained by a witness; unexplained documents carry little weight"
+    ],
+    [
+     "Physical (real)",
+     "Stolen or damaged goods, tools, weapons, PPE, containers, samples",
+     "Tag, photograph, seal, store securely; chain of custody",
+     "Strong if custody unbroken; gaps invite a defence of tampering"
+    ],
+    [
+     "Electronic and digital",
+     "System audit trails, access-control and biometric logs, telematics, fuel-card data, device images, WhatsApp and SMS messages, social media posts",
+     "Export with metadata; screenshots dated and identified; a person who can explain the system",
+     "Strong if the extraction is explained; beware of edited screenshots and shared logins"
+    ],
+    [
+     "Audio-visual and photographic",
+     "CCTV, body-cam, dash-cam, voice notes, photographs",
+     "Copy the native file before overwrite; record camera, time-stamp accuracy and who viewed it",
+     "Very persuasive; identity and time-stamp must be proved; check covert-recording lawfulness"
+    ],
+    [
+     "Oral (witness) testimony",
+     "Eyewitnesses, complainant, supervisors, investigators",
+     "Early signed statements; witness testifies at the enquiry",
+     "Tested by cross-examination; credibility, reliability and probabilities decide weight"
+    ],
+    [
+     "Expert and opinion",
+     "Forensic accountant, IT forensics, handwriting analyst, medical practitioner, engineer",
+     "Written brief; report stating method and facts relied on; availability to testify",
+     "Weight depends on expertise and reasoning; the chair, not the expert, decides the issue"
+    ],
+    [
+     "Forensic and scientific",
+     "Laboratory drug results, fingerprints, document examination",
+     "Accredited provider; chain of custody for samples",
+     "Strong if procedure followed; weak if sample handling cannot be shown"
+    ],
+    [
+     "Test results",
+     "Breathalyser, saliva or urine screening",
+     "Calibrated device; trained tester; signed certificate; option of confirmatory test",
+     "A positive screen without calibration or confirmation is easily challenged"
+    ],
+    [
+     "Admissions and confessions",
+     "Written or recorded admissions, guilty plea, apology emails",
+     "Record when, to whom and in what circumstances; confirm voluntariness",
+     "Strong if voluntary and informed; worthless if induced by threats or promises"
+    ],
+    [
+     "Circumstantial",
+     "Presence at the scene, opportunity, unexplained possession, patterns in data",
+     "Assemble the facts from other sources",
+     "Can prove misconduct if the inference is the most probable one"
+    ],
+    [
+     "Hearsay",
+     "A statement by someone who does not testify",
+     "Obtain the statement; try to call the maker",
+     "Admit with caution and good reason; rarely enough on its own to prove a disputed fact"
+    ],
+    [
+     "Inspection in loco",
+     "Site visit to the scene, line of sight, layout",
+     "Chair and both parties attend; record observations",
+     "Useful to test witness accounts; record what was seen"
+    ],
+    [
+     "Previous disciplinary record",
+     "Valid warnings on the file",
+     "Warnings register",
+     "Relevant only at the sanction stage and only while valid; not evidence of guilt"
+    ],
+    [
+     "Character and mitigation evidence",
+     "Service record, performance appraisals, testimonials, personal circumstances",
+     "From the employee party",
+     "Relevant to sanction, not to guilt"
+    ],
+    [
+     "Medical evidence",
+     "Sick notes, medical reports explaining conduct or absence",
+     "From the employee or with consent",
+     "May point to incapacity rather than misconduct; handle as special personal information"
+    ],
+    [
+     "Polygraph",
+     "Polygraph examination results",
+     "Only with written consent, by a qualified examiner",
+     "Limited weight; never the sole basis for a finding of guilt (CL, verify)"
+    ]
+   ]
+  },
+  {
+   "title": "Employee obligations and conduct",
+   "section": "§11 Employee obligations and conduct",
+   "page": 40,
+   "kind": "obligations",
+   "columns": [
+    "Obligation",
+    "When",
+    "Consequence if not met",
+    "Authority"
+   ],
+   "rows": [
+    [
+     "Know and comply with communicated rules and standards",
+     "Always",
+     "Discipline, where the rule was valid and the employee aware of it",
+     "Code item 8(1)–(2)"
+    ],
+    [
+     "Follow a lawful and reasonable instruction to stop work, leave the site or submit to a test under a communicated policy",
+     "At the incident",
+     "A separate charge of refusing an instruction (not a presumption of guilt on the original charge)",
+     "Code item 8; testing policy"
+    ],
+    [
+     "Cooperate with the investigation; do not destroy evidence or influence witnesses",
+     "Phases 1 and 3",
+     "Further charges; supports suspension",
+     "Code"
+    ],
+    [
+     "Make suspension representations on time; acknowledge letters; comply with suspension conditions; remain contactable",
+     "Phase 2",
+     "Decision taken without representations; further charges",
+     "D11–D15"
+    ],
+    [
+     "Study the notice and bundle; arrange a representative and witnesses; make requests early",
+     "After service of the notice",
+     "Late requests may be refused with reasons",
+     "Code item 11(4)(b)–(c)"
+    ],
+    [
+     "Attend the enquiry, or explain absence promptly",
+     "On the enquiry date",
+     "The enquiry may proceed in absence",
+     "Code items 11(2), 11(4)(b); BP; CL"
+    ],
+    [
+     "Put the employee’s version to the employer’s witnesses",
+     "During cross-examination",
+     "Unchallenged evidence may be accepted",
+     "CL: SARFU"
+    ],
+    [
+     "Tell the truth in statements and at the enquiry",
+     "Throughout",
+     "Dishonesty charge",
+     "Code"
+    ],
+    [
+     "Refer any dispute in time",
+     "30 days (dismissal); 90 days (unfair labour practice)",
+     "Condonation needed",
+     "LRA s.191"
+    ]
+   ],
+   "intro": [
+    "An employee protects their own position by knowing the rules, cooperating with a fair process and using it to put their case. The organisation should explain these duties in the code, the suspension letter and the notice to attend, without using them to discourage a defence."
+   ]
+  },
+  {
+   "title": "Employee obligations and conduct",
+   "section": "§11 Employee obligations and conduct",
+   "page": 40,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Rights the organisation must not obstruct. To be told the allegations in enough detail to understand them; at least 48 hours and a reasonable period to prepare; a fellow employee or union representative; a language the employee is comfortable with, where reasonably possible; to see the evidence, call witnesses, cross-examine the employer’s witnesses, testify or remain silent; to be heard on sanction; union consultation before discipline of representatives; protection for protected disclosures; POPIA access and correction; no fines or deductions outside BCEA s.34; reasonable accommodation; referral to the CCMA, a bargaining council or the Labour Court."
+   ]
+  },
+  {
+   "title": "Hand-offs and interfaces register",
+   "section": "§12 Hand-offs and interfaces register",
+   "page": 42,
+   "kind": "interfaces",
+   "columns": [
+    "Party or system",
+    "Trigger",
+    "What is handed over",
+    "When",
+    "Step",
+    "Authority"
+   ],
+   "rows": [
+    [
+     "Line manager",
+     "Incident",
+     "Incident report; evidence locations; witness details",
+     "Same day",
+     "1.1–1.2, 3.4",
+     "BP"
+    ],
+    [
+     "IT and security",
+     "Evidence risk; suspension",
+     "Preservation and export instructions; access restriction and restoration",
+     "Day 0 onward",
+     "1.3, 2.8, 2.12, 3.3",
+     "POPIA; RICA"
+    ],
+    [
+     "Investigator",
+     "Investigation needed",
+     "ToR; access; redacted file",
+     "Working day 1",
+     "1.9",
+     "BP"
+    ],
+    [
+     "Senior sign-off",
+     "Suspension; formal enquiry; dismissal; conflicted matter",
+     "Recommendation and reasons",
+     "As triggered",
+     "1.8, 1.12, 2.5",
+     "BP"
+    ],
+    [
+     "Payroll",
+     "Suspension; sanction; termination",
+     "Full-pay instruction; final-pay schedule",
+     "Each pay run; on termination",
+     "2.8, 5.12",
+     "BCEA ss.34, 40"
+    ],
+    [
+     "Expert",
+     "Technical question",
+     "Written brief and evidence",
+     "Working day 6",
+     "3.5",
+     "BP"
+    ],
+    [
+     "Trade union",
+     "Representative or office-bearer charged or suspended; strike",
+     "Notice and consultation",
+     "Before instituting discipline",
+     "1.6, 2.14, 3.18, P9",
+     "Code items 11(7), 12(3)"
+    ],
+    [
+     "TES or contractor employer",
+     "Placed worker implicated",
+     "Incident report; evidence; removal request",
+     "Same day",
+     "1.6",
+     "LRA s.198"
+    ],
+    [
+     "Chairperson",
+     "Formal enquiry",
+     "Appointment; charges; bundle; code; chair’s script",
+     "Before the notice",
+     "3.10",
+     "Code item 11"
+    ],
+    [
+     "Employee",
+     "Suspension; notice; outcome",
+     "Letters D11–D15; notice, charges and bundle; outcome letter",
+     "Per Phases 2, 3 and 5",
+     "2.4–2.13, 3.13, 5.9",
+     "Code item 11(4)"
+    ],
+    [
+     "Interpreter",
+     "Language need",
+     "Appointment and undertaking",
+     "Before the enquiry",
+     "3.12, 4.1",
+     "Code item 11(4)(d)"
+    ],
+    [
+     "SAPS / DPCI",
+     "Crime; PRECCA s.34",
+     "Report; case number returned",
+     "As soon as possible",
+     "1.7",
+     "PRECCA s.34"
+    ],
+    [
+     "PDA Designated Officer",
+     "Employee is a discloser",
+     "Case flag; chronology",
+     "Day 0–2",
+     "1.6, P3",
+     "LRA s.187(1)(h)"
+    ],
+    [
+     "COIDA Administrator / EHW",
+     "Employee on a COIDA claim",
+     "Case flag; notice of intention before dismissal or pay cut",
+     "Before the decision",
+     "1.6, P6",
+     "RRR Regs reg 10(1)(m)–(n)"
+    ],
+    [
+     "AARTO Compliance Officer",
+     "Driver’s false denial, failure to report a notice, or driving while disqualified",
+     "Evidence from the AARTO file",
+     "When referred",
+     "1.5",
+     "AARTO flow 2.8, 5.3"
+    ],
+    [
+     "CCMA / bargaining council",
+     "Referral; s.188A inquiry; employee’s s.188A(11) referral",
+     "Response bundle; attendance",
+     "Per notice",
+     "3.17, P3, 5.14",
+     "LRA ss.188A, 191"
+    ],
+    [
+     "Board / Remco / Social and Ethics Committee",
+     "Quarterly; executive cases",
+     "Aggregate report; oversight where implicated",
+     "Quarterly",
+     "6.2",
+     "Governance"
+    ]
+   ],
+   "intro": [
+    "Every hand-off carries a confidentiality and fairness risk: send the minimum, keep proof of what was sent, to whom and when, and record it against the case."
+   ]
+  },
+  {
+   "title": "Hand-offs and interfaces register",
+   "section": "§12 Hand-offs and interfaces register",
+   "page": 42,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Adjacent regimes to check at triage. The GBS PDA, COIDA and AARTO flows; the Employment Equity Act (discrimination, harassment, reasonable accommodation); POPIA (special personal information, including alleged criminal behaviour); RICA (monitoring); the OHS Act and its regulations (intoxication, safety rules); PRECCA and FICA (reporting duties); any sector regulator’s fit-and-proper or reporting rules."
+   ]
+  },
+  {
+   "title": "Forms register",
+   "section": "§13 Forms register",
+   "page": 44,
+   "kind": "forms",
+   "columns": [
+    "Form",
+    "Name",
+    "Used at",
+    "Existing GBS template (DE 2)"
+   ],
+   "rows": [
+    [
+     "D01",
+     "Disciplinary code and procedure",
+     "0.1, 6.4",
+     "DE 2 (update per section 15)"
+    ],
+    [
+     "D02",
+     "Disciplinary code table (offences and indicative sanctions)",
+     "0.1, 1.12, 6.1",
+     "DE 2 Appendix A (update)"
+    ],
+    [
+     "D03",
+     "Rules communication acknowledgement",
+     "0.2",
+     "—"
+    ],
+    [
+     "D04",
+     "Delegation of authority matrix",
+     "0.3",
+     "—"
+    ],
+    [
+     "D05",
+     "Incident report and same-day send-home confirmation",
+     "1.1–1.2",
+     "—"
+    ],
+    [
+     "D06",
+     "Case register, intake record and deadline tracker",
+     "1.4, 1.13, 5.13",
+     "—"
+    ],
+    [
+     "D07",
+     "Investigator appointment and terms of reference",
+     "1.9",
+     "—"
+    ],
+    [
+     "D08",
+     "Witness and employee statement template",
+     "1.10, 3.4",
+     "—"
+    ],
+    [
+     "D09",
+     "Preliminary investigation report (A) and route decision (B)",
+     "1.11–1.12",
+     "—"
+    ],
+    [
+     "D10",
+     "Suspension assessment: consideration, threshold test, alternatives, decision (A–D)",
+     "2.1–2.3, 2.5",
+     "—"
+    ],
+    [
+     "D11",
+     "Notice of intention to suspend and invitation to make representations",
+     "2.4",
+     "—"
+    ],
+    [
+     "D12",
+     "Precautionary suspension letter (standard and urgent variants)",
+     "2.6–2.7",
+     "DE 2 Appendix B (suspension paragraph only)"
+    ],
+    [
+     "D13",
+     "Suspension review, extension and variation letter",
+     "2.10–2.11",
+     "—"
+    ],
+    [
+     "D14",
+     "Upliftment of suspension / no-case letter",
+     "1.12, 2.12, 5.2",
+     "—"
+    ],
+    [
+     "D15",
+     "Confirmation of no suspension and interim conduct instructions",
+     "2.13",
+     "—"
+    ],
+    [
+     "D16",
+     "Evidence plan (elements of each charge and proof)",
+     "3.1",
+     "—"
+    ],
+    [
+     "D17",
+     "Evidence register and chain of custody",
+     "1.3, 3.2–3.6",
+     "—"
+    ],
+    [
+     "D18",
+     "Bundle index, exhibit list and witness list",
+     "3.8, 3.16",
+     "—"
+    ],
+    [
+     "D19",
+     "Charge sheet",
+     "3.9",
+     "DE 2 Appendix B (partly)"
+    ],
+    [
+     "D20",
+     "Chairperson and initiator appointment; independence declaration",
+     "3.10",
+     "—"
+    ],
+    [
+     "D21",
+     "Notice to attend disciplinary enquiry",
+     "3.11–3.13",
+     "DE 2 Appendix B (update notice period and rights)"
+    ],
+    [
+     "D22",
+     "Proof of service and confirmation of receipt",
+     "3.13–3.14, 5.9",
+     "—"
+    ],
+    [
+     "D23",
+     "Ruling on pre-hearing and preliminary applications",
+     "3.15, 4.4",
+     "—"
+    ],
+    [
+     "D24",
+     "Interpreter appointment and undertaking",
+     "3.12, 4.1",
+     "—"
+    ],
+    [
+     "D25",
+     "Union notification and consultation record (item 11(7))",
+     "1.6, 2.14, 3.18",
+     "—"
+    ],
+    [
+     "D26",
+     "Chairperson’s enquiry script and preliminary-rights checklist",
+     "4.1–4.5",
+     "DE 2 Appendix D (partly)"
+    ],
+    [
+     "D27",
+     "Record of proceedings",
+     "4.2–4.20, 5.3–5.8",
+     "DE 2 Appendix D (update)"
+    ],
+    [
+     "D28",
+     "Finding (A) and sanction (B) with reasons",
+     "5.1–5.7",
+     "DE 2 Appendix D (partly)"
+    ],
+    [
+     "D29",
+     "Outcome letter: sanction short of dismissal",
+     "5.9",
+     "DE 2 Appendix C (update referral rights: 90 days, not extended by an appeal)"
+    ],
+    [
+     "D30",
+     "Notification of dismissal with referral rights",
+     "5.9–5.10",
+     "DE 2 Appendix E (update referral rights: 30 days from the appeal outcome where an appeal upholds the dismissal)"
+    ],
+    [
+     "D31",
+     "Termination checklist (final pay, leave, certificate of service, UI-19, access, property)",
+     "5.12",
+     "DE 2 Appendix E (partly)"
+    ],
+    [
+     "D32",
+     "Appeal form and appeal outcome",
+     "5.11",
+     "—"
+    ],
+    [
+     "D33",
+     "Warning record and warnings register entry",
+     "1.12, 5.12",
+     "DE 2 Appendix C"
+    ],
+    [
+     "D34",
+     "Precedent and consistency register",
+     "0.6, 5.13, 6.1",
+     "—"
+    ],
+    [
+     "D35",
+     "Unprotected strike pack: union contact, ultimatum, collective representations",
+     "P9",
+     "DE 2 §9.4 (procedure only)"
+    ],
+    [
+     "D36",
+     "CCMA / council response pack",
+     "5.14, P10–P11",
+     "—"
+    ],
+    [
+     "D37",
+     "Governance dashboard",
+     "6.2",
+     "—"
+    ],
+    [
+     "D38",
+     "Root-cause memo",
+     "6.3",
+     "—"
+    ]
+   ],
+   "intro": [
+    "Thirty-eight forms support the flow, numbered in the order they are used. The existing GBS Disciplinary Code and Procedure (Refreshed DE 2) is shown where it already contains a template, so the gaps are the forms still to draft. None is a statutory form, although the referral form in 5.10 is a prescribed LRA form completed by the employee."
+   ]
+  },
+  {
+   "title": "Case calendar (from first managerial knowledge)",
+   "section": "§14 Timeline calendar and liability register",
+   "page": 47,
+   "kind": "timeline",
+   "columns": [
+    "When",
+    "Event",
+    "Owner",
+    "Authority",
+    "Type"
+   ],
+   "rows": [
+    [
+     "Day 0",
+     "Make safe; report; secure evidence at risk; log",
+     "LM, ERO",
+     "OHS Act s.8",
+     "BP"
+    ],
+    [
+     "Next working day",
+     "Written confirmation of any same-day send-home on full pay",
+     "LM",
+     "—",
+     "BP"
+    ],
+    [
+     "Working day 1",
+     "Investigator appointed; suspension considered",
+     "ERO, SSO",
+     "CL",
+     "BP"
+    ],
+    [
+     "Working day 1–3",
+     "Notice of intention to suspend; representations (24–48 hours); decision and suspension letter",
+     "ERO, SSO",
+     "CL",
+     "BP"
+    ],
+    [
+     "Working day 5",
+     "Preliminary investigation report",
+     "INV",
+     "—",
+     "BP"
+    ],
+    [
+     "Working day 5–6",
+     "Route decision; clocks diarised",
+     "ERO, SSO",
+     "Code items 6(6), 11",
+     "BP"
+    ],
+    [
+     "Working day 12",
+     "Evidence complete; bundle compiled; charges framed; chair appointed",
+     "INI, ERO",
+     "Code item 11(4)(a)",
+     "BP"
+    ],
+    [
+     "Working day 13",
+     "Notice to attend served with bundle",
+     "ERO",
+     "Code item 11(4)(b)",
+     "BP"
+    ],
+    [
+     "At least 48 hours and two working days after service",
+     "Earliest enquiry date (longer for complex matters; BP 5 working days)",
+     "ERO, CHR",
+     "Code item 11(4)(b)",
+     "Policy minimum"
+    ],
+    [
+     "Every 30 days of suspension",
+     "Suspension review letter; aim to open the enquiry within 30 days",
+     "ERO, SSO",
+     "CL",
+     "BP"
+    ],
+    [
+     "Enquiry close + 3 working days",
+     "Finding on guilt announced",
+     "CHR",
+     "Code item 8",
+     "BP"
+    ],
+    [
+     "Finding + submissions, then up to 5 working days",
+     "Sanction pronounced; outcome and rights explained orally",
+     "CHR",
+     "Code items 9–11",
+     "BP"
+    ],
+    [
+     "Sanction + 2 working days",
+     "Written outcome with referral rights served",
+     "CHR, ERO",
+     "LRA s.191",
+     "BP"
+    ],
+    [
+     "Outcome + 5 working days",
+     "Internal appeal lodged (if provided)",
+     "EMP",
+     "Code",
+     "Policy"
+    ],
+    [
+     "Appeal + 10 working days",
+     "Appeal decided",
+     "APC",
+     "—",
+     "Policy"
+    ],
+    [
+     "Dismissal (or, if later, appeal outcome upholding it) + 30 days",
+     "Last day to refer a dismissal dispute",
+     "EMP",
+     "LRA s.191(1)(b)(i)",
+     "Statutory"
+    ],
+    [
+     "Act, or awareness of it, + 90 days",
+     "Last day to refer an unfair labour practice (suspension, warning)",
+     "EMP",
+     "LRA s.191(1)(b)(ii)",
+     "Statutory"
+    ],
+    [
+     "Award + 6 weeks",
+     "Review application",
+     "LA",
+     "LRA s.145(1)(a)",
+     "Statutory"
+    ],
+    [
+     "Warning issue + validity period",
+     "Warning expires (policy: 3, 6 or 12 months)",
+     "ERO",
+     "Code",
+     "Policy"
+    ],
+    [
+     "Closure + 30 days",
+     "Root-cause review",
+     "HR, LA",
+     "—",
+     "BP"
+    ]
+   ],
+   "intro": [
+    "Using internal targets as policy, a routine formal matter runs from incident to outcome in about three to five weeks. The 48-hour notice minimum is an internal rule adopted by this flow; the referral and review periods are statutory; everything else is policy, and must be written into the code to bind."
+   ]
+  },
+  {
+   "title": "Liability register",
+   "section": "§14 Timeline calendar and liability register",
+   "page": 47,
+   "kind": "liability",
+   "columns": [
+    "Exposure",
+    "Who is exposed",
+    "Consequence",
+    "Authority"
+   ],
+   "rows": [
+    [
+     "Dismissal without a fair reason or a fair procedure",
+     "Employer",
+     "Reinstatement, re-employment or compensation up to 12 months’ remuneration",
+     "LRA ss.188, 193, 194(1)"
+    ],
+    [
+     "Procedurally unfair but substantively fair dismissal",
+     "Employer",
+     "Compensation only, not reinstatement",
+     "LRA ss.193(1)(c), 194(1); CL: UPN v Mbatsana (LAC 2026)"
+    ],
+    [
+     "Automatically unfair dismissal (e.g. protected disclosure, union activity, discrimination, pregnancy)",
+     "Employer",
+     "Compensation up to 24 months’ remuneration",
+     "LRA ss.187, 194(3)"
+    ],
+    [
+     "Unfair suspension, warning or other action short of dismissal",
+     "Employer",
+     "Action set aside; compensation up to 12 months’ remuneration",
+     "LRA ss.186(2)(b), 194(4)"
+    ],
+    [
+     "Constructive dismissal",
+     "Employer",
+     "As for unfair dismissal",
+     "LRA s.186(1)(e)"
+    ],
+    [
+     "Unfair discrimination or harassment in the process",
+     "Employer",
+     "Damages and compensation",
+     "EEA ss.6, 50"
+    ],
+    [
+     "Occupational detriment to a discloser",
+     "Employer and the person acting",
+     "Automatically unfair dismissal; PDA remedies",
+     "PDA ss.3–4; LRA s.187(1)(h)"
+    ],
+    [
+     "Fines or unlawful deductions from pay",
+     "Employer",
+     "Repayment; compliance order",
+     "BCEA s.34"
+    ],
+    [
+     "Unlawful interception of communications",
+     "Person intercepting",
+     "Criminal offence; evidence may be excluded",
+     "RICA (verify section)"
+    ],
+    [
+     "Unlawful processing or disclosure of personal information",
+     "Responsible party",
+     "Administrative fine; civil claim",
+     "POPIA ss.99, 109 (verify)"
+    ],
+    [
+     "Dismissing or cutting pay of an injured employee without notice to the Fund",
+     "Employer",
+     "Breach of the RRR Regulations; weakens fairness",
+     "RRR Regs reg 10(1)(m)–(n)"
+    ]
+   ]
+  },
+  {
+   "title": "Corrections to the Refreshed DE 2 procedure",
+   "section": "§15 Corrections to existing GBS materials and drafting issues",
+   "page": 50,
+   "kind": "corrections",
+   "columns": [
+    "#",
+    "Current statement",
+    "Where",
+    "Correction"
+   ],
+   "rows": [
+    [
+     "1",
+     "The company “complies with the requirements set out in Schedule 8 of the Labour Relations Act (Code of Good Practice on Dismissal)”",
+     "§1 Policy statement",
+     "Schedule 8 was repealed on 4 September 2025. Cite the Code of Good Practice: Dismissal, 2025 (GN 3470, GG 53294), items 6 to 13 for misconduct."
+    ],
+    [
+     "2",
+     "“Minimum notice period: 1 working day before the hearing”",
+     "§5.5; §8.4 Step 2; Appendix B para 1; Appendix D Q1",
+     "Replace with the rule in this flow: at least 48 hours from proven service, including at least two full working days, and longer (BP 5 working days) for complex matters. Item 11(4)(b) requires a reasonable period to prepare; one working day will seldom meet it where dismissal is possible."
+    ],
+    [
+     "3",
+     "Line managers may issue up to a final written warning on the same day; no written notice to attend for warnings",
+     "§2.4; §5.4; §8.3",
+     "Defensible for informal correction and verbal or written warnings where the employee knows the allegation and evidence and genuinely responds (items 6(6), 11(3)). A final written warning is disciplinary action that can be challenged under s.186(2)(b) and may later support dismissal: require at least a short written notice and time to arrange a representative."
+    ],
+    [
+     "4",
+     "Expired warnings “can be used as evidence of previous disciplinary history (aggravation)” and “remain on file”",
+     "§2.10; §8.4 Step 4(h); §11.4; Appendix A notes; Appendix D",
+     "Relying on expired warnings to escalate a sanction undermines the validity periods the code itself sets and is widely treated as unfair. Remove the statement, or confine any use to showing awareness of a rule, on LA advice (CL, verify). Keep the record for retention purposes only."
+    ],
+    [
+     "5",
+     "Suspension clause of six lines; one suspension paragraph in the notice",
+     "§9.1; Appendix B",
+     "Add the threshold test, representations, the six letters in the Phase 2 correspondence register (forms D11 to D15, with D12 in standard and urgent variants), full pay, 30-day reviews, access to prepare a defence, upliftment, union notice, and the distinction from unpaid suspension as a sanction."
+    ],
+    [
+     "6",
+     "Enquiry order: company’s case, then employee’s case; finding; mitigation and aggravation",
+     "§8.4 Step 4(c)–(i)",
+     "Align with Phase 4: add confirmation of preliminary rights, opening statements, re-examination, chair’s questions, a no-case application, closing statements, and the order for sanction submissions (employer aggravation, then employee mitigation, employee last word). Explain the duty to put one’s version to witnesses."
+    ],
+    [
+     "7",
+     "Refusing a breathalyser or drug test: “presumption of guilt”",
+     "Appendix A, Alcohol and Drug Offences",
+     "Refusal can be separate misconduct (refusing a lawful and reasonable instruction under a communicated testing policy), but it does not create a presumption of intoxication. Reword and charge refusal separately."
+    ],
+    [
+     "8",
+     "“Dismissal” as the sanction for a first offence in categories with a wide range of seriousness (inappropriate social media posts; all POPIA processing failures; “failure to obtain proper consent”; unauthorised use of own systems; possession of cannabis on premises)",
+     "Appendix A",
+     "Items 8(2)(f) and 9 require the sanction to fit the case. Write “up to dismissal”, or split categories by seriousness, and state that the table guides and does not decide. Check the cannabis entries against Prince (CC 2018), the Cannabis for Private Purposes Act 7 of 2024 (commencement, verify) and Enever v Barloworld Equipment [2024] ZALAC 12 (zero-tolerance cannabis policy without evidence of impairment held unfair); frame cannabis rules around impairment and safety-critical roles, not positive tests alone."
+    ],
+    [
+     "9",
+     "Absence of 3 or more consecutive days: dismissal",
+     "Appendix A, Timekeeping",
+     "Distinguish absence (misconduct) from desertion (an intention not to return) and from illness (incapacity). Require documented attempts to contact the employee before any enquiry in absence."
+    ],
+    [
+     "10",
+     "Right to an interpreter “for potential dismissal matters”",
+     "§2.5",
+     "Item 11(4)(d) is not limited to dismissal: give the opportunity to converse in a language the employee is comfortable with, where reasonably possible, including in the expedited process."
+    ],
+    [
+     "11",
+     "Legal representation not addressed",
+     "§2.5; §8.4",
+     "Add a discretion clause: normally a fellow employee or union representative (item 11(4)(c)); the chair may allow legal representation in complex or serious matters (CL: MEC Finance, Northern Province v Mahumani (SCA 2004); Dorkin (LAC 2008), verify)."
+    ],
+    [
+     "12",
+     "Referral right stated only as “CCMA within 30 days if dismissed”",
+     "§2.5; §5.5; Appendix B para 7; Appendix E",
+     "Add referral to a bargaining council where one has jurisdiction; unfair labour practice disputes (including suspensions and warnings) within 90 days; automatically unfair dismissals to the Labour Court after conciliation; condonation; and that, where an internal appeal is offered, the 30-day period for a dismissal dispute runs from the appeal outcome (s.191(1)(b)(i)); an internal appeal does not extend the 90-day unfair labour practice period. See step 5.10."
+    ],
+    [
+     "13",
+     "Enquiries “will proceed” in the employee’s absence",
+     "§8.7",
+     "Only after proper service and reasonable attempts to contact; the chair considers any explanation and may postpone once (Code items 11(2), 11(4)(b); BP; CL). Item 11(6) is the separate exceptional-circumstances exemption and is not relied on here."
+    ],
+    [
+     "14",
+     "“Minimal record-keeping for warnings and final warnings”",
+     "§2.10",
+     "Item 13 requires records of the nature of the transgression, the action taken and the reasons. Keep warning records brief but complete."
+    ],
+    [
+     "15",
+     "Evidence mentioned only generally (“Manager gathers relevant evidence”)",
+     "§8.4 Step 1",
+     "Add the evidence plan, chain of custody, the lawfulness check and disclosure of the bundle with the notice (steps 3.1 to 3.8 and the types-of-evidence table)."
+    ],
+    [
+     "16",
+     "Demotion and transfer only with written agreement; no unpaid suspension option",
+     "§9.3",
+     "Decide, with LA, whether the code should permit demotion or unpaid suspension as alternatives to dismissal where dismissal would otherwise be justified (verify). Where offered, record the employee’s election."
+    ],
+    [
+     "17",
+     "Harassment listed only as a dismissal offence",
+     "Appendix A",
+     "Cross-refer the Code of Good Practice on the Prevention and Elimination of Harassment in the Workplace (GN R.1890, GG 46056, 18 March 2022; EEA s.54) and add the complainant-protection steps in P8."
+    ],
+    [
+     "18",
+     "Digital recording of proceedings “with consent”",
+     "§10.1",
+     "Consent is not the only lawful basis under POPIA s.11(1); recording on notice for an accurate record is defensible. Announce recordings and keep them secure."
+    ],
+    [
+     "19",
+     "Probation and TES workers not addressed",
+     "§3 Scope; §9",
+     "Add pointers: probation (items 14 to 18, including representations before dismissal or extension) and TES workers (the TES is the employer, s.198(2); the client reports and requests removal)."
+    ]
+   ],
+   "intro": [
+    "Comparing the Refreshed DE 2 Disciplinary Code and Procedure against the LRA, the 2025 Code and case law turned up points that should be fixed before client use. This flow already reflects them. Several are policy choices rather than errors; they are flagged because they carry litigation risk."
+   ]
+  },
+  {
+   "title": "Revision history — v1.1 (19 October 2026)",
+   "section": "§15 Corrections to existing GBS materials and drafting issues",
+   "page": 50,
+   "kind": "corrections",
+   "columns": [
+    "#",
+    "Finding (severity)",
+    "Where",
+    "Change made"
+   ],
+   "rows": [
+    [
+     "1",
+     "Internal appeal and the 30-day dismissal referral period (Major)",
+     "1.13; 5.9; 5.10; Phase 5 obligations and Watch; P11; D29; D30; case calendar; Correction #12",
+     "30 days now run from dismissal or, if later, from the final decision to dismiss or uphold the dismissal on appeal (s.191(1)(b)(i); Bouwer, LC 2019). The ULP 90 days run from the act or awareness and are not extended by an appeal. Tracker and outcome letters updated."
+    ],
+    [
+     "2",
+     "CCMA Rules definition of a “day” (Major)",
+     "Section 01 Counting time; 5.14; 6.6",
+     "Replaced with CCMA Rules, 2023, rule 3: calendar days, first day excluded, last included, last day moves to the next working day if a Saturday, Sunday or public holiday. Rules named as the 2023 Rules; rule 25 citation confirmed."
+    ],
+    [
+     "3",
+     "Code item 11(6) cited for an enquiry in absence (Major)",
+     "4.20; obligations table; Correction #13",
+     "Authority changed to Code items 11(2), 11(4)(b); BP; CL. Note added that item 11(6) is a separate exceptional-circumstances exemption and is not relied on."
+    ],
+    [
+     "4",
+     "Employee’s s.188A(11) pre-dismissal arbitration in protected-disclosure cases (Major)",
+     "1.6; 3.17; P3; hand-offs register (CCMA row)",
+     "Added branch: on an employee s.188A(11) referral, stop scheduling the internal enquiry pending the CCMA’s jurisdiction ruling; if accepted, the inquiry by arbitrator replaces it (IDC v Modika, LAC 2026; Mohlala-Mulaudzi, LC)."
+    ],
+    [
+     "5",
+     "s.188A description incomplete (Minor)",
+     "3.17",
+     "Consent after notice of allegations, collective agreement or contract term above the threshold; LRA Form 7.19; employer pays; ruling has award status and is reviewable under s.145."
+    ],
+    [
+     "6",
+     "Coetzee cited for the opposite of its holding (Minor)",
+     "P5",
+     "States the Labour Court split: Mtati and Naidoo (jurisdiction ends) against Coetzee (employer may proceed if it does not accept the resignation). LA to advise."
+    ],
+    [
+     "7",
+     "s.198A threshold left unverified (Minor)",
+     "Section 01 Who is the employer; 0.8",
+     "BCEA threshold R269 600.90 p.a. from 1 May 2026 inserted (GBS shared confirmed figure)."
+    ],
+    [
+     "8",
+     "PRECCA s.34 trigger incomplete (Minor)",
+     "1.7",
+     "Added “or suspects”, the listed offences (ss.3–16, 20–21), report to a police official (DPCI), and that failure to report is an offence."
+    ],
+    [
+     "9",
+     "s.203(2) or s.203(2A) (Minor)",
+     "Section 01 Legal status; drafting issues",
+     "Resolved: Notice 3470 cites s.203(2A) (Acts Online notice text, checked 19 October 2026). Legal status now cites s.203(2A); drafting issue reworded."
+    ],
+    [
+     "10",
+     "Six letters vs five forms (Minor)",
+     "Correction #5",
+     "Now “forms D11 to D15, with D12 in standard and urgent variants”."
+    ],
+    [
+     "11",
+     "Harassment Code citation incomplete (Improvement)",
+     "P8; Correction #17",
+     "Full citation: GN R.1890, GG 46056, 18 March 2022 (EEA s.54)."
+    ],
+    [
+     "12",
+     "Unnamed LAC authority on testing (Improvement)",
+     "Correction #8",
+     "Cites Enever v Barloworld Equipment [2024] ZALAC 12; cannabis rules framed around impairment and safety-critical roles."
+    ],
+    [
+     "13",
+     "Legal representation authority (Improvement)",
+     "3.15; 4.4; Correction #11",
+     "Added MEC Finance, Northern Province v Mahumani (SCA 2004) before Dorkin."
+    ],
+    [
+     "14",
+     "Procedural unfairness and remedy (Improvement)",
+     "P12; liability register (new row)",
+     "Added: procedurally unfair but substantively fair dismissal attracts compensation only (s.193(1)(c), s.194(1); UPN v Mbatsana, LAC 2026)."
+    ],
+    [
+     "15",
+     "Pre-suspension representations as policy, not law (Improvement)",
+     "2.4",
+     "Stated that representations are a GBS policy safeguard, not a legal precondition after Long (CC 2019); fair reason still required."
+    ],
+    [
+     "16",
+     "Resolved from section 3 of the review (confirmed accurate)",
+     "5.10",
+     "LRA Form 7.11 confirmed as the conciliation referral form; “verify” removed."
+    ],
+    [
+     "O1",
+     "Open: Dorkin and SAPU citations",
+     "2.2; 3.15; Correction #11; section 01",
+     "Not verified; Dorkin kept with “(verify)”. Report notes Mogothle relies on Jansen van Vuuren rather than SAPU; LA to confirm."
+    ],
+    [
+     "O2",
+     "Open: other unverified items",
+     "0.5; 1.1; 2.10; 3.6; 5.6; Correction #16",
+     "PSCBC Resolution 1 of 2003 (60 days), GSR 2A currency, unpaid suspension or demotion as an alternative, and RRR reg 10(1)(m)–(n) remain marked “(verify)”."
+    ],
+    [
+     "O3",
+     "Open: questions for the author",
+     "Sections 01, 0.10, 0.5, 4.1, 5.13",
+     "To confirm with GBS: whether client codes provide an internal appeal; bargaining council coverage by sector; headcount for the small-business version; safety-critical roles for testing after Enever; retention period for hearing recordings (D27) under POPIA s.14; whether the Code text is headed “Schedule 8”."
+    ]
+   ],
+   "intro": [
+    "The notice is headed “Code of Practice: Dismissal” and the text “Code of Good Practice: Dismissal”, and the Code is itself headed “Schedule 8” although the notice says its publication repeals Schedule 8. It is unclear whether it takes Schedule 8’s place in the Act or stands alone. Cite it by notice and Gazette number.",
+    "The notice gives s.203(2A) of the LRA (a code issued by the Minister after consideration by NEDLAC) as the power under which the Code was issued; this was confirmed against the notice text on Acts Online in October 2026. The January 2025 draft cited s.203(2), so cite the final notice, not the draft.",
+    "The Code is silent on precautionary suspension, although footnote 2 lists “suspension” among graduated disciplinary measures. This invites confusion between a precautionary suspension on full pay and unpaid suspension as a sanction.",
+    "It sets no minimum notice period and no order of proceedings, leaving both to “a reasonable period of time to prepare” (item 11(4)(b)) and internal policy.",
+    "It gives no guidance on warning validity periods or on the use of expired warnings.",
+    "Item 11 is framed around a decision to dismiss and says nothing about the procedure for warnings, although s.186(2)(b) makes unfair disciplinary action short of dismissal an unfair labour practice.",
+    "The old Schedule 8 direction to give the employee the reason for dismissal and remind them of the right to refer a dispute has not been carried over.",
+    "Item 11(4)(c) mentions only a fellow employee or union representative; it is silent on legal representation and on reasonable accommodation for employees with disabilities.",
+    "Item 7(1) defines a fair reason for misconduct dismissal by reference to intolerability, which is also the sanction test in item 9; the reason and sanction questions are blurred.",
+    "Item 3 does not define a small business.",
+    "Version 1.1 implements every finding of the independent verification and validation review of 15 October 2026 (Critical 0, Major 4, Minor 6, Improvement 5), as approved by the document owner. Items that could not be resolved are listed at the end as open."
+   ]
+  },
+  {
+   "title": "Corrections to existing GBS materials and drafting issues",
+   "section": "§15 Corrections to existing GBS materials and drafting issues",
+   "page": 50,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Code of Good Practice: Dismissal, 2025, GN 3470, GG 53294, 4 September 2025 (uploaded).",
+    "GBS Refreshed DE 2 Disciplinary Code and Procedure, Appendices A to E (uploaded).",
+    "GBS PDA, COIDA and AARTO process flows (project files), for format and cross-references.",
+    "Cliffe Dekker Hofmeyr, Employment Law Alert, 4 September 2025; Werksmans, “New Code of Good Practice: Dismissal”, February 2026; LabourWise, October 2025 (status and effective date). A search on 29 September 2026 found no amendment to the Code.",
+    "v1.1 corrections (19 October 2026), per the independent V&V review of 15 October 2026: LRA s.191(1)(b)(i) and Bouwer v Supreme Pets CC [2019] ZALCJHB 303 (SAFLII); CCMA Rules, 2023 (GN R.3318), rule 3 (Acts Online); 2025 Code text (January 2025 draft, identical per Bowmans) and Notice 3470 (Acts Online, s.203(2A)); Bowmans, Employment case law update July 2026 (IDC v Modika, LAC 17 March 2026; UPN v Mbatsana, LAC 31 March 2026); LabourGuide (Mohlala-Mulaudzi v PPRA; representation); Msagala v Transnet [2017] ZALCJHB 370 and CEOSA (LRA Form 7.19); Werksmans, “Resignation with immediate effect – a tale of confusion”; CDH Dispute Resolution Alert, 23 March 2021 (PRECCA s.34); GN R.1890, GG 46056 (LawLibrary); Enever v Barloworld Equipment [2024] ZALAC 12 (SAFLII); Norton Rose Fulbright on Long v SAB; DLA Piper and RSM (BCEA threshold, April 2026).",
+    "The LRA, BCEA, EEA, POPIA, RICA, the OHS Act and its regulations, PRECCA, the Unemployment Insurance Act, the Law of Evidence Amendment Act, the Interpretation Act, the CCMA Rules and the cases named are cited from general knowledge; verify wording, citations and any later authority before use.",
+    "This flow is a working document for legal review, not legal advice."
+   ]
+  }
+ ],
+ "forms": [
+  {
+   "code": "Notice of intention to suspend",
+   "name": "Before suspension (non-urgent)",
+   "usedAt": "General allegation; reason for considering suspension; full pay; not a finding; invitation to representations, with a representative, and the deadline"
+  },
+  {
+   "code": "Suspension letter",
+   "name": "On the day of suspension",
+   "usedAt": "Precautionary nature; full pay and benefits; reasons; conditions; review date; access to prepare a defence; contact person; EAP; grievance right; how served"
+  },
+  {
+   "code": "Urgent suspension letter",
+   "name": "Immediate risk",
+   "usedAt": "As above, plus invitation to representations within 48 hours and a reconsideration date"
+  },
+  {
+   "code": "Review, extension or variation letter",
+   "name": "At least every 30 days; on any change",
+   "usedAt": "Outcome of review; reasons for continuing; next review date; any varied conditions"
+  },
+  {
+   "code": "Upliftment letter",
+   "name": "When the reason falls away or the matter ends",
+   "usedAt": "Return date; restored access; reminder that it is not a finding (if the matter continues)"
+  },
+  {
+   "code": "Confirmation of no suspension",
+   "name": "Where suspension was considered and rejected",
+   "usedAt": "Interim measures; conduct expected; no-contact instruction if any"
+  },
+  {
+   "code": "D01",
+   "name": "Disciplinary code and procedure",
+   "usedAt": "0.1, 6.4"
+  },
+  {
+   "code": "D02",
+   "name": "Disciplinary code table (offences and indicative sanctions)",
+   "usedAt": "0.1, 1.12, 6.1"
+  },
+  {
+   "code": "D03",
+   "name": "Rules communication acknowledgement",
+   "usedAt": "0.2"
+  },
+  {
+   "code": "D04",
+   "name": "Delegation of authority matrix",
+   "usedAt": "0.3"
+  },
+  {
+   "code": "D05",
+   "name": "Incident report and same-day send-home confirmation",
+   "usedAt": "1.1–1.2"
+  },
+  {
+   "code": "D06",
+   "name": "Case register, intake record and deadline tracker",
+   "usedAt": "1.4, 1.13, 5.13"
+  },
+  {
+   "code": "D07",
+   "name": "Investigator appointment and terms of reference",
+   "usedAt": "1.9"
+  },
+  {
+   "code": "D08",
+   "name": "Witness and employee statement template",
+   "usedAt": "1.10, 3.4"
+  },
+  {
+   "code": "D09",
+   "name": "Preliminary investigation report (A) and route decision (B)",
+   "usedAt": "1.11–1.12"
+  },
+  {
+   "code": "D10",
+   "name": "Suspension assessment: consideration, threshold test, alternatives, decision (A–D)",
+   "usedAt": "2.1–2.3, 2.5"
+  },
+  {
+   "code": "D11",
+   "name": "Notice of intention to suspend and invitation to make representations",
+   "usedAt": "2.4"
+  },
+  {
+   "code": "D12",
+   "name": "Precautionary suspension letter (standard and urgent variants)",
+   "usedAt": "2.6–2.7"
+  },
+  {
+   "code": "D13",
+   "name": "Suspension review, extension and variation letter",
+   "usedAt": "2.10–2.11"
+  },
+  {
+   "code": "D14",
+   "name": "Upliftment of suspension / no-case letter",
+   "usedAt": "1.12, 2.12, 5.2"
+  },
+  {
+   "code": "D15",
+   "name": "Confirmation of no suspension and interim conduct instructions",
+   "usedAt": "2.13"
+  },
+  {
+   "code": "D16",
+   "name": "Evidence plan (elements of each charge and proof)",
+   "usedAt": "3.1"
+  },
+  {
+   "code": "D17",
+   "name": "Evidence register and chain of custody",
+   "usedAt": "1.3, 3.2–3.6"
+  },
+  {
+   "code": "D18",
+   "name": "Bundle index, exhibit list and witness list",
+   "usedAt": "3.8, 3.16"
+  },
+  {
+   "code": "D19",
+   "name": "Charge sheet",
+   "usedAt": "3.9"
+  },
+  {
+   "code": "D20",
+   "name": "Chairperson and initiator appointment; independence declaration",
+   "usedAt": "3.10"
+  },
+  {
+   "code": "D21",
+   "name": "Notice to attend disciplinary enquiry",
+   "usedAt": "3.11–3.13"
+  },
+  {
+   "code": "D22",
+   "name": "Proof of service and confirmation of receipt",
+   "usedAt": "3.13–3.14, 5.9"
+  },
+  {
+   "code": "D23",
+   "name": "Ruling on pre-hearing and preliminary applications",
+   "usedAt": "3.15, 4.4"
+  },
+  {
+   "code": "D24",
+   "name": "Interpreter appointment and undertaking",
+   "usedAt": "3.12, 4.1"
+  },
+  {
+   "code": "D25",
+   "name": "Union notification and consultation record (item 11(7))",
+   "usedAt": "1.6, 2.14, 3.18"
+  },
+  {
+   "code": "D26",
+   "name": "Chairperson’s enquiry script and preliminary-rights checklist",
+   "usedAt": "4.1–4.5"
+  },
+  {
+   "code": "D27",
+   "name": "Record of proceedings",
+   "usedAt": "4.2–4.20, 5.3–5.8"
+  },
+  {
+   "code": "D28",
+   "name": "Finding (A) and sanction (B) with reasons",
+   "usedAt": "5.1–5.7"
+  },
+  {
+   "code": "D29",
+   "name": "Outcome letter: sanction short of dismissal",
+   "usedAt": "5.9"
+  },
+  {
+   "code": "D30",
+   "name": "Notification of dismissal with referral rights",
+   "usedAt": "5.9–5.10"
+  },
+  {
+   "code": "D31",
+   "name": "Termination checklist (final pay, leave, certificate of service, UI-19, access, property)",
+   "usedAt": "5.12"
+  },
+  {
+   "code": "D32",
+   "name": "Appeal form and appeal outcome",
+   "usedAt": "5.11"
+  },
+  {
+   "code": "D33",
+   "name": "Warning record and warnings register entry",
+   "usedAt": "1.12, 5.12"
+  },
+  {
+   "code": "D34",
+   "name": "Precedent and consistency register",
+   "usedAt": "0.6, 5.13, 6.1"
+  },
+  {
+   "code": "D35",
+   "name": "Unprotected strike pack: union contact, ultimatum, collective representations",
+   "usedAt": "P9"
+  },
+  {
+   "code": "D36",
+   "name": "CCMA / council response pack",
+   "usedAt": "5.14, P10–P11"
+  },
+  {
+   "code": "D37",
+   "name": "Governance dashboard",
+   "usedAt": "6.2"
+  },
+  {
+   "code": "D38",
+   "name": "Root-cause memo",
+   "usedAt": "6.3"
+  }
+ ],
+ "processMaps": [
+  {
+   "file": "misconduct-src_image1.png",
+   "width": 2828,
+   "height": 1188,
+   "path": "maps/misconduct-src_image1.png"
+  },
+  {
+   "file": "misconduct-src_image3.png",
+   "width": 3028,
+   "height": 1708,
+   "path": "maps/misconduct-src_image3.png"
+  }
+ ],
+ "sections": [
+  {
+   "number": "01",
+   "title": "Purpose, status and reading notes",
+   "page": 2
+  },
+  {
+   "number": "02",
+   "title": "Master flow at a glance",
+   "page": 5
+  },
+  {
+   "number": "03",
+   "title": "Phase 0 — Readiness (standing obligations)",
+   "page": 9
+  },
+  {
+   "number": "04",
+   "title": "Phase 1 — Incident and preliminary investigation",
+   "page": 12
+  },
+  {
+   "number": "05",
+   "title": "Phase 2 — Suspension decision and correspondence",
+   "page": 16
+  },
+  {
+   "number": "06",
+   "title": "Phase 3 — Gathering evidence and the notice to attend",
+   "page": 20
+  },
+  {
+   "number": "07",
+   "title": "Phase 4 — The disciplinary enquiry",
+   "page": 27
+  },
+  {
+   "number": "08",
+   "title": "Phase 5 — Finding, mitigation, aggravation, sanction and outcome",
+   "page": 32
+  },
+  {
+   "number": "09",
+   "title": "Phase 6 — Governance and learning",
+   "page": 36
+  },
+  {
+   "number": "10",
+   "title": "Parallel track — protection, fairness and disputes",
+   "page": 37
+  },
+  {
+   "number": "11",
+   "title": "Employee obligations and conduct",
+   "page": 40
+  },
+  {
+   "number": "12",
+   "title": "Hand-offs and interfaces register",
+   "page": 42
+  },
+  {
+   "number": "13",
+   "title": "Forms register",
+   "page": 44
+  },
+  {
+   "number": "14",
+   "title": "Timeline calendar and liability register",
+   "page": 47
+  },
+  {
+   "number": "15",
+   "title": "Corrections to existing GBS materials and drafting issues",
+   "page": 50
+  }
+ ],
+ "clarifications": []
+}

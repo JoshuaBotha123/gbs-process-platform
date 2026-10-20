@@ -1,0 +1,4297 @@
+{
+ "id": "ohsa",
+ "shortTitle": "Occupational Health & Safety",
+ "title": "OHSA — Organisational Health and Safety Compliance and Incident Process Flow",
+ "subtitle": "Occupational Health and Safety Act 85 of 1993 (as amended by Act 181 of 1993 and Act 66 of 1995) and the General Administrative Regulations, 2003 (GN R.929, GG 25129), read with the other regulations in force under s.43 · As at 19 October 2026",
+ "category": "Health & safety",
+ "version": "v1.1",
+ "revisionDate": "19 October 2026",
+ "sourceDocument": {
+  "name": "OHSA_Process_Flow_GBS_v1.1.docx",
+  "pdf": "docs/OHSA_Process_Flow_GBS_v1.1.pdf",
+  "pageCount": 56
+ },
+ "overview": {
+  "summary": "This flow tells an employer, or a user of plant or machinery, what to do, by when, and who hands off to whom, from the moment something goes wrong at work until the matter closes and the lessons feed back into the risk assessment. It covers the standing duties that must be in place before anything happens, the immediate response, classification and reporting to the Department of Employment and Labour (DEL), recording and investigation, corrective action and committee review, dealing with inspectors and formal inquiries, and governance. A parallel track covers the continuous risk-management cycle that runs whether or not an incident occurs.",
+  "notes": [
+   {
+    "heading": "Legal status",
+    "text": "The OHS Act was last amended in 1996 (by the Labour Relations Act 66 of 1995, which moved appeals in s.35 to the Labour Court). The consolidation used for this flow was checked for updates on 31 October 2025 and shows no later amendment. The Occupational Health and Safety Amendment Bill was published for comment on 14 May 2021 (comments closed 31 July 2021); it proposes a management-system approach and stronger enforcement, but a search on 19 October 2026 found no Bill introduced in Parliament and no Act passed or in force. The General Administrative Regulations, 2003 (“GAR”) commenced on 25 June 2003 and repealed most of the 1996 GAR (GAR reg 13). Two regulation sets changed on 6 September 2026: the Physical Agents Regulations, 2024 (GN 5952, GG 52226, 6 March 2025) replaced the Environmental Regulations for Workplaces, 1987, and the Noise Exposure Regulations, 2024 (GN 5953) replaced the Noise-Induced Hearing Loss Regulations, 2003, each 18 months after promulgation. A notice amending the General Safety Regulations (GN 5954) took effect on 6 March 2025; leading commentators regard its wording as unclear (see section 15). The Major Hazard Installation Regulations, 2022 (GN R.2989, GG 47970) have been in force since 31 January 2023."
+   },
+   {
+    "heading": "Labels used throughout",
+    "text": "",
+    "points": [
+     "ACT = the OHS Act 85 of 1993; binding now.",
+     "GAR = the General Administrative Regulations, 2003; binding now. Offences listed in GAR reg 12.",
+     "REG = other regulations under s.43 (for example the General Safety Regulations “GSR”, Hazardous Chemical Agents, Physical Agents, Noise Exposure, Ergonomics, Construction, Driven Machinery, Electrical Installation and MHI Regulations); binding now. References marked “verify” must be checked against the official Gazette text.",
+     "BILL = the OHS Amendment Bill, 2021; not enacted. Build readiness; do not treat as a current legal duty.",
+     "BP = best practice or internal control; not a statutory deadline. Adopt as policy so it becomes binding internally."
+    ]
+   },
+   {
+    "heading": "Design principle",
+    "text": "The GAR clocks run from the incident, not from the day the OHS Manager hears of it, and “forthwith” means without delay. The flow therefore pushes facts upward within the shift, classifies the event on the day it happens, and sets internal targets well inside the statutory limits: telephone notice of a serious event within one hour of the OHS Manager learning of it; the written WCL notice within three working days (aligned with the COIDA report); Annexure 1 Part A within 24 hours; and investigation started within 48 hours, so that it can be carried out within the seven days GAR reg 9(2) allows. Where it is unclear whether an event is reportable, the flow reports it."
+   },
+   {
+    "heading": "Nine interpretation points that shape the flow",
+    "text": "",
+    "points": [
+     "Reading a 1993 Act in 2026. The Act still refers to the Department and Minister of Manpower, the industrial court, the Labour Relations Act 1956, the Workmen’s Compensation Act 1941, the attorney-general, the Minerals Act 1991, district surgeons and the BCEA 1983. Read these as references to the Department and Minister of Employment and Labour, the CCMA and Labour Court (GAR reg 6 already routes designation disputes to the CCMA), the LRA 1995, COIDA, the Director of Public Prosecutions, the Mine Health and Safety Act 29 of 1996 and the BCEA 1997 (Interpretation Act 33 of 1957 s.12(1) for re-enacted laws; other substitutions by later legislation, verify). The LA should confirm any substitution that decides a case.",
+     "Three tiers of duty, not one. Some events must be reported to DEL (s.24(1); GAR reg 8); a wider set must be recorded in Annexure 1 (all reportable incidents plus any incident that needed medical treatment other than first aid, GAR reg 9(1)); and everything recorded must be investigated within seven days (GAR reg 9(2)). Reportable incidents fall into three groups: injury or illness at the s.24(1)(a) level; a major incident (s.24(1)(b)); and a dangerous occurrence that endangered health or safety even if nobody was hurt (s.24(1)(c)). Figure 2 turns this into five tiers.",
+     "Counting days. Periods are calendar days, excluding the first and including the last, unless the last is a Sunday or public holiday (Interpretation Act s.4). The seven days in GAR reg 8(1)(a) and reg 9(2) run from the incident itself. The 14-day threshold in s.24(1)(a) is a prediction made at the time (“likely to be unable”), so re-test it as the absence develops. COIDA’s 7-day clock (s.39(1)) runs from the employer’s knowledge, so for most accidents the OHS clock is the earlier one.",
+     "Annexure 1 is a record, not a report. GAR reg 8 prescribes the forms WCL 1 or WCL 2 (the COIDA employer’s reports, now numbered W.Cl.1 and W.Cl.2) for the seven-day notice to the provincial director, and telephone, fax “or similar means” for the forthwith notice. Annexure 1 is the record the employer keeps at the workplace for at least three years and shows an inspector on request (GAR reg 9(1)). It does not need to be sent to DEL, although DEL may ask for it.",
+     "Who reports. The employer, or the user of the plant or machinery, reports (s.24(1)). For incidents to people other than employees, the user, employer or self-employed person reports with the particulars in GAR reg 8(3). Where several employers work on one site, each reports for its own employees, and the client’s mandatary agreement (s.37(2)) should say who notifies DEL and how information is shared. The definition of “employer” in s.1 excludes a labour broker as defined in the 1956 LRA, which suggests the client is the OHS employer of placed workers; treat the client as responsible for reporting incidents to TES workers on its premises and agree co-operation with the TES (verify).",
+     "What is excluded. Section 24(1)–(2) does not apply to a traffic accident on a public road, an incident in a private household (the householder reports to SAPS, which tells an inspector, s.24(3)(b), (4)) or an accident investigated under aviation law (s.24(3)). The Act does not apply on mines, which fall under the MHSA (s.1(3)(a)); the exclusion of ships in s.1(3)(b) has never been brought into force. Excluded events still trigger the s.8 duties, COIDA and internal recording.",
+     "“Reasonably practicable” and the hierarchy of controls. The general duty is to provide a safe working environment as far as is reasonably practicable (s.8(1)), judged by the severity of the risk, the state of knowledge, the availability of controls and their cost against the benefit (s.1 definition). Hazards must be eliminated or mitigated before resorting to personal protective equipment (s.8(2)(b)), and nothing the Act requires the employer to provide may be charged to employees (s.23).",
+     "No express right to refuse dangerous work. Unlike the MHSA, the OHS Act does not give employees an express right to leave or refuse dangerous work. It requires them to report unsafe situations (s.14(d)) and forbids victimisation for doing anything the Act allows or for refusing to do anything it prohibits (s.26(1)). A dismissal for a good-faith refusal to do work reasonably believed to be dangerous is likely to be found unfair (LRA s.188; CL, verify), and automatically unfair where the safety report was a protected disclosure (LRA s.187(1)(h); GBS PDA flow). Adopt a stop-work authority as policy (BP); the Bill proposes to strengthen this area (BILL, verify).",
+     "Presumed liability and the record. If an employee does or omits something that would be an offence for the employer, the employer is presumed to have done it unless it proves the employee acted without its connivance or permission, outside the scope of authority, and that it took all reasonable steps to prevent it; instructions alone are not enough (s.37(1)). Entries in the employer’s own records are admissible against it as admissions (s.39(3)), and an untrue entry is presumed to be a wilful falsification (s.39(4)). Records should state facts plainly, and the controls the flow builds in are the evidence of “reasonable steps”."
+    ]
+   },
+   {
+    "heading": "Roles used",
+    "text": "Chief Executive Officer (CEO, s.16(1)); Board or Social and Ethics / Risk Committee (BOARD); OHS Manager (OHSM, the s.16(2) assignee and process owner; the spine of this flow); Supervisor or Line Manager (SUP, the s.8(2)(i) supervisor); Health and Safety Representative (HSR, s.17); Health and Safety Committee (HSC, s.19); Incident Investigator (INV, GAR reg 9(2)); First Aider (FA); Occupational Health Practitioner (OHP); HR Manager (HR); COIDA Administrator (CA); Legal Adviser (LA); Procurement or Contract Manager (PROC); Employees (EMP); Contractors and mandataries (CON). External: DEL provincial director and inspectors (INSP); chief inspector (CI); Compensation Fund or licensee (CF); SAPS; Director of Public Prosecutions (DPP); approved inspection authority (AIA); Labour Court (LC); CCMA."
+   }
+  ],
+  "source": {
+   "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+   "section": "§01 Purpose, status and reading notes",
+   "page": 2
+  }
+ },
+ "roles": [
+  {
+   "code": "CEO",
+   "name": "Chief Executive Officer"
+  },
+  {
+   "code": "BOARD",
+   "name": "Board or Social and Ethics / Risk Committee"
+  },
+  {
+   "code": "OHSM",
+   "name": "OHS Manager"
+  },
+  {
+   "code": "SUP",
+   "name": "Supervisor or Line Manager"
+  },
+  {
+   "code": "HSR",
+   "name": "Health and Safety Representative"
+  },
+  {
+   "code": "HSC",
+   "name": "Health and Safety Committee"
+  },
+  {
+   "code": "INV",
+   "name": "Incident Investigator"
+  },
+  {
+   "code": "FA",
+   "name": "First Aider"
+  },
+  {
+   "code": "OHP",
+   "name": "Occupational Health Practitioner"
+  },
+  {
+   "code": "HR",
+   "name": "HR Manager"
+  },
+  {
+   "code": "CA",
+   "name": "COIDA Administrator"
+  },
+  {
+   "code": "LA",
+   "name": "Legal Adviser"
+  },
+  {
+   "code": "PROC",
+   "name": "Procurement or Contract Manager"
+  },
+  {
+   "code": "EMP",
+   "name": "Employees"
+  },
+  {
+   "code": "CON",
+   "name": "Contractors and mandataries"
+  },
+  {
+   "code": "INSP",
+   "name": "External: DEL provincial director and inspectors"
+  },
+  {
+   "code": "CF",
+   "name": "Compensation Fund or licensee"
+  },
+  {
+   "code": "DPP",
+   "name": "Director of Public Prosecutions"
+  },
+  {
+   "code": "LC",
+   "name": "Labour Court"
+  }
+ ],
+ "stages": [
+  {
+   "id": "s1",
+   "group": "Phase 0 — Readiness (standing obligations)",
+   "title": "Phase 0 — Readiness (standing obligations)",
+   "kind": "phase",
+   "intro": [
+    "Phase 0 has no case trigger. It must be complete before the first incident, because the employer’s defence under s.37(1) (reasonable steps), its ability to report on time and the HSRs’ ability to take part all depend on facts fixed in advance. Most Phase 0 duties are criminal offences if ignored (s.38(1)(a); GAR reg 12)."
+   ],
+   "notes": [
+    {
+     "heading": "Employee side of Phase 0",
+     "text": "Employees owe their general duties from the first day (s.14), but an employee who has not been told the hazards, the rules and the scope of their authority cannot fairly be held to them, and the employer loses its s.37(1) defence."
+    },
+    {
+     "heading": "Watch",
+     "text": "An HSR designated without the GAR reg 6 agreement, or a committee that has not met for more than three months, is both an offence (GAR reg 12(a); s.38(1)(a)) and the first thing an inspector checks after a serious incident."
+    }
+   ],
+   "steps": [
+    {
+     "id": "0.1",
+     "label": "0.1",
+     "title": "CEO accountability and s.16(2) assignments",
+     "trigger": "",
+     "action": "The CEO must, as far as reasonably practicable, ensure the employer’s duties are properly discharged (s.16(1)); the duty cannot be delegated away. Assign specific duties in writing to named managers (s.16(2)), with authority, resources and a reporting line back to the CEO. Re-assign immediately when a holder leaves (see GBS Off-Boarding flow). For a State department the head of department is the CEO (s.16(4)).",
+     "points": [
+      "The CEO must, as far as reasonably practicable, ensure the employer’s duties are properly discharged (s.16(1)); the duty cannot be delegated away.",
+      "Assign specific duties in writing to named managers (s.16(2)), with authority, resources and a reporting line back to the CEO.",
+      "Re-assign immediately when a holder leaves (see GBS Off-Boarding flow).",
+      "For a State department the head of department is the CEO (s.16(4))."
+     ],
+     "owner": "CEO",
+     "deadline": "Now; on every change",
+     "form": "H02 assignment letters",
+     "authority": "ACT s.16(1)–(4)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 12
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.2",
+     "label": "0.2",
+     "title": "Health and safety policy",
+     "trigger": "",
+     "action": "A written policy describing the organisation and arrangements, signed by the CEO and prominently displayed where employees report for duty. The Act requires it only where the chief inspector directs (s.7(1)), but it is the anchor of every other control and inspectors expect it (BP).",
+     "points": [
+      "A written policy describing the organisation and arrangements, signed by the CEO and prominently displayed where employees report for duty.",
+      "The Act requires it only where the chief inspector directs (s.7(1)), but it is the anchor of every other control and inspectors expect it (BP)."
+     ],
+     "owner": "CEO, OHSM",
+     "deadline": "Now; review annually",
+     "form": "H01 policy",
+     "authority": "ACT s.7; BP; BILL",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 12
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.3",
+     "label": "0.3",
+     "title": "Copy of the Act and regulations",
+     "trigger": "",
+     "action": "With five or more employees, keep the Act and relevant regulations readily available at the workplace; with fewer, provide a copy on an employee’s request.",
+     "points": [
+      "With five or more employees, keep the Act and relevant regulations readily available at the workplace; with fewer, provide a copy on an employee’s request."
+     ],
+     "owner": "OHSM",
+     "deadline": "Now; update on change",
+     "form": "H04 index",
+     "authority": "GAR 4",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 12
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.4",
+     "label": "0.4",
+     "title": "Hazard identification and risk assessment (HIRA)",
+     "trigger": "",
+     "action": "Establish what hazards attach to the work, substances, plant and machinery, and what precautions are needed; provide the means to apply them (s.8(2)(d)). Evaluate risk under GSR reg 2 (as amended, verify) and the topic regulations that apply: Hazardous Chemical Agents, Physical Agents, Noise Exposure (risk assessment by a competent person at least every two years), Ergonomics, Hazardous Biological Agents, Asbestos Abatement, Lead, Construction. Include psychosocial hazards, violence and harassment (EEA Code of Good Practice on Harassment, 2022, verify).",
+     "points": [
+      "Establish what hazards attach to the work, substances, plant and machinery, and what precautions are needed; provide the means to apply them (s.8(2)(d)).",
+      "Evaluate risk under GSR reg 2 (as amended, verify) and the topic regulations that apply: Hazardous Chemical Agents, Physical Agents, Noise Exposure (risk assessment by a competent person at least every two years), Ergonomics, Hazardous Biological Agents, Asbestos Abatement, Lead, Construction.",
+      "Include psychosocial hazards, violence and harassment (EEA Code of Good Practice on Harassment, 2022, verify)."
+     ],
+     "owner": "OHSM, SUP",
+     "deadline": "Now; review on change, after incidents and at least annually (BP)",
+     "form": "H05 HIRA register",
+     "authority": "ACT s.8(2)(b), (d); REG (verify)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 13
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.5",
+     "label": "0.5",
+     "title": "Statutory and competent-person appointments",
+     "trigger": "",
+     "action": "Keep a register of appointees required by the regulations that apply (for example machinery supervisors, construction appointees, first aiders, fire and emergency teams, stacking and storage, incident investigators, lifting-machine and pressure-equipment inspections). Record competence, written appointment and acceptance.",
+     "points": [
+      "Keep a register of appointees required by the regulations that apply (for example machinery supervisors, construction appointees, first aiders, fire and emergency teams, stacking and storage, incident investigators, lifting-machine and pressure-equipment inspections).",
+      "Record competence, written appointment and acceptance."
+     ],
+     "owner": "OHSM",
+     "deadline": "Now; on change",
+     "form": "H03 register",
+     "authority": "ACT s.8(2)(i), s.16(2); REG (verify per set)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 13
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.6",
+     "label": "0.6",
+     "title": "Agree the HSR arrangements",
+     "trigger": "",
+     "action": "Where more than 20 employees work at a workplace, meet registered unions (or, if none, employee representatives) to consult or bargain in good faith and conclude a written agreement on: nomination or election; term of office and removal; vacancies; how HSRs perform their functions; facilities, training and assistance. The agreement may cover several employers. If no agreement, a dispute exists: conciliation and then arbitration at the CCMA (or council).",
+     "points": [
+      "Where more than 20 employees work at a workplace, meet registered unions (or, if none, employee representatives) to consult or bargain in good faith and conclude a written agreement on:",
+      "nomination or election",
+      "term of office and removal",
+      "vacancies",
+      "how HSRs perform their functions",
+      "facilities, training and assistance. The agreement may cover several employers. If no agreement, a dispute exists: conciliation and then arbitration at the CCMA (or council)."
+     ],
+     "owner": "HR, OHSM",
+     "deadline": "Within 4 months of commencing business (GAR 6(1)); BP: within 4 months of first exceeding 20 employees",
+     "form": "H06 agreement",
+     "authority": "GAR 6; ACT s.17(1)–(2)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 13
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.7",
+     "label": "0.7",
+     "title": "Designate HSRs",
+     "trigger": "",
+     "action": "Designate in writing, for a specified period and in line with the agreement, full-time employees acquainted with the workplace: at least one per 100 employees (or part) in shops and offices, one per 50 (or part) elsewhere. Employees working away from their reporting point count at that point. An inspector may direct more (s.17(6)).",
+     "points": [
+      "Designate in writing, for a specified period and in line with the agreement, full-time employees acquainted with the workplace: at least one per 100 employees (or part) in shops and offices, one per 50 (or part) elsewhere.",
+      "Employees working away from their reporting point count at that point.",
+      "An inspector may direct more (s.17(6))."
+     ],
+     "owner": "HR, OHSM",
+     "deadline": "Within 4 months; on vacancy per agreement",
+     "form": "H06 designation letters",
+     "authority": "ACT s.17(1), (4)–(6); GAR 7",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 13
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.8",
+     "label": "0.8",
+     "title": "HSR facilities, time and training",
+     "trigger": "",
+     "action": "Provide agreed facilities, assistance and training (s.18(3)); all HSR activity happens in working hours and counts as work time (s.17(7)); agree the interval for HSR workplace inspections (s.18(1)(g)).",
+     "points": [
+      "Provide agreed facilities, assistance and training (s.18(3)); all HSR activity happens in working hours and counts as work time (s.17(7)); agree the interval for HSR workplace inspections (s.18(1)(g))."
+     ],
+     "owner": "HR, OHSM",
+     "deadline": "On designation; refresh annually",
+     "form": "H08 agreement",
+     "authority": "ACT s.17(7), s.18(1)(g), (3)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.9",
+     "label": "0.9",
+     "title": "Establish the H&S committee",
+     "trigger": "",
+     "action": "Where two or more HSRs are designated, establish one or more committees; every HSR sits on at least one; employer nominees designated in writing and not more than the number of HSRs; committee may co-opt non-voting advisers. Provide a meeting place; meet at least every three months; consult the committee at every meeting.",
+     "points": [
+      "Where two or more HSRs are designated, establish one or more committees; every HSR sits on at least one; employer nominees designated in writing and not more than the number of HSRs; committee may co-opt non-voting advisers.",
+      "Provide a meeting place; meet at least every three months; consult the committee at every meeting."
+     ],
+     "owner": "CEO, OHSM",
+     "deadline": "On second HSR; meetings ≥ 3-monthly",
+     "form": "H07 constitution and minutes",
+     "authority": "ACT s.19(1)–(6); GAR 5(a)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.10",
+     "label": "0.10",
+     "title": "Contractors and mandataries",
+     "trigger": "",
+     "action": "Pre-qualify contractors on OHS competence, COIDA registration and Letter of Good Standing. Conclude a written agreement on the arrangements and procedures to ensure the mandatary complies with the Act; without one, the client is presumed liable for the mandatary’s offences (s.37(2)). For construction work apply the Construction Regulations, 2014 (client specification, contractor plan, permit or notification, verify).",
+     "points": [
+      "Pre-qualify contractors on OHS competence, COIDA registration and Letter of Good Standing.",
+      "Conclude a written agreement on the arrangements and procedures to ensure the mandatary complies with the Act; without one, the client is presumed liable for the mandatary’s offences (s.37(2)).",
+      "For construction work apply the Construction Regulations, 2014 (client specification, contractor plan, permit or notification, verify)."
+     ],
+     "owner": "PROC, OHSM, LA",
+     "deadline": "Before site access; at renewal",
+     "form": "H09 agreement; COIDA F28",
+     "authority": "ACT s.37(2); s.9; REG (Construction, verify)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.11",
+     "label": "0.11",
+     "title": "Information, induction, training and supervision",
+     "trigger": "",
+     "action": "Make every employee conversant with the hazards and precautions of their work, substances and machinery (s.13(a)); provide information, instruction, training and supervision (s.8(2)(e)); tell employees the scope of their authority (s.8(2)(j)) — this is what the s.37(1)(b) defence rests on. Brief everyone on how to report incidents and hazards, and the end-of-shift rule.",
+     "points": [
+      "Make every employee conversant with the hazards and precautions of their work, substances and machinery (s.13(a)); provide information, instruction, training and supervision (s.8(2)(e)); tell employees the scope of their authority (s.8(2)(j)) — this is what the s.37(1)(b) defence rests on.",
+      "Brief everyone on how to report incidents and hazards, and the end-of-shift rule."
+     ],
+     "owner": "OHSM, SUP, HR",
+     "deadline": "Induction; before new tasks; refresh annually",
+     "form": "H10 records",
+     "authority": "ACT s.8(2)(e), (j), s.13(a), s.14(e)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.12",
+     "label": "0.12",
+     "title": "PPE without cost to employees",
+     "trigger": "",
+     "action": "Issue suitable PPE where risks cannot be removed by other controls; maintain and replace it; do not let anyone work without required PPE. No deduction or payment may be required for anything the Act requires the employer to provide.",
+     "points": [
+      "Issue suitable PPE where risks cannot be removed by other controls; maintain and replace it; do not let anyone work without required PPE.",
+      "No deduction or payment may be required for anything the Act requires the employer to provide."
+     ],
+     "owner": "OHSM, SUP",
+     "deadline": "Before exposure",
+     "form": "H11 issue register",
+     "authority": "ACT s.8(2)(b), s.23; GSR 2 (verify)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.13",
+     "label": "0.13",
+     "title": "Emergency preparedness and first aid",
+     "trigger": "",
+     "action": "First-aid boxes (where more than 5 employees) and trained first aiders (where more than 10 employees: at least one for every 50 employees or part, or every 100 in shops and offices, GSR 3(4)); emergency and evacuation plan; fire precautions and means of egress (GSR 13J as inserted in 2025, verify; municipal by-laws); drills; transport to medical care. MHI sites: on-site emergency plan agreed with local government (MHI Regs reg 15).",
+     "points": [
+      "First-aid boxes (where more than 5 employees) and trained first aiders (where more than 10 employees:",
+      "at least one for every 50 employees or part, or every 100 in shops and offices, GSR 3(4))",
+      "emergency and evacuation plan",
+      "fire precautions and means of egress (GSR 13J as inserted in 2025, verify",
+      "municipal by-laws)",
+      "drills",
+      "transport to medical care. MHI sites: on-site emergency plan agreed with local government (MHI Regs reg 15)."
+     ],
+     "owner": "OHSM, FA",
+     "deadline": "Now; drills at least annually (BP)",
+     "form": "H12 plan and register",
+     "authority": "GSR 3; REG MHI reg 15; COIDA s.72",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 15
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.14",
+     "label": "0.14",
+     "title": "Hygiene, medical surveillance and listed work",
+     "trigger": "",
+     "action": "Where substance or agent regulations apply, run exposure monitoring (through an approved inspection authority where required) and medical surveillance by an occupational health practitioner, with baseline, periodic and exit examinations. Keep individual results confidential; disclose to others only with written consent (s.12(2)). The s.12 listed-work duties apply only to work declared listed under s.11 (verify whether any declaration is current).",
+     "points": [
+      "Where substance or agent regulations apply, run exposure monitoring (through an approved inspection authority where required) and medical surveillance by an occupational health practitioner, with baseline, periodic and exit examinations.",
+      "Keep individual results confidential; disclose to others only with written consent (s.12(2)).",
+      "The s.12 listed-work duties apply only to work declared listed under s.11 (verify whether any declaration is current)."
+     ],
+     "owner": "OHP, OHSM",
+     "deadline": "Before exposure; per regulation cycle",
+     "form": "H13 programme",
+     "authority": "ACT s.12; REG HCA, Noise, Physical Agents, Asbestos, Lead (verify)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 15
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.15",
+     "label": "0.15",
+     "title": "Incident procedure and DEL contacts",
+     "trigger": "",
+     "action": "Adopt the Phase 1–4 procedure; publish a contact card with the current DEL provincial office numbers and e-mail for each site (GAR reg 1 still lists 2003 postal addresses; Johannesburg falls under Gauteng South). Pre-load WCL 1 and WCL 2 and register for COIDA online reporting.",
+     "points": [
+      "Adopt the Phase 1–4 procedure; publish a contact card with the current DEL provincial office numbers and e-mail for each site (GAR reg 1 still lists 2003 postal addresses; Johannesburg falls under Gauteng South).",
+      "Pre-load WCL 1 and WCL 2 and register for COIDA online reporting."
+     ],
+     "owner": "OHSM, CA",
+     "deadline": "Now; check contacts quarterly",
+     "form": "H14 procedure and card",
+     "authority": "GAR 1, 8; COIDA s.39",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 15
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.16",
+     "label": "0.16",
+     "title": "Plant and machinery inspections and records",
+     "trigger": "",
+     "action": "Schedule statutory inspections and tests (lifting machines, pressure equipment, lifts and escalators, electrical installations and certificates of compliance) and keep the certificates. Keep a records and retention schedule: Annexure 1 and committee records at least 3 years; exposure and medical records for the much longer periods set in the substance regulations (Noise Exposure Regulations reg 14: noise risk assessment, monitoring and medical surveillance records 40 years; other sets, verify each); POPIA controls for health information.",
+     "points": [
+      "Schedule statutory inspections and tests (lifting machines, pressure equipment, lifts and escalators, electrical installations and certificates of compliance) and keep the certificates. Keep a records and retention schedule:",
+      "Annexure 1 and committee records at least 3 years",
+      "exposure and medical records for the much longer periods set in the substance regulations (Noise Exposure Regulations reg 14: noise risk assessment, monitoring and medical surveillance records 40 years",
+      "other sets, verify each)",
+      "POPIA controls for health information."
+     ],
+     "owner": "OHSM",
+     "deadline": "Per regulation; continuous",
+     "form": "H15 schedule; H16 retention",
+     "authority": "GAR 5(b), 9(1); REG (Driven Machinery, Pressure Equipment, Electrical Installation, verify); Noise Exposure Regs reg 14; POPIA s.14, 26",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 15
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+    "section": "§03 Phase 0 — Readiness (standing obligations)",
+    "page": 12,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s2",
+   "group": "Phase 1 — Incident, hazard report and immediate response",
+   "title": "Phase 1 — Incident, hazard report and immediate response",
+   "kind": "phase",
+   "intro": [
+    "Day 0 is the day of the incident, whenever the OHS Manager learns of it. Phase 1 makes the situation safe, gets help to the injured, protects the evidence and moves the facts up the line within the shift."
+   ],
+   "notes": [
+    {
+     "heading": "Employee obligations at this stage",
+     "text": "Report the incident by the end of the shift (s.14(e)); report unsafe situations (s.14(d)); follow emergency instructions (s.14(c)); do not interfere with the scene or with safety equipment (s.15; s.24(2))."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "EMP → SUP or HSR (end of shift). SUP → OHSM (same shift). OHSM → HSR (same shift). OHSM → CA (same day). OHSM → SAPS and CEO (fatality)."
+    },
+    {
+     "heading": "Watch",
+     "text": "Cleaning up, repairing or restarting the machine before an inspector consents is the most common way an employer turns an incident into a separate offence. The only exceptions are preventing a further incident, removing the injured or dead, and rescue."
+    }
+   ],
+   "steps": [
+    {
+     "id": "1.1",
+     "label": "1.1",
+     "title": "Make safe",
+     "trigger": "Any incident, dangerous occurrence or imminent danger.",
+     "action": "Stop the task; isolate energy and substances; secure the area; prevent a second incident. Do not let anyone resume the task until it is safe.",
+     "points": [
+      "Stop the task; isolate energy and substances; secure the area; prevent a second incident.",
+      "Do not let anyone resume the task until it is safe."
+     ],
+     "owner": "SUP",
+     "deadline": "Immediately",
+     "form": "H17",
+     "authority": "ACT s.8(1), (2)(h); s.14(a)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Incident, hazard report and immediate response",
+      "subsection": null,
+      "page": 17
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.2",
+     "label": "1.2",
+     "title": "First aid and medical care",
+     "trigger": "Anyone injured or ill.",
+     "action": "First aid; call emergency services; arrange transport to medical care. Do not insist the person finishes the shift. Record the time and treatment given.",
+     "points": [
+      "First aid; call emergency services; arrange transport to medical care.",
+      "Do not insist the person finishes the shift.",
+      "Record the time and treatment given."
+     ],
+     "owner": "FA, SUP",
+     "deadline": "Immediately",
+     "form": "H12 first-aid register",
+     "authority": "GSR 3 (verify); COIDA s.72",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Incident, hazard report and immediate response",
+      "subsection": null,
+      "page": 17
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.3",
+     "label": "1.3",
+     "title": "Emergency response",
+     "trigger": "Fire, release, structural failure or MHI emergency.",
+     "action": "Activate the emergency plan; evacuate; account for everyone; alert emergency services and, for an MHI, local government as the plan requires.",
+     "points": [
+      "Activate the emergency plan; evacuate; account for everyone; alert emergency services and, for an MHI, local government as the plan requires."
+     ],
+     "owner": "OHSM",
+     "deadline": "Immediately",
+     "form": "H12",
+     "authority": "REG MHI regs 15–16; BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Incident, hazard report and immediate response",
+      "subsection": null,
+      "page": 17
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.4",
+     "label": "1.4",
+     "title": "Preserve the scene",
+     "trigger": "Death, injury likely to cause death, or loss of a limb or part of a limb.",
+     "action": "No one may disturb the site or remove any article or substance involved without an inspector’s consent, except to prevent a further incident, remove the injured or dead, or rescue people. Cordon off; photograph before any permitted disturbance; log who gave consent and when.",
+     "points": [
+      "No one may disturb the site or remove any article or substance involved without an inspector’s consent, except to prevent a further incident, remove the injured or dead, or rescue people.",
+      "Cordon off; photograph before any permitted disturbance; log who gave consent and when."
+     ],
+     "owner": "SUP, OHSM",
+     "deadline": "Immediately until inspector consents",
+     "form": "H18",
+     "authority": "ACT s.24(2); s.38(1)(a)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Incident, hazard report and immediate response",
+      "subsection": null,
+      "page": 17
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.5",
+     "label": "1.5",
+     "title": "Employee reports",
+     "trigger": "Employee involved in an incident affecting their health or causing injury.",
+     "action": "Employee reports to the supervisor, a person authorised by the employer, or the HSR as soon as practicable and no later than the end of the shift, unless circumstances made that impossible.",
+     "points": [
+      "Employee reports to the supervisor, a person authorised by the employer, or the HSR as soon as practicable and no later than the end of the shift, unless circumstances made that impossible."
+     ],
+     "owner": "EMP",
+     "deadline": "End of shift",
+     "form": "H17",
+     "authority": "ACT s.14(e)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Incident, hazard report and immediate response",
+      "subsection": null,
+      "page": 17
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.6",
+     "label": "1.6",
+     "title": "Report up the line",
+     "trigger": "Supervisor learns of any event.",
+     "action": "Pass the facts to the OHS Manager the same shift, including the exact date and time of the incident (the GAR clocks run from it). For a possible Tier 1 or Tier 3 event, phone immediately.",
+     "points": [
+      "Pass the facts to the OHS Manager the same shift, including the exact date and time of the incident (the GAR clocks run from it).",
+      "For a possible Tier 1 or Tier 3 event, phone immediately."
+     ],
+     "owner": "SUP",
+     "deadline": "Same shift; Tier 1/3 within 1 hour (BP)",
+     "form": "H17",
+     "authority": "GAR 8(1); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Incident, hazard report and immediate response",
+      "subsection": null,
+      "page": 18
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.7",
+     "label": "1.7",
+     "title": "Log and open the file",
+     "trigger": "Report reaches the OHSM.",
+     "action": "Open the incident file and register entry; record the time of occurrence and of first knowledge; identify the employer of each person involved (own employee, TES worker, contractor, visitor); start the classification record.",
+     "points": [
+      "Open the incident file and register entry; record the time of occurrence and of first knowledge; identify the employer of each person involved (own employee, TES worker, contractor, visitor); start the classification record."
+     ],
+     "owner": "OHSM",
+     "deadline": "Day 0",
+     "form": "H17, H19",
+     "authority": "GAR 9(1); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Incident, hazard report and immediate response",
+      "subsection": null,
+      "page": 18
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.8",
+     "label": "1.8",
+     "title": "Inform the HSR",
+     "trigger": "Incident in an HSR’s area.",
+     "action": "Tell the HSR for that workplace or section as soon as reasonably practicable; the HSR may visit the site and attend any inspection in loco.",
+     "points": [
+      "Tell the HSR for that workplace or section as soon as reasonably practicable; the HSR may visit the site and attend any inspection in loco."
+     ],
+     "owner": "OHSM",
+     "deadline": "Same shift (BP)",
+     "form": "H17",
+     "authority": "ACT s.13(c), s.18(2)(a)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Incident, hazard report and immediate response",
+      "subsection": null,
+      "page": 18
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.9",
+     "label": "1.9",
+     "title": "Fatality protocol",
+     "trigger": "A person dies.",
+     "action": "Notify SAPS; inform the CEO; HR informs next of kin in person; arrange trauma support for witnesses; expect an inquest (s.33). Continue with Phase 2 the same hour.",
+     "points": [
+      "Notify SAPS; inform the CEO; HR informs next of kin in person; arrange trauma support for witnesses; expect an inquest (s.33).",
+      "Continue with Phase 2 the same hour."
+     ],
+     "owner": "OHSM, HR",
+     "deadline": "Immediately",
+     "form": "H20",
+     "authority": "ACT s.24, s.33; Inquests Act 58 of 1959 (verify)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Incident, hazard report and immediate response",
+      "subsection": null,
+      "page": 18
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.10",
+     "label": "1.10",
+     "title": "Non-employee harmed",
+     "trigger": "Visitor, member of the public or another employer’s worker injured by the organisation’s activities.",
+     "action": "Same response; collect the GAR reg 8(3) particulars (name and address of the injured person, what, where, when, how and why it happened, witnesses).",
+     "points": [
+      "Same response; collect the GAR reg 8(3) particulars (name and address of the injured person, what, where, when, how and why it happened, witnesses)."
+     ],
+     "owner": "OHSM",
+     "deadline": "Day 0",
+     "form": "H22",
+     "authority": "ACT s.9; GAR 8(3)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Incident, hazard report and immediate response",
+      "subsection": null,
+      "page": 18
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.11",
+     "label": "1.11",
+     "title": "Hazard and near-miss reports",
+     "trigger": "Employee notices an unsafe or unhealthy situation, or a near miss.",
+     "action": "Employee reports as soon as practicable to the employer or HSR; the HSR passes it to the employer. Log, assess, make safe and reply to the reporter. Treat a high-potential near miss as a Tier 4 event for investigation (BP).",
+     "points": [
+      "Employee reports as soon as practicable to the employer or HSR; the HSR passes it to the employer.",
+      "Log, assess, make safe and reply to the reporter.",
+      "Treat a high-potential near miss as a Tier 4 event for investigation (BP)."
+     ],
+     "owner": "EMP, HSR, SUP",
+     "deadline": "As soon as practicable",
+     "form": "H33",
+     "authority": "ACT s.14(d), s.18(1)(d)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Incident, hazard report and immediate response",
+      "subsection": null,
+      "page": 18
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.12",
+     "label": "1.12",
+     "title": "COIDA hand-off",
+     "trigger": "An employee is injured or ill.",
+     "action": "Notify the COIDA Administrator the same day so the COIDA clocks (W.Cl.2 within 7 days of knowledge) run in parallel; share one fact base.",
+     "points": [
+      "Notify the COIDA Administrator the same day so the COIDA clocks (W.Cl.2 within 7 days of knowledge) run in parallel; share one fact base."
+     ],
+     "owner": "OHSM, CA",
+     "deadline": "Same day",
+     "form": "COIDA F01",
+     "authority": "COIDA s.38–39; GBS COIDA flow 1.3",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Incident, hazard report and immediate response",
+      "subsection": null,
+      "page": 18
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+    "section": "§04 Phase 1 — Incident, hazard report and immediate response",
+    "page": 17,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s3",
+   "group": "Phase 2 — Classify and report",
+   "title": "Phase 2 — Classify and report",
+   "kind": "phase",
+   "intro": [
+    "By the end of day 0 the event must have a tier (Figure 2). The tier decides who is told and by when. Telephone notice is a legal duty, not a courtesy, and the written WCL notice is due within seven days of the incident, however late the OHS Manager learned of it."
+   ],
+   "notes": [
+    {
+     "heading": "Employee obligations at this stage",
+     "text": "Provide an accurate account; co-operate so the employer can report (s.14(b)); give the medical certificates needed for the 14-day test."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "OHSM → DEL provincial office (forthwith notice, WCL). CA → Compensation Fund or licensee (W.Cl.2 or W.Cl.1). OHP → OHSM (WCL 22). OHSM → CEO and LA."
+    },
+    {
+     "heading": "Watch",
+     "text": "Failing to report under s.24(1) is an offence carrying a fine of up to R50 000 or a year’s imprisonment (s.38(1)(a)), and late or missing reports are usually noticed when the COIDA claim reaches the Fund. Reporting is not an admission of fault."
+    }
+   ],
+   "steps": [
+    {
+     "id": "2.1",
+     "label": "2.1",
+     "title": "Classify",
+     "trigger": "File opened.",
+     "action": "Apply Figure 2: exclusions; Tier 1 (s.24(1)(a) serious); Tier 2 (14 days); Tier 3 (s.24(1)(b)–(c)); Tier 4 (treatment beyond first aid); Tier 5. Record the reasons. If in doubt, report. LA consulted on doubtful Tier 1 or Tier 3 events.",
+     "points": [
+      "Apply Figure 2:",
+      "exclusions",
+      "Tier 1 (s.24(1)(a) serious)",
+      "Tier 2 (14 days)",
+      "Tier 3 (s.24(1)(b)–(c))",
+      "Tier 4 (treatment beyond first aid)",
+      "Tier 5. Record the reasons. If in doubt, report. LA consulted on doubtful Tier 1 or Tier 3 events."
+     ],
+     "owner": "OHSM; LA if doubtful",
+     "deadline": "Day 0",
+     "form": "H19",
+     "authority": "ACT s.24(1), (3); GAR 8, 9(1)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Classify and report",
+      "subsection": null,
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.2",
+     "label": "2.2",
+     "title": "Forthwith notice",
+     "trigger": "Tier 1 or Tier 3.",
+     "action": "Telephone the provincial director (DEL provincial office for the area where the incident happened) and confirm by e-mail the same day: who, what, where, when, how, injuries, actions taken, contact person. Record the name of the official, time and any reference. Ask whether an inspector will attend and whether the scene may be released.",
+     "points": [
+      "Telephone the provincial director (DEL provincial office for the area where the incident happened) and confirm by e-mail the same day: who, what, where, when, how, injuries, actions taken, contact person.",
+      "Record the name of the official, time and any reference.",
+      "Ask whether an inspector will attend and whether the scene may be released."
+     ],
+     "owner": "OHSM",
+     "deadline": "Forthwith; BP within 1 hour of knowledge",
+     "form": "H20",
+     "authority": "GAR 8(1)(b); ACT s.24(1)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Classify and report",
+      "subsection": null,
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.3",
+     "label": "2.3",
+     "title": "Written WCL notice",
+     "trigger": "Tier 1 or Tier 2 (s.24(1)(a)).",
+     "action": "Complete WCL 2 (accident) or WCL 1 (disease) and give it to the provincial director, keeping proof of delivery. Use the same facts as the COIDA submission so the two never conflict; send DEL its own copy even where the COIDA report is lodged online (BP).",
+     "points": [
+      "Complete WCL 2 (accident) or WCL 1 (disease) and give it to the provincial director, keeping proof of delivery.",
+      "Use the same facts as the COIDA submission so the two never conflict; send DEL its own copy even where the COIDA report is lodged online (BP)."
+     ],
+     "owner": "OHSM, CA",
+     "deadline": "Within 7 days of the incident; BP 3 working days",
+     "form": "H21; COIDA F06",
+     "authority": "GAR 8(1)(a); COIDA s.39(1)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Classify and report",
+      "subsection": null,
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.4",
+     "label": "2.4",
+     "title": "Written follow-up for Tier 3",
+     "trigger": "Major incident or dangerous occurrence.",
+     "action": "No written form is prescribed. Send a letter or e-mail confirming the forthwith notice, with the GAR reg 8(3)-type particulars and immediate controls.",
+     "points": [
+      "No written form is prescribed.",
+      "Send a letter or e-mail confirming the forthwith notice, with the GAR reg 8(3)-type particulars and immediate controls."
+     ],
+     "owner": "OHSM",
+     "deadline": "BP within 7 days",
+     "form": "H20",
+     "authority": "GAR 8(1)(b); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Classify and report",
+      "subsection": null,
+      "page": 20
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.5",
+     "label": "2.5",
+     "title": "Fourteen-day watch",
+     "trigger": "Tier 4 injury where absence is extending.",
+     "action": "Track medical certificates. As soon as it appears likely that the person will be unable to work or continue the usual activity for 14 days, re-classify as Tier 2 and submit WCL 2. If day 7 has already passed, submit at once with a short explanation.",
+     "points": [
+      "Track medical certificates.",
+      "As soon as it appears likely that the person will be unable to work or continue the usual activity for 14 days, re-classify as Tier 2 and submit WCL 2.",
+      "If day 7 has already passed, submit at once with a short explanation."
+     ],
+     "owner": "OHSM, CA",
+     "deadline": "Daily review to day 14",
+     "form": "H19, H21",
+     "authority": "ACT s.24(1)(a); GAR 8(1)(a)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Classify and report",
+      "subsection": null,
+      "page": 21
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.6",
+     "label": "2.6",
+     "title": "Later death",
+     "trigger": "Injured person dies after notice was given.",
+     "action": "Notify the provincial director of the death forthwith; restart the fatality protocol (1.9).",
+     "points": [
+      "Notify the provincial director of the death forthwith; restart the fatality protocol (1.9)."
+     ],
+     "owner": "OHSM",
+     "deadline": "Forthwith",
+     "form": "H20",
+     "authority": "GAR 8(2)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Classify and report",
+      "subsection": null,
+      "page": 21
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.7",
+     "label": "2.7",
+     "title": "Non-employee notice",
+     "trigger": "Incident to a person other than an employee.",
+     "action": "Notify the provincial director forthwith by fax or similar means, giving all GAR reg 8(3) particulars (injured person, employer or user and contact person, what, where, when, how and why, witnesses).",
+     "points": [
+      "Notify the provincial director forthwith by fax or similar means, giving all GAR reg 8(3) particulars (injured person, employer or user and contact person, what, where, when, how and why, witnesses)."
+     ],
+     "owner": "OHSM",
+     "deadline": "Forthwith",
+     "form": "H22",
+     "authority": "GAR 8(3)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Classify and report",
+      "subsection": null,
+      "page": 21
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.8",
+     "label": "2.8",
+     "title": "Occupational disease",
+     "trigger": "Medical practitioner diagnoses a disease that may have arisen from the work.",
+     "action": "The practitioner must report to the employer and the chief inspector on WCL 22 within 14 days and inform the employee (s.25; GAR 8(4)); anyone else may give written notice (GAR 8(5)). On receipt: COIDA W.Cl.1 within 14 days; Annexure 1 entry; review the exposure controls and check other exposed employees. No unfair dismissal or detriment because of the report (s.26(2)).",
+     "points": [
+      "The practitioner must report to the employer and the chief inspector on WCL 22 within 14 days and inform the employee (s.25; GAR 8(4)); anyone else may give written notice (GAR 8(5)). On receipt:",
+      "COIDA W.Cl.1 within 14 days",
+      "Annexure 1 entry",
+      "review the exposure controls and check other exposed employees. No unfair dismissal or detriment because of the report (s.26(2))."
+     ],
+     "owner": "OHP, OHSM, CA",
+     "deadline": "On receipt; COIDA 14 days",
+     "form": "WCL 22; H23",
+     "authority": "ACT s.25, s.26(2); GAR 8(4)–(5); COIDA s.68",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Classify and report",
+      "subsection": null,
+      "page": 21
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.9",
+     "label": "2.9",
+     "title": "MHI occurrences",
+     "trigger": "Site is a major hazard installation.",
+     "action": "Also report risk and emergency occurrences as MHI Regs reg 16 requires, and inform local government and neighbouring establishments as the emergency plan provides.",
+     "points": [
+      "Also report risk and emergency occurrences as MHI Regs reg 16 requires, and inform local government and neighbouring establishments as the emergency plan provides."
+     ],
+     "owner": "OHSM",
+     "deadline": "Per reg 16 (verify)",
+     "form": "MHI forms",
+     "authority": "REG MHI regs 9, 15–16 (verify)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Classify and report",
+      "subsection": null,
+      "page": 21
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.10",
+     "label": "2.10",
+     "title": "Internal escalation",
+     "trigger": "Tier 1, or Tier 3 with major-incident potential.",
+     "action": "Inform the CEO and, for a death or major incident, the Board chair the same day; notify insurers per policy; brief the LA.",
+     "points": [
+      "Inform the CEO and, for a death or major incident, the Board chair the same day; notify insurers per policy; brief the LA."
+     ],
+     "owner": "OHSM",
+     "deadline": "Same day",
+     "form": "H36",
+     "authority": "ACT s.16(1); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Classify and report",
+      "subsection": null,
+      "page": 21
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.11",
+     "label": "2.11",
+     "title": "Record exclusions",
+     "trigger": "Event excluded by s.24(3) or s.1(3).",
+     "action": "Record why it was not reported to DEL and which other regime applies (SAPS, MHSA, aviation). Continue Phases 3–4 internally where anyone needed treatment beyond first aid (BP).",
+     "points": [
+      "Record why it was not reported to DEL and which other regime applies (SAPS, MHSA, aviation).",
+      "Continue Phases 3–4 internally where anyone needed treatment beyond first aid (BP)."
+     ],
+     "owner": "OHSM",
+     "deadline": "Day 0",
+     "form": "H19",
+     "authority": "ACT s.24(3), s.1(3); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Classify and report",
+      "subsection": null,
+      "page": 22
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+    "section": "§05 Phase 2 — Classify and report",
+    "page": 20,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s4",
+   "group": "Phase 3 — Record and investigate",
+   "title": "Investigation steps",
+   "kind": "phase",
+   "intro": [
+    "Every Tier 1 to Tier 4 event must be recorded in Annexure 1 and investigated within seven days of the incident, then finalised as soon as reasonably practicable (GAR reg 9(1)–(2)). The investigation looks for causes and controls, not for someone to blame; any disciplinary question is referred out and handled separately."
+   ],
+   "notes": [
+    {
+     "heading": "Employee obligations at this stage",
+     "text": "Co-operate with the investigation and give truthful statements (s.14(b)); do not tamper with evidence (s.15)."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "OHSM → INV (appointment). INV ↔ HSR (joint examination). INV → LA (Tier 1 wording). OHSM → HR (discipline referral). PROC ↔ contractor (contractor report)."
+    },
+    {
+     "heading": "Watch",
+     "text": "GAR reg 9(2) requires the incident to be investigated within seven days, not merely registered. A file that shows nothing between Part A and a report a month later will not satisfy an inspector."
+    }
+   ],
+   "steps": [
+    {
+     "id": "3.1",
+     "label": "3.1",
+     "title": "Annexure 1 Part A",
+     "trigger": "Tier 1–4 event.",
+     "action": "Complete Part A: employer; affected person and ID number; date and time; part of body; effect on person; expected period of disablement; occupational disease description; machine, process or substance involved; whether reported to the Compensation Commissioner and provincial director; for a death, whether reported to SAPS and the SAPS reference.",
+     "points": [
+      "Complete Part A:",
+      "employer",
+      "affected person and ID number",
+      "date and time",
+      "part of body",
+      "effect on person",
+      "expected period of disablement",
+      "occupational disease description",
+      "machine, process or substance involved",
+      "whether reported to the Compensation Commissioner and provincial director",
+      "for a death, whether reported to SAPS and the SAPS reference."
+     ],
+     "owner": "OHSM",
+     "deadline": "BP within 24 hours",
+     "form": "H23",
+     "authority": "GAR 9(1); Annexure 1 Part A",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Record and investigate",
+      "subsection": "Investigation steps",
+      "page": 23
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.2",
+     "label": "3.2",
+     "title": "Appoint the investigator",
+     "trigger": "Part A opened.",
+     "action": "Appoint the employer, a person appointed by the employer, an HSR or an HSC member. Choose someone competent and, where possible, independent of the area. For Tier 1 or a likely prosecution, consider an external investigator and a separate legal investigation (3.8).",
+     "points": [
+      "Appoint the employer, a person appointed by the employer, an HSR or an HSC member.",
+      "Choose someone competent and, where possible, independent of the area.",
+      "For Tier 1 or a likely prosecution, consider an external investigator and a separate legal investigation (3.8)."
+     ],
+     "owner": "OHSM",
+     "deadline": "BP within 24 hours",
+     "form": "H24",
+     "authority": "GAR 9(2)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Record and investigate",
+      "subsection": "Investigation steps",
+      "page": 23
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.3",
+     "label": "3.3",
+     "title": "Involve the HSR",
+     "trigger": "Investigation opened.",
+     "action": "The HSR may, with the employer, examine the causes of incidents (s.18(1)(c)), visit the site (s.18(2)(a)), attend the investigation (s.18(2)(b)) and, with approval not unreasonably withheld, bring a technical adviser (s.18(2)(e)). Invite the HSR in writing.",
+     "points": [
+      "The HSR may, with the employer, examine the causes of incidents (s.18(1)(c)), visit the site (s.18(2)(a)), attend the investigation (s.18(2)(b)) and, with approval not unreasonably withheld, bring a technical adviser (s.18(2)(e)).",
+      "Invite the HSR in writing."
+     ],
+     "owner": "OHSM",
+     "deadline": "At start",
+     "form": "H24",
+     "authority": "ACT s.18(1)(c), (2)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Record and investigate",
+      "subsection": "Investigation steps",
+      "page": 23
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.4",
+     "label": "3.4",
+     "title": "Gather evidence",
+     "trigger": "Investigation under way.",
+     "action": "Inspect and photograph the scene; secure physical evidence (s.24(2) where it applies); take statements from witnesses early and separately; collect the HIRA, safe work procedure, permits, training and competence records, maintenance and statutory inspection certificates, PPE issue, rosters and hours, CCTV and telematics; medical information only with consent.",
+     "points": [
+      "Inspect and photograph the scene; secure physical evidence (s.24(2) where it applies); take statements from witnesses early and separately; collect the HIRA, safe work procedure, permits, training and competence records, maintenance and statutory inspection certificates, PPE issue, rosters and hours, CCTV and telematics; medical information only with consent."
+     ],
+     "owner": "INV",
+     "deadline": "Days 0–3 (BP)",
+     "form": "H25; COIDA F03",
+     "authority": "GAR 9(2); ACT s.24(2); POPIA s.26–27",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Record and investigate",
+      "subsection": "Investigation steps",
+      "page": 24
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.5",
+     "label": "3.5",
+     "title": "Find the causes",
+     "trigger": "Evidence gathered.",
+     "action": "Identify the immediate cause, the underlying causes and the system (root) causes using a recognised method (for example 5-Why, fishbone, barrier analysis). Test whether the controls in the HIRA existed, were adequate and were used, and whether supervision, training, fatigue, intoxication (GSR 2A) or design played a part.",
+     "points": [
+      "Identify the immediate cause, the underlying causes and the system (root) causes using a recognised method (for example 5-Why, fishbone, barrier analysis).",
+      "Test whether the controls in the HIRA existed, were adequate and were used, and whether supervision, training, fatigue, intoxication (GSR 2A) or design played a part."
+     ],
+     "owner": "INV",
+     "deadline": "Within 7 days of the incident",
+     "form": "H26; COIDA F29",
+     "authority": "GAR 9(2); ACT s.8(2)(d)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Record and investigate",
+      "subsection": "Investigation steps",
+      "page": 24
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.6",
+     "label": "3.6",
+     "title": "Recommend controls",
+     "trigger": "Causes found.",
+     "action": "Recommend steps to prevent recurrence, ranked by the hierarchy of controls (eliminate, substitute, engineer, administrate, PPE last), with owners and dates.",
+     "points": [
+      "Recommend steps to prevent recurrence, ranked by the hierarchy of controls (eliminate, substitute, engineer, administrate, PPE last), with owners and dates."
+     ],
+     "owner": "INV",
+     "deadline": "With the report",
+     "form": "H26",
+     "authority": "ACT s.8(2)(b)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Record and investigate",
+      "subsection": "Investigation steps",
+      "page": 24
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.7",
+     "label": "3.7",
+     "title": "Enter the findings",
+     "trigger": "Investigation completed.",
+     "action": "Enter Part B of Annexure 1 (investigator, date, designation, description, suspected cause, recommended steps) immediately after completion, signed and dated.",
+     "points": [
+      "Enter Part B of Annexure 1 (investigator, date, designation, description, suspected cause, recommended steps) immediately after completion, signed and dated."
+     ],
+     "owner": "INV, OHSM",
+     "deadline": "Immediately after completion",
+     "form": "H23",
+     "authority": "GAR 9(3)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Record and investigate",
+      "subsection": "Investigation steps",
+      "page": 24
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.8",
+     "label": "3.8",
+     "title": "Legal review",
+     "trigger": "Tier 1, Tier 3 with major-incident potential, or likely prosecution.",
+     "action": "LA reviews the wording before Part B is signed: facts and causes, not conclusions on legal fault. The statutory record is admissible against the employer (s.39(3)) and must never be delayed or sanitised (s.39(4)). Where needed, LA commissions a separate privileged investigation for legal advice (CL, verify).",
+     "points": [
+      "LA reviews the wording before Part B is signed: facts and causes, not conclusions on legal fault.",
+      "The statutory record is admissible against the employer (s.39(3)) and must never be delayed or sanitised (s.39(4)).",
+      "Where needed, LA commissions a separate privileged investigation for legal advice (CL, verify)."
+     ],
+     "owner": "LA",
+     "deadline": "Before Part B is signed (BP)",
+     "form": "LA memo",
+     "authority": "ACT s.39(3)–(4); s.38(1)(d)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Record and investigate",
+      "subsection": "Investigation steps",
+      "page": 24
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.9",
+     "label": "3.9",
+     "title": "Separate any discipline",
+     "trigger": "Evidence of a rule breach, s.14 or s.15 contravention, misuse of safety equipment, or intoxication.",
+     "action": "Refer to HR under the GBS Misconduct flow with a separate evidence trail; the safety investigation stays a learning exercise. Do not use a disciplinary outcome as the root cause.",
+     "points": [
+      "Refer to HR under the GBS Misconduct flow with a separate evidence trail; the safety investigation stays a learning exercise.",
+      "Do not use a disciplinary outcome as the root cause."
+     ],
+     "owner": "HR, OHSM",
+     "deadline": "On finding",
+     "form": "HR referral; Misconduct D05",
+     "authority": "ACT s.14, s.15, s.38(1)(n)–(p); GSR 2A",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Record and investigate",
+      "subsection": "Investigation steps",
+      "page": 23
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.10",
+     "label": "3.10",
+     "title": "Contractor incidents",
+     "trigger": "Incident to a contractor’s worker.",
+     "action": "The contractor investigates as employer; the client participates and receives the report as the s.37(2) agreement provides. GAR reg 9(2) refers to the “contracted period” for contracted workers: fix that period in the agreement.",
+     "points": [
+      "The contractor investigates as employer; the client participates and receives the report as the s.37(2) agreement provides.",
+      "GAR reg 9(2) refers to the “contracted period” for contracted workers: fix that period in the agreement."
+     ],
+     "owner": "PROC, OHSM",
+     "deadline": "Per agreement; within 7 days (BP)",
+     "form": "H09",
+     "authority": "GAR 9(2); ACT s.37(2)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Record and investigate",
+      "subsection": "Investigation steps",
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.11",
+     "label": "3.11",
+     "title": "Support people",
+     "trigger": "Witnesses or colleagues affected.",
+     "action": "Offer trauma debriefing and EAP; brief the team on what is known; protect privacy.",
+     "points": [
+      "Offer trauma debriefing and EAP; brief the team on what is known; protect privacy."
+     ],
+     "owner": "HR",
+     "deadline": "BP within 72 hours",
+     "form": "—",
+     "authority": "BP; POPIA",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Record and investigate",
+      "subsection": "Investigation steps",
+      "page": 25
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+    "section": "§06 Phase 3 — Record and investigate",
+    "page": 23,
+    "subsection": "Investigation steps"
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s5",
+   "group": "Phase 4 — Correct, review and close",
+   "title": "Phase 4 — Correct, review and close",
+   "kind": "phase",
+   "intro": [
+    "Phase 4 turns findings into controls and closes the loop with the committee. The employer must ensure that necessary actions, so far as reasonably practicable, are implemented and followed up to prevent recurrence (GAR reg 9(4))."
+   ],
+   "notes": [
+    {
+     "heading": "Watch",
+     "text": "An action marked “closed” when a memo was sent, rather than when the control was in place and shown to work, is the most common gap auditors and inspectors find."
+    }
+   ],
+   "steps": [
+    {
+     "id": "4.1",
+     "label": "4.1",
+     "title": "Corrective action plan",
+     "trigger": "Report finalised.",
+     "action": "Convert each recommendation into an action with owner, due date and priority; put temporary controls in place at once where the permanent fix will take time.",
+     "points": [
+      "Convert each recommendation into an action with owner, due date and priority; put temporary controls in place at once where the permanent fix will take time."
+     ],
+     "owner": "OHSM, SUP",
+     "deadline": "BP within 5 working days of the report",
+     "form": "H27",
+     "authority": "ACT s.8(2)(b), (h); GAR 9(4)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Correct, review and close",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.2",
+     "label": "4.2",
+     "title": "Employer’s action (Part C)",
+     "trigger": "Plan approved.",
+     "action": "Record in Annexure 1 Part C the action taken by the employer to prevent recurrence, signed and dated by the employer or delegate.",
+     "points": [
+      "Record in Annexure 1 Part C the action taken by the employer to prevent recurrence, signed and dated by the employer or delegate."
+     ],
+     "owner": "CEO delegate",
+     "deadline": "On approval",
+     "form": "H23",
+     "authority": "GAR Annexure 1 Part C",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Correct, review and close",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.3",
+     "label": "4.3",
+     "title": "Committee examination",
+     "trigger": "Next HSC meeting.",
+     "action": "The HSC must examine every Annexure 1 record for its area at its next meeting (GAR reg 9(4)) and must discuss any incident in which someone was injured, became ill or died; it may report in writing to an inspector (s.20(1)(b)). The chair signs Part D. For Tier 1 call a special meeting (BP within 14 days).",
+     "points": [
+      "The HSC must examine every Annexure 1 record for its area at its next meeting (GAR reg 9(4)) and must discuss any incident in which someone was injured, became ill or died; it may report in writing to an inspector (s.20(1)(b)).",
+      "The chair signs Part D.",
+      "For Tier 1 call a special meeting (BP within 14 days)."
+     ],
+     "owner": "HSC",
+     "deadline": "Next meeting (at least every 3 months)",
+     "form": "H07, H23",
+     "authority": "GAR 9(4); ACT s.19(4), s.20(1)(b), (2)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Correct, review and close",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.4",
+     "label": "4.4",
+     "title": "Implement and follow up",
+     "trigger": "Actions open.",
+     "action": "Track progress; escalate overdue actions to the CEO; report status at each HSC meeting.",
+     "points": [
+      "Track progress; escalate overdue actions to the CEO; report status at each HSC meeting."
+     ],
+     "owner": "SUP, OHSM",
+     "deadline": "Per plan",
+     "form": "H27",
+     "authority": "GAR 9(4)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Correct, review and close",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.5",
+     "label": "4.5",
+     "title": "Verify effectiveness",
+     "trigger": "Action completed.",
+     "action": "Check the control works in practice (observation, test, re-measurement) before closing it.",
+     "points": [
+      "Check the control works in practice (observation, test, re-measurement) before closing it."
+     ],
+     "owner": "OHSM, INV",
+     "deadline": "BP 30–90 days after completion",
+     "form": "H27",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Correct, review and close",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.6",
+     "label": "4.6",
+     "title": "Update the system",
+     "trigger": "Findings accepted.",
+     "action": "Revise the HIRA, safe work procedures, training, maintenance schedules and contractor requirements; tell affected employees of the changed hazards and precautions.",
+     "points": [
+      "Revise the HIRA, safe work procedures, training, maintenance schedules and contractor requirements; tell affected employees of the changed hazards and precautions."
+     ],
+     "owner": "OHSM",
+     "deadline": "With the plan",
+     "form": "H05, H10",
+     "authority": "ACT s.8(2)(d)–(e), s.13(a)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Correct, review and close",
+      "subsection": null,
+      "page": 27
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.7",
+     "label": "4.7",
+     "title": "Share the lessons",
+     "trigger": "Changes made.",
+     "action": "Toolbox talks; HSR briefing; alerts to other sites with similar hazards.",
+     "points": [
+      "Toolbox talks; HSR briefing; alerts to other sites with similar hazards."
+     ],
+     "owner": "SUP, OHSM",
+     "deadline": "BP within 14 days",
+     "form": "H10",
+     "authority": "ACT s.13(a); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Correct, review and close",
+      "subsection": null,
+      "page": 28
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.8",
+     "label": "4.8",
+     "title": "Return to work",
+     "trigger": "Injured employee recovering.",
+     "action": "Coordinate with the COIDA flow (rehabilitation, reasonable accommodation, light duties); confirm fitness for safety-critical work with the OHP.",
+     "points": [
+      "Coordinate with the COIDA flow (rehabilitation, reasonable accommodation, light duties); confirm fitness for safety-critical work with the OHP."
+     ],
+     "owner": "CA, OHP",
+     "deadline": "Per COIDA flow",
+     "form": "COIDA F17–F19",
+     "authority": "COIDA RRR Regs; GBS COIDA flow Phase 4",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Correct, review and close",
+      "subsection": null,
+      "page": 28
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.9",
+     "label": "4.9",
+     "title": "Close out",
+     "trigger": "All actions complete and verified.",
+     "action": "Confirm Parts A to D are complete; index the file; record the closure date.",
+     "points": [
+      "Confirm Parts A to D are complete; index the file; record the closure date."
+     ],
+     "owner": "OHSM",
+     "deadline": "On completion",
+     "form": "H28",
+     "authority": "GAR 9",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Correct, review and close",
+      "subsection": null,
+      "page": 28
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.10",
+     "label": "4.10",
+     "title": "Retain",
+     "trigger": "File closed.",
+     "action": "Keep Annexure 1 at the workplace for at least 3 years, open for inspection (GAR reg 9(1)); HSC records at least 3 years (GAR reg 5(b)); exposure and medical records for the periods in the substance regulations (noise records 40 years, Noise Exposure Regulations reg 14; others, verify); review POPIA retention.",
+     "points": [
+      "Keep Annexure 1 at the workplace for at least 3 years, open for inspection (GAR reg 9(1)); HSC records at least 3 years (GAR reg 5(b)); exposure and medical records for the periods in the substance regulations (noise records 40 years, Noise Exposure Regulations reg 14; others, verify); review POPIA retention."
+     ],
+     "owner": "OHSM",
+     "deadline": "At least 3 years",
+     "form": "H16",
+     "authority": "GAR 5(b), 9(1); ACT s.20(2); Noise Exposure Regs reg 14; POPIA s.14",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — Correct, review and close",
+      "subsection": null,
+      "page": 28
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+    "section": "§07 Phase 4 — Correct, review and close",
+    "page": 27,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s6",
+   "group": "Phase 5 — The inspectorate: inspections, notices, investigations and inquiries",
+   "title": "Phase 5 — The inspectorate: inspections, notices, investigations and inquiries",
+   "kind": "phase",
+   "intro": [
+    "Inspectors may arrive at any reasonable time without notice, after a report, a complaint or an HSR representation. Every notice they serve has its own clock, and some take effect immediately. Each document received goes into the file and the notice tracker before it is acted on."
+   ],
+   "notes": [
+    {
+     "heading": "Employee obligations at this stage",
+     "text": "Answer inspectors’ questions to the best of their ability (s.38(1)(g)); attend an inquiry when advised or subpoenaed (s.38(1)(j)–(k)); no one may influence a witness or prejudice an inquiry (s.38(1)(l)–(m))."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "OHSM → HSRs (notice of inspections). OHSM → LA (notices, appeals, inquiries). HR → witnesses (GAR reg 10 letters). LA → chief inspector and Labour Court (appeals)."
+    },
+    {
+     "heading": "Watch",
+     "text": "A prohibition notice binds from the moment it is served, and an appeal does not suspend it. Restarting a prohibited activity while an appeal is pending is a separate offence (s.38(1)(b))."
+    }
+   ],
+   "steps": [
+    {
+     "id": "5.1",
+     "label": "5.1",
+     "title": "Arrival and entry",
+     "trigger": "Inspector arrives.",
+     "action": "Admit the inspector: no one may refuse entry unless another law authorises it (GAR reg 2(1)). Ask to see the designation certificate (s.28(2)–(3)). Notify the OHSM, CEO and LA.",
+     "points": [
+      "Admit the inspector: no one may refuse entry unless another law authorises it (GAR reg 2(1)).",
+      "Ask to see the designation certificate (s.28(2)–(3)).",
+      "Notify the OHSM, CEO and LA."
+     ],
+     "owner": "Reception, OHSM",
+     "deadline": "On arrival",
+     "form": "H29",
+     "authority": "ACT s.28(3), s.29(1)(a); GAR 2(1)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — The inspectorate: inspections, notices, investigations and inquiries",
+      "subsection": null,
+      "page": 29
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.2",
+     "label": "5.2",
+     "title": "Accompanying person and facilities",
+     "trigger": "Inspector on site.",
+     "action": "Make available a person with full knowledge of the workplace hazards to accompany the inspector for the whole visit; provide the facilities reasonably needed for the inspector and any assistant to work safely and effectively.",
+     "points": [
+      "Make available a person with full knowledge of the workplace hazards to accompany the inspector for the whole visit; provide the facilities reasonably needed for the inspector and any assistant to work safely and effectively."
+     ],
+     "owner": "OHSM",
+     "deadline": "Whole visit",
+     "form": "H29",
+     "authority": "GAR 2(2), 12(c); ACT s.29(2)–(3)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — The inspectorate: inspections, notices, investigations and inquiries",
+      "subsection": null,
+      "page": 29
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.3",
+     "label": "5.3",
+     "title": "HSRs",
+     "trigger": "Inspection, investigation or inquiry notified.",
+     "action": "Inform the HSRs beforehand of any inspection, investigation or formal inquiry the employer has been told about (s.13(b)); for an unannounced visit tell them on arrival. HSRs may accompany the inspector and take part in consultations (s.18(1)(h), (2)(d)).",
+     "points": [
+      "Inform the HSRs beforehand of any inspection, investigation or formal inquiry the employer has been told about (s.13(b)); for an unannounced visit tell them on arrival.",
+      "HSRs may accompany the inspector and take part in consultations (s.18(1)(h), (2)(d))."
+     ],
+     "owner": "OHSM",
+     "deadline": "Before notified visits; on arrival",
+     "form": "H29",
+     "authority": "ACT s.13(b), s.18(1)(h), (2)(d)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — The inspectorate: inspections, notices, investigations and inquiries",
+      "subsection": null,
+      "page": 29
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.4",
+     "label": "5.4",
+     "title": "Questions and documents",
+     "trigger": "Inspector asks questions or for records.",
+     "action": "Answer to the best of your ability; produce the books, records and documents requested; explain entries. Make copies before anything is seized and get a receipt for anything removed. LA attends interviews after a serious incident. No one is obliged to answer a question that may incriminate them in an investigation or inquiry (s.34(b)).",
+     "points": [
+      "Answer to the best of your ability; produce the books, records and documents requested; explain entries.",
+      "Make copies before anything is seized and get a receipt for anything removed.",
+      "LA attends interviews after a serious incident.",
+      "No one is obliged to answer a question that may incriminate them in an investigation or inquiry (s.34(b))."
+     ],
+     "owner": "OHSM, LA",
+     "deadline": "On request or at the time fixed",
+     "form": "H29",
+     "authority": "ACT s.29(1)(b)–(h), (4), s.34(b), s.38(1)(e)–(h)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — The inspectorate: inspections, notices, investigations and inquiries",
+      "subsection": null,
+      "page": 30
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.5",
+     "label": "5.5",
+     "title": "Prohibition notice",
+     "trigger": "Inspector prohibits an act, the use of plant, or exposure beyond a period (s.30(1)).",
+     "action": "Stop at once. Do not interfere with any barricade (s.30(2)). Bring the notice to the attention of the HSRs and employees concerned forthwith (s.30(6)). An appeal does not suspend it (s.35(5)). Make arrangements to the inspector’s satisfaction and ask for written revocation (s.30(1)(d)).",
+     "points": [
+      "Stop at once.",
+      "Do not interfere with any barricade (s.30(2)).",
+      "Bring the notice to the attention of the HSRs and employees concerned forthwith (s.30(6)).",
+      "An appeal does not suspend it (s.35(5)).",
+      "Make arrangements to the inspector’s satisfaction and ask for written revocation (s.30(1)(d))."
+     ],
+     "owner": "OHSM, SUP",
+     "deadline": "Immediately",
+     "form": "H30",
+     "authority": "ACT s.30(1)–(2), (6), s.35(5)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — The inspectorate: inspections, notices, investigations and inquiries",
+      "subsection": null,
+      "page": 30
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.6",
+     "label": "5.6",
+     "title": "Improvement or contravention notice",
+     "trigger": "Direction under s.30(3) (steps for a person’s safety) or s.30(4) (failure to comply with a regulation).",
+     "action": "Comply within the period stated; ask in writing for an extension before it expires (s.30(5)); keep evidence of compliance; bring the notice to the attention of HSRs and employees (s.30(6)).",
+     "points": [
+      "Comply within the period stated; ask in writing for an extension before it expires (s.30(5)); keep evidence of compliance; bring the notice to the attention of HSRs and employees (s.30(6))."
+     ],
+     "owner": "OHSM",
+     "deadline": "Within the period stated",
+     "form": "H30",
+     "authority": "ACT s.30(3)–(6)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — The inspectorate: inspections, notices, investigations and inquiries",
+      "subsection": null,
+      "page": 30
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.7",
+     "label": "5.7",
+     "title": "Appeal",
+     "trigger": "Aggrieved by an inspector’s decision.",
+     "action": "Appeal in writing, with grounds, to the chief inspector within 60 days after the decision was made known. Appeal a chief inspector’s decision to the Labour Court within 60 days, under the Labour Court Rules.",
+     "points": [
+      "Appeal in writing, with grounds, to the chief inspector within 60 days after the decision was made known.",
+      "Appeal a chief inspector’s decision to the Labour Court within 60 days, under the Labour Court Rules."
+     ],
+     "owner": "LA, CEO",
+     "deadline": "60 days; then 60 days",
+     "form": "H31",
+     "authority": "ACT s.35(1)–(4)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — The inspectorate: inspections, notices, investigations and inquiries",
+      "subsection": null,
+      "page": 30
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.8",
+     "label": "5.8",
+     "title": "Returns",
+     "trigger": "Inspector demands returns.",
+     "action": "Furnish the returns required for administering the Act.",
+     "points": [
+      "Furnish the returns required for administering the Act."
+     ],
+     "owner": "OHSM",
+     "deadline": "On demand",
+     "form": "—",
+     "authority": "GAR 11, 12(b)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — The inspectorate: inspections, notices, investigations and inquiries",
+      "subsection": null,
+      "page": 30
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.9",
+     "label": "5.9",
+     "title": "Investigation (s.31)",
+     "trigger": "Inspector investigates an incident.",
+     "action": "Co-operate fully; the inspector reports to the DPP and the chief inspector, who decide on an inquest or prosecution. LA manages the employer’s position.",
+     "points": [
+      "Co-operate fully; the inspector reports to the DPP and the chief inspector, who decide on an inquest or prosecution.",
+      "LA manages the employer’s position."
+     ],
+     "owner": "LA, OHSM",
+     "deadline": "During the investigation",
+     "form": "H29",
+     "authority": "ACT s.31, s.34",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — The inspectorate: inspections, notices, investigations and inquiries",
+      "subsection": null,
+      "page": 30
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.10",
+     "label": "5.10",
+     "title": "Formal inquiry (s.32)",
+     "trigger": "Inspector notifies date, time and place of an inquiry.",
+     "action": "Forthwith advise in writing those who witnessed the incident, the recognised union and anyone else the inspector names, that they must attend (GAR reg 10(2)). Find out who is likely to refuse and forthwith give the inspector their names and addresses so they can be subpoenaed on the Annexure 2 form (GAR reg 10(3)–(4)). The inquiry is public; interested parties may question witnesses personally or through a representative, advocate or attorney (s.32(5)).",
+     "points": [
+      "Forthwith advise in writing those who witnessed the incident, the recognised union and anyone else the inspector names, that they must attend (GAR reg 10(2)).",
+      "Find out who is likely to refuse and forthwith give the inspector their names and addresses so they can be subpoenaed on the Annexure 2 form (GAR reg 10(3)–(4)).",
+      "The inquiry is public; interested parties may question witnesses personally or through a representative, advocate or attorney (s.32(5))."
+     ],
+     "owner": "LA, OHSM, HR",
+     "deadline": "Forthwith on notice",
+     "form": "H32; Annexure 2",
+     "authority": "ACT s.32; GAR 10, 12(a)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — The inspectorate: inspections, notices, investigations and inquiries",
+      "subsection": null,
+      "page": 31
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.11",
+     "label": "5.11",
+     "title": "Joint inquest",
+     "trigger": "A person died.",
+     "action": "An inquest is also held and may be held jointly with the s.32 inquiry, with the judicial officer presiding (s.33).",
+     "points": [
+      "An inquest is also held and may be held jointly with the s.32 inquiry, with the judicial officer presiding (s.33)."
+     ],
+     "owner": "LA",
+     "deadline": "Per notice",
+     "form": "Litigation file",
+     "authority": "ACT s.33; Inquests Act 58 of 1959",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — The inspectorate: inspections, notices, investigations and inquiries",
+      "subsection": null,
+      "page": 31
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.12",
+     "label": "5.12",
+     "title": "Prosecution and court orders",
+     "trigger": "Summons or charge.",
+     "action": "LA defends, relying on the Phase 0 evidence of reasonable steps (s.37(1)); the court may also order compliance (s.38(3)). Magistrates’ courts may impose any penalty in the Act (s.46).",
+     "points": [
+      "LA defends, relying on the Phase 0 evidence of reasonable steps (s.37(1)); the court may also order compliance (s.38(3)).",
+      "Magistrates’ courts may impose any penalty in the Act (s.46)."
+     ],
+     "owner": "LA",
+     "deadline": "Per summons",
+     "form": "Litigation file",
+     "authority": "ACT s.37, s.38, s.46",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — The inspectorate: inspections, notices, investigations and inquiries",
+      "subsection": null,
+      "page": 29
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.13",
+     "label": "5.13",
+     "title": "Exemptions",
+     "trigger": "Employer needs relief from a provision.",
+     "action": "Apply to the Minister (s.40(1)); tell the HSRs of the application (s.13(b)). A certificate of exemption is signed by the chief inspector (GAR reg 3). Comply with every condition (s.38(1)(c)).",
+     "points": [
+      "Apply to the Minister (s.40(1)); tell the HSRs of the application (s.13(b)).",
+      "A certificate of exemption is signed by the chief inspector (GAR reg 3).",
+      "Comply with every condition (s.38(1)(c))."
+     ],
+     "owner": "LA, OHSM",
+     "deadline": "Before relying on it",
+     "form": "Exemption certificate",
+     "authority": "ACT s.40; GAR 3",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — The inspectorate: inspections, notices, investigations and inquiries",
+      "subsection": null,
+      "page": 31
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+    "section": "§08 Phase 5 — The inspectorate: inspections, notices, investigations and inquiries",
+    "page": 29,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s7",
+   "group": "Phase 6 — Governance and learning",
+   "title": "Phase 6 — Governance and learning",
+   "kind": "phase",
+   "intro": [
+    "Phase 6 turns individual incidents into system improvements and board oversight. Most of it has no statutory deadline, so it must be fixed in policy or it will be skipped. It is also the CEO’s evidence that the s.16(1) duty is being discharged."
+   ],
+   "notes": [],
+   "steps": [
+    {
+     "id": "6.1",
+     "label": "6.1",
+     "title": "Dashboard",
+     "trigger": "Monthly cycle.",
+     "action": "Events by tier and site; forthwith and 7-day reporting timeliness; share of investigations carried out within 7 days; overdue corrective actions; lost-time and total recordable injury rates; occupational disease cases; HSR coverage; HSC meeting compliance; inspector notices open.",
+     "points": [
+      "Events by tier and site; forthwith and 7-day reporting timeliness; share of investigations carried out within 7 days; overdue corrective actions; lost-time and total recordable injury rates; occupational disease cases; HSR coverage; HSC meeting compliance; inspector notices open."
+     ],
+     "owner": "OHSM",
+     "deadline": "Monthly",
+     "form": "H36",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 32
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.2",
+     "label": "6.2",
+     "title": "Board reporting",
+     "trigger": "Quarterly cycle.",
+     "action": "Trends, Tier 1 and Tier 3 events, notices and appeals, inquiries and prosecutions, legal changes, resourcing. Companies required to have a social and ethics committee should include health and safety in its monitoring (Companies Regulations reg 43, verify).",
+     "points": [
+      "Trends, Tier 1 and Tier 3 events, notices and appeals, inquiries and prosecutions, legal changes, resourcing.",
+      "Companies required to have a social and ethics committee should include health and safety in its monitoring (Companies Regulations reg 43, verify)."
+     ],
+     "owner": "OHSM, CEO",
+     "deadline": "Quarterly",
+     "form": "H36",
+     "authority": "ACT s.16(1); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 32
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.3",
+     "label": "6.3",
+     "title": "Legal compliance audit",
+     "trigger": "Annual cycle.",
+     "action": "Audit against the Act, the GAR and every regulation that applies; HSRs may participate in internal audits (s.18(2)(f)). Track findings in the corrective action register.",
+     "points": [
+      "Audit against the Act, the GAR and every regulation that applies; HSRs may participate in internal audits (s.18(2)(f)).",
+      "Track findings in the corrective action register."
+     ],
+     "owner": "OHSM, LA",
+     "deadline": "Annually",
+     "form": "H37",
+     "authority": "ACT s.18(2)(f); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 32
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.4",
+     "label": "6.4",
+     "title": "Management review",
+     "trigger": "Annual cycle.",
+     "action": "Review the policy, objectives, HIRA, incident trends and audit results; consider alignment with ISO 45001 (BP); re-sign and re-display the policy.",
+     "points": [
+      "Review the policy, objectives, HIRA, incident trends and audit results; consider alignment with ISO 45001 (BP); re-sign and re-display the policy."
+     ],
+     "owner": "CEO, OHSM",
+     "deadline": "Annually",
+     "form": "H01",
+     "authority": "ACT s.7(3); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 32
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.5",
+     "label": "6.5",
+     "title": "CEO assurance",
+     "trigger": "Annual cycle.",
+     "action": "Each s.16(2) assignee confirms in writing how the assigned duties were discharged and what remains open.",
+     "points": [
+      "Each s.16(2) assignee confirms in writing how the assigned duties were discharged and what remains open."
+     ],
+     "owner": "OHSM, assignees",
+     "deadline": "Annually",
+     "form": "H02",
+     "authority": "ACT s.16(1)–(2)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 32
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.6",
+     "label": "6.6",
+     "title": "Legislative watch",
+     "trigger": "Ongoing.",
+     "action": "Track: the OHS Amendment Bill; the Physical Agents and Noise Exposure Regulations now in force; the Chief Inspector’s exemption from Noise Exposure Regs reg 8(3) (Notice 7292, GG 54405, 20 March 2026: Type 2 meters for mobile plant, conditions apply, valid 3 years from 2 February 2026 unless withdrawn); any corrected GSR notice; new or amended topic regulations; COIDA changes; Labour Court and CCMA rules; case law on s.37 and s.38.",
+     "points": [
+      "Track: the OHS Amendment Bill; the Physical Agents and Noise Exposure Regulations now in force; the Chief Inspector’s exemption from Noise Exposure Regs reg 8(3) (Notice 7292, GG 54405, 20 March 2026:",
+      "Type 2 meters for mobile plant, conditions apply, valid 3 years from 2 February 2026 unless withdrawn)",
+      "any corrected GSR notice",
+      "new or amended topic regulations",
+      "COIDA changes",
+      "Labour Court and CCMA rules",
+      "case law on s.37 and s.38."
+     ],
+     "owner": "LA",
+     "deadline": "Ongoing; gap analysis on each change",
+     "form": "Change log",
+     "authority": "ACT s.43, s.40; BILL",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 33
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.7",
+     "label": "6.7",
+     "title": "Training refresh",
+     "trigger": "Annually and after significant incidents.",
+     "action": "Refresh induction, task training, HSR training, investigator training and emergency drills.",
+     "points": [
+      "Refresh induction, task training, HSR training, investigator training and emergency drills."
+     ],
+     "owner": "HR, OHSM",
+     "deadline": "At least annually",
+     "form": "H10",
+     "authority": "ACT s.8(2)(e), s.18(3)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 33
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+    "section": "§09 Phase 6 — Governance and learning",
+    "page": 32,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s8",
+   "group": "Parallel track — the continuous risk-management cycle",
+   "title": "Parallel track — the continuous risk-management cycle",
+   "kind": "parallel",
+   "intro": [
+    "This track follows the hazard rather than the incident. It runs all the time and is what prevents Phase 1 from starting. Every investigation feeds back into it through step 4.6."
+   ],
+   "notes": [],
+   "steps": [
+    {
+     "id": "R1",
+     "label": "R1",
+     "title": "HIRA review",
+     "trigger": "New task, plant, substance or process; incident; change in law; scheduled review.",
+     "action": "Review hazards and controls; consult the HSC on listed work and on measures generally; communicate changes.",
+     "points": [
+      "Review hazards and controls; consult the HSC on listed work and on measures generally; communicate changes."
+     ],
+     "owner": "",
+     "deadline": "Before the change; at least annually (BP)",
+     "form": "H05",
+     "authority": "ACT s.8(2)(d), s.12(1), s.19(1)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — the continuous risk-management cycle",
+      "subsection": null,
+      "page": 34
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "R2",
+     "label": "R2",
+     "title": "Management of change",
+     "trigger": "New plant, substance or supplier.",
+     "action": "Obtain the supplier’s information and safety data sheet; check the article complies with prescribed requirements; check installation does not create a risk.",
+     "points": [
+      "Obtain the supplier’s information and safety data sheet; check the article complies with prescribed requirements; check installation does not create a risk."
+     ],
+     "owner": "",
+     "deadline": "Before first use",
+     "form": "H35",
+     "authority": "ACT s.10, s.22",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — the continuous risk-management cycle",
+      "subsection": null,
+      "page": 34
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "R3",
+     "label": "R3",
+     "title": "HSR inspection",
+     "trigger": "Agreed interval reached.",
+     "action": "HSR gives reasonable notice; employer may attend; record findings and responses.",
+     "points": [
+      "HSR gives reasonable notice; employer may attend; record findings and responses."
+     ],
+     "owner": "",
+     "deadline": "Agreed interval (BP monthly)",
+     "form": "H34",
+     "authority": "ACT s.18(1)(g)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — the continuous risk-management cycle",
+      "subsection": null,
+      "page": 34
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "R4",
+     "label": "R4",
+     "title": "HSR representation",
+     "trigger": "HSR raises a matter.",
+     "action": "Respond in writing with reasons and dates. If unsuccessful, the HSR may go to an inspector (s.18(1)(e)); that is not a breach of loyalty.",
+     "points": [
+      "Respond in writing with reasons and dates.",
+      "If unsuccessful, the HSR may go to an inspector (s.18(1)(e)); that is not a breach of loyalty."
+     ],
+     "owner": "",
+     "deadline": "BP within 7 days",
+     "form": "H34",
+     "authority": "ACT s.18(1)(e)–(f)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — the continuous risk-management cycle",
+      "subsection": null,
+      "page": 34
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "R5",
+     "label": "R5",
+     "title": "Committee meeting",
+     "trigger": "At least every 3 months; or on an inspector’s written direction, including on a request from more than 10% of employees.",
+     "action": "Hold the meeting; consult on measures; record every recommendation to the employer and every report to an inspector; keep records at least 3 years.",
+     "points": [
+      "Hold the meeting; consult on measures; record every recommendation to the employer and every report to an inspector; keep records at least 3 years."
+     ],
+     "owner": "",
+     "deadline": "≤ 3 months; as directed",
+     "form": "H07",
+     "authority": "ACT s.19(4), s.20(1)–(2); GAR 5",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — the continuous risk-management cycle",
+      "subsection": null,
+      "page": 34
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "R6",
+     "label": "R6",
+     "title": "Committee recommendation",
+     "trigger": "HSC makes a recommendation.",
+     "action": "Respond in writing; if the matter is not resolved, the HSC may go to an inspector (s.20(1)(a)). The record is admissible evidence that the recommendation was made (s.39(7)).",
+     "points": [
+      "Respond in writing; if the matter is not resolved, the HSC may go to an inspector (s.20(1)(a)).",
+      "The record is admissible evidence that the recommendation was made (s.39(7))."
+     ],
+     "owner": "",
+     "deadline": "BP before next meeting",
+     "form": "H07",
+     "authority": "ACT s.20(1)(a), (2), s.39(7)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — the continuous risk-management cycle",
+      "subsection": null,
+      "page": 35
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "R7",
+     "label": "R7",
+     "title": "Employee complaint",
+     "trigger": "Employee complains about health or safety.",
+     "action": "HSR may investigate (s.18(1)(d)); employer responds and records outcome.",
+     "points": [
+      "HSR may investigate (s.18(1)(d)); employer responds and records outcome."
+     ],
+     "owner": "",
+     "deadline": "BP within 7 days",
+     "form": "H33",
+     "authority": "ACT s.14(d), s.18(1)(d)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — the continuous risk-management cycle",
+      "subsection": null,
+      "page": 35
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "R8",
+     "label": "R8",
+     "title": "Hygiene monitoring",
+     "trigger": "Per substance or agent regulation.",
+     "action": "Measure exposure (AIA where required); compare with limits; tell HSRs of the results and actions (s.12(2)). For mobile plant without a fixed location, Type 2 personal noise meters may be used under the reg 8(3) exemption (Notice 7292; conditions apply).",
+     "points": [
+      "Measure exposure (AIA where required); compare with limits; tell HSRs of the results and actions (s.12(2)).",
+      "For mobile plant without a fixed location, Type 2 personal noise meters may be used under the reg 8(3) exemption (Notice 7292; conditions apply)."
+     ],
+     "owner": "",
+     "deadline": "Per regulation (verify)",
+     "form": "H13",
+     "authority": "REG HCA, Noise, Physical Agents (verify)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — the continuous risk-management cycle",
+      "subsection": null,
+      "page": 35
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "R9",
+     "label": "R9",
+     "title": "Medical surveillance",
+     "trigger": "Exposure above the action level or as prescribed.",
+     "action": "OHP examinations; fitness certificates; refer suspected occupational disease (s.25); keep individual results confidential (s.12(2)); no detriment because of the results (s.26(2)).",
+     "points": [
+      "OHP examinations; fitness certificates; refer suspected occupational disease (s.25); keep individual results confidential (s.12(2)); no detriment because of the results (s.26(2))."
+     ],
+     "owner": "",
+     "deadline": "Per regulation (verify)",
+     "form": "H13",
+     "authority": "ACT s.12(2), s.25, s.26(2); REG (verify)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — the continuous risk-management cycle",
+      "subsection": null,
+      "page": 35
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "R10",
+     "label": "R10",
+     "title": "Statutory plant inspections",
+     "trigger": "Due date reached.",
+     "action": "Arrange inspection or test by a competent person or AIA; take plant out of service if it fails.",
+     "points": [
+      "Arrange inspection or test by a competent person or AIA; take plant out of service if it fails."
+     ],
+     "owner": "",
+     "deadline": "Per regulation (verify)",
+     "form": "H15",
+     "authority": "REG Driven Machinery, Pressure Equipment, Electrical Installation (verify)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — the continuous risk-management cycle",
+      "subsection": null,
+      "page": 35
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "R11",
+     "label": "R11",
+     "title": "Contractor monitoring",
+     "trigger": "Contractor on site.",
+     "action": "Monitor compliance with the s.37(2) agreement; stop unsafe work; review at contract end.",
+     "points": [
+      "Monitor compliance with the s.37(2) agreement; stop unsafe work; review at contract end."
+     ],
+     "owner": "",
+     "deadline": "Continuous",
+     "form": "H09",
+     "authority": "ACT s.9, s.37(2)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — the continuous risk-management cycle",
+      "subsection": null,
+      "page": 35
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "R12",
+     "label": "R12",
+     "title": "Inspector directions on structures",
+     "trigger": "Inspector directs more HSRs or committees.",
+     "action": "Designate or establish as directed, under the GAR reg 6 agreement.",
+     "points": [
+      "Designate or establish as directed, under the GAR reg 6 agreement."
+     ],
+     "owner": "",
+     "deadline": "As directed",
+     "form": "H06, H07",
+     "authority": "ACT s.17(6), s.19(7)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — the continuous risk-management cycle",
+      "subsection": null,
+      "page": 35
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "R13",
+     "label": "R13",
+     "title": "Drills",
+     "trigger": "Scheduled.",
+     "action": "Evacuation and emergency drills; record and act on lessons.",
+     "points": [
+      "Evacuation and emergency drills; record and act on lessons."
+     ],
+     "owner": "",
+     "deadline": "At least annually (BP)",
+     "form": "H12",
+     "authority": "REG (verify); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — the continuous risk-management cycle",
+      "subsection": null,
+      "page": 35
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "R14",
+     "label": "R14",
+     "title": "Victimisation complaint",
+     "trigger": "Employee alleges detriment for an OHS act.",
+     "action": "Investigate independently; reverse any detriment; LA review. Victimisation is an offence (s.38(1)(a)). A resulting dismissal is unfair (LRA s.188) and, where the safety report was a protected disclosure, automatically unfair (LRA s.187(1)(h)); detriment short of dismissal is then an unfair labour practice (s.186(2)(d)) (GBS PDA flow).",
+     "points": [
+      "Investigate independently; reverse any detriment; LA review.",
+      "Victimisation is an offence (s.38(1)(a)).",
+      "A resulting dismissal is unfair (LRA s.188) and, where the safety report was a protected disclosure, automatically unfair (LRA s.187(1)(h)); detriment short of dismissal is then an unfair labour practice (s.186(2)(d)) (GBS PDA flow)."
+     ],
+     "owner": "",
+     "deadline": "BP within 7 days",
+     "form": "H38",
+     "authority": "ACT s.26; LRA ss.186(2)(d), 187(1)(h), 188; PDA",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — the continuous risk-management cycle",
+      "subsection": null,
+      "page": 36
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "OHSA_Process_Flow_GBS_v1.1.docx",
+    "section": "§10 Parallel track — the continuous risk-management cycle",
+    "page": 34,
+    "subsection": null
+   },
+   "applicability": "event"
+  }
+ ],
+ "referenceTables": [
+  {
+   "title": "Reporting tiers at a glance",
+   "section": "§02 Master flow at a glance",
+   "page": 6,
+   "kind": "reference",
+   "columns": [
+    "Tier",
+    "What qualifies",
+    "Forthwith notice to provincial director",
+    "Written notice",
+    "Scene",
+    "Record and investigate",
+    "Authority"
+   ],
+   "rows": [
+    [
+     "1",
+     "Death; unconsciousness; loss of a limb or part of a limb; injury or illness likely to cause death or a permanent physical defect",
+     "Yes — telephone, fax or similar (e-mail)",
+     "WCL 1 or WCL 2 within 7 days of the incident; later death notified forthwith",
+     "Do not disturb without inspector’s consent if death, likely death or limb loss, except to prevent a further incident, remove the injured or dead, or rescue",
+     "Annexure 1; investigated within 7 days",
+     "s.24(1)(a), (2); GAR 8(1)–(2), 9"
+    ],
+    [
+     "2",
+     "Likely to be unable to work, or to continue the usual activity, for at least 14 days",
+     "Not required (BP: yes)",
+     "WCL 1 or WCL 2 within 7 days",
+     "Preserve evidence (BP)",
+     "Annexure 1; investigated within 7 days",
+     "s.24(1)(a); GAR 8(1)(a), 9"
+    ],
+    [
+     "3",
+     "Major incident; or health or safety endangered by a dangerous-substance spill, uncontrolled release of a substance under pressure, machinery fracture or failure causing flying, falling or uncontrolled objects, or machinery running out of control",
+     "Yes, even if nobody was hurt",
+     "None prescribed (BP: written confirmation within 7 days)",
+     "Preserve evidence (BP); s.24(2) if anyone died or lost a limb",
+     "Annexure 1; investigated within 7 days",
+     "s.24(1)(b)–(c); GAR 8(1)(b), 9"
+    ],
+    [
+     "4",
+     "Any other incident needing medical treatment beyond first aid",
+     "No",
+     "No (COIDA W.Cl.2 still applies to employees)",
+     "Preserve evidence (BP)",
+     "Annexure 1; investigated within 7 days",
+     "GAR 9(1)–(2)"
+    ],
+    [
+     "5",
+     "First aid only; near miss; hazard report",
+     "No",
+     "No",
+     "—",
+     "Internal register; BP: investigate high-potential events",
+     "BP; s.14(d)"
+    ],
+    [
+     "Side paths",
+     "Occupational disease diagnosed; non-employee harmed; later death",
+     "Non-employee: forthwith by fax or similar with GAR 8(3) particulars; later death: forthwith",
+     "Medical practitioner: WCL 22 to employer and chief inspector within 14 days",
+     "—",
+     "Annexure 1 (disease, item 9)",
+     "s.25; GAR 8(2)–(5)"
+    ]
+   ],
+   "intro": [
+    "Every trigger feeds one intake. Phase 2 is the decision point: the tier decides who is told, by when, and how. Phases 3 and 4 run for every recordable event. Phase 5 is a branch: the inspectorate may act on any report, complaint or visit. The parallel track is not a phase: it is the continuous risk-management cycle that prevents incidents and that every investigation feeds back into."
+   ]
+  },
+  {
+   "title": "Master flow at a glance",
+   "section": "§02 Master flow at a glance",
+   "page": 6,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Phase 2 asks the same questions in the same order for every event and stops at the first YES. The answer fixes the tier for the file, but the classification is re-tested whenever the facts change: an injury first logged as Tier 4 becomes Tier 2 as soon as it appears that the employee will be off for at least 14 days.",
+    "Read each phase column top to bottom to see who acts and who hands off; read each lane left to right to see one party’s whole job. The OHS Manager lane is the spine: every other lane connects to it, and the risk-management cycle runs underneath all the time."
+   ]
+  },
+  {
+   "title": "Evidence sources and pitfalls",
+   "section": "§06 Phase 3 — Record and investigate",
+   "page": 23,
+   "kind": "reference",
+   "columns": [
+    "Evidence",
+    "What it shows",
+    "Pitfall"
+   ],
+   "rows": [
+    [
+     "Scene photographs and sketch",
+     "Positions, guards, isolation state, housekeeping, lighting",
+     "Taken after clean-up or repair; no scale or time stamp"
+    ],
+    [
+     "Physical evidence (failed part, tool, substance)",
+     "Mode of failure; whether the item was fit for use",
+     "Discarded or repaired before an inspector consents (s.24(2))"
+    ],
+    [
+     "Witness statements",
+     "Sequence of events; instructions given; normal practice",
+     "Taken together or late, so accounts converge; leading questions"
+    ],
+    [
+     "HIRA and safe work procedure",
+     "Whether the hazard was known and controlled",
+     "Generic HIRA that does not describe the task actually done"
+    ],
+    [
+     "Permits, isolation and lock-out records",
+     "Whether the work was authorised and energy isolated",
+     "Permit signed but not followed; blank or back-filled sections"
+    ],
+    [
+     "Training and competence records",
+     "Whether the person was trained and authorised for the task (s.8(2)(e), (j))",
+     "Attendance only, with no assessment of competence"
+    ],
+    [
+     "Maintenance and statutory inspection certificates",
+     "Condition of plant; whether tests were current",
+     "Certificates for a different serial number or expired"
+    ],
+    [
+     "PPE issue register",
+     "Whether suitable PPE was provided and worn",
+     "Issued but never fitted, or wrong type"
+    ],
+    [
+     "Rosters, overtime and fatigue data",
+     "Hours worked; shift pattern",
+     "Overlooked as a cause"
+    ],
+    [
+     "CCTV, telematics and access logs",
+     "Objective timeline",
+     "Overwritten by automatic retention"
+    ],
+    [
+     "Medical reports",
+     "Nature and extent of injury",
+     "Obtained without consent (POPIA s.26–27)"
+    ],
+    [
+     "Previous incidents and HSR or HSC records",
+     "Whether the risk had been reported before (s.20(2), s.39(7))",
+     "Ignored, though they are powerful evidence of foreseeability"
+    ]
+   ]
+  },
+  {
+   "title": "Employee obligations and conduct",
+   "section": "§11 Employee obligations and conduct",
+   "page": 37,
+   "kind": "obligations",
+   "columns": [
+    "Obligation",
+    "When",
+    "Consequence if not met",
+    "Authority"
+   ],
+   "rows": [
+    [
+     "Take reasonable care for own health and safety and that of others affected by own acts or omissions",
+     "Always at work",
+     "Offence; misconduct",
+     "ACT s.14(a), s.38(1)(a)"
+    ],
+    [
+     "Co-operate with the employer so that its duties can be performed",
+     "Always; including investigations",
+     "Offence; misconduct",
+     "ACT s.14(b)"
+    ],
+    [
+     "Carry out lawful orders and obey health and safety rules and procedures",
+     "Always",
+     "Offence; misconduct",
+     "ACT s.14(c)"
+    ],
+    [
+     "Report any unsafe or unhealthy situation to the employer or HSR",
+     "As soon as practicable",
+     "Offence; misconduct",
+     "ACT s.14(d)"
+    ],
+    [
+     "Report any incident affecting own health or causing injury",
+     "By the end of the shift, or as soon as practicable if impossible",
+     "Offence; weaker COIDA claim; misconduct",
+     "ACT s.14(e)"
+    ],
+    [
+     "Do not intentionally or recklessly interfere with, damage or misuse anything provided for health or safety",
+     "Always",
+     "Offence (s.38(1)(n)); misconduct",
+     "ACT s.15"
+    ],
+    [
+     "Use the safety equipment provided",
+     "Whenever required",
+     "Offence (s.38(1)(o)); employer must not permit work without it",
+     "ACT s.38(1)(o); GSR 2 (verify)"
+    ],
+    [
+     "Do not wilfully or recklessly do anything that threatens anyone’s health or safety",
+     "Always",
+     "Offence (s.38(1)(p))",
+     "ACT s.38(1)(p)"
+    ],
+    [
+     "Do not be under the influence of, possess, use or offer alcohol or drugs at the workplace; disclose medicines with side effects that create a risk",
+     "Always",
+     "Removal from the workplace; misconduct; offence",
+     "GSR 2A"
+    ],
+    [
+     "Answer inspectors truthfully; attend inquiries when required",
+     "On request or subpoena",
+     "Offence",
+     "ACT s.38(1)(g)–(k), s.34"
+    ],
+    [
+     "Do not disturb a scene covered by s.24(2)",
+     "After a death, likely death or limb loss",
+     "Offence",
+     "ACT s.24(2), s.38(1)(a)"
+    ]
+   ],
+   "intro": [
+    "Employees keep themselves and others safe by taking reasonable care, following the rules, using what is provided and reporting quickly. The organisation should explain these duties at induction and in the rules, without using them to shift its own duties onto employees."
+   ]
+  },
+  {
+   "title": "Employee obligations and conduct",
+   "section": "§11 Employee obligations and conduct",
+   "page": 37,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Rights the organisation must not obstruct. To report hazards and incidents to the employer, the HSR or an inspector; freedom from victimisation for anything done under the Act (s.26); HSRs’ functions and entitlements, in working hours (ss.17(7), 18); no deductions or payments for anything the employer must provide (s.23); confidentiality of individual monitoring and surveillance results (s.12(2)); access to a copy of the Act (GAR reg 4); confidentiality of information obtained by inspectors (s.36); fair procedure before any discipline (GBS Misconduct flow)."
+   ]
+  },
+  {
+   "title": "Hand-offs and interfaces register",
+   "section": "§12 Hand-offs and interfaces register",
+   "page": 39,
+   "kind": "interfaces",
+   "columns": [
+    "Party or system",
+    "Trigger",
+    "What is handed over",
+    "When",
+    "Step",
+    "Authority"
+   ],
+   "rows": [
+    [
+     "DEL provincial director (provincial office)",
+     "Tier 1 or 3; Tier 1–2; later death; non-employee",
+     "Forthwith telephone and e-mail notice; WCL 1 or 2; GAR 8(3) particulars",
+     "Forthwith; within 7 days",
+     "2.2–2.7",
+     "ACT s.24; GAR 8"
+    ],
+    [
+     "Chief inspector",
+     "Disease report; appeal; exemption",
+     "WCL 22 (by the practitioner); written appeal; exemption application",
+     "14 days; 60 days; before reliance",
+     "2.8, 5.7, 5.13",
+     "ACT s.25, s.35, s.40; GAR 3, 8(4)"
+    ],
+    [
+     "Inspector",
+     "Visit, investigation, inquiry",
+     "Access, accompanying person, documents, returns, witness names",
+     "On arrival; forthwith",
+     "5.1–5.10",
+     "ACT ss.29–32; GAR 2, 10, 11"
+    ],
+    [
+     "Compensation Fund or licensee",
+     "Employee injured or ill",
+     "W.Cl.2 or W.Cl.1 (COIDA flow)",
+     "COIDA 7 or 14 days",
+     "1.12, 2.3, 2.8",
+     "COIDA s.39, s.68"
+    ],
+    [
+     "SAPS",
+     "Death; suspected crime",
+     "Report; scene access",
+     "Immediately",
+     "1.9",
+     "General law; ACT s.24(3)–(4)"
+    ],
+    [
+     "DPP and inquest court",
+     "Inspector’s report; death",
+     "Evidence through LA",
+     "Per notice",
+     "5.9–5.11",
+     "ACT s.31–33"
+    ],
+    [
+     "HSRs",
+     "Incident; notified inspection; investigation; monitoring results",
+     "Notice of incident; invitation to investigation; inspection notice; aggregated results",
+     "As soon as reasonably practicable; beforehand",
+     "1.8, 3.3, 5.3, R8",
+     "ACT s.12(2), s.13(b)–(c), s.18"
+    ],
+    [
+     "H&S committee",
+     "Every recorded incident; every meeting",
+     "Annexure 1 records; corrective action status",
+     "Next meeting",
+     "4.3",
+     "GAR 9(4); ACT s.20"
+    ],
+    [
+     "Trade unions",
+     "HSR agreement; formal inquiry",
+     "Consultation on GAR 6 agreement; notice to attend inquiry",
+     "Within 4 months of commencing business (BP: of exceeding 20 employees); forthwith",
+     "0.6, 5.10",
+     "GAR 6, 10(2)"
+    ],
+    [
+     "CCMA or bargaining council",
+     "No agreement on HSR arrangements",
+     "Referral for conciliation, then arbitration",
+     "When a dispute exists",
+     "0.6",
+     "GAR 6(4)–(7)"
+    ],
+    [
+     "Labour Court",
+     "Appeal against chief inspector",
+     "Appeal under the Labour Court Rules",
+     "Within 60 days",
+     "5.7",
+     "ACT s.35(3)–(4)"
+    ],
+    [
+     "Approved inspection authority",
+     "Monitoring or statutory test due",
+     "Access; plant data; results",
+     "Per regulation",
+     "R8, R10",
+     "REG (verify)"
+    ],
+    [
+     "Occupational health practitioner",
+     "Surveillance; disease; fitness",
+     "Exposure data; job specifications; consent forms",
+     "Per programme",
+     "2.8, 4.8, R9",
+     "ACT s.12; REG"
+    ],
+    [
+     "Contractors and TES",
+     "Work on site; incident to their worker",
+     "Mandatary agreement; incident facts; investigation report",
+     "Before work; same day",
+     "0.10, 3.10, R11",
+     "ACT s.37(2); GAR 9(2)"
+    ],
+    [
+     "Suppliers and manufacturers",
+     "New article or substance; defect",
+     "Request for information or SDS; defect report",
+     "Before use; on discovery",
+     "R2",
+     "ACT s.10"
+    ],
+    [
+     "Local government (MHI)",
+     "MHI emergency",
+     "Emergency plan; occurrence report",
+     "Per plan",
+     "1.3, 2.9",
+     "REG MHI regs 14–16"
+    ],
+    [
+     "HR",
+     "Discipline; next of kin; return to work",
+     "Referral with separate evidence; family contact; RTW plan",
+     "On finding; same day",
+     "1.9, 3.9, 4.8",
+     "GBS Misconduct and COIDA flows"
+    ],
+    [
+     "Legal Adviser",
+     "Tier 1; notices; inquiries; prosecution",
+     "Privileged instructions",
+     "As triggered",
+     "3.8, 5.4–5.13",
+     "Privilege"
+    ],
+    [
+     "Insurer or broker",
+     "Tier 1; major incident",
+     "Notification per policy",
+     "Per policy",
+     "2.10",
+     "Policy terms"
+    ],
+    [
+     "Board / Social and Ethics or Risk Committee",
+     "Quarterly; Tier 1",
+     "Dashboard and report",
+     "Quarterly; same day for Tier 1",
+     "2.10, 6.2",
+     "Governance"
+    ]
+   ],
+   "intro": [
+    "Every hand-off carries a deadline or a privacy risk: send the minimum, keep proof of what was sent, to whom and when, and record it on the incident file."
+   ]
+  },
+  {
+   "title": "Hand-offs and interfaces register",
+   "section": "§12 Hand-offs and interfaces register",
+   "page": 39,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Adjacent regimes to check at intake. COIDA (compensation and its own reporting, GBS COIDA flow); the Mine Health and Safety Act on mines; aviation and maritime safety law; the National Road Traffic Act and AARTO where driving is work (GBS AARTO flow); the Employment Equity Act and its harassment and disability codes; POPIA for health information (GBS POPIA flow); the National Environmental Management Act for releases to the environment (s.30 incident reporting, verify); municipal fire by-laws and the National Building Regulations; the Protected Disclosures Act where safety concerns are raised as disclosures (GBS PDA flow)."
+   ]
+  },
+  {
+   "title": "Statutory and prescribed forms",
+   "section": "§13 Forms register",
+   "page": 42,
+   "kind": "forms",
+   "columns": [
+    "Form",
+    "Name",
+    "Direction",
+    "Used at",
+    "GBS library"
+   ],
+   "rows": [
+    [
+     "WCL 2 (W.Cl.2)",
+     "Employer’s report of an accident (COIDA form prescribed by GAR 8(1)(a))",
+     "Lodged with provincial director (and Compensation Fund)",
+     "2.3, 2.5",
+     "COIDA F06 (T2 checklist)"
+    ],
+    [
+     "WCL 1 (W.Cl.1)",
+     "Employer’s report of an occupational disease",
+     "Lodged",
+     "2.3, 2.8",
+     "COIDA F07"
+    ],
+    [
+     "WCL 22 (W.Cl.22)",
+     "First medical report on an occupational disease",
+     "Received from the practitioner (also to chief inspector)",
+     "2.8",
+     "COIDA F09"
+    ],
+    [
+     "Annexure 1",
+     "Recording and investigation of incidents (Parts A–D)",
+     "Kept at workplace 3 years; shown to inspector",
+     "3.1, 3.7, 4.2–4.3, 4.10",
+     "COIDA F05 (v1.1: s.24 notice on W.Cl.2 / W.Cl.1 and Annexure 1 record)"
+    ],
+    [
+     "Annexure 2",
+     "Subpoena to attend an inquiry",
+     "Issued by inspector; served on witnesses",
+     "5.10",
+     "—"
+    ],
+    [
+     "Prohibition notice",
+     "Inspector’s prohibition (s.30(1))",
+     "Received",
+     "5.5",
+     "—"
+    ],
+    [
+     "Improvement / contravention notice",
+     "Inspector’s directions (s.30(3), (4))",
+     "Received",
+     "5.6",
+     "—"
+    ],
+    [
+     "Inspector’s certificate",
+     "Designation certificate (s.28(2))",
+     "Shown on demand",
+     "5.1",
+     "—"
+    ],
+    [
+     "Certificate of exemption",
+     "Exemption under s.40 (signed by the chief inspector, GAR 3)",
+     "Received",
+     "5.13",
+     "—"
+    ],
+    [
+     "MHI forms",
+     "Notification, registration and occurrence forms (MHI Regs annexures)",
+     "Lodged",
+     "2.9",
+     "—"
+    ],
+    [
+     "Construction permit / notification",
+     "Construction Regulations, 2014 (verify)",
+     "Lodged by client or principal contractor",
+     "0.10",
+     "—"
+    ],
+    [
+     "Certificate of compliance (electrical)",
+     "Electrical Installation Regulations, 2009 (verify)",
+     "Received from registered person",
+     "0.16, R10",
+     "—"
+    ]
+   ],
+   "intro": [
+    "“GBS library” shows whether a template already exists in another GBS flow, so the gaps are the templates still to draft."
+   ]
+  },
+  {
+   "title": "Internal GBS forms",
+   "section": "§13 Forms register",
+   "page": 42,
+   "kind": "forms",
+   "columns": [
+    "Form",
+    "Name",
+    "Used at",
+    "Existing GBS template or register"
+   ],
+   "rows": [
+    [
+     "H01",
+     "Health and safety policy and CEO statement",
+     "0.2, 6.4",
+     "—"
+    ],
+    [
+     "H02",
+     "s.16(2) assignment letter, acceptance and annual assurance",
+     "0.1, 6.5",
+     "Off-Boarding handover list (OHS appointments)"
+    ],
+    [
+     "H03",
+     "Statutory and competent-person appointments register",
+     "0.5",
+     "—"
+    ],
+    [
+     "H04",
+     "Index of the Act and regulations kept at the workplace",
+     "0.3",
+     "—"
+    ],
+    [
+     "H05",
+     "HIRA register (baseline, issue-based, continuous)",
+     "0.4, 4.6, R1",
+     "—"
+    ],
+    [
+     "H06",
+     "HSR agreement (GAR 6) and designation letters (s.17(1))",
+     "0.6–0.7, R12",
+     "—"
+    ],
+    [
+     "H07",
+     "H&S committee constitution, agenda, minutes and recommendations register",
+     "0.9, 4.3, R5–R6",
+     "COIDA interfaces (partly)"
+    ],
+    [
+     "H08",
+     "HSR facilities, training and inspection-interval agreement",
+     "0.8",
+     "—"
+    ],
+    [
+     "H09",
+     "Contractor pre-qualification and s.37(2) mandatary agreement",
+     "0.10, 3.10, R11",
+     "COIDA F28 (registration check only)"
+    ],
+    [
+     "H10",
+     "Induction, training, competence and toolbox-talk records",
+     "0.11, 4.6–4.7, 6.7",
+     "—"
+    ],
+    [
+     "H11",
+     "PPE issue and replacement register",
+     "0.12",
+     "—"
+    ],
+    [
+     "H12",
+     "Emergency plan, first-aid register and drill record",
+     "0.13, 1.2–1.3, R13",
+     "COIDA emergency and transport plan"
+    ],
+    [
+     "H13",
+     "Occupational hygiene and medical surveillance programme",
+     "0.14, R8–R9",
+     "Off-Boarding OB27 (exit examination)"
+    ],
+    [
+     "H14",
+     "Incident procedure and DEL contact card",
+     "0.15",
+     "—"
+    ],
+    [
+     "H15",
+     "Statutory plant inspection schedule and certificates",
+     "0.16, R10",
+     "—"
+    ],
+    [
+     "H16",
+     "Records and retention schedule",
+     "0.16, 4.10",
+     "COIDA F24 (partly)"
+    ],
+    [
+     "H17",
+     "First notification / internal incident report",
+     "1.1–1.8",
+     "COIDA F01; Misconduct D05"
+    ],
+    [
+     "H18",
+     "Scene preservation notice and inspector-consent log",
+     "1.4",
+     "—"
+    ],
+    [
+     "H19",
+     "Classification record (Figure 2)",
+     "1.7, 2.1, 2.5, 2.11",
+     "—"
+    ],
+    [
+     "H20",
+     "Forthwith notice log and written confirmation",
+     "1.9, 2.2, 2.4, 2.6",
+     "COIDA F05 (partly; v1.1)"
+    ],
+    [
+     "H21",
+     "WCL submission and proof-of-delivery record",
+     "2.3, 2.5",
+     "COIDA F06"
+    ],
+    [
+     "H22",
+     "Non-employee incident notice (GAR 8(3) particulars)",
+     "1.10, 2.7",
+     "—"
+    ],
+    [
+     "H23",
+     "Annexure 1 (statutory record, Parts A–D)",
+     "2.8, 3.1, 3.7, 4.2–4.3",
+     "COIDA F05 (v1.1: Annexure 1 record)"
+    ],
+    [
+     "H24",
+     "Investigator appointment and HSR invitation",
+     "3.2–3.3",
+     "—"
+    ],
+    [
+     "H25",
+     "Witness statement and evidence log",
+     "3.4",
+     "COIDA F03"
+    ],
+    [
+     "H26",
+     "Investigation report and root-cause analysis",
+     "3.5–3.6",
+     "COIDA F29"
+    ],
+    [
+     "H27",
+     "Corrective and preventive action register",
+     "4.1, 4.4–4.5",
+     "—"
+    ],
+    [
+     "H28",
+     "Close-out certificate",
+     "4.9",
+     "—"
+    ],
+    [
+     "H29",
+     "Inspector visit log and document receipt register",
+     "5.1–5.4, 5.9",
+     "COIDA F26 (COIDA inspections)"
+    ],
+    [
+     "H30",
+     "Notice tracker (prohibition, improvement, contravention)",
+     "5.5–5.6",
+     "—"
+    ],
+    [
+     "H31",
+     "Appeal to the chief inspector",
+     "5.7",
+     "—"
+    ],
+    [
+     "H32",
+     "Formal inquiry pack (GAR 10(2) letters; GAR 10(3) list)",
+     "5.10",
+     "—"
+    ],
+    [
+     "H33",
+     "Employee hazard report and complaint form",
+     "1.11, R7",
+     "—"
+    ],
+    [
+     "H34",
+     "HSR inspection report and representation register",
+     "R3–R4",
+     "—"
+    ],
+    [
+     "H35",
+     "Management of change and new plant or substance approval",
+     "R2",
+     "—"
+    ],
+    [
+     "H36",
+     "OHS dashboard and board report",
+     "2.10, 6.1–6.2",
+     "COIDA F30 (partly)"
+    ],
+    [
+     "H37",
+     "Legal compliance audit report",
+     "6.3",
+     "—"
+    ],
+    [
+     "H38",
+     "Victimisation complaint record",
+     "R14",
+     "—"
+    ]
+   ]
+  },
+  {
+   "title": "Incident calendar (calendar days from the incident)",
+   "section": "§14 Timeline calendar and liability register",
+   "page": 46,
+   "kind": "timeline",
+   "columns": [
+    "When",
+    "Event",
+    "Type",
+    "Authority"
+   ],
+   "rows": [
+    [
+     "Immediately",
+     "Make safe; first aid; scene preserved (Tier 1 death, likely death or limb loss)",
+     "Statutory",
+     "ACT s.8, s.24(2)"
+    ],
+    [
+     "End of shift",
+     "Employee reports the incident",
+     "Statutory",
+     "ACT s.14(e)"
+    ],
+    [
+     "Same shift",
+     "Supervisor reports to OHSM; HSR informed",
+     "BP / statutory",
+     "ACT s.13(c); BP"
+    ],
+    [
+     "Forthwith (BP within 1 hour of knowledge)",
+     "Telephone and e-mail notice to the provincial director (Tier 1 and Tier 3; non-employee; later death)",
+     "Statutory",
+     "GAR 8(1)(b), (2), (3)"
+    ],
+    [
+     "Day 0",
+     "Classification recorded; COIDA hand-off; CEO informed of Tier 1",
+     "BP",
+     "—"
+    ],
+    [
+     "Within 24 hours",
+     "Annexure 1 Part A; investigator appointed",
+     "BP",
+     "GAR 9(1)–(2)"
+    ],
+    [
+     "Within 48 hours",
+     "Investigation started; evidence secured",
+     "BP",
+     "GAR 9(2)"
+    ],
+    [
+     "Within 3 working days",
+     "WCL 1 or WCL 2 lodged (BP target)",
+     "BP",
+     "GAR 8(1)(a)"
+    ],
+    [
+     "Day 7",
+     "Last day for WCL 1 or WCL 2 (Tier 1 and Tier 2); investigation carried out",
+     "Statutory",
+     "GAR 8(1)(a), 9(2)"
+    ],
+    [
+     "Day 7 from knowledge (COIDA)",
+     "W.Cl.2 to the Compensation Fund or licensee",
+     "Statutory",
+     "COIDA s.39(1)"
+    ],
+    [
+     "Day 14",
+     "Absence test for Tier 2 resolved; disease reports by practitioner (WCL 22) and employer (W.Cl.1) due within 14 days of diagnosis or notice",
+     "Statutory",
+     "ACT s.24(1)(a), s.25; GAR 8(4); COIDA s.68(2)"
+    ],
+    [
+     "Immediately after completion",
+     "Findings entered in Part B",
+     "Statutory",
+     "GAR 9(3)"
+    ],
+    [
+     "As soon as reasonably practicable",
+     "Investigation finalised",
+     "Statutory",
+     "GAR 9(2)"
+    ],
+    [
+     "Next HSC meeting (≤ 3 months)",
+     "Committee examines the record; Part D signed",
+     "Statutory",
+     "GAR 9(4); ACT s.19(4), s.20(1)(b)"
+    ],
+    [
+     "On service of a prohibition",
+     "Stop immediately; notify HSRs and employees forthwith",
+     "Statutory",
+     "ACT s.30(1), (6)"
+    ],
+    [
+     "Period stated in a notice",
+     "Comply with an improvement or contravention notice (extension in writing before expiry)",
+     "Statutory",
+     "ACT s.30(3)–(5)"
+    ],
+    [
+     "Decision made known + 60 days",
+     "Appeal to the chief inspector",
+     "Statutory",
+     "ACT s.35(2)"
+    ],
+    [
+     "Chief inspector’s decision + 60 days",
+     "Appeal to the Labour Court",
+     "Statutory",
+     "ACT s.35(4)"
+    ],
+    [
+     "On notice of an inquiry",
+     "Advise witnesses and union in writing; list likely refusers",
+     "Statutory (forthwith)",
+     "GAR 10(2)–(3)"
+    ],
+    [
+     "3 years",
+     "Minimum retention of Annexure 1 and committee records",
+     "Statutory",
+     "GAR 5(b), 9(1)"
+    ]
+   ],
+   "intro": [
+    "A Tier 1 incident has two statutory notice points in its first week, an investigation that must run within the same seven days, and a committee review at the next meeting. Every inspector’s notice then starts its own clock."
+   ]
+  },
+  {
+   "title": "Standing calendar",
+   "section": "§14 Timeline calendar and liability register",
+   "page": 46,
+   "kind": "timeline",
+   "columns": [
+    "When",
+    "Event",
+    "Type",
+    "Authority"
+   ],
+   "rows": [
+    [
+     "Within 4 months of commencing business (BP: of first exceeding 20 employees)",
+     "GAR 6 agreement concluded; HSRs designated",
+     "Statutory",
+     "ACT s.17(1); GAR 6(1)"
+    ],
+    [
+     "At least every 3 months",
+     "H&S committee meeting",
+     "Statutory",
+     "ACT s.19(4)"
+    ],
+    [
+     "Agreed interval",
+     "HSR workplace inspections",
+     "Statutory (interval agreed)",
+     "ACT s.18(1)(g)"
+    ],
+    [
+     "At least every 2 years",
+     "Noise and physical-agent risk assessments by a competent person",
+     "Statutory",
+     "REG Noise Exposure, Physical Agents (verify)"
+    ],
+    [
+     "Per regulation",
+     "Exposure monitoring; medical surveillance; statutory plant tests",
+     "Statutory",
+     "REG (verify)"
+    ],
+    [
+     "Monthly",
+     "Dashboard",
+     "BP",
+     "—"
+    ],
+    [
+     "Quarterly",
+     "Board report",
+     "BP",
+     "—"
+    ],
+    [
+     "Annually",
+     "Policy review; legal compliance audit; CEO assurance; drills; training refresh",
+     "BP",
+     "ACT s.7(3), s.16"
+    ]
+   ]
+  },
+  {
+   "title": "Liability and offences register",
+   "section": "§14 Timeline calendar and liability register",
+   "page": 46,
+   "kind": "liability",
+   "columns": [
+    "Exposure",
+    "Who is exposed",
+    "Consequence",
+    "Authority"
+   ],
+   "rows": [
+    [
+     "Contravening s.7, 8, 9, 10, 12, 13, 14, 15, 16(1)–(2), 17(1)–(2), (5), 18(3), 19(1), 20(2), (4), 22, 23, 24(1)–(2), 25, 26, 29(3), 30(2), (6), 34 or 36; failing to comply with notices or directions; hindering an inspector; false information",
+     "Employer, user, CEO, employee, any person",
+     "Fine up to R50 000, or imprisonment up to 1 year, or both",
+     "ACT s.38(1)"
+    ],
+    [
+     "Act or omission causing injury that would have been culpable homicide had the person died",
+     "Employer or user",
+     "Fine up to R100 000, or imprisonment up to 2 years, or both",
+     "ACT s.38(2)"
+    ],
+    [
+     "Contravening GAR regs 2(1), 4, 5, 6(1), 7, 8(1)–(4), 9(1)–(4), 10(2)–(3), 11; failing to provide an accompanying person",
+     "Employer, user, any person",
+     "Fine or imprisonment up to 12 months; continuing offence: R200 or one day a day, maximum 90 days’ additional imprisonment",
+     "GAR 12; ACT s.43(4)"
+    ],
+    [
+     "Employee’s or mandatary’s act or omission that would be an offence for the employer",
+     "Employer or user (presumed); employee or mandatary personally",
+     "Conviction unless the s.37(1)(a)–(c) defence is proved; instructions alone are not enough",
+     "ACT s.37(1)–(5)"
+    ],
+    [
+     "CEO failing to ensure the employer’s duties are discharged",
+     "CEO personally",
+     "Offence; assignment under s.16(2) does not remove the CEO’s responsibility",
+     "ACT s.16(1)–(3), s.38(1)(a)"
+    ],
+    [
+     "Unlawful deduction for safety items",
+     "Employer",
+     "Offence; court determines and orders repayment",
+     "ACT s.23, s.38(4)"
+    ],
+    [
+     "Death or injury through negligence",
+     "Employer, managers, employees",
+     "Common-law culpable homicide; COIDA s.56 increased compensation claim",
+     "Common law; COIDA s.56"
+    ],
+    [
+     "Civil claim by an injured employee",
+     "Employer",
+     "Barred: the remedy lies under COIDA",
+     "COIDA s.35"
+    ],
+    [
+     "Victimisation",
+     "Employer",
+     "Offence; unfair dismissal (LRA s.188); automatically unfair dismissal (s.187(1)(h)) or unfair labour practice (s.186(2)(d)) where the report was a protected disclosure",
+     "ACT s.26, s.38(1)(a); LRA ss.186(2)(d), 187(1)(h), 188; PDA"
+    ],
+    [
+     "Failure to comply with a court compliance order",
+     "Convicted person",
+     "Contempt and further proceedings",
+     "ACT s.38(3)"
+    ]
+   ]
+  },
+  {
+   "title": "Timeline calendar and liability register",
+   "section": "§14 Timeline calendar and liability register",
+   "page": 46,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Fines in the Act have not been changed since 1993. The OHS Amendment Bill proposes higher penalties and administrative fines (BILL, verify). Until it is enacted, the R50 000 and R100 000 ceilings apply."
+   ]
+  },
+  {
+   "title": "Corrections to GBS materials",
+   "section": "§15 Corrections to existing GBS materials and drafting issues",
+   "page": 50,
+   "kind": "corrections",
+   "columns": [
+    "#",
+    "Current statement",
+    "Where",
+    "Correction"
+   ],
+   "rows": [
+    [
+     "1",
+     "“Submit the written OHS incident report (Annexure 1)” within 7 days",
+     "COIDA flow 1.4; F05; interfaces register; case calendar; Section 15 item 12",
+     "Annexure 1 is the record kept at the workplace for at least 3 years and shown to an inspector on request (GAR reg 9(1)). The 7-day written notice to the provincial director is WCL 1 or WCL 2 (GAR reg 8(1)(a)). Keep Annexure 1 as a separate record. Status: implemented in GBS COIDA flow v1.1 (19 October 2026); F05 is now “OHS s.24 notice to the provincial director (W.Cl.2 / W.Cl.1) and internal Annexure 1 incident record (kept 3 years)”."
+    ],
+    [
+     "2",
+     "Immediate telephone or e-mail notice “as the W.Cl.2 directions require”",
+     "COIDA flow 1.4 and Section 15 item 12",
+     "The duty to notify forthwith by telephone, fax or similar is in GAR reg 8(1)(b) itself, not only in the W.Cl.2 directions. Status: implemented in GBS COIDA flow v1.1 (19 October 2026)."
+    ],
+    [
+     "3",
+     "OHS reportable trigger listed as death, unconsciousness, limb loss or 14 days’ absence only",
+     "COIDA flow 1.4",
+     "Add major incidents and dangerous occurrences (s.24(1)(b)–(c)), which must be reported forthwith even if nobody is injured; add injury likely to cause a permanent physical defect. The 14-day case needs the WCL notice but not the forthwith notice. Status: implemented in GBS COIDA flow v1.1 (19 October 2026)."
+    ],
+    [
+     "4",
+     "“Preserve the scene where an inspector will investigate”",
+     "COIDA flow 1.4",
+     "Section 24(2) prohibits disturbing the site after a death, likely death or limb loss without an inspector’s consent, whether or not an inspector has said they will attend; the only exceptions are preventing a further incident, removing the injured or dead, and rescue. Status: implemented in GBS COIDA flow v1.1 (19 October 2026)."
+    ],
+    [
+     "5",
+     "Root-cause investigation “BP within 30 days”, citing “GAR reg 9 (verify)”",
+     "COIDA flow 6.1",
+     "GAR reg 9(2) requires every recorded incident to be investigated within 7 days of the incident and finalised as soon as reasonably practicable; GAR reg 9(4) requires the committee to examine it at its next meeting. Keep 30 days only as the target for finalising the report. Status: implemented in GBS COIDA flow v1.1 (19 October 2026): step 1.4 sets the 7-day investigation and 6.1 keeps 30 days as the BP finalisation target."
+    ],
+    [
+     "6",
+     "“OHS Act General Safety Regulation 2A (verify)” for testing",
+     "Misconduct flow 0.5, 1.1, 3.6; Incapacity flow 2B.9",
+     "Confirmed: GSR 2A (inserted by GN R.928 of 2003) forbids permitting anyone who is or appears to be under the influence to enter or remain at work, and forbids being under the influence, possessing, using or offering alcohol or drugs at work; medicines are allowed only if their side effects create no risk. It does not prescribe any testing method: the testing procedure must come from policy."
+    ],
+    [
+     "7",
+     "Health records from occupational exposure “may need far longer retention under OHS regulations (verify)”",
+     "Incapacity flow Section 15, item 14",
+     "Name the regulations that apply (for example Hazardous Chemical Agents, Asbestos Abatement, Lead, Noise Exposure) and their periods in the retention schedule (Noise Exposure Regulations reg 14: 40 years for noise risk assessment, monitoring and medical surveillance records); check each against the Gazette text, because the Noise Exposure Regulations replaced the NIHL Regulations on 6 September 2026."
+    ],
+    [
+     "8",
+     "“OHS Act s.16(2) and ss.17–19 appointments (replace, do not leave vacant)”",
+     "Off-Boarding flow 2.11",
+     "s.16(2) assignments can be re-assigned by the CEO at once. HSRs are not appointed by management: a vacancy is filled under the GAR reg 6 agreement (nomination or election) and the employer then designates in writing (s.17(1); GAR reg 7). Employer nominees on the committee are designated by the employer (s.19(3))."
+    ],
+    [
+     "9",
+     "“Occupational health and safety duties where driving is part of the work”",
+     "AARTO flow Section 12 (adjacent regimes)",
+     "Add that a traffic accident on a public road is excluded from s.24 reporting (s.24(3)(a)), but the s.8 duties, COIDA reporting and internal recording still apply."
+    ],
+    [
+     "10",
+     "Pre-employment medicals “OHSA / MHSA where required (verify)”",
+     "Recruitment, Selection and Assessment flow v2.0, 5.2 (supersedes Resourcing 5.2)",
+     "Baseline medical surveillance is required by the topic regulations where an employee will be exposed (for example chemical agents, noise, asbestos, lead); medical testing is otherwise limited by EEA s.7. Name the regulation in each case."
+    ],
+    [
+     "11",
+     "References to the “Environmental Regulations for Workplaces” or the “Noise-Induced Hearing Loss Regulations” (where used in GBS OHS material)",
+     "All GBS OHS material (check)",
+     "Both were repealed on 6 September 2026 and replaced by the Physical Agents Regulations, 2024 and the Noise Exposure Regulations, 2024 (GG 52226, 6 March 2025)."
+    ],
+    [
+     "12",
+     "“DEL provincial office” contact details taken from the GAR",
+     "COIDA flow interfaces (and any contact cards)",
+     "GAR reg 1 still lists 2003 postal addresses (for example Pietersburg, Kemptonpark). Use current DEL provincial office numbers and e-mail addresses and check them quarterly. Status: implemented in GBS COIDA flow v1.1 (19 October 2026)."
+    ],
+    [
+     "13",
+     "Immediate notice only for “death, unconsciousness, loss of a limb or part of a limb, or … a major incident”",
+     "COIDA flow v1.1, 1.4",
+     "Extend the immediate-notice trigger to injury or illness likely to cause death or a permanent physical defect, and to s.24(1)(c) dangerous occurrences (GAR reg 8(1)(b)), as in OHSA Tier 1 and Tier 3."
+    ]
+   ],
+   "intro": [
+    "No separate GBS OHS policy or toolkit was available in the project, so this section reviews the OHS references in the existing GBS flows (COIDA, Misconduct, Incapacity, Off-Boarding, Recruitment, Selection and Assessment v2.0 (which supersedes Resourcing), AARTO and PDA) against the Act and the GAR. This flow already reflects the corrections. Corrections 1–5 and 12 have been implemented in the GBS COIDA flow v1.1 (19 October 2026); correction 13 is new in this version."
+   ]
+  },
+  {
+   "title": "Revision history — v1.1 (19 October 2026)",
+   "section": "§15 Corrections to existing GBS materials and drafting issues",
+   "page": 50,
+   "kind": "corrections",
+   "columns": [
+    "#",
+    "Finding (severity)",
+    "Where",
+    "Change made"
+   ],
+   "rows": [
+    [
+     "1",
+     "Figure 2 excluded s.1(3)(b) vessels from s.24 reporting (Minor)",
+     "Section 2, Figure 2 (Q1 and Excluded box)",
+     "Figure 2 corrected: Q1 now lists mines (s.1(3)(a)), public-road traffic accidents, private households and aviation; the box states that s.1(3)(b) is not in force, so vessel incidents are reported; MSA reference removed."
+    ],
+    [
+     "2",
+     "Figure 2 “classify by end of shift” v. day 0 in the text (Minor)",
+     "Section 2, Figure 2 (top box)",
+     "Changed to “classify on day 0; re-classify when facts change”; the original text overflowed its box and now fits."
+    ],
+    [
+     "3",
+     "Section 15 corrections out of date after COIDA v1.1 (Minor)",
+     "Section 15 intro, corrections #1–#5 and #12; forms register (Annexure 1, H20, H23)",
+     "Each correction is marked as implemented in COIDA v1.1; the F05 name is aligned with v1.1; the instruction to rename F05 is removed."
+    ],
+    [
+     "4",
+     "COIDA v1.1 immediate-notice trigger narrower than GAR 8(1)(b) (Minor)",
+     "Section 15, new correction #13",
+     "New correction #13 asks GBS to align COIDA 1.4 with OHSA Tier 1 and Tier 3 (likely death or permanent defect; s.24(1)(c) occurrences)."
+    ],
+    [
+     "5",
+     "“or of exceeding 20 employees” stated as statutory (Minor)",
+     "0.6; standing calendar; interfaces (trade unions)",
+     "Statutory: 4 months from commencing business (GAR 6(1)); the 20-employee trigger is now labelled BP."
+    ],
+    [
+     "6",
+     "First-aider ratio incomplete, left as “verify” (Minor)",
+     "0.13",
+     "GSR 3(4): one per 50 (one per 100 in shops and offices) where more than 10 employees; first-aid box where more than 5 employees; “verify” removed."
+    ],
+    [
+     "7",
+     "Victimisation said to found an automatically unfair dismissal (Minor)",
+     "R14; liability register; Section 1 point on refusing dangerous work",
+     "Corrected: offence; unfair dismissal (LRA s.188); automatically unfair (s.187(1)(h)) or unfair labour practice (s.186(2)(d)) only for protected disclosures (PDA flow)."
+    ],
+    [
+     "8",
+     "Noise record retention left as “verify” (Improvement)",
+     "0.16; 4.10; correction #7",
+     "Noise Exposure Regulations reg 14: 40 years added; other sets remain “verify”."
+    ],
+    [
+     "9",
+     "2026 noise exemption missing (Improvement)",
+     "6.6; R8",
+     "Notice 7292 (GG 54405, 20 March 2026), the reg 8(3) exemption for Type 2 meters on mobile plant, added."
+    ],
+    [
+     "10",
+     "Bill status check dated 1 October 2026 (Improvement)",
+     "Section 1 legal status; Sources; cover",
+     "Re-checked on 19 October 2026: no Bill introduced and no Act passed; cover v1.1, 19 October 2026."
+    ],
+    [
+     "11",
+     "Outdated cross-references (Resourcing; POPIA flow) (Improvement)",
+     "Section 15 intro and #10; adjacent regimes; Sources",
+     "Correction #10 now points at Recruitment v2.0 step 5.2; the GBS POPIA flow is cross-referenced; sources updated."
+    ],
+    [
+     "O1",
+     "Open: noise and physical-agent risk assessment interval “at least every 2 years”",
+     "0.4; standing calendar",
+     "Regulation text not retrieved; “(verify)” kept."
+    ],
+    [
+     "O2",
+     "Open: MHI reg 15 numbering; HCA, Asbestos and Lead retention; Companies Reg 43; Construction permit; Electrical CoC",
+     "0.13, 0.16, 2.9, 6.2; forms register",
+     "Not retrieved; “(verify)” kept."
+    ],
+    [
+     "O3",
+     "Open: GSR 3(4) shops and offices ratio taken from secondary sources",
+     "0.13",
+     "Confirm against the Gazette text."
+    ],
+    [
+     "O4",
+     "Open: author questions (vessels, MHSA branch for mining clients, Tier 2 telephone target, TES clause in H09, ISO 45001)",
+     "—",
+     "Need GBS or client decisions; no text change."
+    ],
+    [
+     "D",
+     "Diagrams reviewed",
+     "Section 2",
+     "Figure 2 corrected in place (same size and style). Figures 1 and 3 contain no statement made wrong by the findings and were not regenerated."
+    ]
+   ],
+   "intro": [
+    "The Act still names the Department and Minister of Manpower, the industrial court (ss.17(2), 26(1)), the LRA 1956 (definitions of “employer”, “employers’ organisation” and “trade union”), the Workmen’s Compensation Act (ss.4(1)(c), 25), the attorney-general (ss.31–32), the Minerals Act 1991 (s.1(3)(a)), the BCEA 1983 (“office”, “shop”), the South African Medical and Dental Council, the Minister of State Expenditure, district surgeons (s.39(2)), and local authorities under the Provincial Government Act 1961. The Bill proposes technical corrections but none has been enacted.",
+    "Section 17(2)–(3) still sends failed consultation on HSR arrangements to an arbitrator designated by the President of the Industrial Court, while GAR reg 6(4)–(7) sends the same dispute to the CCMA or a bargaining council. A regulation cannot amend the Act; GAR reg 6 works in practice because the industrial court no longer exists, but the conflict should be fixed.",
+    "GAR reg 6(5)–(6) allows referral to “the CCMA or Bargaining Council” but then says only the CCMA shall conciliate.",
+    "GAR reg 3 says a certificate of exemption is signed by the chief inspector, while s.40 gives the power to exempt to the Minister. That works only through a delegation under s.42(1).",
+    "GAR reg 8(1)(a) prescribes a written form (WCL 1 or 2) only for s.24(1)(a) incidents; major incidents and dangerous occurrences (s.24(1)(b)–(c)) get a forthwith notice with no written follow-up. Conversely, the forthwith notice does not cover the 14-day absence case.",
+    "GAR reg 8(1)(a) runs “within seven days of any incident”, so the OHS clock can expire before the employer knows of the incident, unlike COIDA s.39(1). Disease cases fit poorly, because a disease is not an incident on a known date.",
+    "GAR reg 8(1)(b) is reproduced in several published versions as referring to “section 24(1)(6)”; this should read s.24(1)(b).",
+    "GAR reg 8 relies on COIDA forms (“WCL 1”, “WCL 2”, “WCL 22”) whose numbering and content are controlled by the Compensation Fund and have changed since 2003, and it still refers to fax.",
+    "GAR reg 9(2) is unclear whether the incident must be investigated (completed) or merely started within seven days, and what “the contracted period in the case of contracted workers” means.",
+    "GAR reg 10(3) contains a drafting slip (“in for the inspector to subpoena”); GAR reg 12 does not state a fine amount, relying on s.43(4); and GAR reg 13 leaves regulations 7, 10, 11 and 13 of the 1996 GAR unrepealed (confirm what, if anything, still applies, verify).",
+    "Section 1(3)(b) (exclusion of ships) has never been brought into operation, so the Act arguably still applies to vessels the exclusion was meant to cover.",
+    "The Act gives no express right to refuse or leave dangerous work, unlike MHSA s.23.",
+    "The 2025 notice amending the General Safety Regulations (GN 5954) is unclear: it repeats regulation 2(1) with apparent errors and adds regulations 13H to 13J, which duplicate regulations 6, 8 and 9 of the now-repealed Environmental Regulations. Commentators recommend that DEL withdraw and re-issue it; until then, treat 13H–13J (housekeeping, flooding, fire precautions and egress) as applicable.",
+    "The consolidation used records the Act as published in “G. 14918 2 July 2993” and annotates s.26(2) as “S 25(2) inserted”; both are typographical errors in the source."
+   ]
+  },
+  {
+   "title": "Corrections to existing GBS materials and drafting issues",
+   "section": "§15 Corrections to existing GBS materials and drafting issues",
+   "page": 50,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Occupational Health and Safety Act 85 of 1993, consolidated to 11 November 1996, last checked 31 October 2025 (uploaded).",
+    "General Administrative Regulations, 2003, GN R.929, GG 25129, 25 June 2003 (uploaded).",
+    "ENSafrica, “Physical Agents Regulations 2024, Noise Exposure Regulations 2024, and Amendment of the General Safety Regulations 2025”, 11 March 2025; Webber Wentzel, “Recent amendments to the Occupational Health and Safety Act – new regulations”, 2025 (GG 52226, GN 5952–5954).",
+    "ENSafrica via Mondaq, “South Africa’s New Major Hazard Installation Regulations 2022”, 26 February 2023 (GN R.2989, GG 47970, 31 January 2023); Explanatory Notes, GN 2841, GG 51628, 20 November 2024.",
+    "PMG and gov.za, Occupational Health and Safety Amendment Bill, 2021, call for comment (14 May 2021; comments closed 31 July 2021); 2026 commentary describing the Bill as still in progress (for example Katopesa, “OHS Law South Africa: 2026 Changes”, 27 January 2026, updated 11 March 2026); no Bill found on Parliament’s list on 19 October 2026.",
+    "Acts Online, General Safety Regulations reg 2A (Intoxication), inserted by GN R.928 of 2003.",
+    "GBS COIDA (v1.1), Misconduct, Incapacity, Off-Boarding, Recruitment, Selection and Assessment (v2.0, superseding Resourcing), AARTO, PDA and POPIA process flows (project files), for format and cross-references.",
+    "The other OHS regulations (Hazardous Chemical Agents, Ergonomics, Hazardous Biological Agents, Asbestos Abatement, Lead, Construction, Driven Machinery, Pressure Equipment, Electrical Installation, Facilities), COIDA, the LRA, EEA, POPIA, the Interpretation Act, the Inquests Act and the Companies Regulations are cited from general knowledge; verify section numbers, Gazette references and current wording before client use.",
+    "General Administrative Regulations, 2003 (GN R.929), regs 2, 4–10, 12–13, NIOH copy (nioh.ac.za), checked 19 October 2026.",
+    "OHS Act 85 of 1993 s.1(3) (paragraph (b): date of commencement to be proclaimed), ss.17, 19, 24, 26, 34–35, 37–39, lawlibrary.org.za consolidation, checked 19 October 2026.",
+    "Noise Exposure Regulations, 2024 (GN 5953) reg 14 (records 40 years), Acts Online; Chief Inspector’s exemption from reg 8(3), Notice 7292, GG 54405, 20 March 2026 (Mondaq summary).",
+    "General Safety Regulations reg 3(4) (first aiders), as quoted in UCT HS07 and Labour Guide, “Update: First Aid and Aid Boxes”.",
+    "LRA 66 of 1995 ss.186(2)(d), 187(1), 188 (Worklaw, Chapter VIII text).",
+    "Independent V&V review of this flow, 19 October 2026.",
+    "This flow is a working document for legal review, not legal advice."
+   ]
+  }
+ ],
+ "forms": [
+  {
+   "code": "WCL 2 (W.Cl.2)",
+   "name": "Employer’s report of an accident (COIDA form prescribed by GAR 8(1)(a))",
+   "usedAt": "Lodged with provincial director (and Compensation Fund)"
+  },
+  {
+   "code": "WCL 1 (W.Cl.1)",
+   "name": "Employer’s report of an occupational disease",
+   "usedAt": "Lodged"
+  },
+  {
+   "code": "WCL 22 (W.Cl.22)",
+   "name": "First medical report on an occupational disease",
+   "usedAt": "Received from the practitioner (also to chief inspector)"
+  },
+  {
+   "code": "Annexure 1",
+   "name": "Recording and investigation of incidents (Parts A–D)",
+   "usedAt": "Kept at workplace 3 years; shown to inspector"
+  },
+  {
+   "code": "Annexure 2",
+   "name": "Subpoena to attend an inquiry",
+   "usedAt": "Issued by inspector; served on witnesses"
+  },
+  {
+   "code": "Prohibition notice",
+   "name": "Inspector’s prohibition (s.30(1))",
+   "usedAt": "Received"
+  },
+  {
+   "code": "Improvement / contravention notice",
+   "name": "Inspector’s directions (s.30(3), (4))",
+   "usedAt": "Received"
+  },
+  {
+   "code": "Inspector’s certificate",
+   "name": "Designation certificate (s.28(2))",
+   "usedAt": "Shown on demand"
+  },
+  {
+   "code": "Certificate of exemption",
+   "name": "Exemption under s.40 (signed by the chief inspector, GAR 3)",
+   "usedAt": "Received"
+  },
+  {
+   "code": "MHI forms",
+   "name": "Notification, registration and occurrence forms (MHI Regs annexures)",
+   "usedAt": "Lodged"
+  },
+  {
+   "code": "Construction permit / notification",
+   "name": "Construction Regulations, 2014 (verify)",
+   "usedAt": "Lodged by client or principal contractor"
+  },
+  {
+   "code": "Certificate of compliance (electrical)",
+   "name": "Electrical Installation Regulations, 2009 (verify)",
+   "usedAt": "Received from registered person"
+  },
+  {
+   "code": "H01",
+   "name": "Health and safety policy and CEO statement",
+   "usedAt": "0.2, 6.4"
+  },
+  {
+   "code": "H02",
+   "name": "s.16(2) assignment letter, acceptance and annual assurance",
+   "usedAt": "0.1, 6.5"
+  },
+  {
+   "code": "H03",
+   "name": "Statutory and competent-person appointments register",
+   "usedAt": "0.5"
+  },
+  {
+   "code": "H04",
+   "name": "Index of the Act and regulations kept at the workplace",
+   "usedAt": "0.3"
+  },
+  {
+   "code": "H05",
+   "name": "HIRA register (baseline, issue-based, continuous)",
+   "usedAt": "0.4, 4.6, R1"
+  },
+  {
+   "code": "H06",
+   "name": "HSR agreement (GAR 6) and designation letters (s.17(1))",
+   "usedAt": "0.6–0.7, R12"
+  },
+  {
+   "code": "H07",
+   "name": "H&S committee constitution, agenda, minutes and recommendations register",
+   "usedAt": "0.9, 4.3, R5–R6"
+  },
+  {
+   "code": "H08",
+   "name": "HSR facilities, training and inspection-interval agreement",
+   "usedAt": "0.8"
+  },
+  {
+   "code": "H09",
+   "name": "Contractor pre-qualification and s.37(2) mandatary agreement",
+   "usedAt": "0.10, 3.10, R11"
+  },
+  {
+   "code": "H10",
+   "name": "Induction, training, competence and toolbox-talk records",
+   "usedAt": "0.11, 4.6–4.7, 6.7"
+  },
+  {
+   "code": "H11",
+   "name": "PPE issue and replacement register",
+   "usedAt": "0.12"
+  },
+  {
+   "code": "H12",
+   "name": "Emergency plan, first-aid register and drill record",
+   "usedAt": "0.13, 1.2–1.3, R13"
+  },
+  {
+   "code": "H13",
+   "name": "Occupational hygiene and medical surveillance programme",
+   "usedAt": "0.14, R8–R9"
+  },
+  {
+   "code": "H14",
+   "name": "Incident procedure and DEL contact card",
+   "usedAt": "0.15"
+  },
+  {
+   "code": "H15",
+   "name": "Statutory plant inspection schedule and certificates",
+   "usedAt": "0.16, R10"
+  },
+  {
+   "code": "H16",
+   "name": "Records and retention schedule",
+   "usedAt": "0.16, 4.10"
+  },
+  {
+   "code": "H17",
+   "name": "First notification / internal incident report",
+   "usedAt": "1.1–1.8"
+  },
+  {
+   "code": "H18",
+   "name": "Scene preservation notice and inspector-consent log",
+   "usedAt": "1.4"
+  },
+  {
+   "code": "H19",
+   "name": "Classification record (Figure 2)",
+   "usedAt": "1.7, 2.1, 2.5, 2.11"
+  },
+  {
+   "code": "H20",
+   "name": "Forthwith notice log and written confirmation",
+   "usedAt": "1.9, 2.2, 2.4, 2.6"
+  },
+  {
+   "code": "H21",
+   "name": "WCL submission and proof-of-delivery record",
+   "usedAt": "2.3, 2.5"
+  },
+  {
+   "code": "H22",
+   "name": "Non-employee incident notice (GAR 8(3) particulars)",
+   "usedAt": "1.10, 2.7"
+  },
+  {
+   "code": "H23",
+   "name": "Annexure 1 (statutory record, Parts A–D)",
+   "usedAt": "2.8, 3.1, 3.7, 4.2–4.3"
+  },
+  {
+   "code": "H24",
+   "name": "Investigator appointment and HSR invitation",
+   "usedAt": "3.2–3.3"
+  },
+  {
+   "code": "H25",
+   "name": "Witness statement and evidence log",
+   "usedAt": "3.4"
+  },
+  {
+   "code": "H26",
+   "name": "Investigation report and root-cause analysis",
+   "usedAt": "3.5–3.6"
+  },
+  {
+   "code": "H27",
+   "name": "Corrective and preventive action register",
+   "usedAt": "4.1, 4.4–4.5"
+  },
+  {
+   "code": "H28",
+   "name": "Close-out certificate",
+   "usedAt": "4.9"
+  },
+  {
+   "code": "H29",
+   "name": "Inspector visit log and document receipt register",
+   "usedAt": "5.1–5.4, 5.9"
+  },
+  {
+   "code": "H30",
+   "name": "Notice tracker (prohibition, improvement, contravention)",
+   "usedAt": "5.5–5.6"
+  },
+  {
+   "code": "H31",
+   "name": "Appeal to the chief inspector",
+   "usedAt": "5.7"
+  },
+  {
+   "code": "H32",
+   "name": "Formal inquiry pack (GAR 10(2) letters; GAR 10(3) list)",
+   "usedAt": "5.10"
+  },
+  {
+   "code": "H33",
+   "name": "Employee hazard report and complaint form",
+   "usedAt": "1.11, R7"
+  },
+  {
+   "code": "H34",
+   "name": "HSR inspection report and representation register",
+   "usedAt": "R3–R4"
+  },
+  {
+   "code": "H35",
+   "name": "Management of change and new plant or substance approval",
+   "usedAt": "R2"
+  },
+  {
+   "code": "H36",
+   "name": "OHS dashboard and board report",
+   "usedAt": "2.10, 6.1–6.2"
+  },
+  {
+   "code": "H37",
+   "name": "Legal compliance audit report",
+   "usedAt": "6.3"
+  },
+  {
+   "code": "H38",
+   "name": "Victimisation complaint record",
+   "usedAt": "R14"
+  }
+ ],
+ "processMaps": [
+  {
+   "file": "ohsa-src_7158892179ed6b5f317d5028987e32619f79dff6.png",
+   "width": 2142,
+   "height": 1343,
+   "path": "maps/ohsa-src_7158892179ed6b5f317d5028987e32619f79dff6.png"
+  },
+  {
+   "file": "ohsa-src_e3cadf4808d0fec29302aa96477b2cfae6a41447.png",
+   "width": 2142,
+   "height": 1264,
+   "path": "maps/ohsa-src_e3cadf4808d0fec29302aa96477b2cfae6a41447.png"
+  },
+  {
+   "file": "ohsa-src_fc6a073db3620964b41d6df7ffba924f0cd0aa54.png",
+   "width": 2202,
+   "height": 1360,
+   "path": "maps/ohsa-src_fc6a073db3620964b41d6df7ffba924f0cd0aa54.png"
+  }
+ ],
+ "sections": [
+  {
+   "number": "01",
+   "title": "Purpose, status and reading notes",
+   "page": 2
+  },
+  {
+   "number": "02",
+   "title": "Master flow at a glance",
+   "page": 6
+  },
+  {
+   "number": "03",
+   "title": "Phase 0 — Readiness (standing obligations)",
+   "page": 12
+  },
+  {
+   "number": "04",
+   "title": "Phase 1 — Incident, hazard report and immediate response",
+   "page": 17
+  },
+  {
+   "number": "05",
+   "title": "Phase 2 — Classify and report",
+   "page": 20
+  },
+  {
+   "number": "06",
+   "title": "Phase 3 — Record and investigate",
+   "page": 23
+  },
+  {
+   "number": "07",
+   "title": "Phase 4 — Correct, review and close",
+   "page": 27
+  },
+  {
+   "number": "08",
+   "title": "Phase 5 — The inspectorate: inspections, notices, investigations and inquiries",
+   "page": 29
+  },
+  {
+   "number": "09",
+   "title": "Phase 6 — Governance and learning",
+   "page": 32
+  },
+  {
+   "number": "10",
+   "title": "Parallel track — the continuous risk-management cycle",
+   "page": 34
+  },
+  {
+   "number": "11",
+   "title": "Employee obligations and conduct",
+   "page": 37
+  },
+  {
+   "number": "12",
+   "title": "Hand-offs and interfaces register",
+   "page": 39
+  },
+  {
+   "number": "13",
+   "title": "Forms register",
+   "page": 42
+  },
+  {
+   "number": "14",
+   "title": "Timeline calendar and liability register",
+   "page": 46
+  },
+  {
+   "number": "15",
+   "title": "Corrections to existing GBS materials and drafting issues",
+   "page": 50
+  }
+ ],
+ "clarifications": []
+}

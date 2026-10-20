@@ -1,0 +1,3104 @@
+{
+ "id": "cpa-receiving",
+ "shortTitle": "CPA Complaint Receiving",
+ "title": "Consumer Protection Act — Organisational Complaint Receiving and NCC Compliance Process Flow",
+ "subtitle": "Consumer Protection Act 68 of 2008 (“CPA”) · Consumer Protection Act Regulations, 2011 (GN R.293), as amended by the Consumer Protection Act Amendment Regulations, 2026 (GN R.7380, Government Gazette 54521, in force 15 April 2026) · Protection of Personal Information Act 4 of 2013 (“POPIA”), s.69 · As at 19 October 2026",
+ "category": "Regulatory compliance",
+ "version": "v1.1",
+ "revisionDate": "19 October 2026",
+ "sourceDocument": {
+  "name": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+  "pdf": "docs/CPA_Receiving_Process_Flow_GBS_v1.1.pdf",
+  "pageCount": 53
+ },
+ "overview": {
+  "summary": "This flow tells a supplier what to do, by when, and who hands off to whom, from the moment a consumer complaint arrives — through any of the channels the CPA allows a consumer to use — until the matter closes and lessons feed back into controls. It runs alongside a second, non-case-triggered obligation that the 2026 Amendment Regulations put beyond doubt: registering as a direct marketer on the National Consumer Commission’s (“NCC”) opt-out registry, identifying the organisation in every marketing communication, and cleansing the marketing database against the registry every month. The two are related but distinct: a mishandled complaint exposes the organisation to a compliance notice, a Tribunal referral and an administrative fine of up to R1 million or 10% of annual turnover; unregistered or uncleansed direct marketing exposes it to the same fine once the NCC’s registration deadline (end-December 2026) has passed and full enforcement has begun (15 April 2027), independently of any single complaint.",
+  "notes": [
+   {
+    "heading": "Legal status",
+    "text": "The CPA is the binding law; the Consumer Protection Act Regulations, 2011 fill in prescribed forms, timeframes and procedure, and the 2026 Amendment Regulations are already in force. They were made under s.120(1)(a), read with s.11(6), of the CPA, and s.6 of the schedule states plainly that they “come into effect on publication date of the Notice” — 15 April 2026. The NCC’s April 2026 statements pointed to operational registration from July 2026; the registry opened for direct-marketer registration on 15 September 2026. On 7 October 2026 the NCC announced a phased roll-out: direct-marketer registration by end-December 2026; list cleansing December 2026–April 2027; consumer blocks from May 2027; full enforcement from 15 April 2027. Draft Opt-Out Registry Guidelines were published for comment on 2 October 2026 (GG 55465, Notice 7981); the comment period was extended to 6 November 2026. Register now; diarise these dates in steps 0.4 and 0.8 and step 6.6. POPIA applies in parallel to any electronic direct marketing and is enforced separately by the Information Regulator."
+   },
+   {
+    "heading": "Labels used throughout",
+    "text": ""
+   },
+   {
+    "heading": "CPA",
+    "text": "= the Consumer Protection Act 68 of 2008, its Regulations and Annexures; binding now."
+   },
+   {
+    "heading": "POPIA",
+    "text": "= the Protection of Personal Information Act 4 of 2013, s.69 in particular; a separate, cumulative regime enforced by the Information Regulator."
+   },
+   {
+    "heading": "BP",
+    "text": "= best practice or internal control; not a statutory deadline. Adopt as policy so it becomes binding internally."
+   },
+   {
+    "heading": "Design principle",
+    "text": "A consumer can reach the system through several doors: directly to the organisation, to the ombud with jurisdiction over the organisation (the ordinary route where one exists, s.69(b)), to the NCC by lodging the prescribed Annexure E complaint form where no such ombud applies (s.69(c), s.71(1)), or in limited cases directly to the National Consumer Tribunal (“NCT” or “Tribunal”, s.69(a)). s.69(d) refers to approaching a court once other national-legislation remedies are exhausted, but the SCA (Motus v Wentzel, 2021) and later High Court authority (Pure Silk Invest v Martin, WCHC 2025) hold that it does not lightly exclude a consumer’s right to sue directly. Treat any summons or letter of demand as live from day 0 (step 1.3) and refer it to LA; do not assume a court will decline it. Because the organisation cannot control which door a complaint arrives through, this flow gives every channel the same single intake, so that the file, the evidence and the internal clock are identical whichever door was used."
+   },
+   {
+    "heading": "Eight interpretation points that shape the flow",
+    "text": ""
+   },
+   {
+    "heading": "Counting days",
+    "text": "The CPA is not consistent: some provisions state “business days” expressly (the s.16 cooling-off period: 5 business days to cancel, 15 business days to refund, which does not apply where ECTA s.44 governs an online transaction; the s.101(1) compliance-notice objection window: 15 business days; the 40–80 business day automatic-renewal notice). Others, such as the s.116 three-year time limit, run in ordinary years. Where a provision is silent on the kind of day, the Interpretation Act 33 of 1957 s.4 applies: calendar days, excluding the first and including the last, unless the last day is a Sunday or public holiday. Diarise every deadline by its own stated unit; do not assume business days as a default."
+   },
+   {
+    "heading": "The consumer’s routes are structured, but every door is logged",
+    "text": "Section 69 sets out the consumer’s routes. Where the organisation is subject to an ombud with jurisdiction (e.g. CGSO, MIOSA, the NFO), that ombud is the ordinary route (s.69(b)). The provincial consumer court, ADR and NCC complaint routes under s.69(c) apply where it is not; s.71(1) ties NCC complaints to that route, and the NCC usually refers a matter to ADR or the accredited ombud unless that has already failed (s.72(1)(b)). A direct Tribunal referral (s.69(a)) applies only where the Act permits it; the court route is dealt with in the design principle above. The organisation must still accept and log a complaint through any door, and may respectfully point the consumer or the NCC to the ombud with jurisdiction."
+   },
+   {
+    "heading": "The R2 million threshold",
+    "text": "The CPA protects a juristic person whose asset value or annual turnover, at the time of the transaction, is below the threshold determined by the Minister under s.6 for s.5(2)(b): currently R2 million (GN 294, GG 34181, 1 April 2011). It has not been revised since, although s.6 requires review at least every five years; check for a new determination at each annual review (step 6.6). Version 1.0 of this flow wrongly gave the figure as R3 million, citing Government Gazette 33621 (October 2010), which contained only the proposed determination; GBS materials that say R2 million are correct (see section 15, correction 1)."
+   },
+   {
+    "heading": "“Cleanse AND consent”, not “cleanse OR consent”",
+    "text": "POPIA s.69 governs whether the organisation may send an electronic direct-marketing communication at all (consent, or the existing-customer exception in s.69(3), plus an opt-out on every message). The CPA opt-out registry governs a separate, absolute question: whether a specific consumer has registered a pre-emptive block, in which case the organisation may not market to them regardless of any POPIA consent on file, and must remove their data by the next monthly cleanse. Both regimes must be satisfied for the same email, SMS, WhatsApp message or call."
+   },
+   {
+    "heading": "Sector carve-outs",
+    "text": "Not every consumer complaint against the organisation is a CPA/NCC matter. Financial products and services (banking, credit, long- and short-term insurance) are generally handled by the National Financial Ombud Scheme South Africa (“NFO”), which since 1 March 2024 has replaced the Ombudsman for Banking Services, the Credit Ombud and the long- and short-term insurance ombuds; the National Credit Regulator remains the NCA regulator. Motor-industry disputes usually run through the Motor Industry Ombudsman of South Africa (“MIOSA”); electronic communications complaints may sit with ICASA. Screen every complaint at intake for a sector carve-out before assuming the CPA/NCC route applies."
+   },
+   {
+    "heading": "Compliance notice or prosecution, never both",
+    "text": "Where the NCC issues a compliance notice under s.100 and the organisation disregards it, the Commission must choose between applying to the Tribunal for an administrative fine and referring the matter for prosecution under s.110(2); it may not do both for the same notice. On the fine route the Tribunal may impose up to the greater of R1 million or 10% of annual turnover (s.112); on the prosecution route the offence under s.110(2) carries a fine or up to 12 months’ imprisonment, or both (s.111(1)(b)). Either is serious, and the route chosen shapes how the organisation responds once a notice is contested."
+   },
+   {
+    "heading": "The three-year clock (s.116)",
+    "text": "A complaint may not be referred to the Tribunal or a consumer court more than three years after the act or omission that caused it, or, for a continuing course of conduct, more than three years after that conduct ceased. A complaint outside this window is a ground for the NCC to issue a notice of non-referral (s.72(1)(a)) — but a complaint received near the edge of the window should still be logged and assessed, not assumed time-barred."
+   },
+   {
+    "heading": "Provincial consumer protection authorities are uneven",
+    "text": "Section 84 lets a province operate its own consumer protection authority, able to issue compliance notices on the Commission’s behalf for conduct confined to that province, mediate disputes and refer matters to a provincial consumer court. All nine provinces nominally maintain an office, but their operational capacity varies considerably and a complaint referred there can sit for longer than one referred to the NCC directly. Treat a provincial referral as a live channel to track, not a channel to rely on for a fast outcome."
+   },
+   {
+    "heading": "Roles used",
+    "text": "CPA Compliance Officer (CO, the process owner and spine); Customer Service or Complaints Handler (CS); Marketing or CRM Administrator (MKT); Legal Adviser (LA); Finance (FIN); IT; Senior Sign-off (SSO, e.g. COO or Head of Compliance); Board or Risk / Social and Ethics Committee (BOARD). External: National Consumer Commission (NCC); accredited industry ombud, most commonly the Consumer Goods and Services Ombud (OMBUD/CGSO); National Consumer Tribunal (NCT); provincial consumer protection authority (PCPA); National Financial Ombud Scheme South Africa (NFO) or other sector ombud (SECTOR OMBUD); Information Regulator (IR); National Prosecuting Authority (NPA); the consumer or complainant (CONS)."
+   }
+  ],
+  "source": {
+   "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+   "section": "§01 Purpose, status and reading notes",
+   "page": 2
+  }
+ },
+ "roles": [
+  {
+   "code": "CO",
+   "name": "CPA Compliance Officer"
+  },
+  {
+   "code": "CS",
+   "name": "Customer Service or Complaints Handler"
+  },
+  {
+   "code": "MKT",
+   "name": "Marketing or CRM Administrator"
+  },
+  {
+   "code": "LA",
+   "name": "Legal Adviser"
+  },
+  {
+   "code": "FIN",
+   "name": "Finance"
+  },
+  {
+   "code": "SSO",
+   "name": "Senior Sign-off"
+  },
+  {
+   "code": "BOARD",
+   "name": "Board or Risk / Social and Ethics Committee"
+  },
+  {
+   "code": "NCC",
+   "name": "External: National Consumer Commission"
+  },
+  {
+   "code": "OMBUD/",
+   "name": "Consumer Goods and Services Ombud"
+  },
+  {
+   "code": "NCT",
+   "name": "National Consumer Tribunal"
+  },
+  {
+   "code": "NFO",
+   "name": "National Financial Ombud Scheme South Africa"
+  },
+  {
+   "code": "IR",
+   "name": "Information Regulator"
+  },
+  {
+   "code": "NPA",
+   "name": "National Prosecuting Authority"
+  }
+ ],
+ "stages": [
+  {
+   "id": "s1",
+   "group": "Phase 0 — Readiness (standing obligations)",
+   "title": "Phase 0 — Readiness (standing obligations)",
+   "kind": "phase",
+   "intro": [
+    "Phase 0 has no case trigger: it must be in place before the first complaint or the first marketing communication, because the organisation’s exposure on both fronts is decided by controls that must already exist. An organisation that has not registered as a direct marketer risks non-compliance once the NCC’s registration deadline (end-December 2026) passes, and is exposed to enforcement from 15 April 2027; an organisation with no complaints process cannot produce the evidence trail the substituted Annexure E complaint form now expects of a consumer’s “steps already taken to resolve the complaint”."
+   ],
+   "notes": [
+    {
+     "heading": "Consumer side of Phase 0",
+     "text": "Nothing is owed yet, but the consumer’s eventual routing depends on this phase: an organisation with no visible complaints channel or ombud membership pushes consumers straight to the NCC or the Tribunal, where the substituted Annexure E form now expects a documented account of “steps already taken to resolve the complaint” that the organisation had no opportunity to take."
+    },
+    {
+     "heading": "Watch",
+     "text": "A lapsed NCC registration or a missed monthly cleanse is usually discovered only when a complaint or an NCC inspection surfaces it. Check registration and cleansing status monthly, not only when a complaint arrives."
+    }
+   ],
+   "steps": [
+    {
+     "id": "0.1",
+     "label": "0.1",
+     "title": "Confirm CPA applicability",
+     "trigger": "",
+     "action": "Map every category of transaction and counterparty (consumers, juristic persons under the R2 million threshold, franchisees) against the CPA’s scope and exclusions.",
+     "points": [
+      "Map every category of transaction and counterparty (consumers, juristic persons under the R2 million threshold, franchisees) against the CPA’s scope and exclusions."
+     ],
+     "owner": "LA, CO",
+     "deadline": "Now; review annually",
+     "form": "CPA applicability memo",
+     "authority": "s.5(2)(b), s.6; GN 294, GG 34181 (1 April 2011)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 8
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.2",
+     "label": "0.2",
+     "title": "Designate a compliance officer",
+     "trigger": "",
+     "action": "Name a CPA/NCC compliance officer with explicit accountability, and an alternate. Reports to a governance structure (BOARD or SSO). The CO is the designated official for CGSO purposes.",
+     "points": [
+      "Name a CPA/NCC compliance officer with explicit accountability, and an alternate.",
+      "Reports to a governance structure (BOARD or SSO).",
+      "The CO is the designated official for CGSO purposes."
+     ],
+     "owner": "BOARD",
+     "deadline": "Now",
+     "form": "Appointment letter",
+     "authority": "BP; CGSO Code",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 8
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.3",
+     "label": "0.3",
+     "title": "Adopt a complaints-handling policy",
+     "trigger": "",
+     "action": "Board-approved policy covering intake channels, acknowledgement timelines, investigation, escalation routes (internal, ombud, NCC, Tribunal), remedies, records, and staff escalation triggers. Cover every consumer-facing department, not only a call centre.",
+     "points": [
+      "Board-approved policy covering intake channels, acknowledgement timelines, investigation, escalation routes (internal, ombud, NCC, Tribunal), remedies, records, and staff escalation triggers.",
+      "Cover every consumer-facing department, not only a call centre."
+     ],
+     "owner": "BOARD, LA",
+     "deadline": "Now; review annually",
+     "form": "Complaints policy",
+     "authority": "BP; Annexure E evidentiary expectations",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 8
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.4",
+     "label": "0.4",
+     "title": "Register on the NCC opt-out registry",
+     "trigger": "",
+     "action": "Determine whether the organisation is a “direct marketer” (any promotional email, SMS, WhatsApp, call or newsletter makes it one); if so, complete the form corresponding to Annexure P (company registration number, VAT number, directors, contact details, B-BBEE certificate, valid tax clearance); pay the initial registration fee; obtain and file the registration confirmation.",
+     "points": [
+      "Determine whether the organisation is a “direct marketer” (any promotional email, SMS, WhatsApp, call or newsletter makes it one); if so, complete the form corresponding to Annexure P (company registration number, VAT number, directors, contact details, B-BBEE certificate, valid tax clearance); pay the initial registration fee; obtain and file the registration confirmation."
+     ],
+     "owner": "MKT, FIN, CO",
+     "deadline": "Before any direct marketing; in any event by end-December 2026 (NCC timetable, 7 Oct 2026)",
+     "form": "Annexure P submission; NCC confirmation",
+     "authority": "Reg 4(7)(a); Annexure P; Annexure N",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 8
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.5",
+     "label": "0.5",
+     "title": "Diarise annual renewal",
+     "trigger": "",
+     "action": "Renew registration at the anniversary of registration each year; pay the prescribed renewal fee; keep registry information (contact details, physical address) accurate and current at all times.",
+     "points": [
+      "Renew registration at the anniversary of registration each year; pay the prescribed renewal fee; keep registry information (contact details, physical address) accurate and current at all times."
+     ],
+     "owner": "CO, FIN",
+     "deadline": "Annually; continuous",
+     "form": "Renewal proof",
+     "authority": "Reg 4(7)(b), (d)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 8
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.6",
+     "label": "0.6",
+     "title": "Join or confirm the applicable ombud scheme",
+     "trigger": "",
+     "action": "Confirm membership of the Consumer Goods and Services Ombud (CGSO) or the sector-specific accredited scheme that actually covers the organisation’s business (motor industry, financial services, credit, electronic communications); do not assume CGSO applies if a sector carve-out does.",
+     "points": [
+      "Confirm membership of the Consumer Goods and Services Ombud (CGSO) or the sector-specific accredited scheme that actually covers the organisation’s business (motor industry, financial services, credit, electronic communications); do not assume CGSO applies if a sector carve-out does."
+     ],
+     "owner": "LA, CO",
+     "deadline": "Now",
+     "form": "Membership confirmation",
+     "authority": "s.82(6); sector legislation",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 8
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.7",
+     "label": "0.7",
+     "title": "Marketing systems and identification",
+     "trigger": "",
+     "action": "Build every communication template, sender ID, call-centre script and CRM export so that the organisation’s name, electronic address, physical address and contact number are identifiable to the recipient, that communications are labelled and identifiable on the recipient’s device, and that a functioning opt-out is present and actioned within 24 hours (BP; no statutory period found).",
+     "points": [
+      "Build every communication template, sender ID, call-centre script and CRM export so that the organisation’s name, electronic address, physical address and contact number are identifiable to the recipient, that communications are labelled and identifiable on the recipient’s device, and that a functioning opt-out is present and actioned within 24 hours (BP; no statutory period found)."
+     ],
+     "owner": "MKT, IT",
+     "deadline": "Now; review with every campaign",
+     "form": "Template library; opt-out log",
+     "authority": "Reg 4(7)(c), (e)–(g), (j); 24 hours BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 8
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.8",
+     "label": "0.8",
+     "title": "Monthly cleansing workflow",
+     "trigger": "",
+     "action": "Build a monthly export-submit-suppress cycle against the NCC registry, covering the full marketing database, with a suppression list cross-referenced before every send; budget the R0.12 cleansing fee (Annexure N): the Regulations refer to a fee per data entry, while the NCC Draft Guidelines (para 7.2) charge per blocked consumer matched; budget on the full database submitted until the final Guidelines settle the basis (verify). Cleansing is free from December 2026 to 30 April 2027 under the draft Guidelines.",
+     "points": [
+      "Build a monthly export-submit-suppress cycle against the NCC registry, covering the full marketing database, with a suppression list cross-referenced before every send; budget the R0.12 cleansing fee (Annexure N): the Regulations refer to a fee per data entry, while the NCC Draft Guidelines (para 7.2) charge per blocked consumer matched; budget on the full database submitted until the final Guidelines settle the basis (verify).",
+      "Cleansing is free from December 2026 to 30 April 2027 under the draft Guidelines."
+     ],
+     "owner": "MKT, IT, FIN",
+     "deadline": "From December 2026 (no-fee cleansing to 30 April 2027); monthly thereafter",
+     "form": "Cleansing log",
+     "authority": "Reg 4(7)(h)–(i); Annexure N; NCC Draft Guidelines para 7.2 (draft)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 8
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.9",
+     "label": "0.9",
+     "title": "POPIA alignment",
+     "trigger": "",
+     "action": "Confirm a lawful basis (consent, or the existing-customer exception under POPIA s.69(3)) for every marketing list; capture consent wording, date, time, source and channel; ensure every communication carries an opt-out the recipient may use free of charge.",
+     "points": [
+      "Confirm a lawful basis (consent, or the existing-customer exception under POPIA s.69(3)) for every marketing list; capture consent wording, date, time, source and channel; ensure every communication carries an opt-out the recipient may use free of charge."
+     ],
+     "owner": "IR liaison, LA, MKT",
+     "deadline": "Now; per list",
+     "form": "POPIA consent register",
+     "authority": "POPIA s.69(1)–(4)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 8
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.10",
+     "label": "0.10",
+     "title": "Contract and pricing review",
+     "trigger": "",
+     "action": "Audit standard-form contracts against ss.48, 49 and 51 for unfair, unreasonable or unjust terms; remove liability-limitation clauses that waive implied statutory warranties and blanket indemnities; align automatic-renewal notices to the 40–80 business day window; verify quotes, invoices and displayed prices match, with the lower price applying on any discrepancy.",
+     "points": [
+      "Audit standard-form contracts against ss.48, 49 and 51 for unfair, unreasonable or unjust terms; remove liability-limitation clauses that waive implied statutory warranties and blanket indemnities; align automatic-renewal notices to the 40–80 business day window; verify quotes, invoices and displayed prices match, with the lower price applying on any discrepancy."
+     ],
+     "owner": "LA, FIN",
+     "deadline": "Now; review annually",
+     "form": "Contract review memo",
+     "authority": "ss.14, 23, 48–51",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 8
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.11",
+     "label": "0.11",
+     "title": "Warranty and returns operations",
+     "trigger": "",
+     "action": "Publish a compliant returns and refunds policy; operationalise the s.56 implied warranty: within six months of delivery the consumer chooses repair, replacement or refund for goods failing s.55, returned at the supplier’s risk and expense; if a repair fails or a further defect appears within three months, replace or refund (s.56(3)); these rights are in addition to any express warranty (s.56(4)). Document the s.16 cooling-off cancellation and 15-business-day refund process for any agreement resulting from direct marketing; s.16 does not apply where ECTA s.44 governs the transaction (online sales): apply the ECTA cooling-off and refund rules to those.",
+     "points": [
+      "Publish a compliant returns and refunds policy; operationalise the s.56 implied warranty:",
+      "within six months of delivery the consumer chooses repair, replacement or refund for goods failing s.55, returned at the supplier’s risk and expense",
+      "if a repair fails or a further defect appears within three months, replace or refund (s.56(3))",
+      "these rights are in addition to any express warranty (s.56(4)). Document the s.16 cooling-off cancellation and 15-business-day refund process for any agreement resulting from direct marketing",
+      "s.16 does not apply where ECTA s.44 governs the transaction (online sales): apply the ECTA cooling-off and refund rules to those."
+     ],
+     "owner": "Ops, LA",
+     "deadline": "Now",
+     "form": "Returns policy; process map",
+     "authority": "ss.16, 55–61 (s.56(2)–(4)); ECTA s.44",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 8
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.12",
+     "label": "0.12",
+     "title": "Records and evidence system",
+     "trigger": "",
+     "action": "A restricted-access complaints register with an audit trail; a separate NCC/direct-marketing compliance file (registration, renewals, cleansing logs, consent records); a POPIA-aligned retention schedule for both. Retain complaint files for at least three years after closure (CGSO Code; s.116), then destroy or de-identify per POPIA s.14.",
+     "points": [
+      "A restricted-access complaints register with an audit trail; a separate NCC/direct-marketing compliance file (registration, renewals, cleansing logs, consent records); a POPIA-aligned retention schedule for both.",
+      "Retain complaint files for at least three years after closure (CGSO Code; s.116), then destroy or de-identify per POPIA s.14."
+     ],
+     "owner": "CO, IT",
+     "deadline": "Now",
+     "form": "System access matrix; retention schedule",
+     "authority": "POPIA s.14, s.19; s.116; CGSO Code; BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 8
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "0.13",
+     "label": "0.13",
+     "title": "Train and raise awareness",
+     "trigger": "",
+     "action": "Train frontline and complaints staff on the CPA rights, the complaints process and escalation triggers; train marketing, IT and finance on the registry and cleansing cycle; train sales staff that verbal commitments are legally binding (script control).",
+     "points": [
+      "Train frontline and complaints staff on the CPA rights, the complaints process and escalation triggers; train marketing, IT and finance on the registry and cleansing cycle; train sales staff that verbal commitments are legally binding (script control)."
+     ],
+     "owner": "HR / L&D",
+     "deadline": "Before go-live; at least annually",
+     "form": "Attendance records",
+     "authority": "s.22 (plain language); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§03 Phase 0 — Readiness (standing obligations)",
+      "subsection": null,
+      "page": 8
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+    "section": "§03 Phase 0 — Readiness (standing obligations)",
+    "page": 8,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s2",
+   "group": "Phase 1 — Receipt and intake",
+   "title": "Phase 1 — Receipt and intake",
+   "kind": "phase",
+   "intro": [
+    "The clock starts on the day the organisation, an ombud, or the NCC first has notice of the complaint, not when the compliance officer first reads it. Day 0 is the day of receipt."
+   ],
+   "notes": [
+    {
+     "heading": "Consumer obligations at this stage",
+     "text": "None yet under the CPA itself, beyond providing enough detail to identify the transaction and the complaint; the substituted Annexure E form later expects the consumer to show what they did at this stage, so a clear, dated acknowledgement protects the organisation as much as it serves the consumer."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "CS or any recipient → CO (same day). CO → LA (sector carve-out, external-channel arrivals). CO → IT (evidence preservation)."
+    },
+    {
+     "heading": "Watch",
+     "text": "A complaint dismissed informally at the front line, with no C01 entry, leaves the organisation unable to show the “steps already taken to resolve the complaint” that the 2026 Annexure E form now requires a complainant to describe — and by implication, that the NCC now expects a supplier to be able to corroborate."
+    }
+   ],
+   "steps": [
+    {
+     "id": "1.1",
+     "label": "1.1",
+     "title": "Recognise and forward",
+     "trigger": "A consumer complains by any channel: call centre, email, social media, in-store, a letter of demand, or a sales representative is told directly.",
+     "action": "Forward to the CO the same day without argument or informal dismissal.",
+     "points": [
+      "Forward to the CO the same day without argument or informal dismissal."
+     ],
+     "owner": "Any recipient, CS, LM",
+     "deadline": "Same day (BP)",
+     "form": "C01 intake record",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Receipt and intake",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.2",
+     "label": "1.2",
+     "title": "Log and reference",
+     "trigger": "CO receives the complaint.",
+     "action": "Open a case file; assign a reference number; record date, time, channel, complainant details, and a verbatim or near-verbatim account of the complaint.",
+     "points": [
+      "Open a case file; assign a reference number; record date, time, channel, complainant details, and a verbatim or near-verbatim account of the complaint."
+     ],
+     "owner": "CO",
+     "deadline": "Day 0",
+     "form": "C01",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Receipt and intake",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.3",
+     "label": "1.3",
+     "title": "Recognise an external-channel arrival",
+     "trigger": "Complaint arrives as an ombud notification, an NCC notice of investigation, a compliance notice, a Tribunal application, or a summons or letter of demand, rather than directly from the consumer.",
+     "action": "Treat the external document as day 0 for that channel’s own clock (see section 12); open or link to the existing case file if one exists; brief LA immediately. A summons or letter of demand is live from day 0: do not assume a court will decline it under s.69(d).",
+     "points": [
+      "Treat the external document as day 0 for that channel’s own clock (see section 12); open or link to the existing case file if one exists; brief LA immediately.",
+      "A summons or letter of demand is live from day 0: do not assume a court will decline it under s.69(d)."
+     ],
+     "owner": "CO, LA",
+     "deadline": "Same day",
+     "form": "C01; C09 (external notice log)",
+     "authority": "s.72; s.100; s.75; s.69(d)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Receipt and intake",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.4",
+     "label": "1.4",
+     "title": "Acknowledge receipt",
+     "trigger": "Every complaint with a return channel.",
+     "action": "Send a written acknowledgement: reference number, what happens next, expected timeline, a named contact. Include a short POPIA s.18 notice: purpose, possible disclosure to an ombud, NCC or Tribunal, and retention period. Where the organisation is a CGSO participant, note that the CGSO generally expects the supplier to have had 15 business days to resolve the complaint before it accepts escalation.",
+     "points": [
+      "Send a written acknowledgement: reference number, what happens next, expected timeline, a named contact.",
+      "Include a short POPIA s.18 notice: purpose, possible disclosure to an ombud, NCC or Tribunal, and retention period.",
+      "Where the organisation is a CGSO participant, note that the CGSO generally expects the supplier to have had 15 business days to resolve the complaint before it accepts escalation."
+     ],
+     "owner": "CS, CO",
+     "deadline": "BP within 5 business days",
+     "form": "C02 acknowledgement",
+     "authority": "BP; POPIA s.18; Annexure E evidentiary expectations",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Receipt and intake",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.5",
+     "label": "1.5",
+     "title": "Sector carve-out screen",
+     "trigger": "Complaint logged.",
+     "action": "Check whether the subject matter sits with a sector ombud instead of CGSO/NCC (financial products, credit agreements, motor industry, electronic communications); redirect and tell the consumer where to take it if so, while still logging the CPA elements that remain. Where the organisation is subject to an ombud with jurisdiction (CGSO, MIOSA, NFO), record that this is the consumer’s ordinary route (s.69(b)) and say so respectfully in the acknowledgement; never refuse to log the complaint.",
+     "points": [
+      "Check whether the subject matter sits with a sector ombud instead of CGSO/NCC (financial products, credit agreements, motor industry, electronic communications); redirect and tell the consumer where to take it if so, while still logging the CPA elements that remain.",
+      "Where the organisation is subject to an ombud with jurisdiction (CGSO, MIOSA, NFO), record that this is the consumer’s ordinary route (s.69(b)) and say so respectfully in the acknowledgement; never refuse to log the complaint."
+     ],
+     "owner": "CO, LA",
+     "deadline": "Day 0–2",
+     "form": "C03 screening note",
+     "authority": "s.69(b)–(c); sector legislation",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Receipt and intake",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.6",
+     "label": "1.6",
+     "title": "Evidence preservation",
+     "trigger": "Complaint concerns a product, service or transaction still traceable in company systems.",
+     "action": "Preserve purchase records, contracts, correspondence, call recordings and any defective goods; do not allow routine deletion cycles to run over evidence.",
+     "points": [
+      "Preserve purchase records, contracts, correspondence, call recordings and any defective goods; do not allow routine deletion cycles to run over evidence."
+     ],
+     "owner": "CS, IT",
+     "deadline": "Day 0–2",
+     "form": "C04 evidence log",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Receipt and intake",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "1.7",
+     "label": "1.7",
+     "title": "Diarise all clocks",
+     "trigger": "File opened.",
+     "action": "Calendar: internal response target; any ombud or NCC deadline attached to the channel of arrival; the s.116 three-year outer limit from the underlying act or omission; any compliance-notice objection window if one is later issued. Check whether the organisation is or was already a respondent in other CPA proceedings on substantially the same conduct (s.116 bar).",
+     "points": [
+      "Calendar: internal response target; any ombud or NCC deadline attached to the channel of arrival; the s.116 three-year outer limit from the underlying act or omission; any compliance-notice objection window if one is later issued.",
+      "Check whether the organisation is or was already a respondent in other CPA proceedings on substantially the same conduct (s.116 bar)."
+     ],
+     "owner": "CO",
+     "deadline": "Day 0",
+     "form": "C05 tracker",
+     "authority": "s.101(1); s.116",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§04 Phase 1 — Receipt and intake",
+      "subsection": null,
+      "page": 14
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+    "section": "§04 Phase 1 — Receipt and intake",
+    "page": 14,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s3",
+   "group": "Phase 2 — Triage and route determination",
+   "title": "Phase 2 — Triage and route determination",
+   "kind": "phase",
+   "intro": [
+    "By internal day 5 the organisation should know what kind of CPA matter this is, whether it is genuinely a CPA matter at all, and which of the s.69 routes the consumer has used or is likely to use next."
+   ],
+   "notes": [
+    {
+     "heading": "Consumer obligations at this stage",
+     "text": "Provide any further information reasonably requested to allow the complaint to be assessed; a consumer who has already engaged an ADR agent or ombud should say so, since the Annexure E form later asks for exactly that history."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "CO → LA (applicability, classification). CO → FIN (exposure). CO → SSO (escalation trigger)."
+    },
+    {
+     "heading": "Watch",
+     "text": "Do not let “the consumer is being difficult” substitute for a documented merits assessment. A Tribunal or an ombud tests the organisation’s conduct against the Act, not against the consumer’s tone."
+    }
+   ],
+   "steps": [
+    {
+     "id": "2.1",
+     "label": "2.1",
+     "title": "CPA applicability check",
+     "trigger": "Complaint logged.",
+     "action": "Confirm the transaction falls within the CPA (consumer, or juristic person under the R2 million threshold); confirm no exclusion applies (e.g. transactions before 31 March 2011, certain credit-agreement or employment matters).",
+     "points": [
+      "Confirm the transaction falls within the CPA (consumer, or juristic person under the R2 million threshold); confirm no exclusion applies (e.g. transactions before 31 March 2011, certain credit-agreement or employment matters)."
+     ],
+     "owner": "LA",
+     "deadline": "Day 1–3",
+     "form": "C06 memo",
+     "authority": "s.5(2)(b), s.6; GN 294, GG 34181 (1 April 2011)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Triage and route determination",
+      "subsection": null,
+      "page": 18
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.2",
+     "label": "2.2",
+     "title": "Classify the complaint",
+     "trigger": "Applicability confirmed.",
+     "action": "Categorise: direct-marketing/opt-out complaint; unfair or prohibited contract term; implied warranty or defective goods; pricing or advertising; cooling-off/cancellation (s.16, or ECTA s.44 for online sales); s.20 return of goods (10 business days after delivery; refund less any s.20(6) charge); s.14 fixed-term cancellation (20 business days’ written notice; reasonable penalty per Reg 5; not between juristic persons); s.17 booking/reservation cancellation (reasonable charge; none on death or hospitalisation); unsafe goods / harm caused (ss.60–61); general fair dealing or plain-language complaint. Multiple categories may apply.",
+     "points": [
+      "Categorise:",
+      "direct-marketing/opt-out complaint",
+      "unfair or prohibited contract term",
+      "implied warranty or defective goods",
+      "pricing or advertising",
+      "cooling-off/cancellation (s.16, or ECTA s.44 for online sales)",
+      "s.20 return of goods (10 business days after delivery",
+      "refund less any s.20(6) charge)",
+      "s.14 fixed-term cancellation (20 business days’ written notice",
+      "reasonable penalty per Reg 5",
+      "not between juristic persons)",
+      "s.17 booking/reservation cancellation (reasonable charge",
+      "none on death or hospitalisation)",
+      "unsafe goods / harm caused (ss.60–61)",
+      "general fair dealing or plain-language complaint. Multiple categories may apply."
+     ],
+     "owner": "CO, LA",
+     "deadline": "Day 1–3",
+     "form": "C06",
+     "authority": "ss.14, 16, 17, 20, 22, 29–31, 48–51, 55–61; Reg 5; ECTA s.44",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Triage and route determination",
+      "subsection": null,
+      "page": 18
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.3",
+     "label": "2.3",
+     "title": "Identify the route already used",
+     "trigger": "Channel of arrival established (1.3).",
+     "action": "Confirm whether the complaint is still purely internal, has gone to an ombud, has been referred to the NCC (Annexure E received or acknowledged), or is a direct Tribunal application. Each has its own clock and its own evidentiary standard. Record whether the ombud with jurisdiction (s.69(b)) has been used; if it has been bypassed, LA may respectfully point the consumer or the NCC to it (s.69(c), s.72(1)(b)). Check the s.116 bar (other CPA proceedings on substantially the same conduct).",
+     "points": [
+      "Confirm whether the complaint is still purely internal, has gone to an ombud, has been referred to the NCC (Annexure E received or acknowledged), or is a direct Tribunal application.",
+      "Each has its own clock and its own evidentiary standard.",
+      "Record whether the ombud with jurisdiction (s.69(b)) has been used; if it has been bypassed, LA may respectfully point the consumer or the NCC to it (s.69(c), s.72(1)(b)).",
+      "Check the s.116 bar (other CPA proceedings on substantially the same conduct)."
+     ],
+     "owner": "CO, LA",
+     "deadline": "Day 1–3",
+     "form": "C05",
+     "authority": "s.69; s.72(1)(b); s.116",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Triage and route determination",
+      "subsection": null,
+      "page": 18
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.4",
+     "label": "2.4",
+     "title": "Merits and exposure assessment",
+     "trigger": "Classification complete.",
+     "action": "Assess the strength of the complaint on the facts; estimate exposure (refund, repair, replacement, reputational, and — if the matter could reach the Tribunal — administrative fine risk under s.112); flag any pattern of similar complaints.",
+     "points": [
+      "Assess the strength of the complaint on the facts; estimate exposure (refund, repair, replacement, reputational, and — if the matter could reach the Tribunal — administrative fine risk under s.112); flag any pattern of similar complaints."
+     ],
+     "owner": "CO, LA, FIN",
+     "deadline": "Day 3–5",
+     "form": "C07 assessment",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Triage and route determination",
+      "subsection": null,
+      "page": 18
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.5",
+     "label": "2.5",
+     "title": "Escalation trigger check",
+     "trigger": "Assessment complete.",
+     "action": "Flag for senior sign-off: complaints involving repeat conduct, a compliance-notice risk, potential prosecution grounds (s.108–s.110), or reputational exposure. Any complaint alleging injury, property damage or a safety hazard: same-day escalation to LA, SSO and insurer.",
+     "points": [
+      "Flag for senior sign-off: complaints involving repeat conduct, a compliance-notice risk, potential prosecution grounds (s.108–s.110), or reputational exposure.",
+      "Any complaint alleging injury, property damage or a safety hazard: same-day escalation to LA, SSO and insurer."
+     ],
+     "owner": "CO, SSO",
+     "deadline": "Day 3–5",
+     "form": "C07",
+     "authority": "BP; ss.60–61",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Triage and route determination",
+      "subsection": null,
+      "page": 18
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "2.6",
+     "label": "2.6",
+     "title": "Assign owner and target date",
+     "trigger": "Triage complete.",
+     "action": "Assign an internal owner for resolution; set an internal response target proportionate to complexity (BP 10 business days for straightforward matters, noting the CGSO generally allows the supplier 15 business days before escalation; longer with reasons recorded for complex ones).",
+     "points": [
+      "Assign an internal owner for resolution; set an internal response target proportionate to complexity (BP 10 business days for straightforward matters, noting the CGSO generally allows the supplier 15 business days before escalation; longer with reasons recorded for complex ones)."
+     ],
+     "owner": "CO",
+     "deadline": "Day 5",
+     "form": "C05",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§05 Phase 2 — Triage and route determination",
+      "subsection": null,
+      "page": 18
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+    "section": "§05 Phase 2 — Triage and route determination",
+    "page": 18,
+    "subsection": null
+   },
+   "applicability": "conditional"
+  },
+  {
+   "id": "s4",
+   "group": "Phase 3 — Internal resolution",
+   "title": "Phase 3 — Internal resolution",
+   "kind": "phase",
+   "intro": [
+    "The CPA does not compel a supplier to resolve every complaint internally before a consumer may go elsewhere, but a genuine, well-documented attempt is the organisation’s best evidence at every later stage, and CGSO and most industry codes expect it as a condition of membership."
+   ],
+   "notes": [
+    {
+     "heading": "Consumer obligations at this stage",
+     "text": "Engage with the process in good faith; provide requested evidence; a consumer who escalates without engaging internally is entitled to do so under s.69, but the organisation’s own record of a genuine offer remains relevant to any later assessment by an ombud, the NCC or the Tribunal."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "CO → LA (contract/warranty review). CO → Ops, FIN (remedy delivery). CO → external escalation track (impasse)."
+    },
+    {
+     "heading": "Watch",
+     "text": "A remedy offered only after the consumer has already gone to the NCC or an ombud is still worth making — it can narrow or resolve the matter — but is weaker evidence of good faith than an offer made promptly at first contact."
+    }
+   ],
+   "steps": [
+    {
+     "id": "3.1",
+     "label": "3.1",
+     "title": "Investigate",
+     "trigger": "Owner assigned.",
+     "action": "Gather facts: transaction records, product or service history, prior complaints, staff accounts. Interview relevant staff where conduct (e.g. a verbal sales commitment) is in dispute.",
+     "points": [
+      "Gather facts: transaction records, product or service history, prior complaints, staff accounts.",
+      "Interview relevant staff where conduct (e.g. a verbal sales commitment) is in dispute."
+     ],
+     "owner": "Owner, CO",
+     "deadline": "Per target date",
+     "form": "C08 investigation note",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Internal resolution",
+      "subsection": null,
+      "page": 22
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.2",
+     "label": "3.2",
+     "title": "Legal or technical review",
+     "trigger": "Investigation raises a contract, warranty or pricing question.",
+     "action": "LA reviews contract terms against ss.48–51 and cancellation and return rights under ss.14, 17 and 20; technical or quality staff assess a warranty claim against ss.55–61, applying s.56(2)–(3): the consumer chooses repair, replacement or refund, and a failed repair within three months triggers replacement or refund.",
+     "points": [
+      "LA reviews contract terms against ss.48–51 and cancellation and return rights under ss.14, 17 and 20; technical or quality staff assess a warranty claim against ss.55–61, applying s.56(2)–(3): the consumer chooses repair, replacement or refund, and a failed repair within three months triggers replacement or refund."
+     ],
+     "owner": "LA, Ops",
+     "deadline": "As needed",
+     "form": "C08",
+     "authority": "ss.14, 17, 20, 48–51, 55–61",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Internal resolution",
+      "subsection": null,
+      "page": 22
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.3",
+     "label": "3.3",
+     "title": "Propose a remedy",
+     "trigger": "Facts established.",
+     "action": "Propose repair, replacement, refund, price correction, apology, or a combination; cost and approve within delegated authority. Where s.56(2) applies, implement the remedy the consumer has directed; do not substitute a different one.",
+     "points": [
+      "Propose repair, replacement, refund, price correction, apology, or a combination; cost and approve within delegated authority.",
+      "Where s.56(2) applies, implement the remedy the consumer has directed; do not substitute a different one."
+     ],
+     "owner": "CO, SSO",
+     "deadline": "Per target date",
+     "form": "C09 remedy proposal",
+     "authority": "BP; s.56(2)–(3)",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Internal resolution",
+      "subsection": null,
+      "page": 22
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.4",
+     "label": "3.4",
+     "title": "Respond in writing",
+     "trigger": "Remedy approved.",
+     "action": "Written response to the consumer: findings, the remedy offered (or reasons for declining), and — if declined or only partly resolved — the consumer’s further options (ombud, NCC, Tribunal where available, or a note that the organisation is a CGSO member).",
+     "points": [
+      "Written response to the consumer: findings, the remedy offered (or reasons for declining), and — if declined or only partly resolved — the consumer’s further options (ombud, NCC, Tribunal where available, or a note that the organisation is a CGSO member)."
+     ],
+     "owner": "CO",
+     "deadline": "Target date",
+     "form": "C10 response letter",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Internal resolution",
+      "subsection": null,
+      "page": 22
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.5",
+     "label": "3.5",
+     "title": "Implement the remedy",
+     "trigger": "Consumer accepts.",
+     "action": "Deliver the agreed remedy; confirm in writing; close internally, subject to the post-closure watch in Phase 5.",
+     "points": [
+      "Deliver the agreed remedy; confirm in writing; close internally, subject to the post-closure watch in Phase 5."
+     ],
+     "owner": "Ops, FIN",
+     "deadline": "Per agreement",
+     "form": "C11",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Internal resolution",
+      "subsection": null,
+      "page": 22
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "3.6",
+     "label": "3.6",
+     "title": "Escalation on impasse",
+     "trigger": "Consumer rejects the response, or does not reply within a reasonable period.",
+     "action": "Record the impasse; prepare for external escalation (Phase 4); do not treat silence as acceptance without a documented follow-up attempt.",
+     "points": [
+      "Record the impasse; prepare for external escalation (Phase 4); do not treat silence as acceptance without a documented follow-up attempt."
+     ],
+     "owner": "CO",
+     "deadline": "On impasse",
+     "form": "C10",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§06 Phase 3 — Internal resolution",
+      "subsection": null,
+      "page": 22
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+    "section": "§06 Phase 3 — Internal resolution",
+    "page": 22,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s5",
+   "group": "Phase 4 — External escalation: ombud, NCC and Tribunal",
+   "title": "Phase 4 — External escalation: ombud, NCC and Tribunal",
+   "kind": "phase",
+   "intro": [
+    "Once a matter leaves internal resolution, it can run through several routes at once or in sequence, and each has its own procedure and clock. This phase is organised by the escalation event, not by a single linear timeline."
+   ],
+   "notes": [
+    {
+     "heading": "Consumer obligations at this stage",
+     "text": "Use the prescribed form and manner for the route chosen (Annexure E for an NCC referral); disclose prior ADR or ombud engagement and provide the closing letter where one exists; respect the s.116 three-year limit for referring the matter to the Tribunal or a consumer court."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "CO → LA (every escalation event). LA → the Commission, the Tribunal, or the relevant ombud (formal responses). SSO → BOARD (fine exposure, reputational escalation)."
+    },
+    {
+     "heading": "Watch",
+     "text": "A compliance notice and a prosecution referral cannot both proceed on the same notice (s.100(6), s.110(2)) — the fine route carries the s.112 ceiling and the prosecution route a fine or up to 12 months’ imprisonment, or both (s.111(1)(b)); either is serious, so contesting or complying promptly is usually the safer course once LA has assessed the notice’s validity."
+    }
+   ],
+   "steps": [
+    {
+     "id": "4.1",
+     "label": "4.1",
+     "title": "Ombud referral",
+     "trigger": "Consumer refers the matter to CGSO or the applicable accredited/sector ombud.",
+     "action": "Respond to the ombud’s request for information within its stated timeframe; cooperate with mediation or conciliation; keep LA briefed on any proposed settlement. Share only the personal information the ombud needs, on a POPIA s.11 basis; treat health information in warranty or injury complaints as special personal information.",
+     "points": [
+      "Respond to the ombud’s request for information within its stated timeframe; cooperate with mediation or conciliation; keep LA briefed on any proposed settlement.",
+      "Share only the personal information the ombud needs, on a POPIA s.11 basis; treat health information in warranty or injury complaints as special personal information."
+     ],
+     "owner": "CO, LA",
+     "deadline": "Per ombud’s process",
+     "form": "C12 ombud response file",
+     "authority": "s.82(6); scheme rules; POPIA ss.11, 26–27",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — External escalation: ombud, NCC and Tribunal",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.2",
+     "label": "4.2",
+     "title": "NCC complaint received (Annexure E)",
+     "trigger": "Consumer files, or the Commission itself initiates, a complaint under s.71.",
+     "action": "Confirm receipt of any Commission correspondence; brief LA; begin assembling the same evidence trail requested of the consumer on Annexure E (proof of communication, proof of purchase or the contract, any ADR closing letter, steps already taken).",
+     "points": [
+      "Confirm receipt of any Commission correspondence; brief LA; begin assembling the same evidence trail requested of the consumer on Annexure E (proof of communication, proof of purchase or the contract, any ADR closing letter, steps already taken)."
+     ],
+     "owner": "CO, LA",
+     "deadline": "On receipt",
+     "form": "C13 NCC response file",
+     "authority": "s.71(1)–(2)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — External escalation: ombud, NCC and Tribunal",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.3",
+     "label": "4.3",
+     "title": "Commission disposition",
+     "trigger": "Commission processes the complaint under s.72.",
+     "action": "Respond to whichever disposition follows: a notice of non-referral (matter ends, subject to the consumer’s own further rights); referral to an ADR agent, provincial authority or consumer court; referral to another regulator; or direction to an inspector to investigate.",
+     "points": [
+      "Respond to whichever disposition follows:",
+      "a notice of non-referral (matter ends, subject to the consumer’s own further rights)",
+      "referral to an ADR agent, provincial authority or consumer court",
+      "referral to another regulator",
+      "direction to an inspector to investigate."
+     ],
+     "owner": "CO, LA",
+     "deadline": "Per Commission timeline",
+     "form": "C13",
+     "authority": "s.72(1)–(2)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — External escalation: ombud, NCC and Tribunal",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.4",
+     "label": "4.4",
+     "title": "Investigation",
+     "trigger": "Inspector directed to investigate.",
+     "action": "Respond to any summons (s.102) and to any lawful entry and search (ss.103–105) through LA; produce documents requested; brief staff not to obstruct, mislead or improperly influence the process — each carries a separate offence exposure (ss.108–109).",
+     "points": [
+      "Respond to any summons (s.102) and to any lawful entry and search (ss.103–105) through LA; produce documents requested; brief staff not to obstruct, mislead or improperly influence the process — each carries a separate offence exposure (ss.108–109)."
+     ],
+     "owner": "LA, CO",
+     "deadline": "As required",
+     "form": "C14 investigation response",
+     "authority": "ss.72(1)(d), 102–105, 108–109",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — External escalation: ombud, NCC and Tribunal",
+      "subsection": null,
+      "page": 26
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.5",
+     "label": "4.5",
+     "title": "Consent order negotiation",
+     "trigger": "Investigation concludes; Commission and organisation agree terms.",
+     "action": "Negotiate terms with the Commission; agree wording carefully, since a consent order confirmed by the Tribunal or a court is binding without a hearing on the merits; any damages component requires the complainant’s consent.",
+     "points": [
+      "Negotiate terms with the Commission; agree wording carefully, since a consent order confirmed by the Tribunal or a court is binding without a hearing on the merits; any damages component requires the complainant’s consent."
+     ],
+     "owner": "LA, SSO",
+     "deadline": "Per negotiation",
+     "form": "C15 draft consent order",
+     "authority": "s.74(1)–(3)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — External escalation: ombud, NCC and Tribunal",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.6",
+     "label": "4.6",
+     "title": "Compliance notice",
+     "trigger": "Commission has reasonable grounds to believe prohibited conduct occurred.",
+     "action": "Read the notice carefully for the provision alleged, the extent of non-compliance, the steps required, the deadline, and the stated penalty risk. Comply within the period, or object.",
+     "points": [
+      "Read the notice carefully for the provision alleged, the extent of non-compliance, the steps required, the deadline, and the stated penalty risk.",
+      "Comply within the period, or object."
+     ],
+     "owner": "LA, CO, SSO",
+     "deadline": "Notice states the period",
+     "form": "C16 compliance notice response",
+     "authority": "s.100(1)–(5)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — External escalation: ombud, NCC and Tribunal",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.7",
+     "label": "4.7",
+     "title": "Compliance notice objection",
+     "trigger": "Organisation disputes the notice.",
+     "action": "Apply to the Tribunal to review the notice within 15 business days of receipt (longer on good cause); prepare the record for review.",
+     "points": [
+      "Apply to the Tribunal to review the notice within 15 business days of receipt (longer on good cause); prepare the record for review."
+     ],
+     "owner": "LA",
+     "deadline": "15 business days (s.101(1))",
+     "form": "C17 Tribunal review application",
+     "authority": "s.101(1)–(3)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — External escalation: ombud, NCC and Tribunal",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.8",
+     "label": "4.8",
+     "title": "Referral to the Tribunal",
+     "trigger": "Commission refers the matter under s.73(2)(b); or, after a non-referral notice not based on s.116, the consumer refers the matter to the provincial consumer court (s.75(1)(a)) or applies to the Tribunal for leave (s.75(1)(b)); or the matter is a direct s.69(a) application.",
+     "action": "Brief LA; prepare the Tribunal file; respond within the prescribed form and timeframe under the National Consumer Tribunal Rules.",
+     "points": [
+      "Brief LA; prepare the Tribunal file; respond within the prescribed form and timeframe under the National Consumer Tribunal Rules."
+     ],
+     "owner": "LA, SSO",
+     "deadline": "Per Tribunal Rules (confirm current periods)",
+     "form": "C18 Tribunal file",
+     "authority": "ss.73(2), 75(1), 112, 116",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — External escalation: ombud, NCC and Tribunal",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.9",
+     "label": "4.9",
+     "title": "Administrative fine application",
+     "trigger": "Commission applies to the Tribunal for a fine under s.112.",
+     "action": "Prepare submissions on the s.112(3) factors: nature, duration, gravity and extent of the contravention; loss or damage caused; the organisation’s behaviour and cooperation; market circumstances; profit derived; any prior contraventions.",
+     "points": [
+      "Prepare submissions on the s.112(3) factors:",
+      "nature, duration, gravity and extent of the contravention",
+      "loss or damage caused",
+      "the organisation’s behaviour and cooperation",
+      "market circumstances",
+      "profit derived",
+      "any prior contraventions."
+     ],
+     "owner": "LA, SSO, BOARD",
+     "deadline": "Per Tribunal timetable",
+     "form": "C19 fine submissions",
+     "authority": "s.112(1)–(4)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — External escalation: ombud, NCC and Tribunal",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.10",
+     "label": "4.10",
+     "title": "Interim relief",
+     "trigger": "Commission or consumer seeks urgent Tribunal relief pending final determination.",
+     "action": "Respond urgently through LA; assess operational impact of any interim order.",
+     "points": [
+      "Respond urgently through LA; assess operational impact of any interim order."
+     ],
+     "owner": "LA, SSO",
+     "deadline": "Urgent",
+     "form": "C20",
+     "authority": "s.114",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — External escalation: ombud, NCC and Tribunal",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "4.11",
+     "label": "4.11",
+     "title": "Sector ombud escalation",
+     "trigger": "Complaint properly belongs with the NFO (banking, credit, insurance), MIOSA or another sector scheme, identified late.",
+     "action": "Redirect formally, with reasons, and continue to cooperate; a late redirection does not stop the underlying CPA exposure if CPA elements remain.",
+     "points": [
+      "Redirect formally, with reasons, and continue to cooperate; a late redirection does not stop the underlying CPA exposure if CPA elements remain."
+     ],
+     "owner": "CO, LA",
+     "deadline": "On discovery",
+     "form": "C03 (updated)",
+     "authority": "Sector legislation",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§07 Phase 4 — External escalation: ombud, NCC and Tribunal",
+      "subsection": null,
+      "page": 25
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+    "section": "§07 Phase 4 — External escalation: ombud, NCC and Tribunal",
+    "page": 25,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s6",
+   "group": "Phase 5 — Outcome, remedy and closure",
+   "title": "Phase 5 — Outcome, remedy and closure",
+   "kind": "phase",
+   "intro": [
+    "A matter is closed only when the remedy has been delivered, any Tribunal or consent order has been complied with in full, and the file shows no live escalation window remains open."
+   ],
+   "notes": [
+    {
+     "heading": "Consumer obligations at this stage",
+     "text": "Confirm receipt of the remedy; where dissatisfied with a Tribunal order, pursue any further right of review through the proper forum rather than repeat complaints through the original channel."
+    },
+    {
+     "heading": "Hand-offs",
+     "text": "LA → FIN (fine payment). CO → Ops (remedy delivery). CO → BOARD (governance reporting on Tribunal outcomes)."
+    },
+    {
+     "heading": "Watch",
+     "text": "“The refund was processed” is not the same as “the file is closed”. Confirm no compliance-notice deadline, Tribunal compliance step, or review window is still running before marking a matter closed."
+    }
+   ],
+   "steps": [
+    {
+     "id": "5.1",
+     "label": "5.1",
+     "title": "Tribunal order received",
+     "trigger": "Tribunal makes an order (consent order, compliance-notice confirmation, fine, interdict, or other relief).",
+     "action": "Confirm terms; calendar every compliance step and deadline in the order; brief the business units affected.",
+     "points": [
+      "Confirm terms; calendar every compliance step and deadline in the order; brief the business units affected."
+     ],
+     "owner": "LA, CO",
+     "deadline": "On receipt",
+     "form": "C21 order tracker",
+     "authority": "s.74; s.75(4); s.101(2)–(3); s.112",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Outcome, remedy and closure",
+      "subsection": null,
+      "page": 30
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.2",
+     "label": "5.2",
+     "title": "Pay any administrative fine",
+     "trigger": "Fine confirmed.",
+     "action": "Pay into the National Revenue Fund as directed; file proof; report to BOARD.",
+     "points": [
+      "Pay into the National Revenue Fund as directed; file proof; report to BOARD."
+     ],
+     "owner": "FIN, CO",
+     "deadline": "Per order",
+     "form": "Proof of payment",
+     "authority": "s.112(5)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Outcome, remedy and closure",
+      "subsection": null,
+      "page": 30
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.3",
+     "label": "5.3",
+     "title": "Appeal or review",
+     "trigger": "Organisation disputes the Tribunal’s decision.",
+     "action": "LA to advise on review to the High Court (confirm current procedure and any leave requirements against the National Consumer Tribunal Rules before filing).",
+     "points": [
+      "LA to advise on review to the High Court (confirm current procedure and any leave requirements against the National Consumer Tribunal Rules before filing)."
+     ],
+     "owner": "LA, SSO",
+     "deadline": "Per applicable rules (verify)",
+     "form": "C22 review application",
+     "authority": "s.75(4); NCT Rules (verify)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Outcome, remedy and closure",
+      "subsection": null,
+      "page": 30
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.4",
+     "label": "5.4",
+     "title": "Deliver the remedy",
+     "trigger": "Consent order, ombud settlement, or internal resolution accepted.",
+     "action": "Deliver refund, repair, replacement or other remedy; confirm delivery in writing; close the consumer-facing loop.",
+     "points": [
+      "Deliver refund, repair, replacement or other remedy; confirm delivery in writing; close the consumer-facing loop."
+     ],
+     "owner": "Ops, FIN",
+     "deadline": "Per agreement",
+     "form": "C11",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Outcome, remedy and closure",
+      "subsection": null,
+      "page": 30
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.5",
+     "label": "5.5",
+     "title": "Compliance certificate",
+     "trigger": "All steps in a compliance notice completed.",
+     "action": "Request a compliance certificate from the Commission; file it with the case record.",
+     "points": [
+      "Request a compliance certificate from the Commission; file it with the case record."
+     ],
+     "owner": "CO",
+     "deadline": "On completion",
+     "form": "C23",
+     "authority": "s.100(4)–(5)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Outcome, remedy and closure",
+      "subsection": null,
+      "page": 30
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.6",
+     "label": "5.6",
+     "title": "Close the file",
+     "trigger": "All of the above complete.",
+     "action": "Consolidate the record; confirm no open escalation window (ombud, Tribunal review, sector referral) remains; set a retention date under the POPIA-aligned schedule, at least three years after closure (CGSO Code; s.116).",
+     "points": [
+      "Consolidate the record; confirm no open escalation window (ombud, Tribunal review, sector referral) remains; set a retention date under the POPIA-aligned schedule, at least three years after closure (CGSO Code; s.116)."
+     ],
+     "owner": "CO",
+     "deadline": "On closure",
+     "form": "C05 closing entry",
+     "authority": "POPIA s.14; s.116; CGSO Code",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Outcome, remedy and closure",
+      "subsection": null,
+      "page": 31
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "5.7",
+     "label": "5.7",
+     "title": "Post-closure watch",
+     "trigger": "High-value, repeat-pattern, or Tribunal-ordered matters.",
+     "action": "Watch for recurrence of the same conduct across other customers; a pattern can itself become a fresh complaint or an NCC-initiated investigation under s.71(2).",
+     "points": [
+      "Watch for recurrence of the same conduct across other customers; a pattern can itself become a fresh complaint or an NCC-initiated investigation under s.71(2)."
+     ],
+     "owner": "CO, LA",
+     "deadline": "Ongoing (BP 12 months)",
+     "form": "C24",
+     "authority": "s.71(2)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§08 Phase 5 — Outcome, remedy and closure",
+      "subsection": null,
+      "page": 30
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+    "section": "§08 Phase 5 — Outcome, remedy and closure",
+    "page": 30,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s7",
+   "group": "Phase 6 — Governance and learning",
+   "title": "Phase 6 — Governance and learning",
+   "kind": "phase",
+   "intro": [
+    "Phase 6 turns individual complaints and the standing direct-marketing obligations into control improvements and board oversight. Almost none of it carries a statutory deadline, so it must be fixed in policy or it will be skipped."
+   ],
+   "notes": [
+    {
+     "heading": "Hand-offs",
+     "text": "CO → Risk or Social and Ethics Committee. LA → policy owners. MKT → CO (audit findings)."
+    }
+   ],
+   "steps": [
+    {
+     "id": "6.1",
+     "label": "6.1",
+     "title": "Root-cause review",
+     "trigger": "Complaint closed, or a pattern identified.",
+     "action": "Identify which control failed: contract drafting, pricing process, warranty handling, sales script, marketing suppression. Review the organisation, not the consumer’s persistence.",
+     "points": [
+      "Identify which control failed: contract drafting, pricing process, warranty handling, sales script, marketing suppression.",
+      "Review the organisation, not the consumer’s persistence."
+     ],
+     "owner": "CO, LA",
+     "deadline": "BP within 30 days of closure",
+     "form": "C25 root-cause memo",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 32
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.2",
+     "label": "6.2",
+     "title": "Governance reporting",
+     "trigger": "Quarterly cycle.",
+     "action": "Volumes by category and channel; timeliness against internal targets; ombud and NCC referrals; compliance notices and outcomes; Tribunal matters and fines; registry registration and cleansing status; POPIA alignment.",
+     "points": [
+      "Volumes by category and channel; timeliness against internal targets; ombud and NCC referrals; compliance notices and outcomes; Tribunal matters and fines; registry registration and cleansing status; POPIA alignment."
+     ],
+     "owner": "CO, Company Secretary",
+     "deadline": "Quarterly",
+     "form": "C26 dashboard",
+     "authority": "King Code governance principles (verify edition); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 32
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.3",
+     "label": "6.3",
+     "title": "Direct-marketing compliance audit",
+     "trigger": "Quarterly, or before any major campaign.",
+     "action": "Confirm registration is current, cleansing logs are complete, suppression is verified pre-send, and consent records are intact for every active list.",
+     "points": [
+      "Confirm registration is current, cleansing logs are complete, suppression is verified pre-send, and consent records are intact for every active list."
+     ],
+     "owner": "CO, MKT, IT",
+     "deadline": "Quarterly",
+     "form": "C08 (marketing variant)",
+     "authority": "Reg 4(7); POPIA s.69",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 32
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.4",
+     "label": "6.4",
+     "title": "Policy and contract refresh",
+     "trigger": "Annually, or on any legal change.",
+     "action": "Update the complaints policy, standard-form contracts, warranty and returns policy, and direct-marketing policy; re-communicate to affected staff.",
+     "points": [
+      "Update the complaints policy, standard-form contracts, warranty and returns policy, and direct-marketing policy; re-communicate to affected staff."
+     ],
+     "owner": "LA, CO",
+     "deadline": "At least annually",
+     "form": "Revised policy",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 32
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.5",
+     "label": "6.5",
+     "title": "Training refresh",
+     "trigger": "Annually and after significant complaints.",
+     "action": "Refresh frontline, marketing, IT and sales training, including any lessons from a compliance notice or Tribunal matter.",
+     "points": [
+      "Refresh frontline, marketing, IT and sales training, including any lessons from a compliance notice or Tribunal matter."
+     ],
+     "owner": "HR / L&D",
+     "deadline": "At least annually",
+     "form": "Attendance records",
+     "authority": "BP",
+     "route": "",
+     "basis": "best-practice",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 32
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "6.6",
+     "label": "6.6",
+     "title": "Legislative watch",
+     "trigger": "Ongoing.",
+     "action": "Track further CPA amendments or Bills, the NCC’s phased registry timetable (7 October 2026) and the final Opt-Out Registry Guidelines, any new s.6 threshold determination (currently R2 million, GN 294 of 2011), National Consumer Tribunal Rules changes, and sector-ombud jurisdiction changes (e.g. the NFO’s scope).",
+     "points": [
+      "Track further CPA amendments or Bills, the NCC’s phased registry timetable (7 October 2026) and the final Opt-Out Registry Guidelines, any new s.6 threshold determination (currently R2 million, GN 294 of 2011), National Consumer Tribunal Rules changes, and sector-ombud jurisdiction changes (e.g. the NFO’s scope)."
+     ],
+     "owner": "LA",
+     "deadline": "Ongoing",
+     "form": "Change log",
+     "authority": "s.120",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§09 Phase 6 — Governance and learning",
+      "subsection": null,
+      "page": 32
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+    "section": "§09 Phase 6 — Governance and learning",
+    "page": 32,
+    "subsection": null
+   },
+   "applicability": "always"
+  },
+  {
+   "id": "s8",
+   "group": "Parallel track — direct marketing and the NCC opt-out registry",
+   "title": "Parallel track — direct marketing and the NCC opt-out registry",
+   "kind": "parallel",
+   "intro": [
+    "This track has no case trigger of its own: it runs continuously from the day the organisation first sends a marketing communication, and it is tested independently of any individual complaint by the Commission’s own inspection and enforcement powers."
+   ],
+   "notes": [],
+   "steps": [
+    {
+     "id": "D1",
+     "label": "D1",
+     "title": "Registration gate",
+     "trigger": "Any proposed marketing communication.",
+     "action": "Confirm the organisation is registered as a direct marketer before the first message is sent; no communication may be sent unregistered, not even one. NCC timetable (7 October 2026): register by end-December 2026; full enforcement from 15 April 2027.",
+     "points": [
+      "Confirm the organisation is registered as a direct marketer before the first message is sent; no communication may be sent unregistered, not even one.",
+      "NCC timetable (7 October 2026): register by end-December 2026; full enforcement from 15 April 2027."
+     ],
+     "owner": "",
+     "deadline": "Before sending; at the latest end-December 2026",
+     "form": "Registration confirmation",
+     "authority": "Reg 4(7)(a), (j)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — direct marketing and the NCC opt-out registry",
+      "subsection": null,
+      "page": 34
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "D2",
+     "label": "D2",
+     "title": "Identification",
+     "trigger": "Every communication.",
+     "action": "Confirm name, electronic address, physical address and contact number are identifiable; confirm the communication is identifiable as such on the recipient’s device; confirm the organisation is identifiable even where sent from or through a public platform.",
+     "points": [
+      "Confirm name, electronic address, physical address and contact number are identifiable; confirm the communication is identifiable as such on the recipient’s device; confirm the organisation is identifiable even where sent from or through a public platform."
+     ],
+     "owner": "",
+     "deadline": "Every send",
+     "form": "Template checklist",
+     "authority": "Reg 4(7)(c), (e)–(g)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — direct marketing and the NCC opt-out registry",
+      "subsection": null,
+      "page": 34
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "D3",
+     "label": "D3",
+     "title": "Opt-out mechanism",
+     "trigger": "Every communication.",
+     "action": "Confirm a functional opt-out is present; action any opt-out request within 24 hours across every channel used.",
+     "points": [
+      "Confirm a functional opt-out is present; action any opt-out request within 24 hours across every channel used."
+     ],
+     "owner": "",
+     "deadline": "Within 24 hours of request (BP)",
+     "form": "Opt-out log",
+     "authority": "Reg 4(7); BP",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — direct marketing and the NCC opt-out registry",
+      "subsection": null,
+      "page": 34
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "D4",
+     "label": "D4",
+     "title": "Pre-emptive block check",
+     "trigger": "Before every campaign.",
+     "action": "Cross-reference the send list against the most recent cleansing results; suppress every record flagged with a pre-emptive block, regardless of any consent on file.",
+     "points": [
+      "Cross-reference the send list against the most recent cleansing results; suppress every record flagged with a pre-emptive block, regardless of any consent on file."
+     ],
+     "owner": "",
+     "deadline": "Before every send",
+     "form": "Suppression log",
+     "authority": "Reg 4(7)(h)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — direct marketing and the NCC opt-out registry",
+      "subsection": null,
+      "page": 34
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "D5",
+     "label": "D5",
+     "title": "Monthly cleansing",
+     "trigger": "Monthly cycle.",
+     "action": "Submit the marketing database to the Commission for cleansing; pay the R0.12 fee (Annexure N; per data entry under the Regulations, per blocked consumer matched under Draft Guidelines para 7.2: verify the final basis); no fee from December 2026 to 30 April 2027; download and apply the results; remove all flagged records. A cleansed list is valid for 30 days (draft Guidelines).",
+     "points": [
+      "Submit the marketing database to the Commission for cleansing; pay the R0.12 fee (Annexure N; per data entry under the Regulations, per blocked consumer matched under Draft Guidelines para 7.2:",
+      "verify the final basis)",
+      "no fee from December 2026 to 30 April 2027",
+      "download and apply the results",
+      "remove all flagged records. A cleansed list is valid for 30 days (draft Guidelines)."
+     ],
+     "owner": "",
+     "deadline": "Monthly",
+     "form": "Cleansing submission and results",
+     "authority": "Reg 4(7)(i); Annexure N; NCC Draft Guidelines (draft)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — direct marketing and the NCC opt-out registry",
+      "subsection": null,
+      "page": 34
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "D6",
+     "label": "D6",
+     "title": "Annual renewal",
+     "trigger": "Anniversary of registration.",
+     "action": "Renew and pay the prescribed fee; update any changed registry information.",
+     "points": [
+      "Renew and pay the prescribed fee; update any changed registry information."
+     ],
+     "owner": "",
+     "deadline": "Annually",
+     "form": "Renewal proof",
+     "authority": "Reg 4(7)(b), (d)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — direct marketing and the NCC opt-out registry",
+      "subsection": null,
+      "page": 34
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "D7",
+     "label": "D7",
+     "title": "Call-time restrictions",
+     "trigger": "Any direct-marketing telephone call.",
+     "action": "No calls on Sundays or public holidays; Saturdays 09:00–13:00 only; all other days 08:00–20:00 only. Applies to direct marketing to a consumer at home; departures only on the consumer’s request or agreement (express written agreement for a call deliberately scheduled in a prohibited period). Keep proof of dispatch time.",
+     "points": [
+      "No calls on Sundays or public holidays; Saturdays 09:00–13:00 only; all other days 08:00–20:00 only.",
+      "Applies to direct marketing to a consumer at home; departures only on the consumer’s request or agreement (express written agreement for a call deliberately scheduled in a prohibited period).",
+      "Keep proof of dispatch time."
+     ],
+     "owner": "",
+     "deadline": "Every call",
+     "form": "Dialling rules",
+     "authority": "s.12(2) and the prescribed-times notice, items 1–3",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — direct marketing and the NCC opt-out registry",
+      "subsection": null,
+      "page": 34
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "D8",
+     "label": "D8",
+     "title": "POPIA consent record",
+     "trigger": "Every marketing list.",
+     "action": "Record wording presented, date, time, source and channel for consent obtained; confirm the existing-customer exception basis where relied on instead.",
+     "points": [
+      "Record wording presented, date, time, source and channel for consent obtained; confirm the existing-customer exception basis where relied on instead."
+     ],
+     "owner": "",
+     "deadline": "Per list",
+     "form": "POPIA consent register",
+     "authority": "POPIA s.69(1)–(3)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — direct marketing and the NCC opt-out registry",
+      "subsection": null,
+      "page": 34
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "D9",
+     "label": "D9",
+     "title": "Registry outage",
+     "trigger": "Registry inaccessible for 24 hours or more (Commission’s own duty, watch for the effect on the organisation’s cleansing cycle).",
+     "action": "Note the outage and its effect on the monthly cleansing deadline; retain evidence that the delay was not the organisation’s fault.",
+     "points": [
+      "Note the outage and its effect on the monthly cleansing deadline; retain evidence that the delay was not the organisation’s fault."
+     ],
+     "owner": "",
+     "deadline": "On occurrence",
+     "form": "Outage note",
+     "authority": "Reg 4(10)(e)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — direct marketing and the NCC opt-out registry",
+      "subsection": null,
+      "page": 34
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "D10",
+     "label": "D10",
+     "title": "Contact with a blocked consumer",
+     "trigger": "Any proposed contact with a consumer who has registered a pre-emptive block.",
+     "action": "A registered pre-emptive block overrides any previous or fresh consent until the consumer removes the block. Communications that are not primarily promotional (administering an existing order, delivery, account, complaint or warranty) may continue but must contain no promotional content. Record the basis for each contact.",
+     "points": [
+      "A registered pre-emptive block overrides any previous or fresh consent until the consumer removes the block.",
+      "Communications that are not primarily promotional (administering an existing order, delivery, account, complaint or warranty) may continue but must contain no promotional content.",
+      "Record the basis for each contact."
+     ],
+     "owner": "",
+     "deadline": "On contact",
+     "form": "Contact basis record",
+     "authority": "Reg 4(7)(h); NCC Draft Opt-Out Registry Guidelines (GG 55465, 2 Oct 2026), paras 12.2–12.5, 14–15 (draft; verify reg text)",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — direct marketing and the NCC opt-out registry",
+      "subsection": null,
+      "page": 34
+     },
+     "prerequisites": []
+    },
+    {
+     "id": "D11",
+     "label": "D11",
+     "title": "Inspection readiness",
+     "trigger": "NCC inspection or audit.",
+     "action": "Standing pack of registration proof, renewal history, cleansing logs, suppression evidence and consent records; a named person to respond.",
+     "points": [
+      "Standing pack of registration proof, renewal history, cleansing logs, suppression evidence and consent records; a named person to respond."
+     ],
+     "owner": "",
+     "deadline": "Ongoing",
+     "form": "D-pack",
+     "authority": "ss.102–105",
+     "route": "",
+     "basis": "law",
+     "source": {
+      "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+      "section": "§10 Parallel track — direct marketing and the NCC opt-out registry",
+      "subsection": null,
+      "page": 34
+     },
+     "prerequisites": []
+    }
+   ],
+   "source": {
+    "document": "CPA_Receiving_Process_Flow_GBS_v1.1.docx",
+    "section": "§10 Parallel track — direct marketing and the NCC opt-out registry",
+    "page": 34,
+    "subsection": null
+   },
+   "applicability": "event"
+  }
+ ],
+ "referenceTables": [
+  {
+   "title": "Complaint routes compared",
+   "section": "§02 Master flow at a glance",
+   "page": 6,
+   "kind": "reference",
+   "columns": [
+    "Feature",
+    "Internal resolution",
+    "Accredited industry ombud (e.g. CGSO)",
+    "NCC referral (s.71)",
+    "Direct Tribunal application (s.69(a))",
+    "Court (s.69(d))"
+   ],
+   "rows": [
+    [
+     "Who initiates",
+     "Consumer, to the organisation directly",
+     "Consumer, or the organisation as a matter of policy; the ordinary route where the organisation is subject to an ombud with jurisdiction (s.69(b))",
+     "Consumer (Annexure E), where no ombud with jurisdiction applies (s.69(c), s.71(1)); or the Commission itself (s.71(2))",
+     "Consumer, only where the Act permits direct referral for that dispute",
+     "Consumer; s.69(d) refers to exhausting other national-legislation remedies, but courts do not lightly read it as excluding direct action (Motus v Wentzel, SCA 2021; Pure Silk Invest v Martin, WCHC 2025). LA to assess any s.69(d) defence"
+    ],
+    [
+     "Statutory basis",
+     "Not separately regulated; BP and, for CGSO members, the industry code",
+     "s.69(b); s.82(6) accreditation; industry code",
+     "s.69(c); s.71–s.73 (s.72(1)(b) referral to ADR or ombud)",
+     "s.69(a)",
+     "s.69(d)"
+    ],
+    [
+     "Typical process",
+     "Complaint handling, investigation, written response",
+     "Mediation or conciliation under the scheme’s rules",
+     "Assessment, possible investigation (s.72), consent order (s.74) or compliance notice (s.100)",
+     "Tribunal hearing under s.75(4) and imported National Credit Act procedure",
+     "Ordinary civil litigation"
+    ],
+    [
+     "Cost to consumer",
+     "Free",
+     "Free",
+     "Free",
+     "Tribunal fee (prescribed)",
+     "Court fees"
+    ],
+    [
+     "Typical outcome",
+     "Remedy agreed, refund, repair, replacement, apology",
+     "Recommendation or settlement; unresolved matters may still go to the NCC",
+     "Notice of non-referral, consent order, compliance notice, or referral to the Tribunal",
+     "Order under CPA and imported NCA remedy powers, including an administrative fine (s.112)",
+     "Civil judgment, damages, costs"
+    ],
+    [
+     "Organisation’s exposure",
+     "Reputational; sets the evidence trail for every later stage",
+     "Reputational; a poor record here weakens the organisation’s position if the matter escalates",
+     "Compliance notice; referral to the Tribunal; possible criminal referral (s.110(2)) if the notice is disregarded",
+     "Administrative fine up to the greater of R1 million or 10% of annual turnover (s.112); interim relief (s.114)",
+     "Damages, costs, adverse judgment"
+    ]
+   ],
+   "intro": [
+    "Every complaint enters through one intake, whichever door the consumer used. Phase 2 classifies the matter and screens for sector carve-outs; Phase 3 is the organisation’s own attempt at resolution; Phase 4 is external escalation, which can run through an ombud, the NCC, or directly to the Tribunal, depending on which route the consumer or the Commission chooses; both close in Phase 5. The direct-marketing and opt-out registry track is not a phase: it is a standing obligation that runs continuously from the day the organisation first sends a marketing communication, independent of any single complaint."
+   ]
+  },
+  {
+   "title": "Master flow at a glance",
+   "section": "§02 Master flow at a glance",
+   "page": 6,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Read each phase column top to bottom to see who acts and who hands off; read each lane left to right to see one party’s whole job. The CO lane is the spine: every complaint channel and every escalation route reports back through it, and the direct-marketing compliance lane runs underneath every phase, independently of any single case."
+   ]
+  },
+  {
+   "title": "Consumer obligations and conduct",
+   "section": "§11 Consumer obligations and conduct",
+   "page": 38,
+   "kind": "obligations",
+   "columns": [
+    "Obligation",
+    "When",
+    "Consequence if not met",
+    "Authority"
+   ],
+   "rows": [
+    [
+     "Use the prescribed form and manner for an NCC referral",
+     "Referring to the Commission",
+     "Formal defects; follow-up requests",
+     "s.71(1); Annexure E"
+    ],
+    [
+     "Disclose prior ADR or ombud engagement and provide the closing letter",
+     "NCC referral",
+     "Incomplete Annexure E; possible delay",
+     "Annexure E"
+    ],
+    [
+     "Refer to the Tribunal or a consumer court within three years",
+     "From the act or omission, or cessation of continuing conduct",
+     "Notice of non-referral; time-barred",
+     "s.116"
+    ],
+    [
+     "Consider s.69(d) (other national-legislation remedies) before approaching a court",
+     "Before litigation",
+     "LA to assess any s.69(d) defence; courts do not lightly read s.69(d) as excluding direct action (Motus v Wentzel [2021] ZASCA 40; Pure Silk Invest v Martin [2025] ZAWCHC 568)",
+     "s.69(d)"
+    ],
+    [
+     "Provide accurate identity and contact information",
+     "Every channel",
+     "Delay; difficulty verifying the complaint",
+     "Annexure E"
+    ],
+    [
+     "Cooperate with any NCC investigation, ombud process or Tribunal proceeding",
+     "Throughout",
+     "Matter may be dismissed or delayed",
+     "ss.72–75"
+    ],
+    [
+     "Not knowingly provide false information to a regulator",
+     "Throughout",
+     "Offence",
+     "s.109"
+    ]
+   ],
+   "intro": [
+    "A consumer keeps their remedies available by using the right channel, providing accurate information, and respecting the time limits the Act sets. The organisation should explain these in its acknowledgement letter, without using them to discourage a complaint."
+   ]
+  },
+  {
+   "title": "Consumer obligations and conduct",
+   "section": "§11 Consumer obligations and conduct",
+   "page": 38,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Rights the organisation must not obstruct. Choosing any of the s.69 routes; lodging a complaint with the NCC on the prescribed form; after a non-referral notice not based on s.116, referring the matter to the provincial consumer court (s.75(1)(a)) or applying to the Tribunal for leave (s.75(1)(b)); the s.16 cooling-off cancellation right; the implied warranty of quality (ss.55–61), including the consumer’s choice of repair, replacement or refund (s.56(2)) and replacement or refund after a failed repair (s.56(3)); return of goods (s.20) and cancellation of fixed-term agreements and bookings (ss.14, 17); a functioning, free opt-out on every marketing communication; registering a pre-emptive block free of charge."
+   ]
+  },
+  {
+   "title": "Hand-offs and interfaces register",
+   "section": "§12 Hand-offs and interfaces register",
+   "page": 40,
+   "kind": "interfaces",
+   "columns": [
+    "Party or system",
+    "Trigger",
+    "What is handed over",
+    "When",
+    "Step",
+    "Authority"
+   ],
+   "rows": [
+    [
+     "Consumer",
+     "Every stage",
+     "Acknowledgement, response, remedy confirmation",
+     "Throughout",
+     "1.4, 3.4, 5.4",
+     "BP"
+    ],
+    [
+     "Accredited industry ombud (e.g. CGSO)",
+     "Referral or membership process; ordinary route where it has jurisdiction (s.69(b))",
+     "Case file, response to information requests",
+     "Per scheme timeline",
+     "4.1",
+     "s.69(b); s.82(6); POPIA s.11"
+    ],
+    [
+     "National Consumer Commission",
+     "Referral, investigation, compliance notice",
+     "Evidence, submissions, compliance-notice response",
+     "Per Commission or statutory timeline",
+     "4.2–4.7",
+     "ss.71–73, 100–101"
+    ],
+    [
+     "National Consumer Tribunal",
+     "Referral, review application, fine application",
+     "Tribunal file, submissions",
+     "Per Tribunal Rules (verify)",
+     "4.7–4.10, 5.1, 5.3",
+     "ss.73(2), 75, 101, 112, 114"
+    ],
+    [
+     "Provincial consumer protection authority",
+     "Referral within that province",
+     "Case file",
+     "Per PCPA process",
+     "s.69(c), s.84",
+     "s.84"
+    ],
+    [
+     "Sector ombud (NFO, incl. credit; MIOSA; ICASA; NCR for NCA regulatory matters)",
+     "Complaint properly belongs elsewhere",
+     "Redirection with reasons",
+     "On discovery",
+     "1.5, 4.11",
+     "Sector legislation"
+    ],
+    [
+     "Information Regulator",
+     "POPIA-linked complaint (marketing, data breach)",
+     "Cooperation, consent records",
+     "On request",
+     "D8",
+     "POPIA"
+    ],
+    [
+     "National Prosecuting Authority",
+     "Referral under s.73(1)(b) or after a disregarded compliance notice",
+     "Case file",
+     "Per referral",
+     "s.73(1)(b); s.110(2)",
+     "ss.108–111"
+    ],
+    [
+     "Legal Adviser",
+     "Every escalation event, contract or warranty question",
+     "Privileged instructions",
+     "As triggered",
+     "Throughout",
+     "Privilege"
+    ],
+    [
+     "Finance",
+     "Remedy delivery, fine payment, fee payment",
+     "Payment instruction, proof",
+     "Per event",
+     "5.2, 5.4; D1, D5–D6",
+     "s.112(5)"
+    ],
+    [
+     "Marketing / IT",
+     "Registry compliance",
+     "Cleansing submissions, suppression evidence",
+     "Monthly",
+     "D1–D9",
+     "Reg 4(7)"
+    ],
+    [
+     "Board / Risk or Social and Ethics Committee",
+     "Quarterly; material Tribunal or fine matters",
+     "Aggregate report; case oversight",
+     "Quarterly; as triggered",
+     "6.2",
+     "Governance"
+    ]
+   ],
+   "intro": [
+    "Every hand-off carries a deadline or an evidentiary risk: send the minimum information needed, keep proof of what was sent, to whom and when, and log it against the case file."
+   ]
+  },
+  {
+   "title": "Forms register",
+   "section": "§13 Forms register",
+   "page": 42,
+   "kind": "forms",
+   "columns": [
+    "Form",
+    "Name",
+    "Used at",
+    "Statutory or prescribed?"
+   ],
+   "rows": [
+    [
+     "C01",
+     "Intake record and case register entry",
+     "1.1–1.2",
+     "No"
+    ],
+    [
+     "C02",
+     "Acknowledgement of receipt",
+     "1.4",
+     "No"
+    ],
+    [
+     "C03",
+     "Sector carve-out screening note",
+     "1.5, 4.11",
+     "No"
+    ],
+    [
+     "C04",
+     "Evidence preservation log",
+     "1.6",
+     "No"
+    ],
+    [
+     "C05",
+     "Deadline tracker",
+     "1.7, 2.3, 2.6, 5.6",
+     "No"
+    ],
+    [
+     "C06",
+     "CPA applicability and classification memo",
+     "2.1–2.2",
+     "No"
+    ],
+    [
+     "C07",
+     "Merits and exposure assessment",
+     "2.4–2.5",
+     "No"
+    ],
+    [
+     "C08",
+     "Investigation note (complaints and marketing-audit variants)",
+     "3.1, 6.3",
+     "No"
+    ],
+    [
+     "C09",
+     "Remedy proposal",
+     "3.3",
+     "No"
+    ],
+    [
+     "C10",
+     "Response letter to consumer",
+     "3.4, 3.6",
+     "No"
+    ],
+    [
+     "C11",
+     "Remedy delivery confirmation",
+     "3.5, 5.4",
+     "No"
+    ],
+    [
+     "C12",
+     "Ombud response file",
+     "4.1",
+     "No"
+    ],
+    [
+     "C13",
+     "NCC response file (Annexure E companion)",
+     "4.2–4.3",
+     "No (Annexure E itself is prescribed — s.71(1))"
+    ],
+    [
+     "C14",
+     "Investigation response (summons, entry and search)",
+     "4.4",
+     "No"
+    ],
+    [
+     "C15",
+     "Draft consent order",
+     "4.5",
+     "No (form governed by s.74)"
+    ],
+    [
+     "C16",
+     "Compliance notice response",
+     "4.6",
+     "No (notice itself is the prescribed form — s.100)"
+    ],
+    [
+     "C17",
+     "Tribunal review application (compliance notice)",
+     "4.7",
+     "Tribunal Rules prescribed form (verify)"
+    ],
+    [
+     "C18",
+     "Tribunal file (referral, direct application)",
+     "4.8",
+     "Tribunal Rules prescribed form (verify)"
+    ],
+    [
+     "C19",
+     "Administrative fine submissions",
+     "4.9",
+     "No"
+    ],
+    [
+     "C20",
+     "Interim relief response",
+     "4.10",
+     "No"
+    ],
+    [
+     "C21",
+     "Order compliance tracker",
+     "5.1",
+     "No"
+    ],
+    [
+     "C22",
+     "Review / appeal application",
+     "5.3",
+     "Court or Tribunal Rules prescribed form (verify)"
+    ],
+    [
+     "C23",
+     "Compliance certificate request",
+     "5.5",
+     "No (certificate itself is prescribed — s.100(4)–(5))"
+    ],
+    [
+     "C24",
+     "Post-closure watch log",
+     "5.7",
+     "No"
+    ],
+    [
+     "C25",
+     "Root-cause memo",
+     "6.1",
+     "No"
+    ],
+    [
+     "C26",
+     "Governance dashboard",
+     "6.2",
+     "No"
+    ],
+    [
+     "—",
+     "Annexure E — Complaint form, s.71(1)",
+     "4.2",
+     "Yes, prescribed (substituted 2026)"
+    ],
+    [
+     "—",
+     "Annexure N — Filing fee schedule",
+     "0.4–0.5, D5–D6",
+     "Yes, prescribed"
+    ],
+    [
+     "—",
+     "Annexure O — Consumer pre-emptive block form",
+     "D4 (consumer-facing; organisation does not complete)",
+     "Yes, prescribed"
+    ],
+    [
+     "—",
+     "Annexure P — Direct marketer registration form",
+     "0.4",
+     "Yes, prescribed"
+    ]
+   ],
+   "intro": [
+    "Twenty-six internal forms (C01–C26) support the flow, with four statutory annexures. Statutory NCC forms are shown with their Annexure or section reference; internal GBS forms are prefixed C."
+   ]
+  },
+  {
+   "title": "Forms register",
+   "section": "§13 Forms register",
+   "page": 42,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Confirm current Tribunal form numbers and any procedural forms against the National Consumer Tribunal Rules (GN 789 of 2007, as amended) before use; this flow could not verify their current numbering and content in full (see section 15)."
+   ]
+  },
+  {
+   "title": "Complaint calendar",
+   "section": "§14 Timeline calendar and penalties register",
+   "page": 44,
+   "kind": "timeline",
+   "columns": [
+    "When",
+    "Event",
+    "Type",
+    "Authority"
+   ],
+   "rows": [
+    [
+     "Day 0",
+     "Receipt, logging, evidence preservation, clocks diarised",
+     "BP",
+     "—"
+    ],
+    [
+     "By day 5 (BP)",
+     "Written acknowledgement",
+     "BP",
+     "—"
+    ],
+    [
+     "By day 5",
+     "Sector carve-out screen complete",
+     "BP",
+     "—"
+    ],
+    [
+     "By day 10 (BP, straightforward matters)",
+     "Internal response and remedy offer",
+     "BP",
+     "—"
+    ],
+    [
+     "On receipt of a compliance notice",
+     "Comply within the period stated, or object",
+     "Statutory",
+     "s.100(3), (5)"
+    ],
+    [
+     "Compliance notice + 15 business days",
+     "Last day to apply to the Tribunal for review (or later on good cause)",
+     "Statutory",
+     "s.101(1)"
+    ],
+    [
+     "From act or omission (or cessation of continuing conduct)",
+     "3-year outer limit to refer to the Tribunal or a consumer court",
+     "Statutory",
+     "s.116"
+    ],
+    [
+     "Monthly",
+     "Direct-marketing database cleansing against the registry",
+     "Statutory",
+     "Reg 4(7)(i)"
+    ],
+    [
+     "Annually, at registration anniversary",
+     "Direct marketer registration renewal",
+     "Statutory",
+     "Reg 4(7)(b)"
+    ],
+    [
+     "Every 3 years",
+     "New Annexure N fee tariffs published",
+     "Statutory",
+     "Reg 4(11)(b)"
+    ],
+    [
+     "Every 24 hours or more of registry outage",
+     "Commission must inform the public",
+     "Statutory (Commission’s duty)",
+     "Reg 4(10)(e)"
+    ],
+    [
+     "By 31 December 2026",
+     "Direct-marketer registration deadline (NCC phased timetable)",
+     "Regulator timetable",
+     "Reg 4(7)(a); NCC, 7 Oct 2026"
+    ],
+    [
+     "December 2026 – 30 April 2027",
+     "List cleansing phase (no cleansing fee under the draft Guidelines)",
+     "Regulator timetable",
+     "NCC, 7 Oct 2026; Draft Guidelines"
+    ],
+    [
+     "15 April 2027",
+     "NCC full enforcement of the opt-out registry regime begins",
+     "Regulator timetable",
+     "NCC, 7 Oct 2026"
+    ],
+    [
+     "From May 2027",
+     "Consumers can register pre-emptive blocks; cleansing fee applies",
+     "Regulator timetable",
+     "NCC, 7 Oct 2026; Annexure N"
+    ],
+    [
+     "On a Tribunal order",
+     "Compliance per the order’s own terms",
+     "Statutory",
+     "s.74; s.101(2)–(3); s.112"
+    ]
+   ],
+   "intro": [
+    "A routine complaint has one internal target (acknowledgement), an outer statutory limit of three years to reach the Tribunal or a consumer court, and — once escalated — several short, hard-edged windows. The direct-marketing track runs on its own monthly and annual rhythm regardless of any complaint."
+   ]
+  },
+  {
+   "title": "Penalties and offences register",
+   "section": "§14 Timeline calendar and penalties register",
+   "page": 44,
+   "kind": "liability",
+   "columns": [
+    "Exposure",
+    "Who is exposed",
+    "Consequence",
+    "Authority"
+   ],
+   "rows": [
+    [
+     "Prohibited conduct confirmed by the Tribunal",
+     "Organisation",
+     "Administrative fine: the greater of R1 million or 10% of the organisation’s annual turnover in the preceding financial year",
+     "s.112(1)–(2)"
+    ],
+    [
+     "Disregarding a compliance notice",
+     "Organisation",
+     "Administrative fine up to the greater of R1 million or 10% of turnover (via Tribunal application, s.112) or prosecution for the s.110(2) offence: a fine or up to 12 months’ imprisonment, or both (s.111(1)(b)). Not both routes for the same notice.",
+     "s.100(6); s.110(2); s.111(1)(b); s.112"
+    ],
+    [
+     "Hindering the administration of the Act",
+     "Any person, including staff",
+     "Fine or imprisonment up to 12 months (Magistrate’s Court jurisdiction)",
+     "s.108; s.111(1)(b)–(2)"
+    ],
+    [
+     "Offences relating to the Commission or Tribunal (contempt-equivalent conduct, false information, improper influence)",
+     "Any person, including staff",
+     "Fine or imprisonment up to 12 months",
+     "s.109; s.111(1)(b)"
+    ],
+    [
+     "Altering or falsifying a displayed price, label or trade description without authority",
+     "Organisation, staff",
+     "Fine or imprisonment up to 12 months",
+     "s.110(1); s.111(1)(b)"
+    ],
+    [
+     "Breach of confidence by an NCC official",
+     "NCC officials, not the organisation",
+     "Fine or imprisonment up to 10 years",
+     "s.107; s.111(1)(a)"
+    ],
+    [
+     "Unregistered or non-compliant direct marketing",
+     "Organisation",
+     "Administrative fine up to the greater of R1 million or 10% of annual turnover; NCC full enforcement from 15 April 2027 (registration due by end-December 2026)",
+     "Reg 4(7); s.112"
+    ],
+    [
+     "Marketing to a consumer with a registered pre-emptive block",
+     "Organisation",
+     "Same fine exposure as above",
+     "Reg 4(7)(h)"
+    ],
+    [
+     "Unfair, unreasonable or unjust contract term",
+     "Organisation",
+     "Term unenforceable; possible compliance notice and fine exposure",
+     "ss.48–51; s.52"
+    ]
+   ]
+  },
+  {
+   "title": "Corrections to GBS materials",
+   "section": "§15 Corrections to existing GBS materials and drafting issues",
+   "page": 47,
+   "kind": "corrections",
+   "columns": [
+    "#",
+    "Current statement",
+    "Where",
+    "Correction"
+   ],
+   "rows": [
+    [
+     "1",
+     "Juristic-person turnover/asset threshold given as “R2 million”",
+     "Training Paper Module 5, FAQ B; Slide deck, Slide 10; Self-Assessment tool",
+     "No change: R2 million is correct. The s.6 threshold for s.5(2)(b) is R2 million (GN 294, GG 34181, effective 1 April 2011) and has not been revised since. Version 1.0 of this flow wrongly said it was R3 million, relying on Government Gazette 33621 (October 2010), which contained only the proposed determination. Do not change these materials. Instead, check every GBS CPA training paper, slide deck, self-assessment tool, client memo and proposal, and flag and correct any reference to R3 million (or to GG 33621 as the operative determination) to R2 million."
+    ],
+    [
+     "2",
+     "Regulation 4(7) described as “eight core obligations”",
+     "Training Paper Module 3, Slide 6; Compliance Assessment item B2 note",
+     "The gazetted Regulation 4(7), as amended, runs from paragraph (a) to (j) — ten sub-obligations, not eight. The GBS materials compress three distinct duties — being identifiable even on public platforms, not disseminating communications from an unidentifiable public-platform origin, and ensuring a communication transmitted to a recipient’s device is identifiable by the recipient — into a single “ensure communications are identifiable” line. Keep the compressed language for training purposes, but the compliance checklist and any audit tool should test all ten paragraphs separately, each mapped to one duty and to steps 0.4–0.8 and D1–D6 using the paragraph letters in the Gazette text (GN R.7380, GG 54521) (verify letters before building the tool)."
+    ],
+    [
+     "3",
+     "The NCC established “under section 85” of the CPA",
+     "Training Paper Module 1, Slide 1.5",
+     "Correct: the NCC is established by s.85 of the CPA. No change needed."
+    ],
+    [
+     "4",
+     "Provincial escalation and “other regulators” not addressed at all",
+     "All GBS CPA materials",
+     "Add the s.84 provincial consumer protection authority route and the sector carve-outs (financial services, including credit, to the NFO, which since 1 March 2024 has replaced the Credit Ombud and the banking and insurance ombuds; NCA regulatory matters to the NCR; motor industry to MIOSA; electronic communications to ICASA) to the intake and escalation process; a complaint wrongly assumed to be an NCC/CGSO matter can sit unresolved with the wrong regulator."
+    ],
+    [
+     "5",
+     "No mention of the s.116 three-year time limit, the s.100–101 compliance-notice mechanism, the s.74 consent-order mechanism, or the s.112 administrative fine as the operative Tribunal remedy",
+     "All GBS CPA materials",
+     "These sit at the centre of NCC enforcement practice and are added throughout this flow (sections 4, 7, 8, 13 and 14)."
+    ],
+    [
+     "6",
+     "“Administrative penalty risk” framed only as a consequence of the 2026 direct-marketing regime",
+     "Training Paper Module 1, Slide 1.5; Slide deck, Slide 2",
+     "The s.112 fine (the greater of R1 million or 10% of annual turnover) is the CPA’s general enforcement remedy, available for any confirmed prohibited conduct, not only direct-marketing non-compliance. Present it as the Act’s standing enforcement ceiling, with direct marketing as one route to it."
+    ],
+    [
+     "7",
+     "Annexure E summarised only as requiring “a documentary evidence trail”",
+     "Training Paper Module 5, FAQ D; Slide 10",
+     "The substituted Annexure E specifically asks whether the complaint was previously filed with the NCC (with reference number), whether it went through an ADR process (with the closing letter), the nature of the complaint, supplier details, a description, the steps already taken to resolve it, and the outcome proposed. Build the organisation’s own complaints file to answer each of these fields, not only “keep evidence”."
+    ],
+    [
+     "8",
+     "“Cleanse or consent” tension between regulation 4(3)(g) and regulation 4(7)(i) flagged as unresolved",
+     "CPA/POPIA compliance paper, “Cleanse or consent?” section",
+     "On the gazetted text read in this review, regulation 4(3) subparagraphs (i), (j) and (k) were deleted by the 2026 amendment (item 4(c) of the Schedule), and the operative rule is now regulation 4(7)(h)–(i) alone: no marketing to a blocked consumer, and monthly removal of blocked data. There is no longer a live drafting tension between two surviving sub-regulations on this point; the “cleanse and consent” conclusion in the paper remains correct, but the stated legal basis for the tension should be corrected."
+    ]
+   ],
+   "intro": [
+    "Comparing the GBS CPA Training Paper, the CPA/POPIA compliance paper, the presentation deck and the CPA/NCC Compliance Self-Assessment tool against the 2026 Amendment Regulations gazette text and the CPA itself turned up points that should be fixed before further client use. This flow already reflects them."
+   ]
+  },
+  {
+   "title": "Revision history — v1.1 (19 October 2026)",
+   "section": "§15 Corrections to existing GBS materials and drafting issues",
+   "page": 47,
+   "kind": "corrections",
+   "columns": [
+    "#",
+    "Finding (severity)",
+    "Where",
+    "Change made"
+   ],
+   "rows": [
+    [
+     "1",
+     "Juristic-person threshold wrong (R3m, GG 33621) (Critical)",
+     "§01 point 3; steps 0.1, 2.1, 6.6; §15 correction 1; Sources",
+     "Threshold restated as R2 million (GN 294, GG 34181, 1 April 2011) everywhere. Correction 1 no longer tells GBS to change its materials to R3m: it confirms R2m is correct and instructs a check of all GBS material for any R3m reference."
+    ],
+    [
+     "2",
+     "D10 block-override “exception” contradicts NCC draft guidelines (Major)",
+     "Parallel track D10",
+     "Rewritten: a block overrides past and fresh consent; only non-promotional administrative contact continues; contact basis recorded."
+    ],
+    [
+     "3",
+     "s.69(d) court access overstated (Major)",
+     "§01 design principle; routes table; step 1.3; §11 table; Sources",
+     "Motus v Wentzel and Pure Silk v Martin reflected; summons and letters of demand treated as live from day 0; “court may decline” replaced by LA assessment of any s.69(d) defence."
+    ],
+    [
+     "4",
+     "s.69 route structure omitted (Major)",
+     "§01 point 2 and design principle; routes table; steps 1.5, 2.3; §12",
+     "Ombud with jurisdiction is the ordinary route (s.69(b)); s.69(c)/s.71(1) NCC route where no ombud; s.72(1)(b) referral; all doors still logged."
+    ],
+    [
+     "5",
+     "Credit Ombud treated as separate; NFO scope incomplete (Major)",
+     "§01 sector carve-outs; roles; steps 4.11, 6.6; §12; §15 correction 4; Sources",
+     "NFO described as replacing the banking, credit and insurance ombuds from 1 March 2024; NCR kept as NCA regulator; scheme referred to as “NFO” throughout."
+    ],
+    [
+     "6",
+     "NCC phased registry timetable and draft Guidelines missing (Major)",
+     "§01 purpose and legal status; Phase 0 intro; steps 0.4, 0.8, 6.6; D1, D5; §14 calendar and penalties; Sources",
+     "Timetable added (registration by end-December 2026; cleansing Dec 2026–Apr 2027; blocks from May 2027; enforcement from 15 April 2027); “already in breach” wording removed; draft Guidelines (GG 55465) and extended comment date cited."
+    ],
+    [
+     "7",
+     "Consumer’s choice of remedy under s.56 omitted (Major)",
+     "Steps 0.11, 3.2, 3.3; §11 rights",
+     "Consumer directs repair, replacement or refund (s.56(2)); failed repair within three months triggers replace or refund (s.56(3)); s.56(4) noted."
+    ],
+    [
+     "8",
+     "s.14, s.17 and s.20 rights missing from triage (Major)",
+     "Steps 2.2, 3.2; §11 rights",
+     "Categories and core tests added; ss.14, 17, 20 and Reg 5 added to the Authority column."
+    ],
+    [
+     "9",
+     "Fine and prosecution routes wrongly given the same ceiling (Minor)",
+     "§01 point 6; Phase 4 Watch; §14 penalties",
+     "Fine route: s.112 ceiling; prosecution route: fine or up to 12 months, or both (s.111(1)(b))."
+    ],
+    [
+     "10",
+     "ECTA s.44 exclusion from s.16 missing (Minor)",
+     "§01 point 1; steps 0.11, 2.2",
+     "ECTA s.44 carve-out added for online sales."
+    ],
+    [
+     "11",
+     "s.75(1)(a) route and s.116 limit missing after non-referral (Minor)",
+     "Step 4.8; §11 rights",
+     "Consumer-court referral (s.75(1)(a)) and Tribunal leave (s.75(1)(b)) both listed, excluding s.116 non-referrals."
+    ],
+    [
+     "12",
+     "Unnecessary caveat on s.85 (Minor)",
+     "§15 correction 3",
+     "Replaced with “Correct: the NCC is established by s.85 of the CPA. No change needed.”"
+    ],
+    [
+     "13",
+     "Reg 4(7) paragraph letters inconsistent (Minor)",
+     "§15 correction 2",
+     "Conflicting letters removed; ten-paragraph mapping to steps required. Partly open: exact letters to be taken from the Gazette text (see open items)."
+    ],
+    [
+     "14",
+     "Forms count wrong (Minor)",
+     "§13 intro",
+     "“Twenty-six internal forms (C01–C26)… with four statutory annexures.”"
+    ],
+    [
+     "15",
+     "s.116 bar for parallel proceedings (Improvement)",
+     "Steps 1.7, 2.3",
+     "Check for other CPA proceedings on substantially the same conduct added."
+    ],
+    [
+     "16",
+     "Align with CGSO process and Code (Improvement)",
+     "Steps 0.2, 0.12, 1.4, 2.6, 5.6",
+     "CO named as CGSO designated official; 15-business-day CGSO window noted; complaint files kept at least three years after closure."
+    ],
+    [
+     "17",
+     "Unsafe goods / harm category (Improvement)",
+     "Steps 2.2, 2.5",
+     "Category (ss.60–61) and same-day escalation to LA, SSO and insurer added."
+    ],
+    [
+     "18",
+     "Call-time rule scope (Improvement)",
+     "D7",
+     "Applies to marketing to a consumer at home; departures only on request or agreement; proof of dispatch time."
+    ],
+    [
+     "19",
+     "POPIA in complaint handling (Improvement)",
+     "Steps 1.4, 4.1; §12",
+     "POPIA s.18 notice in acknowledgement; s.11 basis and special personal information noted for ombud disclosures."
+    ],
+    [
+     "20",
+     "Resolved: review questions",
+     "Steps 0.7, 0.8, D3, D5",
+     "Source of R3m identified (GG 33621 was the proposed determination). 24-hour opt-out marked BP (no statutory period found). Cleansing fee: free to 30 April 2027; basis per entry (Regulations) vs per blocked match (draft Guidelines para 7.2) noted."
+    ],
+    [
+     "21",
+     "Open: Regulation text (Unable to verify)",
+     "Subtitle; Sources; §15",
+     "GN R.7380 / GG 54521 numbers; exact Reg 4(7)(a)–(j), 4(9)(b), 4(10)(d)–(e), 4(11)(b) text; reg 1(2) definition; Annexure E fields; final cleansing-fee basis. Marked (verify)."
+    ],
+    [
+     "22",
+     "Open: Tribunal Rules and case law (Unable to verify)",
+     "Steps 4.8, 5.3; §13; Sources",
+     "NCT Rules form numbers and periods; Julie Williams v Cell C, Holl v Rifle Range, Van Wyk v UPS holdings; MIOSA accreditation under s.82(6). Remain marked (verify)."
+    ],
+    [
+     "23",
+     "Open: questions for the owner",
+     "Step 1.5; step 2.1; §01",
+     "Client sectors needing sector routing tables (NFO, FAIS, MIOSA, ICASA); online sales (ECTA step); CGSO membership; whether juristic-person customers’ turnover or assets are recorded at the time of the transaction."
+    ]
+   ],
+   "intro": [
+    "The definition of “electronic communication recipient”, inserted into regulation 1(2), means “a consumer who receives electronic communication from the direct marketer and has registered a pre-emptive block”. Regulation 4(7)(c) and (g), however, use that defined term to describe the general duty to make the marketer identifiable to any recipient and to ensure any communication is identifiable on the recipient’s device — duties that only make sense if they apply to every recipient, not only those who have already opted out. Read literally, paragraphs (c) and (g) apply only to consumers who have already registered a block, which cannot have been the intended scope. Treat the identification duties as applying to every recipient as a matter of policy pending clarification, and flag this for any formal comment the organisation or its industry body makes to the Department.",
+    "Annexure E is headed “Form – Complaint – Section 71(1)”, but nothing in the gazetted amendment states what happens if a complainant cannot supply a required field (for example, no ID or passport number, or no ADR closing letter because no ADR process was used). The form’s asterisked “required” fields are not matched to any stated consequence of omission in the text made available for this review.",
+    "Regulation 4(9)(b) requires a consumer to “ensure that their information kept in the opt-out registry is always up to date”, but no corresponding organisational or Commission duty compels a periodic reminder to consumers to do so, beyond the Commission’s general website-information duty in regulation 4(10)(d). A registry error caused by a consumer’s own stale information is a live risk the organisation cannot fully control for.",
+    "Version 1.1 implements every finding of the independent verification and validation review of 15 October 2026 (1 Critical, 7 Major, 6 Minor, 5 Improvement), approved by the document owner. Items that could not be verified remain marked “(verify)” and are listed at the end of the table."
+   ]
+  },
+  {
+   "title": "Corrections to existing GBS materials and drafting issues",
+   "section": "§15 Corrections to existing GBS materials and drafting issues",
+   "page": 47,
+   "kind": "narrative",
+   "columns": [],
+   "rows": [],
+   "intro": [
+    "Consumer Protection Act Amendment Regulations, 2026, Government Notice R.7380, Government Gazette 54521, Regulation Gazette 11983, Vol. 730, 15 April 2026 (notice and gazette numbers: verify) (uploaded file, read in full).",
+    "Consumer Protection Act 68 of 2008, sections 5, 6, 11, 16, 22–23, 29–31, 48–52, 55–61, 69–75, 82, 84, 97, 100–116, 120 (consolidated text, cross-checked section by section against acts.co.za’s section-level pages during this review).",
+    "Protection of Personal Information Act 4 of 2013, s.69.",
+    "Determination of threshold applicable to size of juristic person, GN 294, Government Gazette 34181, 1 April 2011 (s.6 juristic-person threshold for s.5(2)(b): R2 million; not revised since). Government Gazette 33621 (October 2010) contained only the proposed R3 million determination and is not the operative instrument. https://www.gov.za/documents/consumer-protection-act-determination-threshold-applicable-size-juristic-person; SAICA, Consumer Protection Act page.",
+    "National Consumer Tribunal Rules, Government Notice 789 of 2007, as amended — cited for the Tribunal’s general procedure; this review could not verify current lodging steps, response periods or fee amounts against the full consolidated Rules text, and they should be confirmed directly before this flow is relied on for a live Tribunal matter.",
+    "Werksmans, “Do not call me, I’ll call you … South Africa’s 2026 CPA Amendment Regulations”, 2026; Bowmans, “The National Consumer Commission opt-out registry explained: what direct marketers need to know”, 2026; The Media Online, “NCC clarifies new opt-out registry rules for direct marketers”, August 2026; IOL, “Spam callers face R1 million penalty as South Africa launches new registry”, 15 September 2026.",
+    "National Consumer Tribunal decisions: Julie Williams v Cell C Ltd, NCT/300948/2023/75(1)(b) (March 2025); J.J. Holl v Rifle Range Car Sales (Pty) Ltd and Another (leave granted April 2025). High Court and Supreme Court of Appeal decisions: Van Wyk t/a Skydive Mossel Bay v UPS SCS South Africa (Pty) Ltd [2020] 1 All SA 857 (WCC); Platinum Wheels (Pty) Ltd v National Consumer Commission and Another (612/2023) [2024] ZASCA 163. Cited from secondary commentary (Cliffe Dekker Hofmeyr, Moonstone, SAFLII); verify citations and holdings against the full judgments before use in advice.",
+    "GBS CPA Training Paper, CPA/POPIA compliance paper, “Consumer Protection Act: What Every Department Needs to Know” slide deck, and CPA/NCC Compliance Self-Assessment tool (project and session files).",
+    "Consumer Goods and Services Ombud (CGSO), National Financial Ombud Scheme South Africa (NFO; operating since 1 March 2024, NFO media release and National Treasury statement, 29 Feb–1 Mar 2024), and the Motor Industry Ombudsman of South Africa (MIOSA) are cited from their own public materials and general knowledge; verify current jurisdiction and process before directing a client to any of them.",
+    "National Consumer Commission, Draft Guidelines on the Opt-Out Registry, GG 55465, Notice 7981, 2 October 2026 (comment period extended to 6 November 2026; Moonstone, 15 October 2026); TimesLive, “NCC launches opt-out registry…”, 7 October 2026 (phased timetable); Bowmans, “Launch of the national opt-out registry…”, October 2026.",
+    "Motus Corporation (Pty) Ltd v Wentzel [2021] ZASCA 40; Pure Silk Invest 2 (Pty) Ltd t/a Group 1 Nissan Kuils River v Martin [2025] ZAWCHC 568 (s.69(d) and direct access to court).",
+    "Electronic Communications and Transactions Act 25 of 2002, s.44 (cooling-off for electronic transactions); CPA ss.14, 17, 20, 56, 60–61 and Regulation 5; Consumer Goods and Services Industry Code (CGSO complaint-record and designated-official requirements).",
+    "This flow is a working document for legal review, not legal advice.",
+    "Working document for legal review — not legal advice. CPA = in force; POPIA = in force; BP = best practice.Page 1 of 2"
+   ]
+  }
+ ],
+ "forms": [
+  {
+   "code": "C01",
+   "name": "Intake record and case register entry",
+   "usedAt": "1.1–1.2"
+  },
+  {
+   "code": "C02",
+   "name": "Acknowledgement of receipt",
+   "usedAt": "1.4"
+  },
+  {
+   "code": "C03",
+   "name": "Sector carve-out screening note",
+   "usedAt": "1.5, 4.11"
+  },
+  {
+   "code": "C04",
+   "name": "Evidence preservation log",
+   "usedAt": "1.6"
+  },
+  {
+   "code": "C05",
+   "name": "Deadline tracker",
+   "usedAt": "1.7, 2.3, 2.6, 5.6"
+  },
+  {
+   "code": "C06",
+   "name": "CPA applicability and classification memo",
+   "usedAt": "2.1–2.2"
+  },
+  {
+   "code": "C07",
+   "name": "Merits and exposure assessment",
+   "usedAt": "2.4–2.5"
+  },
+  {
+   "code": "C08",
+   "name": "Investigation note (complaints and marketing-audit variants)",
+   "usedAt": "3.1, 6.3"
+  },
+  {
+   "code": "C09",
+   "name": "Remedy proposal",
+   "usedAt": "3.3"
+  },
+  {
+   "code": "C10",
+   "name": "Response letter to consumer",
+   "usedAt": "3.4, 3.6"
+  },
+  {
+   "code": "C11",
+   "name": "Remedy delivery confirmation",
+   "usedAt": "3.5, 5.4"
+  },
+  {
+   "code": "C12",
+   "name": "Ombud response file",
+   "usedAt": "4.1"
+  },
+  {
+   "code": "C13",
+   "name": "NCC response file (Annexure E companion)",
+   "usedAt": "4.2–4.3"
+  },
+  {
+   "code": "C14",
+   "name": "Investigation response (summons, entry and search)",
+   "usedAt": "4.4"
+  },
+  {
+   "code": "C15",
+   "name": "Draft consent order",
+   "usedAt": "4.5"
+  },
+  {
+   "code": "C16",
+   "name": "Compliance notice response",
+   "usedAt": "4.6"
+  },
+  {
+   "code": "C17",
+   "name": "Tribunal review application (compliance notice)",
+   "usedAt": "4.7"
+  },
+  {
+   "code": "C18",
+   "name": "Tribunal file (referral, direct application)",
+   "usedAt": "4.8"
+  },
+  {
+   "code": "C19",
+   "name": "Administrative fine submissions",
+   "usedAt": "4.9"
+  },
+  {
+   "code": "C20",
+   "name": "Interim relief response",
+   "usedAt": "4.10"
+  },
+  {
+   "code": "C21",
+   "name": "Order compliance tracker",
+   "usedAt": "5.1"
+  },
+  {
+   "code": "C22",
+   "name": "Review / appeal application",
+   "usedAt": "5.3"
+  },
+  {
+   "code": "C23",
+   "name": "Compliance certificate request",
+   "usedAt": "5.5"
+  },
+  {
+   "code": "C24",
+   "name": "Post-closure watch log",
+   "usedAt": "5.7"
+  },
+  {
+   "code": "C25",
+   "name": "Root-cause memo",
+   "usedAt": "6.1"
+  },
+  {
+   "code": "C26",
+   "name": "Governance dashboard",
+   "usedAt": "6.2"
+  },
+  {
+   "code": "—",
+   "name": "Annexure E — Complaint form, s.71(1)",
+   "usedAt": "4.2"
+  },
+  {
+   "code": "—",
+   "name": "Annexure N — Filing fee schedule",
+   "usedAt": "0.4–0.5, D5–D6"
+  },
+  {
+   "code": "—",
+   "name": "Annexure O — Consumer pre-emptive block form",
+   "usedAt": "D4 (consumer-facing; organisation does not complete)"
+  },
+  {
+   "code": "—",
+   "name": "Annexure P — Direct marketer registration form",
+   "usedAt": "0.4"
+  }
+ ],
+ "processMaps": [],
+ "sections": [
+  {
+   "number": "01",
+   "title": "Purpose, status and reading notes",
+   "page": 2
+  },
+  {
+   "number": "02",
+   "title": "Master flow at a glance",
+   "page": 6
+  },
+  {
+   "number": "03",
+   "title": "Phase 0 — Readiness (standing obligations)",
+   "page": 8
+  },
+  {
+   "number": "04",
+   "title": "Phase 1 — Receipt and intake",
+   "page": 14
+  },
+  {
+   "number": "05",
+   "title": "Phase 2 — Triage and route determination",
+   "page": 18
+  },
+  {
+   "number": "06",
+   "title": "Phase 3 — Internal resolution",
+   "page": 22
+  },
+  {
+   "number": "07",
+   "title": "Phase 4 — External escalation: ombud, NCC and Tribunal",
+   "page": 25
+  },
+  {
+   "number": "08",
+   "title": "Phase 5 — Outcome, remedy and closure",
+   "page": 30
+  },
+  {
+   "number": "09",
+   "title": "Phase 6 — Governance and learning",
+   "page": 32
+  },
+  {
+   "number": "10",
+   "title": "Parallel track — direct marketing and the NCC opt-out registry",
+   "page": 34
+  },
+  {
+   "number": "11",
+   "title": "Consumer obligations and conduct",
+   "page": 38
+  },
+  {
+   "number": "12",
+   "title": "Hand-offs and interfaces register",
+   "page": 40
+  },
+  {
+   "number": "13",
+   "title": "Forms register",
+   "page": 42
+  },
+  {
+   "number": "14",
+   "title": "Timeline calendar and penalties register",
+   "page": 44
+  },
+  {
+   "number": "15",
+   "title": "Corrections to existing GBS materials and drafting issues",
+   "page": 47
+  }
+ ],
+ "clarifications": []
+}
